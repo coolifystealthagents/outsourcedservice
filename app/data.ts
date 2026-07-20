@@ -1,68 +1,87 @@
 export const site = {
-  "domain": "OutsourcedService.com",
-  "slug": "outsourcedservice",
-  "brand": "Outsourced Service",
-  "primary": "outsourced service",
-  "audience": "buyers comparing outsourced service options for back office and customer work",
-  "angle": "service selection, plan ranges, handoff plans, and KPI tracking",
-  "style": "Service catalog cards",
-  "dark": "#2e1065",
-  "color": "#8b5cf6",
-  "accent": "#06b6d4",
-  "heroImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-  "serviceImage": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
-  "alt": "service team reviewing customer operations dashboard",
-  "badge": "Service stack"
+  domain: 'OutsourcedService.com',
+  slug: 'outsourcedservice',
+  brand: 'Outsourced Service',
+  primary: 'outsourced service',
+  audience: 'buyers comparing outsourced service options for back office and customer work',
+  angle: 'service selection, plan ranges, handoff plans, and KPI tracking',
+  style: 'Service catalog cards',
+  dark: '#2e1065',
+  color: '#8b5cf6',
+  accent: '#06b6d4',
+  heroImage: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80',
+  serviceImage: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80',
+  alt: 'service team reviewing customer operations dashboard',
+  badge: 'Service stack',
 } as const;
+
 export const services = [
   {
-    "slug": "operations-support",
-    "title": "Operations Support",
-    "desc": "Operations Support for teams using outsourced service with clear SOPs, weekly review, and measurable handoffs."
+    slug: 'operations-support',
+    title: 'Operations Support',
+    desc: 'Operations support for teams that need recurring work, handoffs, and weekly checks handled without losing owner control.',
+    bestFor: ['order updates', 'CRM cleanup', 'vendor follow-up', 'SOP checks'],
+    firstWeek: ['pick 5 recurring tasks', 'share examples of good work', 'set daily notes', 'review the first 20 outputs'],
+    ownerControls: ['approval rules for refunds, spend, and customer promises', 'limited tool access at launch', 'one scorecard for speed, accuracy, and follow-up'],
   },
   {
-    "slug": "customer-support",
-    "title": "Customer Support",
-    "desc": "Customer Support for teams using outsourced service with clear SOPs, weekly review, and measurable handoffs."
+    slug: 'customer-support',
+    title: 'Customer Support',
+    desc: 'Customer support for teams that need tickets, inbox replies, and follow-up covered with clear scripts and escalation rules.',
+    bestFor: ['tier-1 tickets', 'shared inbox replies', 'status updates', 'review requests'],
+    firstWeek: ['load saved replies', 'tag common issues', 'start with low-risk tickets', 'review escalations each day'],
+    ownerControls: ['no refunds or policy exceptions without approval', 'sensitive complaints routed to a manager', 'daily ticket sample review'],
   },
   {
-    "slug": "admin-support",
-    "title": "Admin Support",
-    "desc": "Admin Support for teams using outsourced service with clear SOPs, weekly review, and measurable handoffs."
+    slug: 'admin-support',
+    title: 'Admin Support',
+    desc: 'Admin support for owners who need calendars, documents, inbox work, and follow-up handled from a simple daily list.',
+    bestFor: ['calendar cleanup', 'document formatting', 'data entry', 'meeting follow-up'],
+    firstWeek: ['make a daily admin list', 'share examples and templates', 'limit account permissions', 'check work before expanding scope'],
+    ownerControls: ['approval before sending sensitive messages', 'password manager access by role', 'daily list with done, blocked, and needs-review notes'],
   },
   {
-    "slug": "reporting-and-qa",
-    "title": "Reporting and QA",
-    "desc": "Reporting and QA for teams using outsourced service with clear SOPs, weekly review, and measurable handoffs."
-  }
+    slug: 'reporting-and-qa',
+    title: 'Reporting and QA',
+    desc: 'Reporting and QA support for teams that need weekly numbers, spot checks, and simple issue logs before they scale.',
+    bestFor: ['weekly scorecards', 'ticket audits', 'SOP checks', 'simple KPI reports'],
+    firstWeek: ['choose the 3 numbers that matter', 'build a sample report', 'spot-check recent work', 'log issues with examples'],
+    ownerControls: ['source links for every reported number', 'sample-size notes on audits', 'clear owner decision list'],
+  },
 ] as const;
+
 export const blogPosts = [
   {
-    "slug": "outsourced-service-planning",
-    "title": "Outsourced Service: What does it plan?",
-    "excerpt": "A plain-English guide to staffing details, scope, and hidden planning.",
-    "minutes": 6
+    slug: 'outsourced-service-planning',
+    title: 'Outsourced Service: What does it plan?',
+    excerpt: 'A plain-English guide to staffing details, scope, and hidden planning.',
+    minutes: 6,
   },
   {
-    "slug": "outsourced-service-tasks-to-outsource",
-    "title": "Outsourced Service: What tasks should you outsource first?",
-    "excerpt": "Start with recurring work that has examples and clear review rules.",
-    "minutes": 7
+    slug: 'outsourced-service-tasks-to-outsource',
+    title: 'Outsourced Service: What tasks should you outsource first?',
+    excerpt: 'Start with recurring work that has examples and clear review rules.',
+    minutes: 7,
   },
   {
-    "slug": "outsourced-service-provider-questions",
-    "title": "Outsourced Service: Questions to ask before hiring",
-    "excerpt": "Use these questions before you sign with a provider or freelancer.",
-    "minutes": 8
+    slug: 'outsourced-service-provider-questions',
+    title: 'Outsourced Service: Questions to ask before hiring',
+    excerpt: 'Use these questions before you sign with a provider or freelancer.',
+    minutes: 8,
   },
   {
-    "slug": "outsourced-service-onboarding-checklist",
-    "title": "Outsourced Service: First week onboarding checklist",
-    "excerpt": "A simple checklist for tools, SOPs, calls, QA, and reporting.",
-    "minutes": 9
-  }
+    slug: 'outsourced-service-onboarding-checklist',
+    title: 'Outsourced Service: First week onboarding checklist',
+    excerpt: 'A simple checklist for tools, SOPs, calls, QA, and reporting.',
+    minutes: 9,
+  },
 ] as const;
-export const stats = [{label:'Typical savings target',value:'30-60%',note:'depends on role, management, and local hiring plan'},{label:'Best pilot length',value:'14 days',note:'enough time to test quality before scaling'},{label:'Start with',value:'5-10 tasks',note:'clear recurring tasks beat vague job descriptions'}] as const;
+
+export const stats = [
+  { label: 'Typical savings target', value: '30-60%', note: 'depends on role, management, and local hiring plan' },
+  { label: 'Best pilot length', value: '14 days', note: 'enough time to test quality before scaling' },
+  { label: 'Start with', value: '5-10 tasks', note: 'clear recurring tasks beat vague job descriptions' },
+] as const;
 
 export const stealthOffer = {
   partner: 'Stealth Agents',
