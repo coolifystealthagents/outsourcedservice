@@ -78,9 +78,9 @@ export const blogPosts = [
 ] as const;
 
 export const stats = [
-  { label: 'Typical savings target', value: '30-60%', note: 'depends on role, management, and local hiring plan' },
-  { label: 'Best pilot length', value: '14 days', note: 'enough time to test quality before scaling' },
-  { label: 'Start with', value: '5-10 tasks', note: 'clear recurring tasks beat vague job descriptions' },
+  { label: 'Role scope', value: 'Tasks first', note: 'define the recurring work before choosing a staffing model' },
+  { label: 'Access plan', value: 'Start narrow', note: 'open tools and permissions only as the role needs them' },
+  { label: 'Quality review', value: 'Check samples', note: 'review real work before adding more responsibility' },
 ] as const;
 
 export const staffingOffer = {
