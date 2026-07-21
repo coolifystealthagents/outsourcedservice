@@ -59,9 +59,9 @@ export const blogPosts = [
   },
   {
     slug: 'outsourced-service-tasks-to-outsource',
-    title: 'Which tasks should leave your desk first?',
-    excerpt: 'Start with repeated work that has a clear example and a clear reviewer.',
-    minutes: 7,
+    title: 'How to outsource work to the Philippines: a 30-day plan',
+    excerpt: 'Choose the right work, set safe access rules, and launch a Filipino service role without handing over owner-only decisions.',
+    minutes: 12,
   },
   {
     slug: 'outsourced-service-provider-questions',
