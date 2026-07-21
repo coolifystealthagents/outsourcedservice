@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 660" role="img" aria-labelledby="title desc">
+  <title id="title">Service workflow planning</title>
+  <desc id="desc">Two specialists review a board of service tasks, approvals, and handoffs.</desc>
+  <rect width="760" height="660" rx="48" fill="#EAF0FF"/>
+  <path d="M70 72h620v410H70z" rx="28" fill="#17304A"/>
+  <rect x="98" y="104" width="564" height="326" rx="24" fill="#FFF9EF"/>
+  <rect x="126" y="137" width="238" height="52" rx="14" fill="#4E63F5"/>
+  <rect x="386" y="137" width="248" height="52" rx="14" fill="#B9F227"/>
+  <g fill="#17304A">
+    <rect x="126" y="216" width="144" height="22" rx="11"/>
+    <rect x="126" y="253" width="204" height="14" rx="7" opacity=".35"/>
+    <rect x="126" y="281" width="178" height="14" rx="7" opacity=".35"/>
+    <rect x="386" y="216" width="112" height="22" rx="11"/>
+    <rect x="386" y="253" width="208" height="14" rx="7" opacity=".35"/>
+    <rect x="386" y="281" width="166" height="14" rx="7" opacity=".35"/>
+  </g>
+  <g fill="none" stroke="#F26F4F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M145 344l19 19 40-47"/>
+    <path d="M405 344l19 19 40-47"/>
+  </g>
+  <rect x="220" y="329" width="108" height="18" rx="9" fill="#17304A" opacity=".4"/>
+  <rect x="480" y="329" width="108" height="18" rx="9" fill="#17304A" opacity=".4"/>
+  <circle cx="220" cy="480" r="66" fill="#D79B70"/>
+  <path d="M154 476c4-74 33-106 78-106 38 0 69 33 69 89-25-24-50-34-76-34-28 0-51 17-71 51Z" fill="#17304A"/>
+  <path d="M118 660c5-105 40-153 105-153 68 0 108 50 112 153H118Z" fill="#4E63F5"/>
+  <circle cx="535" cy="477" r="65" fill="#B86D4F"/>
+  <path d="M472 476c-1-70 27-109 75-109 42 0 71 37 68 96-18-24-38-37-61-39-34-3-61 14-82 52Z" fill="#0E2436"/>
+  <path d="M430 660c8-104 42-153 105-153 68 0 107 50 111 153H430Z" fill="#B9F227"/>
+  <path d="M335 540c29-33 66-33 95 0" fill="none" stroke="#F26F4F" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="382" cy="540" r="13" fill="#F26F4F"/>
+</svg>
