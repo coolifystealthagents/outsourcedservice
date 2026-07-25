@@ -1,6 +1,7 @@
 import { Header, Footer, CTA } from '../../components';
 import { blogPosts, site } from '../../data';
 import { AccountingControlGuide, accountingGuideDescription, accountingGuideSlug, accountingGuideTitle } from './accounting-control-guide';
+import { StaffingModelGuide, staffingModelDescription, staffingModelSlug, staffingModelTitle } from './staffing-model-guide';
 
 const detailedSlug = 'outsourced-service-tasks-to-outsource';
 
@@ -58,8 +59,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   const url = `https://outsourcedservice.com/blog/${slug}`;
-  const title = slug === accountingGuideSlug ? accountingGuideTitle : post?.title || 'Guide';
-  const description = slug === accountingGuideSlug ? accountingGuideDescription : post?.excerpt;
+  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : post?.title || 'Guide';
+  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : post?.excerpt;
   return {
     title,
     description,
@@ -222,11 +223,12 @@ function DetailedArticle() {
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug) || blogPosts[0];
+  const omitPricing = slug === staffingModelSlug;
   return <>
-    <Header />
+    <Header omitPricing={omitPricing} />
     <main className="section content-page">
       <article className="container" style={{ maxWidth: 880 }}>
-        {slug === accountingGuideSlug ? <AccountingControlGuide /> : slug === detailedSlug ? <DetailedArticle /> : <>
+        {slug === accountingGuideSlug ? <AccountingControlGuide /> : slug === staffingModelSlug ? <StaffingModelGuide /> : slug === detailedSlug ? <DetailedArticle /> : <>
           <p className="eyebrow">{site.brand} field note</p>
           <h1>{post.title}</h1>
           <p className="lead">{post.excerpt}</p>
@@ -252,6 +254,6 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       </article>
       <CTA />
     </main>
-    <Footer />
+    <Footer omitPricing={omitPricing} />
   </>;
 }

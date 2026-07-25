@@ -52,6 +52,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'staff-outsourcing-philippines-direct-hire-or-staffing-provider',
+    title: 'Staff outsourcing Philippines: direct hire or staffing provider?',
+    excerpt: 'Compare direct hiring with a Philippines staffing provider by looking at recruiting work, daily management, access, quality checks, and exit duties.',
+    minutes: 12,
+  },
+  {
     slug: 'outsourced-accounting-services-philippines-control-guide',
     title: 'Outsourced accounting services Philippines: a buyer control guide',
     excerpt: 'Plan a Philippines accounting support role with clear work limits, client-held approvals, careful access, and review evidence.',
