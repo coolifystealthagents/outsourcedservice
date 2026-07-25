@@ -52,6 +52,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'outsourced-accounting-services-philippines-control-guide',
+    title: 'Outsourced accounting services Philippines: a buyer control guide',
+    excerpt: 'Plan a Philippines accounting support role with clear work limits, client-held approvals, careful access, and review evidence.',
+    minutes: 13,
+  },
+  {
     slug: 'outsourced-service-planning',
     title: 'What belongs in a service plan?',
     excerpt: 'Turn a loose task list into a role a Filipino service team can run without constant guesswork.',

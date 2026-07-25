@@ -1,5 +1,6 @@
 import { Header, Footer, CTA } from '../../components';
 import { blogPosts, site } from '../../data';
+import { AccountingControlGuide, accountingGuideDescription, accountingGuideSlug, accountingGuideTitle } from './accounting-control-guide';
 
 const detailedSlug = 'outsourced-service-tasks-to-outsource';
 
@@ -57,13 +58,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   const url = `https://outsourcedservice.com/blog/${slug}`;
+  const title = slug === accountingGuideSlug ? accountingGuideTitle : post?.title || 'Guide';
+  const description = slug === accountingGuideSlug ? accountingGuideDescription : post?.excerpt;
   return {
-    title: post?.title || 'Guide',
-    description: post?.excerpt,
+    title,
+    description,
     alternates: { canonical: url },
     openGraph: {
-      title: post?.title || 'Guide',
-      description: post?.excerpt,
+      title,
+      description,
       url,
       type: 'article',
     },
@@ -223,7 +226,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     <Header />
     <main className="section content-page">
       <article className="container" style={{ maxWidth: 880 }}>
-        {slug === detailedSlug ? <DetailedArticle /> : <>
+        {slug === accountingGuideSlug ? <AccountingControlGuide /> : slug === detailedSlug ? <DetailedArticle /> : <>
           <p className="eyebrow">{site.brand} field note</p>
           <h1>{post.title}</h1>
           <p className="lead">{post.excerpt}</p>
