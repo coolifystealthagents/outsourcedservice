@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import { Header, Footer, CTA } from '../../components';
 import { blogPosts, site } from '../../data';
 import { AccountingControlGuide, accountingGuideDescription, accountingGuideSlug, accountingGuideTitle } from './accounting-control-guide';
@@ -209,7 +210,7 @@ function DetailedArticle() {
         <li><a href="/services/operations-support">See what belongs in an operations support role</a></li>
         <li><a href="/services/admin-support">Plan a Filipino admin support role</a></li>
         <li><a href="/services/customer-support">Set the limits for customer support work</a></li>
-        <li><a href="/blog/outsourced-service-provider-questions">Take better questions to a staffing provider call</a></li>
+        <li><a href="/blog">Take better questions to a staffing provider call</a></li>
       </ul>
 
       <h2>Sources</h2>
@@ -222,7 +223,8 @@ function DetailedArticle() {
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const post = blogPosts.find((item) => item.slug === slug) || blogPosts[0];
+  const post = blogPosts.find((item) => item.slug === slug);
+  if (!post) notFound();
   const omitPricing = slug === staffingModelSlug;
   return <>
     <Header omitPricing={omitPricing} />

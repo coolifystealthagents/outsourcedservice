@@ -64,30 +64,11 @@ export const blogPosts = [
     minutes: 13,
   },
   {
-    slug: 'outsourced-service-planning',
-    title: 'What belongs in a service plan?',
-    excerpt: 'Turn a loose task list into a role a Filipino service team can run without constant guesswork.',
-    minutes: 6,
-  },
-  {
     slug: 'outsourced-service-tasks-to-outsource',
     title: 'How to outsource work to the Philippines: a 30-day plan',
     excerpt: 'Choose the right work, set safe access rules, and launch a Filipino service role without handing over owner-only decisions.',
     minutes: 12,
-  },
-  {
-    slug: 'outsourced-service-provider-questions',
-    title: 'Questions to ask a Philippines staffing provider',
-    excerpt: 'Ask who screens, who manages quality, and what happens when the fit is wrong.',
-    minutes: 8,
-  },
-  {
-    slug: 'outsourced-service-onboarding-checklist',
-    title: 'A first-week checklist for Filipino talent',
-    excerpt: 'Set up tools, examples, approvals, QA, and reporting before the queue gets busy.',
-    minutes: 9,
-  },
-] as const;
+  },] as const;
 
 export const stats = [
   { label: 'Role scope', value: 'Tasks first', note: 'define the repeated work before settling on a title' },
