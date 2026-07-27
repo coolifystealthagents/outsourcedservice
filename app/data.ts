@@ -52,6 +52,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'customer-service-outsourcing-philippines-queue-escalation-guide',
+    title: 'Customer service outsourcing Philippines: a queue and escalation guide',
+    excerpt: 'Build a Philippines customer support queue with clear reply limits, escalation rules, access controls, and review evidence.',
+    minutes: 12,
+  },
+  {
     slug: 'staff-outsourcing-philippines-direct-hire-or-staffing-provider',
     title: 'Staff outsourcing Philippines: direct hire or staffing provider?',
     excerpt: 'Compare direct hiring with a Philippines staffing provider by looking at recruiting work, daily management, access, quality checks, and exit duties.',

@@ -3,6 +3,7 @@ import { Header, Footer, CTA } from '../../components';
 import { blogPosts, site } from '../../data';
 import { AccountingControlGuide, accountingGuideDescription, accountingGuideSlug, accountingGuideTitle } from './accounting-control-guide';
 import { StaffingModelGuide, staffingModelDescription, staffingModelSlug, staffingModelTitle } from './staffing-model-guide';
+import { CustomerQueueGuide, customerQueueDescription, customerQueueSlug, customerQueueTitle } from './customer-support-queue-guide';
 
 const detailedSlug = 'outsourced-service-tasks-to-outsource';
 
@@ -60,8 +61,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   const url = `https://outsourcedservice.com/blog/${slug}`;
-  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : post?.title || 'Guide';
-  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : post?.excerpt;
+  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : slug === customerQueueSlug ? customerQueueTitle : post?.title || 'Guide';
+  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : slug === customerQueueSlug ? customerQueueDescription : post?.excerpt;
   return {
     title,
     description,
@@ -225,12 +226,12 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) notFound();
-  const omitPricing = slug === staffingModelSlug;
+  const omitPricing = slug === staffingModelSlug || slug === customerQueueSlug;
   return <>
     <Header omitPricing={omitPricing} />
     <main className="section content-page">
       <article className="container" style={{ maxWidth: 880 }}>
-        {slug === accountingGuideSlug ? <AccountingControlGuide /> : slug === staffingModelSlug ? <StaffingModelGuide /> : slug === detailedSlug ? <DetailedArticle /> : <>
+        {slug === accountingGuideSlug ? <AccountingControlGuide /> : slug === staffingModelSlug ? <StaffingModelGuide /> : slug === customerQueueSlug ? <CustomerQueueGuide /> : slug === detailedSlug ? <DetailedArticle /> : <>
           <p className="eyebrow">{site.brand} field note</p>
           <h1>{post.title}</h1>
           <p className="lead">{post.excerpt}</p>
