@@ -52,6 +52,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-appointment-scheduling-control-guide',
+    title: 'Philippines appointment scheduling: a calendar control and confirmation guide',
+    excerpt: 'Plan a Philippines appointment scheduling lane with calendar rules, confirmation checks, safe access, and named owners for exceptions.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-customer-onboarding-data-entry-control-guide',
     title: 'Philippines customer onboarding data entry: a control and review guide',
     excerpt: 'Build a Philippines customer onboarding data lane with source checks, field rules, safe access, review samples, and clear exception owners.',
