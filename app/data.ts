@@ -52,6 +52,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-customer-onboarding-data-entry-control-guide',
+    title: 'Philippines customer onboarding data entry: a control and review guide',
+    excerpt: 'Build a Philippines customer onboarding data lane with source checks, field rules, safe access, review samples, and clear exception owners.',
+    minutes: 12,
+  },
+  {
     slug: 'outsourced-order-processing-philippines-control-guide',
     title: 'Outsourced order processing Philippines: a control and exception guide',
     excerpt: 'Plan a Philippines order processing lane with clear checks, exception rules, safe access, and records the buyer can review.',
