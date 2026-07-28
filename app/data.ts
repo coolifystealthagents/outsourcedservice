@@ -52,6 +52,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'outsourced-order-processing-philippines-control-guide',
+    title: 'Outsourced order processing Philippines: a control and exception guide',
+    excerpt: 'Plan a Philippines order processing lane with clear checks, exception rules, safe access, and records the buyer can review.',
+    minutes: 12,
+  },
+  {
     slug: 'customer-service-outsourcing-philippines-queue-escalation-guide',
     title: 'Customer service outsourcing Philippines: a queue and escalation guide',
     excerpt: 'Build a Philippines customer support queue with clear reply limits, escalation rules, access controls, and review evidence.',

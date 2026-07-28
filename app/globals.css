@@ -212,6 +212,7 @@ h1, h2, h3 { font-family: 'Space Grotesk', Arial, sans-serif; letter-spacing: -.
 
 /* Article-local evidence modules */
 .accounting-guide .article-scroll{position:relative;max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch}
+.accounting-guide .article-scroll:focus-visible{outline:3px solid #4e63f5;outline-offset:3px}
 .accounting-guide .scroll-cue{display:block;width:max-content;margin:0 0 .65rem;padding:.35rem .65rem;border-radius:999px;background:#e8edff;color:#17304a;font-size:.78rem;font-weight:700}
 .accounting-guide .article-table{min-width:760px}
 .accounting-guide .article-visual{margin:2rem 0;padding:.8rem;border:1px solid #dbe2f2;border-radius:20px;background:#fff}
