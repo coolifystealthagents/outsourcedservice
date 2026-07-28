@@ -1,6 +1,12 @@
 import { Header, Footer, JsonLd } from './components';
 import { blogPosts, services, site, staffingProcess, stats } from './data';
 
+const statIcons = [
+  '/icons/getillustrations/sharpie-business/scoped-lane.svg',
+  '/icons/getillustrations/sharpie-business/approval-owner.svg',
+  '/icons/getillustrations/sharpie-business/quality-review.svg',
+];
+
 export default function Home() {
   const schema = {
     '@context': 'https://schema.org',
@@ -12,7 +18,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="service-desk" data-design="filipino-service-desk-2026-07">
+    <main className="service-desk" data-design="filipino-service-desk-2026-07" data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema} />
       <section className="hero">
         <div className="container hero-grid">
@@ -27,14 +33,14 @@ export default function Home() {
             <p className="routing-note">Talent comes only from the Philippines. This independent site may route your request to a Philippines staffing partner.</p>
           </div>
           <div className="hero-visual">
-            <img src={site.heroImage} alt={site.alt} />
+            <img src="/illustrations/getillustrations/goodle-business/filipino-service-team.svg" alt="Illustrated Filipino service team succeeding together around recurring work" />
             <div className="visual-tag tag-one"><span>01</span> Scope the queue</div>
             <div className="visual-tag tag-two"><span>02</span> Set owner rules</div>
           </div>
         </div>
         <div className="container handoff-strip">
           <p>Before the first login</p>
-          {stats.map((stat) => <article key={stat.label}><span>{stat.label}</span><strong>{stat.value}</strong><small>{stat.note}</small></article>)}
+          {stats.map((stat, index) => <article key={stat.label}><img className="stat-icon" src={statIcons[index]} alt="" aria-hidden="true" /><div><span>{stat.label}</span><strong>{stat.value}</strong><small>{stat.note}</small></div></article>)}
         </div>
       </section>
 
@@ -59,6 +65,7 @@ export default function Home() {
       <section className="process-section" id="process">
         <div className="container process-grid">
           <div className="process-intro">
+            <img className="supporting-illustration" src="/illustrations/getillustrations/goodle-team/service-workflow-review.svg" alt="Service team reviewing workflow data together" />
             <p className="eyebrow">A calmer first week</p>
             <h2>Make the work visible before you add a person.</h2>
             <p>Filipino talent can take on a lot. That does not mean the role should start wide. A short queue with clean examples will tell you more than a long job description.</p>

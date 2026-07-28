@@ -237,3 +237,11 @@ h1, h2, h3 { font-family: 'Space Grotesk', Arial, sans-serif; letter-spacing: -.
 @media(max-width:900px){.sa-booking-grid{grid-template-columns:1fr}.sa-booking-calendar{order:2}.sa-booking-left{max-width:680px;margin:0 auto}.sa-oncehub-frame{height:850px}}
 @media(max-width:640px){.sa-booking-page{padding:2rem 0}.sa-booking-grid{gap:2.5rem}.sa-booking-left h1{font-size:2.65rem}.sa-booking-image{border-radius:12px}.sa-oncehub-frame{border-radius:10px;height:850px}.sa-testimonial-viewport{height:174px}}
 @media(prefers-reduced-motion:reduce){.sa-testimonial-track{animation:none}.sa-testimonial-viewport{height:auto;max-height:none;mask-image:none;-webkit-mask-image:none}.sa-testimonial-track>.sa-testimonial-card:nth-child(n+4){display:none}}
+
+/* Licensed GetIllustrations homepage rollout */
+.service-desk .hero-visual>img{object-fit:contain;background:#fff9ef;padding:24px;max-height:560px}
+.handoff-strip article{grid-template-columns:42px 1fr;gap:12px;align-items:center}
+.handoff-strip .stat-icon{width:40px;height:40px;object-fit:contain;filter:invert(1)}
+.handoff-strip article strong,.handoff-strip article small{display:block}
+.process-intro .supporting-illustration{width:100%;height:180px;object-fit:contain;margin:0 0 26px;border-radius:20px;background:#fff9ef;padding:10px}
+@media(max-width:640px){.service-desk .hero-visual>img{padding:12px}.handoff-strip article{grid-template-columns:38px 1fr}.process-intro .supporting-illustration{height:145px}}
