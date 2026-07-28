@@ -7,6 +7,7 @@ import { CustomerQueueGuide, customerQueueDescription, customerQueueSlug, custom
 import { OrderControlGuide, orderControlDescription, orderControlSlug, orderControlTitle } from './order-processing-control-guide';
 import { CustomerOnboardingDataGuide, onboardingDataDescription, onboardingDataSlug, onboardingDataTitle } from './customer-onboarding-data-guide';
 import { SchedulingControlGuide, schedulingGuideDescription, schedulingGuideSlug, schedulingGuideTitle } from './appointment-scheduling-control-guide';
+import { KnowledgeBaseMaintenanceGuide, knowledgeGuideDescription, knowledgeGuideSlug, knowledgeGuideTitle } from './knowledge-base-maintenance-guide';
 
 const detailedSlug = 'outsourced-service-tasks-to-outsource';
 
@@ -64,8 +65,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   const url = `https://outsourcedservice.com/blog/${slug}`;
-  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : slug === customerQueueSlug ? customerQueueTitle : slug === orderControlSlug ? orderControlTitle : slug === onboardingDataSlug ? onboardingDataTitle : slug === schedulingGuideSlug ? schedulingGuideTitle : post?.title || 'Guide';
-  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : slug === customerQueueSlug ? customerQueueDescription : slug === orderControlSlug ? orderControlDescription : slug === onboardingDataSlug ? onboardingDataDescription : slug === schedulingGuideSlug ? schedulingGuideDescription : post?.excerpt;
+  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : slug === customerQueueSlug ? customerQueueTitle : slug === orderControlSlug ? orderControlTitle : slug === onboardingDataSlug ? onboardingDataTitle : slug === schedulingGuideSlug ? schedulingGuideTitle : slug === knowledgeGuideSlug ? knowledgeGuideTitle : post?.title || 'Guide';
+  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : slug === customerQueueSlug ? customerQueueDescription : slug === orderControlSlug ? orderControlDescription : slug === onboardingDataSlug ? onboardingDataDescription : slug === schedulingGuideSlug ? schedulingGuideDescription : slug === knowledgeGuideSlug ? knowledgeGuideDescription : post?.excerpt;
   return {
     title,
     description,
@@ -229,12 +230,12 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) notFound();
-  const omitPricing = slug === staffingModelSlug || slug === customerQueueSlug || slug === orderControlSlug || slug === onboardingDataSlug || slug === schedulingGuideSlug;
+  const omitPricing = slug === staffingModelSlug || slug === customerQueueSlug || slug === orderControlSlug || slug === onboardingDataSlug || slug === schedulingGuideSlug || slug === knowledgeGuideSlug;
   return <>
     <Header omitPricing={omitPricing} />
     <main className="section content-page">
       <article className="container" style={{ maxWidth: 880 }}>
-        {slug === accountingGuideSlug ? <AccountingControlGuide /> : slug === staffingModelSlug ? <StaffingModelGuide /> : slug === customerQueueSlug ? <CustomerQueueGuide /> : slug === orderControlSlug ? <OrderControlGuide /> : slug === onboardingDataSlug ? <CustomerOnboardingDataGuide /> : slug === schedulingGuideSlug ? <SchedulingControlGuide /> : slug === detailedSlug ? <DetailedArticle /> : <>
+        {slug === accountingGuideSlug ? <AccountingControlGuide /> : slug === staffingModelSlug ? <StaffingModelGuide /> : slug === customerQueueSlug ? <CustomerQueueGuide /> : slug === orderControlSlug ? <OrderControlGuide /> : slug === onboardingDataSlug ? <CustomerOnboardingDataGuide /> : slug === schedulingGuideSlug ? <SchedulingControlGuide /> : slug === knowledgeGuideSlug ? <KnowledgeBaseMaintenanceGuide /> : slug === detailedSlug ? <DetailedArticle /> : <>
           <p className="eyebrow">{site.brand} field note</p>
           <h1>{post.title}</h1>
           <p className="lead">{post.excerpt}</p>

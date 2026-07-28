@@ -52,6 +52,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-knowledge-base-maintenance-control-guide',
+    title: 'Philippines knowledge base maintenance: an update and approval control guide',
+    excerpt: 'Plan a Philippines knowledge base maintenance lane with source checks, article owners, approval limits, safe access, and review evidence.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-appointment-scheduling-control-guide',
     title: 'Philippines appointment scheduling: a calendar control and confirmation guide',
     excerpt: 'Plan a Philippines appointment scheduling lane with calendar rules, confirmation checks, safe access, and named owners for exceptions.',
