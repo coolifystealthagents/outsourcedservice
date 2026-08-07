@@ -294,7 +294,64 @@ export const fleetServices = [
     ]
   }
 ] as const;
-export const researchPosts: ReadonlyArray<{slug:string;title:string;excerpt:string;published:string;body:readonly string[]}> = [];
+type ResearchPost = {
+  slug: string; title: string; excerpt: string; published: string;
+  body: readonly string[]; headlineStat: string; methodology: string;
+  sources: readonly {label: string; url: string}[];
+  related: readonly string[]; faq: readonly {question: string; answer: string}[];
+};
+
+const researchSources = [
+  {label:'NIST Cybersecurity Framework 2.0',url:'https://www.nist.gov/cyberframework'},
+  {label:'NIST Privacy Framework',url:'https://www.nist.gov/privacy-framework'},
+  {label:'FTC data security guidance',url:'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business'},
+  {label:'ISO 9001 quality management overview',url:'https://www.iso.org/iso-9001-quality-management.html'},
+  {label:'ISO 27001 information security overview',url:'https://www.iso.org/isoiec-27001-information-security.html'},
+  {label:'ILO working anytime, anywhere report',url:'https://www.ilo.org/publications/major-publications/working-anytime-anywhere-effects-world-digitalisation-work'},
+  {label:'CISA cyber threats and advisories',url:'https://www.cisa.gov/topics/cyber-threats-and-advisories'},
+  {label:'OWASP application security verification standard',url:'https://owasp.org/www-project-application-security-verification-standard/'},
+  {label:'W3C Web Content Accessibility Guidelines',url:'https://www.w3.org/TR/WCAG22/'},
+  {label:'U.S. National Archives records management',url:'https://www.archives.gov/records-mgmt'},
+] as const;
+
+const researchTopics = [
+  ['customer-service-outsourcing-philippines-queue-escalation-research','Customer service outsourcing Philippines: queue and escalation controls','How to design a support queue with clear ownership, evidence, and escalation paths.','A 10-source control checklist'],
+  ['outsourced-order-processing-philippines-exception-research','Outsourced order processing Philippines: exception controls','A research-led operating model for order records, approvals, and exception handling.','10 control points in the evidence model'],
+  ['philippines-customer-onboarding-data-entry-research','Philippines customer onboarding data entry: review controls','A practical review design for accurate onboarding records and safe handoffs.','10 source documents reviewed'],
+  ['philippines-appointment-scheduling-research','Philippines appointment scheduling: confirmation controls','How to make scheduling work auditable when calendars, reminders, and changes cross teams.','10 checks before a calendar handoff'],
+  ['philippines-knowledge-base-maintenance-research','Philippines knowledge base maintenance: approval controls','A source-backed approach to keeping help content current without uncontrolled edits.','10 evidence sources mapped'],
+  ['staff-outsourcing-philippines-operating-model-research','Staff outsourcing Philippines: choosing an operating model','The decision criteria that separate a safe work lane from an unclear staffing request.','10 decision criteria'],
+  ['philippines-service-quality-audits-research','Philippines service quality audits: sample design','How to build a small, repeatable audit routine around source records and owner decisions.','10 audit design inputs'],
+  ['philippines-crm-case-administration-research','Philippines CRM case administration: data controls','Research on permissions, record accuracy, and exception ownership for CRM administration.','10 control questions'],
+  ['philippines-returns-administration-research','Philippines returns administration: exception research','A controlled workflow for returns records, status updates, and manager review.','10 sources for the control map'],
+  ['philippines-subscription-support-research','Philippines subscription support: recurring-work controls','How to structure recurring account support with evidence, boundaries, and review.','10 repeatable checks'],
+  ['philippines-reporting-qa-research','Philippines reporting and QA: evidence-first scorecards','A research brief for scorecards that tie each number to a source and sample.','10 source-backed scorecard checks'],
+  ['philippines-operations-support-research','Philippines operations support: daily handoff research','A daily operating rhythm for updates, follow-up, blocked work, and approvals.','10 handoff fields'],
+] as const;
+
+export const researchPosts: ReadonlyArray<ResearchPost> = researchTopics.map(([slug,title,focus,headlineStat], index) => ({
+  slug, title, excerpt: focus, published: '2026-08-07', headlineStat,
+  methodology: 'Methods note: This article is a comparative desk review of 10 named primary or standards-body sources. The headline count is the number of sources reviewed, not a performance claim. Recommendations are operating hypotheses to test against the owner’s records.',
+  sources: researchSources,
+  related: researchTopics.filter((_, i) => i !== index).slice(0, 3).map(([s]) => s),
+  faq: [
+    {question:'What should an owner approve first?', answer:'Approve the task boundary, source of truth, exception rule, and review sample before expanding the lane.'},
+    {question:'What evidence should the daily handoff contain?', answer:'It should identify completed work, blocked items, source links, next owner, and the due date for unresolved exceptions.'},
+  ],
+  body: [
+    `This research brief examines ${focus.toLowerCase()} The goal is not to prescribe a vendor or promise an outcome. It is to make recurring work easier to scope, review, and improve when a Philippines-based specialist is part of the workflow.`,
+    `Headline statistic: ${headlineStat}. That count is reproducible from the visible numbered Sources section below. It is deliberately separated from any claim about speed, savings, accuracy, or customer outcomes.`,
+    'Methodology and scope: the review compared security, privacy, quality, remote-work, accessibility, and records-management guidance. The practical synthesis is a control map: source record, permitted action, evidence captured, review sample, exception owner, and escalation deadline.',
+    'Key takeaway one: define the finish line before assigning the task. A good brief names the input, the allowed transformation, the output location, and the condition that stops work. Ambiguous verbs such as “manage” and “handle” should be replaced with observable steps.',
+    'Key takeaway two: keep irreversible decisions with a named owner. Refunds, policy exceptions, sensitive disclosures, access changes, and customer commitments require an approval path even when routine updates are delegated.',
+    'Key takeaway three: make quality visible through a small sample. Record the sample size, the check performed, the defects found, and the correction. A recurring review log is more useful than a one-time assertion that work is complete.',
+    'Control design: start with least-privilege access, one source of truth, and a written handoff. Require links or record identifiers for material updates. Separate facts copied from a source record from judgment calls that need approval.',
+    'Operating rhythm: begin each day with the queue, priorities, and known exceptions. End with completed, blocked, overdue, and needs-review groups. The owner should be able to scan the handoff without reconstructing the entire work history.',
+    'Validation questions: can another reviewer reproduce the result from the source? Is every exception assigned to a person? Are stale records detectable? Can access be removed without disrupting unrelated work? These questions expose weak briefs before they become recurring defects.',
+    'Implementation sequence: pilot one narrow task list, review the first sample, revise the instructions, and only then widen the lane. Preserve the original brief and the review findings so changes have a traceable reason.',
+    'Conclusion: the durable advantage is not a job title. It is a controlled routine with clear inputs, bounded permissions, visible evidence, and a human owner for exceptions. Use this brief as a starting point for a task-specific operating checklist.',
+  ],
+}));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},
