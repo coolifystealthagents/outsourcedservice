@@ -100,6 +100,30 @@ export const blogPosts = [
     minutes: 12,
   },] as const;
 
+export const generatedBlogPosts = [
+  ['philippines-inbox-management-workflow', 'Philippines inbox management: a workflow and review guide', 'Build a safer inbox lane with triage rules, approved replies, escalation ownership, and a simple daily review.', 10],
+  ['philippines-crm-data-cleanup-control-guide', 'Philippines CRM data cleanup: a control and handoff guide', 'Plan a CRM cleanup queue with source checks, field rules, duplicate handling, access limits, and review evidence.', 10],
+  ['philippines-lead-follow-up-process-guide', 'Philippines lead follow-up: a process and escalation guide', 'Set up lead follow-up with approved messages, timing rules, source notes, and clear owner decisions.', 10],
+  ['philippines-invoice-processing-control-guide', 'Philippines invoice processing: a control and approval guide', 'Design an invoice support lane that checks records, flags exceptions, and keeps payment approval with the owner.', 11],
+  ['philippines-vendor-management-workflow-guide', 'Philippines vendor management: a workflow and records guide', 'Create a vendor update lane with document checks, renewal reminders, access controls, and escalation rules.', 10],
+  ['philippines-calendar-management-control-guide', 'Philippines calendar management: a scheduling control guide', 'Hand off routine calendar work with time-zone rules, confirmation checks, and owner approval boundaries.', 10],
+  ['philippines-document-processing-workflow-guide', 'Philippines document processing: a workflow and QA guide', 'Build a document queue with naming rules, source checks, version control, and sample-based quality review.', 10],
+  ['philippines-market-research-support-guide', 'Philippines market research support: a source and review guide', 'Plan research support with source quality rules, evidence notes, synthesis limits, and a clear reviewer role.', 11],
+  ['philippines-social-media-production-workflow', 'Philippines social media production: a workflow and approval guide', 'Organize content production with approved themes, asset checks, review gates, and owner-controlled publishing.', 10],
+  ['philippines-email-marketing-operations-guide', 'Philippines email marketing operations: a control guide', 'Set up campaign operations with list checks, draft review, link testing, and permission boundaries.', 10],
+  ['philippines-ecommerce-catalog-management-guide', 'Philippines ecommerce catalog management: a QA guide', 'Manage product records with source-of-truth rules, image checks, change logs, and escalation paths.', 10],
+  ['philippines-recruiting-coordinator-workflow-guide', 'Philippines recruiting coordinator support: a workflow guide', 'Design a recruiting coordination lane with scheduling, record hygiene, candidate privacy, and decision limits.', 10],
+  ['philippines-property-management-admin-guide', 'Philippines property management admin: a workflow guide', 'Plan routine property administration with request tracking, vendor follow-up, records, and owner approvals.', 10],
+  ['philippines-logistics-coordination-control-guide', 'Philippines logistics coordination: a handoff and exception guide', 'Build a logistics support queue with status checks, updates, exception flags, and documented handoffs.', 10],
+  ['philippines-podcast-production-support-guide', 'Philippines podcast production support: a workflow guide', 'Coordinate episode research, assets, transcripts, and publishing checks with a reviewable production board.', 9],
+  ['philippines-website-content-operations-guide', 'Philippines website content operations: a QA guide', 'Create a content operations lane with briefs, source checks, metadata review, and publishing approval.', 10],
+  ['philippines-customer-feedback-analysis-guide', 'Philippines customer feedback analysis: a review guide', 'Turn feedback into a tagged review queue with evidence, themes, privacy limits, and owner decisions.', 10],
+  ['philippines-bookkeeping-data-prep-guide', 'Philippines bookkeeping data preparation: a control guide', 'Prepare bookkeeping records with source matching, exception queues, restricted access, and accountant review.', 10],
+  ['philippines-sop-documentation-workflow-guide', 'Philippines SOP documentation: a workflow and review guide', 'Capture repeatable work in usable SOPs with examples, change ownership, version checks, and approval gates.', 10],
+  ['philippines-operations-dashboard-maintenance-guide', 'Philippines operations dashboard maintenance: a QA guide', 'Maintain an operations dashboard with named sources, freshness checks, issue notes, and owner-controlled interpretation.', 10],
+  ['philippines-client-reporting-support-guide', 'Philippines client reporting support: a control guide', 'Prepare client reports from approved sources with calculation checks, evidence links, and an accountable reviewer.', 10],
+] as const;
+
 export const stats = [
   { label: 'Role scope', value: 'Tasks first', note: 'define the repeated work before settling on a title' },
   { label: 'Access plan', value: 'Start narrow', note: 'open only the tools and permissions the role needs' },
