@@ -296,6 +296,7 @@ export const fleetServices = [
 ] as const;
 type ResearchPost = {
   slug: string; title: string; excerpt: string; published: string;
+  thumbnail: string;
   body: readonly string[]; headlineStat: string; methodology: string;
   sources: readonly {label: string; url: string}[];
   related: readonly string[]; faq: readonly {question: string; answer: string}[];
@@ -337,10 +338,20 @@ const researchTopics = [
   ['philippines-recruiting-coordinator-research','Philippines recruiting coordinator support: candidate-record controls','A controlled workflow for scheduling, candidate records, and recruiting-team approvals.','10 record controls'],
   ['philippines-hr-administration-research','Philippines HR administration support: privacy controls','Research on bounded HR administration, access, retention, and exception ownership.','10 privacy and access checks'],
   ['philippines-virtual-receptionist-research','Philippines virtual receptionist support: call and message controls','How to make call notes, routing, identity checks, and escalation reviewable.','10 call-handling controls'],
+  ['philippines-invoice-processing-research','Philippines invoice processing support: approval controls','A source-backed workflow for invoice intake, coding, exception handling, and owner approval.','10 invoice-control questions'],
+  ['philippines-calendar-management-research','Philippines calendar management support: scheduling controls','Research on permissions, time-zone handling, confirmations, and auditable calendar changes.','10 scheduling-control checks'],
+  ['philippines-market-research-support-research','Philippines market research support: evidence controls','How to structure research requests, source evaluation, synthesis, and review without overstating findings.','10 evidence sources reviewed'],
+  ['philippines-content-operations-research','Philippines content operations support: editorial controls','A controlled routine for briefs, source notes, drafts, approvals, and repeatable publishing handoffs.','10 editorial-control inputs'],
+  ['philippines-podcast-production-research','Philippines podcast production support: handoff controls','Research on episode assets, transcripts, metadata, approvals, and release readiness.','10 release-readiness checks'],
+  ['philippines-procurement-support-research','Philippines procurement support: request controls','A practical control map for vendor requests, comparisons, approvals, and purchase records.','10 procurement-control questions'],
+  ['philippines-document-management-research','Philippines document management support: records controls','How to keep shared documents findable, permissioned, current, and reviewable.','10 records-management checks'],
+  ['philippines-email-management-research','Philippines email management support: triage controls','Research on bounded inbox triage, categorization, drafting, escalation, and approval.','10 inbox-control checks'],
+  ['philippines-customer-feedback-research','Philippines customer feedback support: insight controls','A source-backed workflow for collecting, tagging, summarizing, and escalating customer feedback.','10 feedback-control inputs'],
+  ['philippines-service-request-research','Philippines service request support: intake controls','Research on capturing service requests, routing ownership, documenting decisions, and closing the loop.','10 intake-control questions'],
 ] as const;
 
 export const researchPosts: ReadonlyArray<ResearchPost> = researchTopics.map(([slug,title,focus,headlineStat], index) => ({
-  slug, title, excerpt: focus, published: '2026-08-08', headlineStat,
+  slug, title, excerpt: focus, published: '2026-08-09', thumbnail: '/research-thumbnails/research-batch-2026-08-09.svg', headlineStat,
   methodology: 'Methods note: This article is a comparative desk review of 10 named primary or standards-body sources. The headline count is the number of sources reviewed, not a performance claim. Recommendations are operating hypotheses to test against the owner’s records.',
   sources: researchSources,
   related: researchTopics.filter((_, i) => i !== index).slice(0, 3).map(([s]) => s),
