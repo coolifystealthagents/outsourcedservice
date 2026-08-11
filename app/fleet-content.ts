@@ -375,8 +375,23 @@ const researchTopics = [
   ['philippines-back-office-follow-up-research','Philippines back-office follow-up support: handoff controls','Research on recurring follow-up queues, response evidence, due dates, and clear ownership for unresolved work.','10 follow-up control checks'],
 ] as const;
 
+const researchPublicationDates: Readonly<Record<string, string>> = {
+  'philippines-order-entry-support-research': '2026-08-10',
+  'philippines-inbox-triage-research': '2026-08-10',
+  'philippines-digital-file-organization-research': '2026-08-10',
+  'philippines-appointment-reminders-research': '2026-08-10',
+  'philippines-customer-review-management-research': '2026-08-10',
+  'philippines-product-listing-support-research': '2026-08-10',
+  'philippines-expense-administration-research': '2026-08-10',
+  'philippines-sales-operations-support-research': '2026-08-10',
+  'philippines-client-reporting-support-research': '2026-08-10',
+  'philippines-web-research-support-research': '2026-08-10',
+  'philippines-workflow-documentation-research': '2026-08-10',
+  'philippines-back-office-follow-up-research': '2026-08-10',
+};
+
 export const researchPosts: ReadonlyArray<ResearchPost> = researchTopics.map(([slug,title,focus,headlineStat], index) => ({
-  slug, title, excerpt: focus, published: index >= 32 ? '2026-08-10' : '2026-08-09', thumbnail: '/research-thumbnails/research-batch-2026-08-10.svg', headlineStat,
+  slug, title, excerpt: focus, published: researchPublicationDates[slug] ?? '2026-08-09', thumbnail: '/research-thumbnails/research-batch-2026-08-10.svg', headlineStat,
   methodology: 'Methods note: This article is a comparative desk review of 10 named primary or standards-body sources. The headline count is the number of sources reviewed, not a performance claim. Recommendations are operating hypotheses to test against the owner’s records.',
   sources: researchSources,
   related: researchTopics.filter((_, i) => i !== index).slice(0, 3).map(([s]) => s),
