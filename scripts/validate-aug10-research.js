@@ -25,6 +25,6 @@ const builtRoot = '.next/server/app/research';
 for (const entry of manifest.entries) {
   const files = fs.existsSync(builtRoot) ? cp.execFileSync('find', [builtRoot, '-type', 'f', '-name', '*.html'], {encoding:'utf8'}).trim().split('\n').filter(Boolean) : [];
   const html = files.map((file) => fs.readFileSync(file, 'utf8')).find((text) => text.includes(entry.slug));
-  if (!html || !html.includes('2026-08-10') || !html.includes(`https://outsourcedservice.com${entry.route}`) || !html.includes(`canonical\" href=\"https://outsourcedservice.com${entry.route}`)) throw new Error(`built date/canonical missing: ${entry.slug}`);
+  if (!html || !html.includes('2026-08-10') || !html.includes(`https://outsourcedservice.com${entry.route}`) || !html.includes(`canonical" href="https://outsourcedservice.com${entry.route}`)) throw new Error(`built date/canonical missing: ${entry.slug}`);
 }
 console.log(`PASS: ${manifest.entries.length} research entries, provenance, source/rendered dates, canonical sitemap wiring, and newest-first index validated`);
