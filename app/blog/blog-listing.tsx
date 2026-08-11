@@ -6,8 +6,11 @@ import { blogPosts, generatedBlogPosts, batchBlogPosts } from '../data';
 const PAGE_SIZE = 20;
 
 export function BlogListing({ page = 1 }: { page?: number }) {
+  const datedBatchPosts = batchBlogPosts.filter((item) => 'date' in item);
+  const legacyBatchPosts = batchBlogPosts.filter((item) => !('date' in item));
   const posts = [
-    ...batchBlogPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 10 })),
+    ...datedBatchPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 10 })),
+    ...legacyBatchPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 10 })),
     ...generatedBlogPosts.map((item) => ({ slug: item[0], title: item[1], excerpt: item[2], minutes: item[3] })),
     ...blogPosts,
   ];

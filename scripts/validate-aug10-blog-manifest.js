@@ -14,13 +14,12 @@ for (const entry of manifest.entries) {
   if (!/^\/blog\/[a-z0-9-]+$/.test(entry.route) || entry.route !== `/blog/${entry.slug}`) throw new Error(`bad route: ${entry.slug}`);
   if (entry.sourcePath !== 'app/data.ts' || !source.includes(`slug: '${entry.slug}'`)) throw new Error(`missing source: ${entry.slug}`);
   if (before.includes(`slug: '${entry.slug}'`) || !after.includes(`slug: '${entry.slug}'`)) throw new Error(`bad absent-before/present-after provenance: ${entry.slug}`);
-  if (entry.sourceDate !== '2026-08-10' || entry.sourceDateField !== 'blogPublicationDate') throw new Error(`bad source date: ${entry.slug}`);
+  if (entry.sourceDate !== '2026-08-10' || entry.sourceDateField !== 'date' || !source.includes(`slug: '${entry.slug}', date: '2026-08-10'`)) throw new Error(`bad explicit source date: ${entry.slug}`);
   if (entry.renderedDate !== '2026-08-10' || !entry.renderedDateFields.includes('datePublished') || !entry.renderedDateFields.includes('time[datetime]')) throw new Error(`bad rendered date: ${entry.slug}`);
   if (entry.provenance !== 'original-aug10-batch' || entry.introducedByCommit !== '7a9162186868cd23c9877b5ddb9da33e67dbccb3') throw new Error(`bad provenance: ${entry.slug}`);
 }
-if (!source.includes("export const blogPublicationDate = '2026-08-10'")) throw new Error('authoritative date missing');
-if (!rendered.includes('datePublished: batch ? blogPublicationDate')) throw new Error('JSON-LD date missing');
-if (!rendered.includes('<time dateTime={blogPublicationDate}>')) throw new Error('visible date missing');
-if (!listing.includes('...batchBlogPosts.map')) throw new Error('index is not newest-first');
+if (!rendered.includes("'date' in batch ? batch.date : '2026-08-10'")) throw new Error('JSON-LD date missing');
+if (!rendered.includes('<time dateTime={renderedBatchDate}>')) throw new Error('visible date missing');
+if (!listing.includes("batchBlogPosts.filter((item) => 'date' in item)") || !listing.includes('...datedBatchPosts.map')) throw new Error('index is not newest-first');
 if (!sitemap.includes('...batchBlogPosts.map')) throw new Error('batch is not sitemap-eligible');
 console.log(`PASS: ${manifest.entries.length} blog entries, routes, source dates, rendered dates, provenance, and newest-first index`);
