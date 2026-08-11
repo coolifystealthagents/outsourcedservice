@@ -6,7 +6,7 @@ import { blogPosts, generatedBlogPosts, batchBlogPosts } from '../data';
 const PAGE_SIZE = 20;
 
 export function BlogListing({ page = 1 }: { page?: number }) {
-  const datedBatchPosts = batchBlogPosts.filter((item) => 'date' in item);
+  const datedBatchPosts = batchBlogPosts.filter((item) => 'date' in item).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const legacyBatchPosts = batchBlogPosts.filter((item) => !('date' in item));
   const posts = [
     ...datedBatchPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 10 })),
