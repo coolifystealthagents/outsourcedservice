@@ -1,4 +1,4 @@
-import { site, generatedBlogPosts, batchBlogPosts } from '../data';
+import { site, generatedBlogPosts, batchBlogPosts, blogPublicationDate } from '../data';
 
 export function GeneratedArticle({ slug }: { slug: string }) {
   const post = generatedBlogPosts.find((item) => item[0] === slug);
@@ -16,11 +16,11 @@ export function GeneratedArticle({ slug }: { slug: string }) {
   const batchOutput = batch?.output || 'a completed record with evidence and an escalation note';
   const batchRisk = batch?.risk || 'sensitive actions and decisions outside the approved scope';
   const relatedLinks = batch ? batchBlogPosts.filter((item) => item.slug !== postSlug).slice(0, 3).map((item) => ({ slug: item.slug, title: item.title })) : generatedBlogPosts.filter((item) => item[0] !== postSlug).slice(0, 3).map((item) => ({ slug: item[0], title: item[1] }));
-  const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${canonical}#article`, headline: title, description: excerpt, datePublished: '2026-08-07', dateModified: '2026-08-07', mainEntityOfPage: canonical, image: `https://outsourcedservice.com${thumbnail}`, author: { '@type': 'Organization', name: site.brand, url: 'https://outsourcedservice.com' }, publisher: { '@type': 'Organization', name: site.brand, url: 'https://outsourcedservice.com' }, citation: sources.map((source) => source[1]) };
+  const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${canonical}#article`, headline: title, description: excerpt, datePublished: batch ? blogPublicationDate : '2026-08-07', dateModified: batch ? blogPublicationDate : '2026-08-07', mainEntityOfPage: canonical, image: `https://outsourcedservice.com${thumbnail}`, author: { '@type': 'Organization', name: site.brand, url: 'https://outsourcedservice.com' }, publisher: { '@type': 'Organization', name: site.brand, url: 'https://outsourcedservice.com' }, citation: sources.map((source) => source[1]) };
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     <p className="eyebrow">Philippines outsourcing guide</p>
-    <h1>{title}</h1>
+    <h1>{title}</h1>{batch && <time dateTime={blogPublicationDate}>August 10, 2026</time>}
     <p className="lead">{excerpt}</p>
     <div className="answer-box"><strong>The short answer</strong><p>Start with one repeatable queue, one source of truth, and one named reviewer. Give the specialist only the access needed for that queue. Keep money, policy exceptions, sensitive promises, and final publishing decisions with the owner.</p></div>
     <div className="article-body">

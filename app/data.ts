@@ -174,6 +174,8 @@ export const batchBlogPosts = [
   { slug: 'philippines-call-answering-workflow-guide', title: 'Philippines call answering workflows: a routing guide', excerpt: 'Set up call answering support with approved scripts, caller notes, routing rules, and clear escalation ownership.', focus: 'call answering workflows', output: 'a complete call record with the approved note, route, and next action', risk: 'making commitments, giving advice, or handling sensitive calls without the owner queue' },
 ] as const;
 
+export const blogPublicationDate = '2026-08-10';
+
 export const stats = [
   { label: 'Role scope', value: 'Tasks first', note: 'define the repeated work before settling on a title' },
   { label: 'Access plan', value: 'Start narrow', note: 'open only the tools and permissions the role needs' },
