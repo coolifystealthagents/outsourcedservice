@@ -459,7 +459,8 @@ const legacyResearchPosts: ReadonlyArray<ResearchPost> = researchTopics.map(([sl
     'Conclusion: the durable advantage is not a job title. It is a controlled routine with clear inputs, bounded permissions, visible evidence, and a human owner for exceptions. Use this brief as a starting point for a task-specific operating checklist.',
   ],
 })).sort((a, b) => b.published.localeCompare(a.published));
-export const researchPosts: ReadonlyArray<ResearchPost> = [...legacyResearchPosts, ...august11ResearchPosts].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+import { august13ResearchPosts } from './august13-research';
+export const researchPosts: ReadonlyArray<ResearchPost> = [...august13ResearchPosts, ...legacyResearchPosts, ...august11ResearchPosts].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},
