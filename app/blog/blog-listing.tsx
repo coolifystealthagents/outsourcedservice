@@ -1,7 +1,7 @@
 import { FeaturedComparison } from './FeaturedComparison';
 import { notFound } from 'next/navigation';
 import { Header, Footer } from '../components';
-import { blogPosts, generatedBlogPosts, batchBlogPosts } from '../data';
+import { blogPosts, generatedBlogPosts, batchBlogPosts, august13BlogPosts } from '../data';
 
 const PAGE_SIZE = 20;
 
@@ -9,6 +9,7 @@ export function BlogListing({ page = 1 }: { page?: number }) {
   const datedBatchPosts = batchBlogPosts.filter((item) => 'date' in item).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const legacyBatchPosts = batchBlogPosts.filter((item) => !('date' in item));
   const posts = [
+    ...august13BlogPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 11 })),
     ...datedBatchPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 10 })),
     ...legacyBatchPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 10 })),
     ...generatedBlogPosts.map((item) => ({ slug: item[0], title: item[1], excerpt: item[2], minutes: item[3] })),

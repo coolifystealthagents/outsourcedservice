@@ -1,3 +1,5 @@
+import { august13BlogPosts } from './blog/aug13-content';
+
 export const site = {
   domain: 'OutsourcedService.com',
   slug: 'outsourcedservice',
@@ -195,6 +197,8 @@ export const batchBlogPosts = [
   { slug: 'philippines-customer-record-merge-review-guide', date: '2026-08-12', title: 'Philippines customer record merge reviews: a data guide', excerpt: 'Review possible duplicate customer records with match evidence, source checks, and an approval boundary around merges.', focus: 'customer record merge reviews', output: 'a duplicate review list with match evidence and a merge recommendation', risk: 'merging records when identity, consent, or ownership is unclear' },
   { slug: 'philippines-work-queue-capacity-review-guide', date: '2026-08-12', title: 'Philippines work queue capacity reviews: an operations guide', excerpt: 'Review recurring work queues against due items, available coverage, blockers, and the owner who can reset priorities.', focus: 'work queue capacity reviews', output: 'a current queue summary with overdue items, blockers, and owner decisions', risk: 'silently changing priorities or promising capacity without approval' },
 ] as const;
+
+export { august13BlogPosts };
 
 export const stats = [
   { label: 'Role scope', value: 'Tasks first', note: 'define the repeated work before settling on a title' },
