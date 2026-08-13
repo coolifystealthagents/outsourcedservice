@@ -17,7 +17,7 @@ export function GeneratedArticle({ slug }: { slug: string }) {
   const batchRisk = batch?.risk || 'sensitive actions and decisions outside the approved scope';
   const relatedLinks = batch ? batchBlogPosts.filter((item) => item.slug !== postSlug).slice(0, 3).map((item) => ({ slug: item.slug, title: item.title })) : generatedBlogPosts.filter((item) => item[0] !== postSlug).slice(0, 3).map((item) => ({ slug: item[0], title: item[1] }));
   const renderedBatchDate = batch && ('date' in batch ? batch.date : '2026-08-10');
-  const visibleBatchDate = renderedBatchDate === '2026-08-11' ? 'August 11, 2026' : 'August 10, 2026';
+  const visibleBatchDate = renderedBatchDate === '2026-08-12' ? 'August 12, 2026' : 'August 10, 2026';
   const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${canonical}#article`, headline: title, description: excerpt, datePublished: renderedBatchDate || '2026-08-07', dateModified: renderedBatchDate || '2026-08-07', mainEntityOfPage: canonical, image: `https://outsourcedservice.com${thumbnail}`, author: { '@type': 'Organization', name: site.brand, url: 'https://outsourcedservice.com' }, publisher: { '@type': 'Organization', name: site.brand, url: 'https://outsourcedservice.com' }, citation: sources.map((source) => source[1]) };
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
