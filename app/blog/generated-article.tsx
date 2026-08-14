@@ -1,4 +1,4 @@
-import { site, generatedBlogPosts, batchBlogPosts, august13BlogPosts } from '../data';
+import { site, generatedBlogPosts, batchBlogPosts, august13BlogPosts, august14BlogPosts } from '../data';
 
 const publicationDateFormatter = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const formatPublicationDate = (value: string) => publicationDateFormatter.format(new Date(`${value}T00:00:00Z`));
@@ -7,27 +7,29 @@ export function GeneratedArticle({ slug }: { slug: string }) {
   const post = generatedBlogPosts.find((item) => item[0] === slug);
   const batch = batchBlogPosts.find((item) => item.slug === slug);
   const august13 = august13BlogPosts.find((item) => item.slug === slug);
-  if (!post && !batch && !august13) return null;
-  const postSlug = post ? post[0] : august13?.slug || batch!.slug;
-  const title = post ? post[1] : august13?.title || batch!.title;
-  const excerpt = post ? post[2] : august13?.excerpt || batch!.excerpt;
+  const august14 = august14BlogPosts.find((item) => item.slug === slug);
+  if (!post && !batch && !august13 && !august14) return null;
+  const dated = august14 || august13;
+  const postSlug = post ? post[0] : dated?.slug || batch!.slug;
+  const title = post ? post[1] : dated?.title || batch!.title;
+  const excerpt = post ? post[2] : dated?.excerpt || batch!.excerpt;
   const canonical = `https://outsourcedservice.com/blog/${postSlug}`;
   const sources = [
     ['NIST SP 800-53 Rev. 5, Access Control family', 'https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final'],
   ];
   const thumbnail = '/blog-thumbnails/outsourced-service-guide.svg';
-  const batchFocus = august13?.focus || batch?.focus || 'the first work lane';
-  const batchOutput = august13 ? august13.steps[0] : batch?.output || 'a completed record with evidence and an escalation note';
-  const batchRisk = august13?.boundary || batch?.risk || 'sensitive actions and decisions outside the approved scope';
+  const batchFocus = dated?.focus || batch?.focus || 'the first work lane';
+  const batchOutput = dated ? dated.steps[0] : batch?.output || 'a completed record with evidence and an escalation note';
+  const batchRisk = dated?.boundary || batch?.risk || 'sensitive actions and decisions outside the approved scope';
   const relatedLinks = batch ? batchBlogPosts.filter((item) => item.slug !== postSlug).slice(0, 3).map((item) => ({ slug: item.slug, title: item.title })) : generatedBlogPosts.filter((item) => item[0] !== postSlug).slice(0, 3).map((item) => ({ slug: item[0], title: item[1] }));
-  const renderedBatchDate = august13?.date || (batch && ('date' in batch ? batch.date : '2026-08-10'));
+  const renderedBatchDate = dated?.date || (batch && ('date' in batch ? batch.date : '2026-08-10'));
   const visibleBatchDate = renderedBatchDate ? formatPublicationDate(renderedBatchDate) : '';
   const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${canonical}#article`, headline: title, description: excerpt, datePublished: renderedBatchDate || '2026-08-07', dateModified: renderedBatchDate || '2026-08-07', mainEntityOfPage: canonical, image: `https://outsourcedservice.com${thumbnail}`, author: { '@type': 'Organization', name: site.brand, url: 'https://outsourcedservice.com' }, publisher: { '@type': 'Organization', name: site.brand, url: 'https://outsourcedservice.com' }, citation: sources.map((source) => source[1]) };
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     <p className="eyebrow">Philippines outsourcing guide</p>
-    <h1>{title}</h1>{(batch || august13) && <time dateTime={renderedBatchDate}>{visibleBatchDate}</time>}
-    <p className="lead">{excerpt}</p>{august13 && <><p>{august13.body[0]}</p><h2>What to check</h2><p>{august13.body[1]}</p><ul>{august13.steps.map((step) => <li key={step}>{step}</li>)}</ul><h2>Keep the decision with the owner</h2><p>{august13.body[2]}</p><p><strong>Boundary:</strong> {august13.boundary}</p></>}
+    <h1>{title}</h1>{(batch || dated) && <time dateTime={renderedBatchDate}>{visibleBatchDate}</time>}
+    <p className="lead">{excerpt}</p>{dated && <><p>{dated.body[0]}</p><h2>What to check</h2><p>{dated.body[1]}</p><ul>{dated.steps.map((step) => <li key={step}>{step}</li>)}</ul><h2>Keep the decision with the owner</h2><p>{dated.body[2]}</p><p><strong>Boundary:</strong> {dated.boundary}</p></>}
     <div className="answer-box"><strong>The short answer</strong><p>Start with one repeatable queue, one source of truth, and one named reviewer. Give the specialist only the access needed for that queue. Keep money, policy exceptions, sensitive promises, and final publishing decisions with the owner.</p></div>
     <div className="article-body">
       <p>A useful Philippines service role begins with a defined handoff. For {batchFocus}, write down what enters the queue, what a finished item looks like, which source wins when records disagree, and when the work must pause for a manager. This makes the role easier to train and the output easier to review. See the <a href="/services/operations-support">operations support scope</a> for a practical example.</p>
