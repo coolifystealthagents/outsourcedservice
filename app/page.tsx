@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         <div className="container handoff-strip">
           <p>Before the first login</p>
-          {stats.map((stat, index) => <article key={stat.label}><img className="stat-icon" src={statIcons[index]} alt="" aria-hidden="true" /><div><span>{stat.label}</span><strong>{stat.value}</strong><small>{stat.note}</small></div></article>)}
+          {stats.map((stat, index) => <article key={stat.label}><img className="stat-icon" src={statIcons[index]} alt={`${stat.label} indicator`} /><div><span>{stat.label}</span><strong>{stat.value}</strong><small>{stat.note}</small></div></article>)}
         </div>
       </section>
 
