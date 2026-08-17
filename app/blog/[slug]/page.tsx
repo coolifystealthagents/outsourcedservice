@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA } from '../../components';
-import { blogPosts, generatedBlogPosts, batchBlogPosts, august13BlogPosts, august14BlogPosts, site } from '../../data';
+import { blogPosts, generatedBlogPosts, batchBlogPosts, august13BlogPosts, august14BlogPosts, august17BlogPosts, site } from '../../data';
 import { GeneratedArticle } from '../generated-article';
 import { AccountingControlGuide, accountingGuideDescription, accountingGuideSlug, accountingGuideTitle } from './accounting-control-guide';
 import { StaffingModelGuide, staffingModelDescription, staffingModelSlug, staffingModelTitle } from './staffing-model-guide';
@@ -59,7 +59,7 @@ const sources = [
 ] as const;
 
 export function generateStaticParams() {
-  return [...blogPosts.map((post) => ({ slug: post.slug })), ...generatedBlogPosts.map((item) => ({ slug: item[0] })), ...batchBlogPosts.map((item) => ({ slug: item.slug })), ...august13BlogPosts.map((item) => ({ slug: item.slug })), ...august14BlogPosts.map((item) => ({ slug: item.slug }))];
+  return [...blogPosts.map((post) => ({ slug: post.slug })), ...generatedBlogPosts.map((item) => ({ slug: item[0] })), ...batchBlogPosts.map((item) => ({ slug: item.slug })), ...august13BlogPosts.map((item) => ({ slug: item.slug })), ...august14BlogPosts.map((item) => ({ slug: item.slug })), ...august17BlogPosts.map((item) => ({ slug: item.slug }))];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -69,9 +69,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const batch = batchBlogPosts.find((item) => item.slug === slug);
   const august13 = august13BlogPosts.find((item) => item.slug === slug);
   const august14 = august14BlogPosts.find((item) => item.slug === slug);
+  const august17 = august17BlogPosts.find((item) => item.slug === slug);
   const url = `https://outsourcedservice.com/blog/${slug}`;
-  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : slug === customerQueueSlug ? customerQueueTitle : slug === orderControlSlug ? orderControlTitle : slug === onboardingDataSlug ? onboardingDataTitle : slug === schedulingGuideSlug ? schedulingGuideTitle : slug === knowledgeGuideSlug ? knowledgeGuideTitle : generated ? generated[1] : august14?.title || august13?.title || batch?.title || post?.title || 'Guide';
-  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : slug === customerQueueSlug ? customerQueueDescription : slug === orderControlSlug ? orderControlDescription : slug === onboardingDataSlug ? onboardingDataDescription : slug === schedulingGuideSlug ? schedulingGuideDescription : slug === knowledgeGuideSlug ? knowledgeGuideDescription : generated ? generated[2] : august14?.excerpt || august13?.excerpt || batch?.excerpt || post?.excerpt;
+  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : slug === customerQueueSlug ? customerQueueTitle : slug === orderControlSlug ? orderControlTitle : slug === onboardingDataSlug ? onboardingDataTitle : slug === schedulingGuideSlug ? schedulingGuideTitle : slug === knowledgeGuideSlug ? knowledgeGuideTitle : generated ? generated[1] : august17?.title || august14?.title || august13?.title || batch?.title || post?.title || 'Guide';
+  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : slug === customerQueueSlug ? customerQueueDescription : slug === orderControlSlug ? orderControlDescription : slug === onboardingDataSlug ? onboardingDataDescription : slug === schedulingGuideSlug ? schedulingGuideDescription : slug === knowledgeGuideSlug ? knowledgeGuideDescription : generated ? generated[2] : august17?.excerpt || august14?.excerpt || august13?.excerpt || batch?.excerpt || post?.excerpt;
   return {
     title,
     description,
@@ -235,6 +236,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   if (generatedBlogPosts.some((item) => item[0] === slug) || batchBlogPosts.some((item) => item.slug === slug) || august13BlogPosts.some((item) => item.slug === slug) || august14BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/></>;
+  if (august17BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/>;</>;
   if (!post) notFound();
   const omitPricing = slug === staffingModelSlug || slug === customerQueueSlug || slug === orderControlSlug || slug === onboardingDataSlug || slug === schedulingGuideSlug || slug === knowledgeGuideSlug;
   return <>

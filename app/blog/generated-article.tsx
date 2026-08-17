@@ -1,4 +1,4 @@
-import { site, generatedBlogPosts, batchBlogPosts, august13BlogPosts, august14BlogPosts } from '../data';
+import { site, generatedBlogPosts, batchBlogPosts, august13BlogPosts, august14BlogPosts, august17BlogPosts } from '../data';
 
 const publicationDateFormatter = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const formatPublicationDate = (value: string) => publicationDateFormatter.format(new Date(`${value}T00:00:00Z`));
@@ -8,8 +8,9 @@ export function GeneratedArticle({ slug }: { slug: string }) {
   const batch = batchBlogPosts.find((item) => item.slug === slug);
   const august13 = august13BlogPosts.find((item) => item.slug === slug);
   const august14 = august14BlogPosts.find((item) => item.slug === slug);
-  if (!post && !batch && !august13 && !august14) return null;
-  const dated = august14 || august13;
+  const august17 = august17BlogPosts.find((item) => item.slug === slug);
+  if (!post && !batch && !august13 && !august14 && !august17) return null;
+  const dated = august17 || august14 || august13;
   const postSlug = post ? post[0] : dated?.slug || batch!.slug;
   const title = post ? post[1] : dated?.title || batch!.title;
   const excerpt = post ? post[2] : dated?.excerpt || batch!.excerpt;

@@ -1,5 +1,6 @@
 import { august13BlogPosts } from './blog/aug13-content';
 import { august14BlogPosts } from './blog/aug14-content';
+import { august17BlogPosts } from './blog/aug17-content';
 
 export const site = {
   domain: 'OutsourcedService.com',
@@ -199,7 +200,7 @@ export const batchBlogPosts = [
   { slug: 'philippines-work-queue-capacity-review-guide', date: '2026-08-12', title: 'Philippines work queue capacity reviews: an operations guide', excerpt: 'Review recurring work queues against due items, available coverage, blockers, and the owner who can reset priorities.', focus: 'work queue capacity reviews', output: 'a current queue summary with overdue items, blockers, and owner decisions', risk: 'silently changing priorities or promising capacity without approval' },
 ] as const;
 
-export { august13BlogPosts, august14BlogPosts };
+export { august13BlogPosts, august14BlogPosts, august17BlogPosts };
 
 export const stats = [
   { label: 'Role scope', value: 'Tasks first', note: 'define the repeated work before settling on a title' },
