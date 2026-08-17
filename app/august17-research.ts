@@ -41,5 +41,16 @@ const batch:readonly ResearchPost[]=[
  make('philippines-recurring-report-definition-research','Philippines recurring report definitions: metric evidence research','Research on recurring operational reports that tests whether a number remains comparable when source definitions and periods change.','8 fields for one reproducible metric',{subject:'recurring operational report definition and source control',unit:'one reported metric for one named period, population, formula, and source snapshot',question:'What evidence makes a recurring report number reproducible?',finding:'A metric needs a definition, numerator, denominator, period, source, transformation, owner, and known exclusions beside the result.',boundary:'A reporting specialist can extract and reconcile inputs; the metric owner approves definitions, target changes, interpretation, and decisions based on the report.',exception:'A changed source field, missing denominator, late data, definition conflict, or unexplained manual adjustment must be visible.',cohort:'Actuals, forecasts, restatements, and corrected periods should not be compared as if they were the same observation.',measure:'Report source freshness, records included, exclusions, corrections, definition version, and reviewer sign-off.',limit:'a reproducible number is not automatically a valid measure of performance or a causal explanation.',faq:'Why keep the metric definition with the number?',answer:'Because a stable-looking number can change meaning when its population, formula, period, or source changes.',sources:[sources.quality,sources.records,sources.security,sources.privacy]})
 ];
 
-const campaignRecords=batch.map(post=>({slug:post.slug,published:'2026-08-17'}));
+const campaignRecords=[
+ {slug:'philippines-vendor-follow-up-evidence-research',published:'2026-08-17'},
+ {slug:'philippines-crm-duplicate-detection-research',published:'2026-08-17'},
+ {slug:'philippines-payroll-input-reconciliation-research',published:'2026-08-17'},
+ {slug:'philippines-web-accessibility-issue-research',published:'2026-08-17'},
+ {slug:'philippines-customer-feedback-coding-research',published:'2026-08-17'},
+ {slug:'philippines-project-dependency-status-research',published:'2026-08-17'},
+ {slug:'philippines-service-request-priority-research',published:'2026-08-17'},
+ {slug:'philippines-document-retention-review-research',published:'2026-08-17'},
+ {slug:'philippines-customer-escalation-reason-research',published:'2026-08-17'},
+ {slug:'philippines-recurring-report-definition-research',published:'2026-08-17'}
+] as const;
 export const august17ResearchPosts:readonly ResearchPost[]=campaignRecords.map(record=>({...batch.find(post=>post.slug===record.slug)!,slug:record.slug,published:record.published}));
