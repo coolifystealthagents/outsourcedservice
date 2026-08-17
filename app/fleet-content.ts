@@ -461,7 +461,8 @@ const legacyResearchPosts: ReadonlyArray<ResearchPost> = researchTopics.map(([sl
 })).sort((a, b) => b.published.localeCompare(a.published));
 import { august13ResearchPosts } from './august13-research';
 import { august14ResearchPosts } from './august14-research';
-export const researchPosts: ReadonlyArray<ResearchPost> = [...august14ResearchPosts, ...august13ResearchPosts, ...legacyResearchPosts, ...august11ResearchPosts].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+import { august17ResearchPosts } from './august17-research';
+export const researchPosts: ReadonlyArray<ResearchPost> = [...august17ResearchPosts, ...august14ResearchPosts, ...august13ResearchPosts, ...legacyResearchPosts, ...august11ResearchPosts].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},
