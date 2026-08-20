@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/research/service-delivery-source-quality-evidence-research",
+      "source": "content/research/service-delivery-source-quality-evidence-research.md"
+    },
+    {
+      "route": "/research/service-delivery-exception-aging-patterns-research",
+      "source": "content/research/service-delivery-exception-aging-patterns-research.md"
+    },
+    {
+      "route": "/research/service-delivery-review-consistency-research",
+      "source": "content/research/service-delivery-review-consistency-research.md"
+    },
+    {
+      "route": "/research/service-delivery-access-governance-research",
+      "source": "content/research/service-delivery-access-governance-research.md"
+    },
+    {
+      "route": "/research/service-delivery-handoff-reliability-research",
+      "source": "content/research/service-delivery-handoff-reliability-research.md"
+    }
+  ]
+}

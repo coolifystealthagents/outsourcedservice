@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/service-delivery-intake-source-register",
+      "source": "content/blog/service-delivery-intake-source-register.md"
+    },
+    {
+      "route": "/blog/service-delivery-approval-evidence-matrix",
+      "source": "content/blog/service-delivery-approval-evidence-matrix.md"
+    },
+    {
+      "route": "/blog/service-delivery-exception-queue-triage",
+      "source": "content/blog/service-delivery-exception-queue-triage.md"
+    },
+    {
+      "route": "/blog/service-delivery-quality-review-cadence",
+      "source": "content/blog/service-delivery-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/service-delivery-handoff-acceptance-log",
+      "source": "content/blog/service-delivery-handoff-acceptance-log.md"
+    },
+    {
+      "route": "/blog/service-delivery-access-recertification-review",
+      "source": "content/blog/service-delivery-access-recertification-review.md"
+    },
+    {
+      "route": "/blog/service-delivery-weekly-decision-brief",
+      "source": "content/blog/service-delivery-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/service-delivery-source-of-truth-map",
+      "source": "content/blog/service-delivery-source-of-truth-map.md"
+    },
+    {
+      "route": "/blog/service-delivery-change-control-record",
+      "source": "content/blog/service-delivery-change-control-record.md"
+    },
+    {
+      "route": "/blog/service-delivery-work-queue-ownership",
+      "source": "content/blog/service-delivery-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/service-delivery-escalation-path-design",
+      "source": "content/blog/service-delivery-escalation-path-design.md"
+    },
+    {
+      "route": "/blog/service-delivery-launch-readiness-review",
+      "source": "content/blog/service-delivery-launch-readiness-review.md"
+    }
+  ]
+}

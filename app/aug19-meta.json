@@ -1,0 +1,104 @@
+{
+  "service-delivery-intake-source-register": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Intake Source Register",
+    "description": "Outsourced Service Delivery: Intake Source Register: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-intake-source-register.webp"
+  },
+  "service-delivery-approval-evidence-matrix": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Approval Evidence Matrix",
+    "description": "Outsourced Service Delivery: Approval Evidence Matrix: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-approval-evidence-matrix.webp"
+  },
+  "service-delivery-exception-queue-triage": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Exception Queue Triage",
+    "description": "Outsourced Service Delivery: Exception Queue Triage: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-exception-queue-triage.webp"
+  },
+  "service-delivery-quality-review-cadence": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Quality Review Cadence",
+    "description": "Outsourced Service Delivery: Quality Review Cadence: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-quality-review-cadence.webp"
+  },
+  "service-delivery-handoff-acceptance-log": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Handoff Acceptance Log",
+    "description": "Outsourced Service Delivery: Handoff Acceptance Log: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-handoff-acceptance-log.webp"
+  },
+  "service-delivery-access-recertification-review": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Access Recertification Review",
+    "description": "Outsourced Service Delivery: Access Recertification Review: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-access-recertification-review.webp"
+  },
+  "service-delivery-weekly-decision-brief": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Weekly Decision Brief",
+    "description": "Outsourced Service Delivery: Weekly Decision Brief: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-weekly-decision-brief.webp"
+  },
+  "service-delivery-source-of-truth-map": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Source of Truth Map",
+    "description": "Outsourced Service Delivery: Source of Truth Map: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-source-of-truth-map.webp"
+  },
+  "service-delivery-change-control-record": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Change Control Record",
+    "description": "Outsourced Service Delivery: Change Control Record: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-change-control-record.webp"
+  },
+  "service-delivery-work-queue-ownership": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Work Queue Ownership",
+    "description": "Outsourced Service Delivery: Work Queue Ownership: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-work-queue-ownership.webp"
+  },
+  "service-delivery-escalation-path-design": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Escalation Path Design",
+    "description": "Outsourced Service Delivery: Escalation Path Design: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-escalation-path-design.webp"
+  },
+  "service-delivery-launch-readiness-review": {
+    "family": "blog",
+    "title": "Outsourced Service Delivery: Launch Readiness Review",
+    "description": "Outsourced Service Delivery: Launch Readiness Review: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-launch-readiness-review.webp"
+  },
+  "service-delivery-source-quality-evidence-research": {
+    "family": "research",
+    "title": "Research Brief: Outsourced Service Delivery Source Quality Evidence",
+    "description": "Research Brief: Outsourced Service Delivery Source Quality Evidence: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-source-quality-evidence-research.webp"
+  },
+  "service-delivery-exception-aging-patterns-research": {
+    "family": "research",
+    "title": "Research Brief: Outsourced Service Delivery Exception Aging Patterns",
+    "description": "Research Brief: Outsourced Service Delivery Exception Aging Patterns: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-exception-aging-patterns-research.webp"
+  },
+  "service-delivery-review-consistency-research": {
+    "family": "research",
+    "title": "Research Brief: Outsourced Service Delivery Review Consistency",
+    "description": "Research Brief: Outsourced Service Delivery Review Consistency: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-review-consistency-research.webp"
+  },
+  "service-delivery-access-governance-research": {
+    "family": "research",
+    "title": "Research Brief: Outsourced Service Delivery Access Governance",
+    "description": "Research Brief: Outsourced Service Delivery Access Governance: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-access-governance-research.webp"
+  },
+  "service-delivery-handoff-reliability-research": {
+    "family": "research",
+    "title": "Research Brief: Outsourced Service Delivery Handoff Reliability",
+    "description": "Research Brief: Outsourced Service Delivery Handoff Reliability: evidence-led guidance for Outsourced Service.",
+    "hero": "/aug19-heroes/service-delivery-handoff-reliability-research.webp"
+  }
+}
