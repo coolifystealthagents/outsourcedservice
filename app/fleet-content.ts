@@ -300,6 +300,7 @@ type ResearchPost = {
   body: readonly string[]; headlineStat: string; methodology: string;
   sources: readonly {label: string; url: string}[];
   related: readonly string[]; faq: readonly {question: string; answer: string}[];
+  serviceHandoff?: {slug: string; label: string; lead: string};
 };
 
 const researchSources = [
@@ -395,7 +396,7 @@ const researchPublicationDates: Readonly<Record<string, string>> = {
 // evidence and operating questions remain distinct from one another.
 const august11ResearchPosts: ReadonlyArray<ResearchPost> = [
   {
-    slug: 'philippines-customer-support-knowledge-handoff-research', title: 'Philippines customer support: knowledge handoff controls', excerpt: 'How a Philippines-based support lane can transfer product knowledge without turning stale notes into customer-facing answers.', published: '2026-08-12', thumbnail: '/research-thumbnails/research-batch-2026-08-10.svg', headlineStat: '4 evidence layers for a support knowledge handoff',
+    slug: 'philippines-customer-support-knowledge-handoff-research', title: 'Philippines customer support: knowledge handoff controls', excerpt: 'How a Philippines-based support lane can transfer product knowledge without turning stale notes into customer-facing answers.', published: '2026-08-12', thumbnail: '/research-thumbnails/research-batch-2026-08-10.svg', headlineStat: '4 evidence layers for a support knowledge handoff', serviceHandoff: {slug: 'customer-support', label: 'Philippines customer support service', lead: 'If you are turning these controls into a real support lane, see the service guide for the routine work, owner checks, and first-week review.'},
     body: ['A support handoff is a knowledge problem before it is a staffing problem. The receiving specialist needs a source of truth, an answer boundary, a way to flag uncertainty, and a record of what changed.', 'NIST CSF 2.0 treats governance and identification as practical risk-management work. Applied to support, that means naming the approved knowledge source and the owner of policy changes before a queue opens.', 'A useful handoff separates verified product facts from a draft answer and from an escalation. That separation helps a reviewer see whether a response was copied from an approved source or improvised from an old note.', 'The research implication is narrow: measure traceability and exception handling, not a generic promise of better support. Review a sample of answers against the current source and record every stale or ambiguous item.'], methodology: 'Methods note: comparative review of NIST CSF 2.0, NIST Privacy Framework, FTC data-security guidance, ISO 9001, and CISA advisories. The synthesis is an operating hypothesis for a bounded support lane, not a provider-performance claim.', sources: [researchSources[0], researchSources[1], researchSources[2], researchSources[3], researchSources[6]], related: ['customer-service-outsourcing-philippines-queue-escalation-research','philippines-knowledge-base-maintenance-research'], faq: [{question:'What should be approved first?',answer:'Approve the source of truth, answer boundary, escalation owner, and review sample.'},{question:'What is evidence of a sound handoff?',answer:'A reviewer can trace the answer to a current source and see how uncertainty was routed.'}]
   },
   {
