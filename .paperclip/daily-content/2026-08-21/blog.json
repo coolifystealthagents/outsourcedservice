@@ -1,0 +1,74 @@
+{
+  "/blog/outsourced-service-team-metrics-alignment": {
+    "sourcePaths": [
+      "content/blog/outsourced-service-team-metrics-alignment.md",
+      "app/blog/outsourced-service-team-metrics-alignment/page.tsx"
+    ]
+  },
+  "/blog/service-delivery-knowledge-transfer-gates": {
+    "sourcePaths": [
+      "content/blog/service-delivery-knowledge-transfer-gates.md",
+      "app/blog/service-delivery-knowledge-transfer-gates/page.tsx"
+    ]
+  },
+  "/blog/building-a-philippines-based-data-reconciliation-team": {
+    "sourcePaths": [
+      "content/blog/building-a-philippines-based-data-reconciliation-team.md",
+      "app/blog/building-a-philippines-based-data-reconciliation-team/page.tsx"
+    ]
+  },
+  "/blog/structuring-shift-handoffs-for-remote-specialists": {
+    "sourcePaths": [
+      "content/blog/structuring-shift-handoffs-for-remote-specialists.md",
+      "app/blog/structuring-shift-handoffs-for-remote-specialists/page.tsx"
+    ]
+  },
+  "/blog/evaluating-service-provider-compliance-frameworks": {
+    "sourcePaths": [
+      "content/blog/evaluating-service-provider-compliance-frameworks.md",
+      "app/blog/evaluating-service-provider-compliance-frameworks/page.tsx"
+    ]
+  },
+  "/blog/service-delivery-workflow-bottleneck-analysis": {
+    "sourcePaths": [
+      "content/blog/service-delivery-workflow-bottleneck-analysis.md",
+      "app/blog/service-delivery-workflow-bottleneck-analysis/page.tsx"
+    ]
+  },
+  "/blog/philippines-outsourcing-incident-response-playbook": {
+    "sourcePaths": [
+      "content/blog/philippines-outsourcing-incident-response-playbook.md",
+      "app/blog/philippines-outsourcing-incident-response-playbook/page.tsx"
+    ]
+  },
+  "/blog/managing-seasonal-demand-spikes-with-offshore-talent": {
+    "sourcePaths": [
+      "content/blog/managing-seasonal-demand-spikes-with-offshore-talent.md",
+      "app/blog/managing-seasonal-demand-spikes-with-offshore-talent/page.tsx"
+    ]
+  },
+  "/blog/designing-qa-scorecards-for-outsourced-admin-tasks": {
+    "sourcePaths": [
+      "content/blog/designing-qa-scorecards-for-outsourced-admin-tasks.md",
+      "app/blog/designing-qa-scorecards-for-outsourced-admin-tasks/page.tsx"
+    ]
+  },
+  "/blog/service-delivery-cross-training-matrix": {
+    "sourcePaths": [
+      "content/blog/service-delivery-cross-training-matrix.md",
+      "app/blog/service-delivery-cross-training-matrix/page.tsx"
+    ]
+  },
+  "/blog/establishing-data-privacy-guardrails-for-remote-teams": {
+    "sourcePaths": [
+      "content/blog/establishing-data-privacy-guardrails-for-remote-teams.md",
+      "app/blog/establishing-data-privacy-guardrails-for-remote-teams/page.tsx"
+    ]
+  },
+  "/blog/service-delivery-performance-calibration-sessions": {
+    "sourcePaths": [
+      "content/blog/service-delivery-performance-calibration-sessions.md",
+      "app/blog/service-delivery-performance-calibration-sessions/page.tsx"
+    ]
+  }
+}

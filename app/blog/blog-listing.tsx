@@ -3,10 +3,16 @@ import { notFound } from 'next/navigation';
 import { Header, Footer } from '../components';
 import { blogPosts, generatedBlogPosts, batchBlogPosts, august13BlogPosts, august14BlogPosts, august17BlogPosts } from '../data';
 import aug20Meta from '../aug20-meta.json';
+import aug21Meta from '../aug21-meta.json';
 
 const PAGE_SIZE = 20;
 
 export function BlogListing({ page = 1 }: { page?: number }) {
+  
+  const august21BlogPosts = Object.entries(aug21Meta)
+    .filter(([, item]) => item.family === 'blog')
+    .map(([slug, item]) => ({ slug, title: item.title, excerpt: item.description, minutes: 11 }))
+    .sort((a, b) => a.slug.localeCompare(b.slug));
   const august20BlogPosts = Object.entries(aug20Meta)
     .filter(([, item]) => item.family === 'blog')
     .map(([slug, item]) => ({ slug, title: item.title, excerpt: item.description, minutes: 11 }))
@@ -14,6 +20,7 @@ export function BlogListing({ page = 1 }: { page?: number }) {
   const datedBatchPosts = batchBlogPosts.filter((item) => 'date' in item).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const legacyBatchPosts = batchBlogPosts.filter((item) => !('date' in item));
   const posts = [
+    ...august21BlogPosts,
     ...august20BlogPosts,
     ...august17BlogPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 11 })),
     ...august14BlogPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 11 })),

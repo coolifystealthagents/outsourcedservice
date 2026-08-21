@@ -1,0 +1,74 @@
+{
+  "outsourced-service-team-metrics-alignment": {
+    "family": "blog",
+    "title": "Aligning Metrics for Your Outsourced Service Team",
+    "description": "Learn how to move beyond basic volume tracking and set performance goals that actually improve service quality for outsourced teams.",
+    "hero": "/aug21-heroes/outsourced-service-team-metrics-alignment.svg"
+  },
+  "service-delivery-knowledge-transfer-gates": {
+    "family": "blog",
+    "title": "Implementing Knowledge Transfer Gates",
+    "description": "Discover how phased training and strict assessment gates can prevent errors when transitioning complex work to an outsourced team.",
+    "hero": "/aug21-heroes/service-delivery-knowledge-transfer-gates.svg"
+  },
+  "building-a-philippines-based-data-reconciliation-team": {
+    "family": "blog",
+    "title": "Building a Data Reconciliation Team in the Philippines",
+    "description": "A practical guide to hiring, training, and managing an accurate data reconciliation team using finance talent in the Philippines.",
+    "hero": "/aug21-heroes/building-a-philippines-based-data-reconciliation-team.svg"
+  },
+  "structuring-shift-handoffs-for-remote-specialists": {
+    "family": "blog",
+    "title": "Structuring Shift Handoffs for Remote Specialists",
+    "description": "Learn how to build a structured handoff process for remote teams across timezones to prevent errors and ensure consistent service delivery.",
+    "hero": "/aug21-heroes/structuring-shift-handoffs-for-remote-specialists.svg"
+  },
+  "evaluating-service-provider-compliance-frameworks": {
+    "family": "blog",
+    "title": "Evaluating Service Provider Compliance Frameworks",
+    "description": "A guide to analyzing security controls, audit reports, and data privacy policies when outsourcing business processes to service providers.",
+    "hero": "/aug21-heroes/evaluating-service-provider-compliance-frameworks.svg"
+  },
+  "service-delivery-workflow-bottleneck-analysis": {
+    "family": "blog",
+    "title": "Service Delivery Workflow Bottleneck Analysis",
+    "description": "Discover how to identify friction points, map workflows, and remove constraints to improve the efficiency of your outsourced service delivery.",
+    "hero": "/aug21-heroes/service-delivery-workflow-bottleneck-analysis.svg"
+  },
+  "philippines-outsourcing-incident-response-playbook": {
+    "family": "blog",
+    "title": "Building an Incident Response Playbook for Philippine Operations",
+    "description": "Learn how to create a structured incident response playbook for outsourced teams in the Philippines to manage disruptions and minimize downtime.",
+    "hero": "/aug21-heroes/philippines-outsourcing-incident-response-playbook.svg"
+  },
+  "managing-seasonal-demand-spikes-with-offshore-talent": {
+    "family": "blog",
+    "title": "Managing Seasonal Demand Spikes with Offshore Talent",
+    "description": "Discover a structured approach to forecasting, recruitment, and training when managing seasonal volume surges using offshore talent.",
+    "hero": "/aug21-heroes/managing-seasonal-demand-spikes-with-offshore-talent.svg"
+  },
+  "designing-qa-scorecards-for-outsourced-admin-tasks": {
+    "family": "blog",
+    "title": "Designing QA Scorecards for Outsourced Admin Tasks",
+    "description": "A guide to building objective Quality Assurance scorecards to measure accuracy, speed, and adherence for outsourced administrative work.",
+    "hero": "/aug21-heroes/designing-qa-scorecards-for-outsourced-admin-tasks.svg"
+  },
+  "service-delivery-cross-training-matrix": {
+    "family": "blog",
+    "title": "Building a cross training matrix for your Philippine team",
+    "description": "Learn how to build and maintain a cross training matrix to eliminate single points of failure in your offshore service delivery teams.",
+    "hero": "/aug21-heroes/service-delivery-cross-training-matrix.svg"
+  },
+  "establishing-data-privacy-guardrails-for-remote-teams": {
+    "family": "blog",
+    "title": "Data privacy guardrails for remote teams in the Philippines",
+    "description": "Practical steps for securing remote offshore teams, covering physical workspaces, hardware controls, role-based access, and incident response.",
+    "hero": "/aug21-heroes/establishing-data-privacy-guardrails-for-remote-teams.svg"
+  },
+  "service-delivery-performance-calibration-sessions": {
+    "family": "blog",
+    "title": "Running performance calibration sessions with offshore teams",
+    "description": "A guide to aligning your offshore QA teams and managers through regular calibration sessions to ensure consistent service quality.",
+    "hero": "/aug21-heroes/service-delivery-performance-calibration-sessions.svg"
+  }
+}
