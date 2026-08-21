@@ -1,0 +1,87 @@
+{
+  "service-delivery-demand-calendar": {
+    "family": "blog",
+    "title": "Build a Demand Calendar for an Outsourced Service Queue",
+    "description": "A practical way to map recurring workload, business events, and owner decisions before a Philippines-based service team takes the queue."
+  },
+  "service-delivery-coverage-window-plan": {
+    "family": "blog",
+    "title": "Design Coverage Windows for Outsourced Service Delivery",
+    "description": "Plan service coverage across time zones with explicit opening checks, overlap periods, handoffs, and owner availability."
+  },
+  "service-delivery-case-severity-rubric": {
+    "family": "blog",
+    "title": "Create a Case Severity Rubric for an Outsourced Service Team",
+    "description": "Turn vague urgency labels into observable service conditions, safe first actions, and named decision paths."
+  },
+  "service-delivery-rework-feedback-loop": {
+    "family": "blog",
+    "title": "Turn Rework into a Useful Feedback Loop in Outsourced Service Delivery",
+    "description": "Capture returned work without blame, distinguish correction from instruction failure, and close recurring causes."
+  },
+  "service-delivery-shadow-to-live-transition": {
+    "family": "blog",
+    "title": "Move an Outsourced Service Lane from Shadowing to Live Work",
+    "description": "A staged transition from observation to controlled execution with clear gates, reversible permissions, and owner review."
+  },
+  "service-delivery-business-continuity-runbook": {
+    "family": "blog",
+    "title": "Write a Business Continuity Runbook for an Outsourced Service Queue",
+    "description": "Keep a bounded service lane safe during system outages, unavailable owners, source delays, and communication failures."
+  },
+  "service-delivery-customer-context-pack": {
+    "family": "blog",
+    "title": "Build a Customer Context Pack for a Bounded Outsourced Service Lane",
+    "description": "Give a service team the facts, language, boundaries, and exception routes needed for consistent customer handling."
+  },
+  "service-delivery-sop-usability-test": {
+    "family": "blog",
+    "title": "Run a Usability Test on an Outsourced Service Procedure",
+    "description": "Find hidden assumptions in a procedure by observing a trained reader complete bounded work without private coaching."
+  },
+  "service-delivery-shift-handover-note": {
+    "family": "blog",
+    "title": "Write a Shift Handover Note That Preserves Service Context",
+    "description": "A concise handover format for completed work, active cases, waiting conditions, owner decisions, and the next coverage window."
+  },
+  "service-delivery-capacity-buffer-policy": {
+    "family": "blog",
+    "title": "Set a Capacity Buffer Policy for an Outsourced Service Queue",
+    "description": "Protect service quality during ordinary variability by defining reserved capacity, release rules, and overload decisions."
+  },
+  "service-delivery-data-retention-checklist": {
+    "family": "blog",
+    "title": "Use a Data Retention Checklist in Outsourced Service Delivery",
+    "description": "Keep coordination records proportionate, source-linked, and removable when their operating purpose ends."
+  },
+  "service-delivery-vendor-dependency-log": {
+    "family": "blog",
+    "title": "Maintain a Vendor Dependency Log for Outsourced Service Operations",
+    "description": "Track external platforms and providers that can block a service queue, with evidence, contacts, workarounds, and owner decisions."
+  },
+  "service-delivery-demand-variability-research": {
+    "family": "research",
+    "title": "Research Brief: Measuring Demand Variability in Outsourced Service Queues",
+    "description": "Evidence analysis for separating trend, seasonality, event effects, and random variation in service workload planning."
+  },
+  "service-delivery-queue-sampling-bias-research": {
+    "family": "research",
+    "title": "Research Brief: Sampling Bias in Outsourced Service Queue Reviews",
+    "description": "How sample frames, exclusions, reviewer choices, and missing records can distort conclusions about service quality."
+  },
+  "service-delivery-asynchronous-coordination-latency-research": {
+    "family": "research",
+    "title": "Research Brief: Coordination Latency in Asynchronous Service Delivery",
+    "description": "Evidence analysis of how handoff design, decision availability, time zones, and communication load affect distributed service flow."
+  },
+  "service-delivery-procedural-knowledge-decay-research": {
+    "family": "research",
+    "title": "Research Brief: Procedural Knowledge Decay in Recurring Service Work",
+    "description": "Why infrequent tasks, changing systems, and undocumented exceptions weaken procedure recall, plus ways to test readiness."
+  },
+  "service-delivery-recovery-governance-research": {
+    "family": "research",
+    "title": "Research Brief: Governance for Service Recovery After a Disruption",
+    "description": "Evidence analysis for restoring outsourced service queues without duplicate actions, missing approvals, or premature closure."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-20",
+  "articles": [
+    {
+      "route": "/research/service-delivery-demand-variability-research",
+      "source": "content/research/service-delivery-demand-variability-research.md",
+      "sourcePaths": [
+        "content/research/service-delivery-demand-variability-research.md",
+        "app/research/service-delivery-demand-variability-research/page.tsx"
+      ]
+    },
+    {
+      "route": "/research/service-delivery-queue-sampling-bias-research",
+      "source": "content/research/service-delivery-queue-sampling-bias-research.md",
+      "sourcePaths": [
+        "content/research/service-delivery-queue-sampling-bias-research.md",
+        "app/research/service-delivery-queue-sampling-bias-research/page.tsx"
+      ]
+    },
+    {
+      "route": "/research/service-delivery-asynchronous-coordination-latency-research",
+      "source": "content/research/service-delivery-asynchronous-coordination-latency-research.md",
+      "sourcePaths": [
+        "content/research/service-delivery-asynchronous-coordination-latency-research.md",
+        "app/research/service-delivery-asynchronous-coordination-latency-research/page.tsx"
+      ]
+    },
+    {
+      "route": "/research/service-delivery-procedural-knowledge-decay-research",
+      "source": "content/research/service-delivery-procedural-knowledge-decay-research.md",
+      "sourcePaths": [
+        "content/research/service-delivery-procedural-knowledge-decay-research.md",
+        "app/research/service-delivery-procedural-knowledge-decay-research/page.tsx"
+      ]
+    },
+    {
+      "route": "/research/service-delivery-recovery-governance-research",
+      "source": "content/research/service-delivery-recovery-governance-research.md",
+      "sourcePaths": [
+        "content/research/service-delivery-recovery-governance-research.md",
+        "app/research/service-delivery-recovery-governance-research/page.tsx"
+      ]
+    }
+  ]
+}

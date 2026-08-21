@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-20",
+  "articles": [
+    {
+      "route": "/blog/service-delivery-demand-calendar",
+      "source": "content/blog/service-delivery-demand-calendar.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-demand-calendar.md",
+        "app/blog/service-delivery-demand-calendar/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-coverage-window-plan",
+      "source": "content/blog/service-delivery-coverage-window-plan.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-coverage-window-plan.md",
+        "app/blog/service-delivery-coverage-window-plan/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-case-severity-rubric",
+      "source": "content/blog/service-delivery-case-severity-rubric.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-case-severity-rubric.md",
+        "app/blog/service-delivery-case-severity-rubric/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-rework-feedback-loop",
+      "source": "content/blog/service-delivery-rework-feedback-loop.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-rework-feedback-loop.md",
+        "app/blog/service-delivery-rework-feedback-loop/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-shadow-to-live-transition",
+      "source": "content/blog/service-delivery-shadow-to-live-transition.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-shadow-to-live-transition.md",
+        "app/blog/service-delivery-shadow-to-live-transition/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-business-continuity-runbook",
+      "source": "content/blog/service-delivery-business-continuity-runbook.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-business-continuity-runbook.md",
+        "app/blog/service-delivery-business-continuity-runbook/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-customer-context-pack",
+      "source": "content/blog/service-delivery-customer-context-pack.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-customer-context-pack.md",
+        "app/blog/service-delivery-customer-context-pack/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-sop-usability-test",
+      "source": "content/blog/service-delivery-sop-usability-test.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-sop-usability-test.md",
+        "app/blog/service-delivery-sop-usability-test/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-shift-handover-note",
+      "source": "content/blog/service-delivery-shift-handover-note.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-shift-handover-note.md",
+        "app/blog/service-delivery-shift-handover-note/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-capacity-buffer-policy",
+      "source": "content/blog/service-delivery-capacity-buffer-policy.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-capacity-buffer-policy.md",
+        "app/blog/service-delivery-capacity-buffer-policy/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-data-retention-checklist",
+      "source": "content/blog/service-delivery-data-retention-checklist.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-data-retention-checklist.md",
+        "app/blog/service-delivery-data-retention-checklist/page.tsx"
+      ]
+    },
+    {
+      "route": "/blog/service-delivery-vendor-dependency-log",
+      "source": "content/blog/service-delivery-vendor-dependency-log.md",
+      "sourcePaths": [
+        "content/blog/service-delivery-vendor-dependency-log.md",
+        "app/blog/service-delivery-vendor-dependency-log/page.tsx"
+      ]
+    }
+  ]
+}
