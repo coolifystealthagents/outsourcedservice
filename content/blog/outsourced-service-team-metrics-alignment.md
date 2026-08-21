@@ -39,3 +39,5 @@ Bridge this gap by sharing the company's big picture goals with the outsourced t
 Metrics should never be static. As your business evolves, your performance targets must evolve as well. What worked during the first year of an outsourcing partnership might not work in the third year. The team becomes more experienced, the product changes, and customer expectations shift.
 
 Review your metric framework at least once a year. Look at which numbers are driving the right behaviors and which ones are creating negative side effects. Do not hesitate to remove metrics that are no longer useful. Adding new metrics without removing old ones creates confusion and dilutes the team's focus. Keep the scorecard clean, simple, and aligned with your current business priorities. A well maintained metric framework ensures that your outsourced team in the Philippines continues to deliver value year after year.
+
+Published on 2026-08-21.

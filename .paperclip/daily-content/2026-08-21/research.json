@@ -1,17 +1,35 @@
 {
-  "/research/service-delivery-attrition-impact-research": {
-    "sourcePaths": ["content/research/service-delivery-attrition-impact-research.md"]
-  },
-  "/research/service-delivery-cross-cultural-communication-overhead-research": {
-    "sourcePaths": ["content/research/service-delivery-cross-cultural-communication-overhead-research.md"]
-  },
-  "/research/service-delivery-tooling-fragmentation-research": {
-    "sourcePaths": ["content/research/service-delivery-tooling-fragmentation-research.md"]
-  },
-  "/research/service-delivery-weekend-coverage-utilization-research": {
-    "sourcePaths": ["content/research/service-delivery-weekend-coverage-utilization-research.md"]
-  },
-  "/research/service-delivery-onboarding-duration-quality-research": {
-    "sourcePaths": ["content/research/service-delivery-onboarding-duration-quality-research.md"]
-  }
+  "date": "2026-08-21",
+  "articles": [
+    {
+      "route": "/research/service-delivery-attrition-impact-research",
+      "sourcePaths": [
+        "content/research/service-delivery-attrition-impact-research.md"
+      ]
+    },
+    {
+      "route": "/research/service-delivery-cross-cultural-communication-overhead-research",
+      "sourcePaths": [
+        "content/research/service-delivery-cross-cultural-communication-overhead-research.md"
+      ]
+    },
+    {
+      "route": "/research/service-delivery-tooling-fragmentation-research",
+      "sourcePaths": [
+        "content/research/service-delivery-tooling-fragmentation-research.md"
+      ]
+    },
+    {
+      "route": "/research/service-delivery-weekend-coverage-utilization-research",
+      "sourcePaths": [
+        "content/research/service-delivery-weekend-coverage-utilization-research.md"
+      ]
+    },
+    {
+      "route": "/research/service-delivery-onboarding-duration-quality-research",
+      "sourcePaths": [
+        "content/research/service-delivery-onboarding-duration-quality-research.md"
+      ]
+    }
+  ]
 }

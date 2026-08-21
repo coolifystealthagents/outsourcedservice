@@ -63,3 +63,5 @@ Review your QA scorecards every quarter. Look at the aggregate data. Are all you
 Conversely, if the entire team is failing a particular metric, the problem is likely your training program or your software tools, not the agents. The scorecard data highlights systemic issues that need management attention.
 
 When you roll out a new process or a new software tool, update the scorecard before the work begins. Train the offshore team on the new scorecard so they understand exactly how their performance will be measured under the new system. Treating the QA scorecard as a living document ensures it remains a relevant tool for maintaining high quality administrative support.
+
+Published on 2026-08-21.

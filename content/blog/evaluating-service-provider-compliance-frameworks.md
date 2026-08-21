@@ -63,3 +63,5 @@ Build compliance requirements into your service level agreement. Define specific
 Schedule regular security reviews with the provider's management team. Use these meetings to discuss any recent security incidents, upcoming regulatory changes, and updates to their security infrastructure. The provider should proactively inform you of any changes that might affect your data security.
 
 Require the provider to conduct ongoing security training for their specialists. Security threats evolve constantly, and human error causes most data breaches. Specialists need regular training on how to identify phishing emails, handle sensitive data correctly, and report suspicious activity. Ask the provider to share their training materials and completion rates to ensure they take security education seriously.
+
+Published on 2026-08-21.

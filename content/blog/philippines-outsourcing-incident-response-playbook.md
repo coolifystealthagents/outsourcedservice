@@ -73,3 +73,5 @@ Review the timeline. Look at when the incident started, when it was reported, an
 Update the playbook based on your findings. A playbook is not a static document. It must evolve. If a secondary internet line took too long to connect, you might need to change your network configuration or switch providers. If communication broke down because a key person was on vacation, you need to add backup contacts to the roster.
 
 Regularly test your playbook. Conduct a tabletop exercise every six months. Gather your managers, present them with a hypothetical scenario like a sudden earthquake or a ransomware attack, and walk through the playbook steps. These drills build muscle memory, ensuring that when a real incident occurs, your team acts with confidence and precision.
+
+Published on 2026-08-21.
