@@ -1,4 +1,5 @@
 ---
+date: "2026-08-21"
 family: "research"
 title: "The Correlation Between Tooling Fragmentation and Error Rates in Back-Office Processing"
 description: "An investigation into how the number of distinct client-mandated SaaS tools directly correlates with elevated error rates in outsourced back-office processing."

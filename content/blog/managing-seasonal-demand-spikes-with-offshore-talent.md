@@ -48,7 +48,7 @@ Set clear expectations about scheduling. Let the cross trained employees know ex
 
 During a peak season, the focus often shifts to speed. Teams rush to clear the queue, and quality can drop. You must implement strict quality control measures to prevent mistakes that could damage your brand.
 
-Increase the frequency of quality assurance checks. If you normally review three transactions per agent per week, increase that to five during the peak season. Focus your reviews on the seasonal staff and the cross trained employees, as they are the most likely to make errors.
+Increase the frequency of quality assurance checks. If you normally review three transactions per agent weekly, increase that to five during the peak season. Focus your reviews on the seasonal staff and the cross trained employees, as they are the most likely to make errors.
 
 Conduct daily calibration sessions. Bring your offshore team leads and onshore managers together for fifteen minutes every day to review a few challenging cases. These sessions ensure everyone is applying the policies consistently. If a temporary worker makes a mistake, provide feedback immediately. Do not wait for a weekly review. Prompt correction prevents the agent from repeating the same error fifty times in one day.
 
@@ -58,7 +58,7 @@ Implement automated guardrails in your software. If possible, configure your sys
 
 Peak seasons are stressful. High volume, angry customers, and long hours take a toll on your offshore team. Managing burnout is just as important as managing the queue.
 
-Monitor workload limits strictly. While overtime is often necessary during a spike, excessive overtime leads to exhaustion and mistakes. Set a hard cap on the number of overtime hours an employee can work per week. Ensure they are taking their full scheduled breaks and not eating lunch at their desks.
+Monitor workload limits strictly. While overtime is often necessary during a spike, excessive overtime leads to exhaustion and mistakes. Set a hard cap on the number of overtime hours an employee can work weekly. Ensure they are taking their full scheduled breaks and not eating lunch at their desks.
 
 Provide visible onshore support. The offshore team needs to know that you recognize their effort. Have your onshore executives record a video message thanking the team for their hard work. Join their team meetings to answer questions and provide encouragement. 
 

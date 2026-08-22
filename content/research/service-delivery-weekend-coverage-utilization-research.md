@@ -1,4 +1,5 @@
 ---
+date: "2026-08-21"
 family: "research"
 title: "Evaluating Dedicated Weekend-Only Teams Versus Rotating Weekday Personnel for Continuous Coverage"
 description: "A comparative study on the reliability and output quality of dedicated weekend-only offshore shift teams against standard rotating weekday personnel."

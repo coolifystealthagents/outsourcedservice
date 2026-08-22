@@ -1,4 +1,5 @@
 ---
+date: "2026-08-21"
 family: "research"
 title: "The Effect of Extended Onboarding Duration on First-Month Critical Errors in Outsourced Services"
 description: "Research examining whether extending formal offshore training beyond 4 weeks yields a statistically significant reduction in first-month critical errors."

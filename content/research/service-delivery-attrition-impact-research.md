@@ -1,4 +1,5 @@
 ---
+date: "2026-08-21"
 family: "research"
 title: "Measuring the Impact of Annualized Attrition on Offshore Service Delivery Metrics"
 description: "An empirical analysis of how standard attrition rates in Philippines-based offshore teams degrade service delivery performance over a 12-month period."

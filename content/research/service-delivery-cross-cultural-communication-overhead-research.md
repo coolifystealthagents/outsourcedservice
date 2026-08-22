@@ -1,4 +1,5 @@
 ---
+date: "2026-08-21"
 family: "research"
 title: "Quantifying Cross-Cultural Communication Overhead in Outsourced Technical Support"
 description: "Research detailing the measurable productivity overhead created by cross-cultural communication gaps when outsourcing complex technical support queues."
