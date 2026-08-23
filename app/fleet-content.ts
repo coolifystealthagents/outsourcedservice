@@ -439,6 +439,7 @@ const august11ResearchPosts: ReadonlyArray<ResearchPost> = [
 
 const legacyResearchPosts: ReadonlyArray<ResearchPost> = researchTopics.map(([slug,title,focus,headlineStat], index) => ({
   slug, title, excerpt: focus, published: researchPublicationDates[slug] ?? '2026-08-09', thumbnail: '/research-thumbnails/research-batch-2026-08-10.svg', headlineStat,
+  serviceHandoff: slug === 'philippines-operations-support-research' ? {slug: 'operations-support', label: 'Review the operations support service guide', lead: 'For a daily update lane that keeps blocked work visible without moving approvals, see what Philippines operations support can cover. The guide lists routine tasks, review checks, and a first-week setup.'} : undefined,
   methodology: 'Methods note: This article is a comparative desk review of 10 named primary or standards-body sources. The headline count is the number of sources reviewed, not a performance claim. Recommendations are operating hypotheses to test against the owner’s records.',
   sources: researchSources,
   related: researchTopics.filter((_, i) => i !== index).slice(0, 3).map(([s]) => s),
