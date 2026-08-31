@@ -238,18 +238,21 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   if (generatedBlogPosts.some((item) => item[0] === slug) || batchBlogPosts.some((item) => item.slug === slug) || august13BlogPosts.some((item) => item.slug === slug) || august14BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/></>;
   if (august17BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/>;</>;
   if (!post) notFound();
+  const publicationDate = 'published' in post ? post.published : undefined;
   const omitPricing = slug === staffingModelSlug || slug === customerQueueSlug || slug === orderControlSlug || slug === onboardingDataSlug || slug === schedulingGuideSlug || slug === knowledgeGuideSlug;
   return <>
     <Header omitPricing={omitPricing} />
     <main className="section content-page">
       <article className="container" style={{ maxWidth: 880 }}>
+        {publicationDate ? <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({'@context':'https://schema.org','@type':'BlogPosting',headline:post.title,description:post.excerpt,datePublished:publicationDate,dateModified:publicationDate,mainEntityOfPage:`https://outsourcedservice.com/blog/${post.slug}`})}} /> : null}
         {slug === accountingGuideSlug ? <AccountingControlGuide /> : slug === staffingModelSlug ? <StaffingModelGuide /> : slug === customerQueueSlug ? <CustomerQueueGuide /> : slug === orderControlSlug ? <OrderControlGuide /> : slug === onboardingDataSlug ? <CustomerOnboardingDataGuide /> : slug === schedulingGuideSlug ? <SchedulingControlGuide /> : slug === knowledgeGuideSlug ? <KnowledgeBaseMaintenanceGuide /> : slug === detailedSlug ? <DetailedArticle /> : <>
           <p className="eyebrow">{site.brand} field note</p>
           <h1>{post.title}</h1>
           <p className="lead">{post.excerpt}</p>
+          {publicationDate ? <p className="article-date">Published <time dateTime={publicationDate}>August 31, 2026</time> - {post.minutes} minute read</p> : null}
           <div className="card">
             <h2>The short version</h2>
-            <p>Start with one role, a short task list, and one person who checks the work. Filipino talent should not have to reverse-engineer a process that nobody on your team can explain.</p>
+            {'body' in post ? post.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>) : <p>Start with one role, a short task list, and one person who checks the work. Filipino talent should not have to reverse-engineer a process that nobody on your team can explain.</p>}
             <h2>What to prepare</h2>
             <ul>
               <li>Examples of finished work and approved replies</li>

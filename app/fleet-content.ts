@@ -464,7 +464,18 @@ const legacyResearchPosts: ReadonlyArray<ResearchPost> = researchTopics.map(([sl
 import { august13ResearchPosts } from './august13-research';
 import { august14ResearchPosts } from './august14-research';
 import { august17ResearchPosts } from './august17-research';
-export const researchPosts: ReadonlyArray<ResearchPost> = [...august17ResearchPosts, ...august14ResearchPosts, ...august13ResearchPosts, ...legacyResearchPosts, ...august11ResearchPosts].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+import { august31ResearchPosts } from './aug31-content';
+const august31Research: ReadonlyArray<ResearchPost> = august31ResearchPosts.map((post) => ({
+  slug: post.slug, title: post.title, excerpt: post.excerpt, published: post.published,
+  thumbnail: post.image, body: post.body, headlineStat: 'Three-part scoped observation',
+  methodology: 'Methods note: a bounded operating-method review using the stated question, method, and limitation. This is not a performance claim.',
+  sources: researchSources.slice(0, 2), related: [],
+  faq: [
+    {question: 'What should a manager verify first?', answer: 'Verify the scope, source record, reviewer, and stated limitation.'},
+    {question: 'What remains with the internal owner?', answer: 'Final approvals, exceptions, and changes to the operating rule remain with the accountable owner.'},
+  ],
+}));
+export const researchPosts: ReadonlyArray<ResearchPost> = [...august31Research, ...august17ResearchPosts, ...august14ResearchPosts, ...august13ResearchPosts, ...legacyResearchPosts, ...august11ResearchPosts].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},

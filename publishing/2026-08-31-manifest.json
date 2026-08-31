@@ -1,0 +1,27 @@
+{
+  "publicationDate": "2026-08-31",
+  "visibleDate": "August 31, 2026",
+  "blogCount": 12,
+  "researchCount": 5,
+  "blogRoutes": [
+    "/blog/virtual-assistant-monday-priority-brief",
+    "/blog/delegated-inbox-label-system",
+    "/blog/virtual-assistant-calendar-conflict-rules",
+    "/blog/crm-cleanup-work-sample",
+    "/blog/assistant-document-naming-convention",
+    "/blog/virtual-assistant-blocker-log",
+    "/blog/customer-follow-up-approval-matrix",
+    "/blog/assistant-end-of-day-handoff",
+    "/blog/virtual-assistant-permission-review",
+    "/blog/sop-change-request-template",
+    "/blog/assistant-weekly-quality-sample",
+    "/blog/virtual-assistant-offboarding-checklist"
+  ],
+  "researchRoutes": [
+    "/research/delegation-queue-sampling-method",
+    "/research/virtual-assistant-access-inventory-method",
+    "/research/handoff-delay-observation-framework",
+    "/research/sop-revision-evidence-standard",
+    "/research/assistant-workload-capacity-diary"
+  ]
+}
