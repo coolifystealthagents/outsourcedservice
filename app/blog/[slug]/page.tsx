@@ -249,7 +249,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           <p className="eyebrow">{site.brand} field note</p>
           <h1>{post.title}</h1>
           <p className="lead">{post.excerpt}</p>
-          {publicationDate ? <p className="article-date">Published <time dateTime={publicationDate}>August 31, 2026</time> - {post.minutes} minute read</p> : null}
+          {publicationDate ? <p className="article-date">Published <time dateTime={publicationDate}>{new Intl.DateTimeFormat("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }).format(new Date(publicationDate + "T00:00:00Z"))}</time> - {post.minutes} minute read</p> : null}
           <div className="card">
             <h2>The short version</h2>
             {'body' in post ? post.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>) : <p>Start with one role, a short task list, and one person who checks the work. Filipino talent should not have to reverse-engineer a process that nobody on your team can explain.</p>}

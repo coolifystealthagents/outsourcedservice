@@ -19,7 +19,10 @@ export function BlogListing({ page = 1 }: { page?: number }) {
     .sort((a, b) => a.slug.localeCompare(b.slug));
   const datedBatchPosts = batchBlogPosts.filter((item) => 'date' in item).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const legacyBatchPosts = batchBlogPosts.filter((item) => !('date' in item));
+  const september1Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-01");
+  const earlierBlogPosts = blogPosts.filter((item) => !("published" in item && item.published === "2026-09-01"));
   const posts = [
+    ...september1Posts,
     ...august21BlogPosts,
     ...august20BlogPosts,
     ...august17BlogPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 11 })),
@@ -28,7 +31,7 @@ export function BlogListing({ page = 1 }: { page?: number }) {
     ...datedBatchPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 10 })),
     ...legacyBatchPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 10 })),
     ...generatedBlogPosts.map((item) => ({ slug: item[0], title: item[1], excerpt: item[2], minutes: item[3] })),
-    ...blogPosts,
+    ...earlierBlogPosts,
   ];
   const total = Math.max(1, Math.ceil(posts.length / PAGE_SIZE));
   if (page < 1 || page > total) notFound();

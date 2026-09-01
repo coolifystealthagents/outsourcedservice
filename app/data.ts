@@ -2,6 +2,7 @@ import { august13BlogPosts } from './blog/aug13-content';
 import { august14BlogPosts } from './blog/aug14-content';
 import { august17BlogPosts } from './blog/aug17-content';
 import { august31BlogPosts } from './aug31-content';
+import { september1BlogPosts } from './sep1-content';
 
 export const site = {
   domain: 'OutsourcedService.com',
@@ -56,6 +57,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...september1BlogPosts,
   ...august31BlogPosts,
   {
     slug: 'philippines-knowledge-base-maintenance-control-guide',
