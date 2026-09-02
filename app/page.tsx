@@ -1,5 +1,6 @@
 import { Header, Footer, JsonLd } from './components';
 import { blogPosts, services, site, staffingProcess, stats } from './data';
+import { formatHomepageArticleTitle } from './homepage-copy';
 
 const statIcons = [
   '/icons/getillustrations/sharpie-business/scoped-lane.svg',
@@ -83,7 +84,7 @@ export default function Home() {
           <div className="split-head"><div><p className="eyebrow">Field notes</p><h2>Read this before the first interview.</h2></div><a className="text-link" href="/blog">Browse every guide <span>↗</span></a></div>
           <div className="guide-grid">
             {blogPosts.slice(0, 3).map((post) => <a href={`/blog/${post.slug}`} key={post.slug}>
-              <span>{post.minutes} min read</span><h3>{post.title}</h3><p>{post.excerpt}</p><strong>Read the guide</strong>
+              <span>{post.minutes} min read</span><h3>{formatHomepageArticleTitle(post.title)}</h3><p>{post.excerpt}</p><strong>Read the guide</strong>
             </a>)}
           </div>
         </div>
