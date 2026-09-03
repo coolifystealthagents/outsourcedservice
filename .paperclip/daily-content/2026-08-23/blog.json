@@ -1,0 +1,86 @@
+[
+  {
+    "route": "/blog/delegation-readiness-interview",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/outsourced-customer-support-escalation-drill",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/virtual-assistant-first-week-access-plan",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/philippines-back-office-pilot-queue",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/outsourced-service-owner-office-hours",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/assistant-sop-exception-library",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/philippines-remote-team-quality-coaching",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/delegated-work-reversal-plan",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/virtual-assistant-tool-change-runbook",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/outsourced-operations-decision-register",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/philippines-service-team-backup-coverage",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/assistant-role-scope-quarterly-review",
+    "sourcePaths": [
+      "app/aug23-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  }
+]

@@ -4,6 +4,7 @@ import { Header, Footer } from '../components';
 import { blogPosts, generatedBlogPosts, batchBlogPosts, august13BlogPosts, august14BlogPosts, august17BlogPosts } from '../data';
 import aug20Meta from '../aug20-meta.json';
 import aug21Meta from '../aug21-meta.json';
+import { august23BlogPosts } from '../aug23-content';
 
 const PAGE_SIZE = 20;
 
@@ -25,6 +26,7 @@ export function BlogListing({ page = 1 }: { page?: number }) {
   const posts = [
     ...september2Posts,
     ...september1Posts,
+    ...august23BlogPosts,
     ...august21BlogPosts,
     ...august20BlogPosts,
     ...august17BlogPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 11 })),

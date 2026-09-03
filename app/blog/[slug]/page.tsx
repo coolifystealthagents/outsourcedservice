@@ -9,6 +9,7 @@ import { OrderControlGuide, orderControlDescription, orderControlSlug, orderCont
 import { CustomerOnboardingDataGuide, onboardingDataDescription, onboardingDataSlug, onboardingDataTitle } from './customer-onboarding-data-guide';
 import { SchedulingControlGuide, schedulingGuideDescription, schedulingGuideSlug, schedulingGuideTitle } from './appointment-scheduling-control-guide';
 import { KnowledgeBaseMaintenanceGuide, knowledgeGuideDescription, knowledgeGuideSlug, knowledgeGuideTitle } from './knowledge-base-maintenance-guide';
+import { august23BlogPosts } from '../../aug23-content';
 
 const detailedSlug = 'outsourced-service-tasks-to-outsource';
 
@@ -59,20 +60,21 @@ const sources = [
 ] as const;
 
 export function generateStaticParams() {
-  return [...blogPosts.map((post) => ({ slug: post.slug })), ...generatedBlogPosts.map((item) => ({ slug: item[0] })), ...batchBlogPosts.map((item) => ({ slug: item.slug })), ...august13BlogPosts.map((item) => ({ slug: item.slug })), ...august14BlogPosts.map((item) => ({ slug: item.slug })), ...august17BlogPosts.map((item) => ({ slug: item.slug }))];
+  return [...august23BlogPosts.map((post) => ({ slug: post.slug })), ...blogPosts.map((post) => ({ slug: post.slug })), ...generatedBlogPosts.map((item) => ({ slug: item[0] })), ...batchBlogPosts.map((item) => ({ slug: item.slug })), ...august13BlogPosts.map((item) => ({ slug: item.slug })), ...august14BlogPosts.map((item) => ({ slug: item.slug })), ...august17BlogPosts.map((item) => ({ slug: item.slug }))];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
+  const august23 = august23BlogPosts.find((item) => item.slug === slug);
   const generated = generatedBlogPosts.find((item) => item[0] === slug);
   const batch = batchBlogPosts.find((item) => item.slug === slug);
   const august13 = august13BlogPosts.find((item) => item.slug === slug);
   const august14 = august14BlogPosts.find((item) => item.slug === slug);
   const august17 = august17BlogPosts.find((item) => item.slug === slug);
   const url = `https://outsourcedservice.com/blog/${slug}`;
-  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : slug === customerQueueSlug ? customerQueueTitle : slug === orderControlSlug ? orderControlTitle : slug === onboardingDataSlug ? onboardingDataTitle : slug === schedulingGuideSlug ? schedulingGuideTitle : slug === knowledgeGuideSlug ? knowledgeGuideTitle : generated ? generated[1] : august17?.title || august14?.title || august13?.title || batch?.title || post?.title || 'Guide';
-  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : slug === customerQueueSlug ? customerQueueDescription : slug === orderControlSlug ? orderControlDescription : slug === onboardingDataSlug ? onboardingDataDescription : slug === schedulingGuideSlug ? schedulingGuideDescription : slug === knowledgeGuideSlug ? knowledgeGuideDescription : generated ? generated[2] : august17?.excerpt || august14?.excerpt || august13?.excerpt || batch?.excerpt || post?.excerpt;
+  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : slug === customerQueueSlug ? customerQueueTitle : slug === orderControlSlug ? orderControlTitle : slug === onboardingDataSlug ? onboardingDataTitle : slug === schedulingGuideSlug ? schedulingGuideTitle : slug === knowledgeGuideSlug ? knowledgeGuideTitle : august23?.title || (generated ? generated[1] : august17?.title || august14?.title || august13?.title || batch?.title || post?.title || 'Guide');
+  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : slug === customerQueueSlug ? customerQueueDescription : slug === orderControlSlug ? orderControlDescription : slug === onboardingDataSlug ? onboardingDataDescription : slug === schedulingGuideSlug ? schedulingGuideDescription : slug === knowledgeGuideSlug ? knowledgeGuideDescription : august23?.excerpt || (generated ? generated[2] : august17?.excerpt || august14?.excerpt || august13?.excerpt || batch?.excerpt || post?.excerpt);
   return {
     title,
     description,
@@ -234,6 +236,12 @@ function DetailedArticle() {
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const august23 = august23BlogPosts.find((item) => item.slug === slug);
+  if (august23) {
+    const canonical = `https://outsourcedservice.com/blog/${august23.slug}`;
+    const schema = {'@context':'https://schema.org','@type':'BlogPosting',headline:august23.title,description:august23.excerpt,datePublished:august23.published,dateModified:august23.published,mainEntityOfPage:canonical,image:`https://outsourcedservice.com${august23.image}`,author:{'@type':'Organization',name:'OutsourcedService.com'},publisher:{'@type':'Organization',name:'OutsourcedService.com'}};
+    return <><Header/><main className="article-shell"><article><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/><p className="eyebrow">Blog</p><h1>{august23.title}</h1><p className="lead">{august23.excerpt}</p><p className="article-date">Published <time dateTime={august23.published}>{august23.displayDate}</time> - {august23.minutes} minute read</p><img src={august23.image} alt={`${august23.title} editorial photograph`} width="1536" height="1024" style={{width:'100%',height:'auto',borderRadius:'18px'}}/><div className="article-body">{august23.body.map((paragraph,index)=><p key={index}>{paragraph}</p>)}</div></article><CTA/></main><Footer/></>;
+  }
   const post = blogPosts.find((item) => item.slug === slug);
   if (generatedBlogPosts.some((item) => item[0] === slug) || batchBlogPosts.some((item) => item.slug === slug) || august13BlogPosts.some((item) => item.slug === slug) || august14BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/></>;
   if (august17BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/>;</>;
