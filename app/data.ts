@@ -3,6 +3,7 @@ import { august14BlogPosts } from './blog/aug14-content';
 import { august17BlogPosts } from './blog/aug17-content';
 import { august31BlogPosts } from './aug31-content';
 import { september1BlogPosts } from './sep1-content';
+import { september3BlogPosts } from './sep3-content';
 import { september2BlogPosts } from './sep2-content';
 
 export const site = {
@@ -58,6 +59,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...september3BlogPosts,
   ...september2BlogPosts,
   ...september1BlogPosts,
   ...august31BlogPosts,

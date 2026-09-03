@@ -1,0 +1,86 @@
+[
+  {
+    "route": "/blog/outsourced-handoff-acceptance-criteria",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/customer-complaint-context-packet",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/virtual-assistant-time-zone-exception-playbook",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/outsourced-invoice-discrepancy-packet",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/crm-stale-lead-review-queue",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/ecommerce-address-exception-workflow",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/executive-inbox-delegation-boundaries",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/vendor-onboarding-completeness-gate",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/sop-screenshot-decay-review",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/outsourced-qa-sample-selection-rule",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/remote-team-coverage-changeover-brief",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  },
+  {
+    "route": "/blog/marketing-asset-approval-lane",
+    "sourcePaths": [
+      "app/sep3-content.ts",
+      "app/blog/[slug]/page.tsx"
+    ]
+  }
+]

@@ -20,10 +20,12 @@ export function BlogListing({ page = 1 }: { page?: number }) {
     .sort((a, b) => a.slug.localeCompare(b.slug));
   const datedBatchPosts = batchBlogPosts.filter((item) => 'date' in item).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const legacyBatchPosts = batchBlogPosts.filter((item) => !('date' in item));
+  const september3Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-03");
   const september2Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-02");
   const september1Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-01");
-  const earlierBlogPosts = blogPosts.filter((item) => !("published" in item && (item.published === "2026-09-01" || item.published === "2026-09-02")));
+  const earlierBlogPosts = blogPosts.filter((item) => !("published" in item && (item.published === "2026-09-01" || item.published === "2026-09-02" || item.published === "2026-09-03")));
   const posts = [
+    ...september3Posts,
     ...september2Posts,
     ...september1Posts,
     ...august23BlogPosts,
