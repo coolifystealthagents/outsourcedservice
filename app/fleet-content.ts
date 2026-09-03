@@ -467,6 +467,7 @@ import { august17ResearchPosts } from './august17-research';
 import { august31ResearchPosts } from './aug31-content';
 import { september1ResearchPosts } from './sep1-content';
 import { september2ResearchPosts } from './sep2-content';
+import { august23ResearchPosts } from './aug23-research';
 const september2Research: ReadonlyArray<ResearchPost> = september2ResearchPosts.map((post) => ({ slug: post.slug, title: post.title, excerpt: post.excerpt, published: post.published, thumbnail: post.image, body: post.body, headlineStat: 'Three-part bounded observation protocol', methodology: 'A bounded operating-method review with a question, method, limitation, and decision use.', sources: researchSources.slice(0, 2), related: [], faq: [{question: 'What should a manager verify first?', answer: 'Verify scope, definitions, source evidence, period, and named reviewer.'}] }));
 const september1Research: ReadonlyArray<ResearchPost> = september1ResearchPosts.map((post) => ({
   slug: post.slug, title: post.title, excerpt: post.excerpt, published: post.published, thumbnail: post.image, body: post.body,
@@ -483,7 +484,7 @@ const august31Research: ReadonlyArray<ResearchPost> = august31ResearchPosts.map(
     {question: 'What remains with the internal owner?', answer: 'Final approvals, exceptions, and changes to the operating rule remain with the accountable owner.'},
   ],
 }));
-export const researchPosts: ReadonlyArray<ResearchPost> =  [...september2Research, ...september1Research, ...august31Research, ...august17ResearchPosts, ...august14ResearchPosts, ...august13ResearchPosts, ...legacyResearchPosts, ...august11ResearchPosts].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+export const researchPosts: ReadonlyArray<ResearchPost> =  [...september2Research, ...september1Research, ...august31Research, ...august23ResearchPosts, ...august17ResearchPosts, ...august14ResearchPosts, ...august13ResearchPosts, ...legacyResearchPosts, ...august11ResearchPosts].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},

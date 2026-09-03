@@ -1,0 +1,12 @@
+{
+  "campaignDate":"2026-08-23",
+  "family":"research",
+  "entries":[
+    {"route":"/research/outsourced-service-metric-denominator-drift-research","sourcePaths":["app/aug23-research.ts"]},
+    {"route":"/research/outsourced-service-blind-recheck-design-research","sourcePaths":["app/aug23-research.ts"]},
+    {"route":"/research/outsourced-admin-evidence-expiry-research","sourcePaths":["app/aug23-research.ts"]},
+    {"route":"/research/outsourced-service-abstention-rate-research","sourcePaths":["app/aug23-research.ts"]},
+    {"route":"/research/philippines-service-shift-overlap-fatigue-research","sourcePaths":["app/aug23-research.ts"]}
+  ],
+  "imageGeneration":{"provider":"Gemini","status":"unavailable","blocker":"No Gemini image-generation capability was exposed to this repository run. Existing route imagery was retained under the explicit fallback.","retainedImagePath":"/research-thumbnails/research-batch-2026-08-10.svg","promptReceipts":[]}
+}
