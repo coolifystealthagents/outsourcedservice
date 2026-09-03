@@ -1,25 +1,19 @@
 # Service-led topical authority link ledger
 
-Updated: 2026-08-22
+Updated: 2026-09-03
 
-This is a planning ledger, not reader-facing copy. It links each existing Philippines service pillar to one existing research page with a matching decision question. Before a link is added, confirm that the source paragraph answers the question, the service route still exists, and the handoff names the work boundary without promising a result.
+This is a planning ledger, not reader-facing copy. It uses only existing Philippines service pillars and existing research pages that were confirmed in the production build. Before a reader-facing link is added, confirm that the source paragraph answers the question, the service route still exists, and the handoff states the work boundary without promising a result.
 
-| Service pillar | Existing supporting research route | Reader's next question | Controlled next handoff |
-| --- | --- | --- | --- |
-| Operations Support | `/research/philippines-operations-support-research` | How should daily updates and blocked work reach the owner? | `/services/operations-support` |
-| Customer Support | `/research/customer-service-outsourcing-philippines-queue-escalation-research` | Which tickets can a support specialist answer, and which must go to a manager? | `/services/customer-support` |
-| Admin Support | `/research/philippines-virtual-assistant-research-brief` | What routine assistant work can start with written checks? | `/services/admin-support` |
-| Reporting and QA | `/research/philippines-reporting-qa-research` | How can a team tie a scorecard to source records and a review sample? | `/services/reporting-and-qa` |
-| Ticket Queue Management | `/research/customer-service-outsourcing-philippines-queue-escalation-research` | How should a team sort a queue before expanding it? | `/services/ticket-queue-management` |
-| Order Status Support | `/research/outsourced-order-processing-philippines-exception-research` | How should an order-status exception be recorded and routed? | `/services/order-status-support` |
-| Returns Administration | `/research/philippines-returns-administration-research` | Which return updates are routine, and which need manager approval? | `/services/returns-administration` |
-| Customer Onboarding Support | `/research/philippines-customer-onboarding-data-entry-research` | What review checks protect a new customer record? | `/services/customer-onboarding-support` |
-| Knowledge Base Maintenance | `/research/philippines-knowledge-base-maintenance-research` | Who can update help content, and what needs approval? | `/services/knowledge-base-maintenance` |
-| Service Quality Audits | `/research/philippines-service-quality-audits-research` | What makes a small work sample useful for a quality review? | `/services/service-quality-audits` |
-| Appointment Coordination | `/research/philippines-appointment-scheduling-research` | What must be confirmed before a calendar change is final? | `/services/appointment-coordination` |
-| CRM Case Administration | `/research/philippines-crm-case-administration-research` | What access and record checks keep case updates reviewable? | `/services/crm-case-administration` |
-| Subscription Support | `/research/philippines-subscription-support-research` | Which recurring account changes should be escalated rather than completed? | `/services/subscription-support` |
-| Escalation Coordination | `/research/philippines-service-request-research` | How should a service request show its owner, decision, and closure? | `/services/escalation-coordination` |
+| Service pillar | Existing supporting research route | Reader's next question | Current route-local service link | Next controlled action |
+| --- | --- | --- | --- | --- |
+| Operations Support | `/research/philippines-access-review-support-research` | What access-review evidence should a buyer have before expanding recurring operations work? | Absent | Add one route-local handoff to `/services/operations-support` after checking the research copy supports the service scope. |
+| Customer Support | `/research/philippines-customer-support-knowledge-handoff-research` | How can a buyer transfer approved support knowledge without turning old notes into customer-facing answers? | Present: `/services/customer-support` | Keep the current handoff. Do not add another service CTA. |
+| Admin Support | `/research/philippines-document-version-research` | How can a buyer keep document versions and approval evidence clear when assigning routine admin work? | Absent | Add one route-local handoff to `/services/admin-support` after checking the research copy supports the service scope. |
+| Reporting and QA | `/research/philippines-client-report-source-research` | What source-to-summary checks make a weekly report reviewable? | Absent | Add one route-local handoff to `/services/reporting-and-qa` after checking the research copy supports the service scope. |
+
+## Deferred service lanes
+
+The earlier ledger named ten research URLs that are not in the current generated research inventory. Keep these service routes out of the execution queue until an existing, matching research route is confirmed: Ticket Queue Management, Order Status Support, Returns Administration, Customer Onboarding Support, Knowledge Base Maintenance, Service Quality Audits, Appointment Coordination, CRM Case Administration, Subscription Support, and Escalation Coordination.
 
 ## Release rule
 
