@@ -5,6 +5,7 @@ import { august31BlogPosts } from './aug31-content';
 import { september1BlogPosts } from './sep1-content';
 import { september3BlogPosts } from './sep3-content';
 import { september2BlogPosts } from './sep2-content';
+import { september4BlogPosts } from './sep4-content';
 
 export const site = {
   domain: 'OutsourcedService.com',
@@ -59,6 +60,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...september4BlogPosts,
   ...september3BlogPosts,
   ...september2BlogPosts,
   ...september1BlogPosts,

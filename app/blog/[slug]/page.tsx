@@ -252,11 +252,12 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     <Header omitPricing={omitPricing} />
     <main className="section content-page">
       <article className="container" style={{ maxWidth: 880 }}>
-        {publicationDate ? <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({'@context':'https://schema.org','@type':'BlogPosting',headline:post.title,description:post.excerpt,datePublished:publicationDate,dateModified:publicationDate,mainEntityOfPage:`https://outsourcedservice.com/blog/${post.slug}`})}} /> : null}
+        {publicationDate ? <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({'@context':'https://schema.org','@type':'BlogPosting',headline:post.title,description:post.excerpt,datePublished:publicationDate,dateModified:publicationDate,mainEntityOfPage:`https://outsourcedservice.com/blog/${post.slug}`,image:'https://outsourcedservice.com/filipino-service-workflow.svg'})}} /> : null}
         {slug === accountingGuideSlug ? <AccountingControlGuide /> : slug === staffingModelSlug ? <StaffingModelGuide /> : slug === customerQueueSlug ? <CustomerQueueGuide /> : slug === orderControlSlug ? <OrderControlGuide /> : slug === onboardingDataSlug ? <CustomerOnboardingDataGuide /> : slug === schedulingGuideSlug ? <SchedulingControlGuide /> : slug === knowledgeGuideSlug ? <KnowledgeBaseMaintenanceGuide /> : slug === detailedSlug ? <DetailedArticle /> : <>
           <p className="eyebrow">{site.brand} field note</p>
           <h1>{post.title}</h1>
           <p className="lead">{post.excerpt}</p>
+          {publicationDate ? <img src="/filipino-service-workflow.svg" alt="Two specialists reviewing a service workflow board" style={{width:'100%',height:'auto'}} /> : null}
           {publicationDate ? <p className="article-date">Published <time dateTime={publicationDate}>{new Intl.DateTimeFormat("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }).format(new Date(publicationDate + "T00:00:00Z"))}</time> - {post.minutes} minute read</p> : null}
           <div className="card">
             <h2>The short version</h2>
