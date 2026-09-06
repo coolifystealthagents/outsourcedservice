@@ -18,7 +18,7 @@ for (const entry of manifest.entries) {
   const parent = cp.execFileSync('git', ['show', `${entry.introducedByCommit}^:${entry.sourcePath}`], {encoding:'utf8'});
   const introduced = cp.execFileSync('git', ['show', `${entry.introducedByCommit}:${entry.sourcePath}`], {encoding:'utf8'});
   if (parent.includes(`'${entry.slug}'`) || !introduced.includes(`'${entry.slug}'`)) throw new Error(`provenance failed: ${entry.slug}`);
-  if (!route.includes('datePublished:post.published') || !route.includes('dateModified:post.published') || !route.includes('dateTime={post.published}') || !route.includes('formatPublicationDate(post.published)')) throw new Error(`render route date wiring missing: ${entry.slug}`);
+  if (!route.includes("'updated' in post") || !route.includes('datePublished:post.published') || !route.includes('dateModified:updated') || !route.includes('modifiedTime:updated') || !route.includes('dateTime={post.published}') || !route.includes('formatPublicationDate(post.published)')) throw new Error(`render route date wiring missing: ${entry.slug}`);
   if (!route.includes('alternates:{canonical:`https://outsourcedservice.com/research/${post.slug}`}')) throw new Error(`canonical wiring missing: ${entry.slug}`);
   if (!sitemap.includes('researchPosts.map')) throw new Error('research sitemap wiring missing');
 }
