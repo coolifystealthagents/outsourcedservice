@@ -84,6 +84,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description,
       url,
       type: 'article',
+      images: ['https://outsourcedservice.com/filipino-service-workflow.svg'],
     },
   };
 }
