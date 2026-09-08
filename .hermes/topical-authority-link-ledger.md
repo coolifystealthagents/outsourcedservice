@@ -1,12 +1,12 @@
 # Service-led topical authority link ledger
 
-Updated: 2026-09-03
+Updated: 2026-09-08
 
 This is a planning ledger, not reader-facing copy. It uses only existing Philippines service pillars and existing research pages that were confirmed in the production build. Before a reader-facing link is added, confirm that the source paragraph answers the question, the service route still exists, and the handoff states the work boundary without promising a result.
 
 | Service pillar | Existing supporting research route | Reader's next question | Current route-local service link | Next controlled action |
 | --- | --- | --- | --- | --- |
-| Operations Support | `/research/philippines-access-review-support-research` | What access-review evidence should a buyer have before expanding recurring operations work? | Absent | Add one route-local handoff to `/services/operations-support` after checking the research copy supports the service scope. |
+| Operations Support | `/research/philippines-access-review-support-research` | What access-review evidence should a buyer have before expanding recurring operations work? | Delivered locally: `/services/operations-support` (rendered source `c7291d2d4c3745485e5f071dcfcfd0de9266d9b1`) | Preserve the rendered-source handoff. Cache-busted public proof is pending because both hosts still omit its route-local marker and refreshed metadata. Do not add a second CTA. |
 | Customer Support | `/research/philippines-customer-support-knowledge-handoff-research` | How can a buyer transfer approved support knowledge without turning old notes into customer-facing answers? | Present: `/services/customer-support` | Keep the current handoff. Do not add another service CTA. |
 | Admin Support | `/research/philippines-document-version-research` | How can a buyer keep document versions and approval evidence clear when assigning routine admin work? | Absent | Add one route-local handoff to `/services/admin-support` after checking the research copy supports the service scope. |
 | Reporting and QA | `/research/philippines-client-report-source-research` | What source-to-summary checks make a weekly report reviewable? | Absent | Add one route-local handoff to `/services/reporting-and-qa` after checking the research copy supports the service scope. |
