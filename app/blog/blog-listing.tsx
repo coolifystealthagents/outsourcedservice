@@ -21,13 +21,15 @@ export function BlogListing({ page = 1 }: { page?: number }) {
   const datedBatchPosts = batchBlogPosts.filter((item) => 'date' in item).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const legacyBatchPosts = batchBlogPosts.filter((item) => !('date' in item));
   const september8Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-08');
+  const september9Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-09');
   const september7Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-07');
   const september4Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-04');
   const september3Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-03");
   const september2Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-02");
   const september1Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-01");
-  const earlierBlogPosts = blogPosts.filter((item) => !("published" in item && (item.published === "2026-09-01" || item.published === "2026-09-02" || item.published === "2026-09-03" || item.published === "2026-09-04" || item.published === "2026-09-07" || item.published === "2026-09-08")));
+  const earlierBlogPosts = blogPosts.filter((item) => !("published" in item && (item.published === "2026-09-01" || item.published === "2026-09-02" || item.published === "2026-09-03" || item.published === "2026-09-04" || item.published === "2026-09-07" || item.published === "2026-09-08" || item.published === "2026-09-09")));
   const posts = [
+    ...september9Posts,
     ...september8Posts,
     ...september7Posts,
     ...september4Posts,
