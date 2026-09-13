@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p 3000",
     "lint": "tsc --noEmit",
-    "validate:access-review-handoff": "node scripts/validate-access-review-handoff.js"
+    "validate:access-review-handoff": "node scripts/validate-access-review-handoff.js",
+    "validate:client-report-handoff": "node scripts/validate-client-report-handoff.js"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",
