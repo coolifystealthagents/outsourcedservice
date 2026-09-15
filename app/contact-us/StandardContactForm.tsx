@@ -44,7 +44,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       email: String(data.get("email") || ""), businessEmail: String(data.get("email") || ""), phone,
       companyName: String(data.get("companyName") || ""), company: String(data.get("companyName") || ""),
       website: String(data.get("website") || ""), companySize: String(data.get("companySize") || ""),
-      positions: String(data.get("positions") || ""), positionsToFill: String(data.get("positions") || ""),
+      positions: String(data.get("roleNeeded") || ""), positionsCount: String(data.get("positions") || ""), preferredContact: String(data.get("preferredContact") || ""), preferredTime: String(data.get("preferredTime") || ""), positionsToFill: String(data.get("positions") || ""),
       referral: String(data.get("referral") || ""), howTheyHeard: String(data.get("referral") || ""),
       referralSpecify: String(data.get("referralSpecify") || ""), message: String(data.get("message") || ""),
       source: "contact-form", formId: "contactPageForm",
@@ -75,7 +75,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
 
   return (
     <div className="sa-form-card">
-      <h2>Find Growth In Your Business By Hiring Industry Experienced Virtual Assistants</h2>
+      <p className="sa-kicker">Free workflow consultation</p><h2>Tell us where your service team needs support</h2><p className="sa-intro">Share enough context for a useful first conversation. Required fields are marked with an asterisk.</p>
       <form onSubmit={submit} id="contactPageForm">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">
@@ -92,15 +92,15 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
           <label>Company Size *<select name="companySize" required defaultValue=""><option value="" disabled>Select...</option>{companySizes.map((x) => <option key={x}>{x}</option>)}</select></label>
           <label>How Many Positions to Fill *<select name="positions" required defaultValue=""><option value="" disabled>Select...</option>{positions.map((x) => <option key={x}>{x}</option>)}</select></label>
         </div>
-        <label>How Did You Hear About Us? *<select name="referral" required value={referral} onChange={(e) => setReferral(e.target.value)}><option value="" disabled>Select...</option>{referrals.map((x) => <option key={x}>{x}</option>)}</select></label>
+        <label>Service or role needed *<input name="roleNeeded" required placeholder="Example: customer support coordinator" /></label><div className="sa-grid"><label>Preferred contact method *<select name="preferredContact" required defaultValue=""><option value="" disabled>Select...</option><option>Email</option><option>Phone</option><option>Video call</option></select></label><label>Preferred contact time *<input name="preferredTime" required placeholder="Weekdays, 1–4 PM ET" /></label></div><label>How Did You Hear About Us? *<select name="referral" required value={referral} onChange={(e) => setReferral(e.target.value)}><option value="" disabled>Select...</option>{referrals.map((x) => <option key={x}>{x}</option>)}</select></label>
         {referral === "Other" ? <label>Please Specify *<input name="referralSpecify" required /></label> : null}
-        <label>Message<textarea name="message" rows={4} /></label>
+        <label>Message *<textarea name="message" rows={4} required placeholder="Describe the recurring work, tools, schedule, and approval points." /></label><p className="sa-privacy">We use these details only to respond to your request. Review our <a href="/privacy">Privacy Policy</a>.</p>
         {error ? <p className="sa-error" role="alert">{error}</p> : null}
-        <button type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Book a Free Consultation"}</button>
+        <button type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Book My Free Consultation"}</button>
       </form>
       <style jsx>{`
         .sa-form-card{width:100%;max-width:876px;margin:0 auto;background:#fff;border:1px solid #e3e8ef;border-radius:22px;padding:34px 48px 48px;box-shadow:0 18px 48px rgba(15,34,58,.16);color:#34415a;text-align:left}
-        h2{margin:0 0 30px;color:#111827;font-size:30px;line-height:1.35;font-weight:800;letter-spacing:-.02em;max-width:700px}
+        .sa-kicker{margin:0 0 8px;color:#0787a4;text-transform:uppercase;letter-spacing:.12em;font-size:12px;font-weight:900}.sa-intro{margin:-10px 0 24px;color:#64748b;line-height:1.5}.sa-privacy{margin:0;color:#64748b;font-size:13px}.sa-privacy a{color:#087e9a}h2{margin:0 0 20px;color:#111827;font-size:30px;line-height:1.35;font-weight:800;letter-spacing:-.02em;max-width:700px}
         form{display:flex;flex-direction:column;gap:22px}.sa-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
         label{display:flex;flex-direction:column;gap:8px;font-size:18px;line-height:1.3;font-weight:500;color:#34415a}
         input,select,textarea{box-sizing:border-box;width:100%;border:1px solid #cfd7e3;border-radius:12px;background:#fff;color:#1f2937;font:inherit;font-size:17px;padding:15px 17px;outline:none;min-height:58px}
