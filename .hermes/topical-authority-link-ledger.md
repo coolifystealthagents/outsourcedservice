@@ -1,6 +1,6 @@
 # Service-led topical authority link ledger
 
-Updated: 2026-09-08
+Updated: 2026-09-15
 
 This is a planning ledger, not reader-facing copy. It uses only existing Philippines service pillars and existing research pages that were confirmed in the production build. Before a reader-facing link is added, confirm that the source paragraph answers the question, the service route still exists, and the handoff states the work boundary without promising a result.
 
@@ -18,3 +18,9 @@ The earlier ledger named ten research URLs that are not in the current generated
 ## Release rule
 
 Use one row at a time. Add one contextual handoff only when the existing research page and service page match the stated question. Keep financial decisions, customer promises, refunds, policy exceptions, and access approvals with the named owner.
+
+## Deployment status — 2026-09-15
+
+- Rendered source: `101531420fcb4156cf379aa3aa5ca1faa1ae82bf` added route-specific canonical and Open Graph URL metadata to all 14 service pages. The local production artifact for `/services/admin-support` has the expected H1, canonical `https://outsourcedservice.com/services/admin-support`, Open Graph URL, and sitemap location.
+- Cache-busted apex and www pages both returned `200 text/html` with the expected Admin Support H1, but neither served a route-specific canonical tag and both retained `og:url` as `https://outsourcedservice.com`. The public sitemap includes the service URL on both hosts.
+- Preserve rendered-source commit `101531420fcb4156cf379aa3aa5ca1faa1ae82bf`. Public deployment verification remains pending; do not add the planned document-version CTA until the Admin Support service pillar serves its own canonical metadata.
