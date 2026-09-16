@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import {Header,Footer} from '../components';
 import StandardContactForm from './StandardContactForm';
 import './trusted-contact.css';
+import './mobile-containment.css';
 export const metadata:Metadata={title:'Contact Outsourced Service | Plan Your Outsourced Team',description:'Tell us which workflows, service roles, tools, and review steps your outsourced team needs. Start a practical Philippines staffing conversation.',alternates:{canonical:'https://outsourcedservice.com/contact-us'},robots:{index:true,follow:true},openGraph:{title:'Plan Your Outsourced Service Team',description:'Bring the workflow, tools, schedule, and approval points. Leave with a clearer outsourced service role brief.',url:'https://outsourcedservice.com/contact-us',type:'website',images:[{url:'/aug19-heroes/service-delivery-launch-readiness-review.webp',width:1200,height:675,alt:'A service delivery team reviewing a launch plan'}]}};
 const booking='https://go.oncehub.com/StealthAgentsTeam';
 const cards=[['The work lane','List recurring requests, source material, and a finished example your reviewer trusts.'],['The systems','Name the inboxes, queues, documents, and access that should remain restricted.'],['The handoff','Explain who assigns work, answers exceptions, and records completion or blockers.'],['The review','Choose the fields or sample your manager can check before expanding scope.']];
