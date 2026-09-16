@@ -1,0 +1,42 @@
+.tc-hero-grid,
+.tc-about,
+.tc-close {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.tc-hero-grid > *,
+.tc-about > *,
+.tc-close > * {
+  min-width: 0;
+}
+
+.tc-copy h1,
+.tc-copy p,
+.tc-copy li,
+.tc-close h2 {
+  overflow-wrap: anywhere;
+}
+
+.mobile-menu:not([open]) nav {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .tc-hero-grid > .sa-form-card {
+    order: -1;
+  }
+}
+
+@media (min-width: 1001px) {
+  .tc-hero-grid {
+    grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  }
+
+  .tc-about {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+  }
+
+  .tc-close {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr);
+  }
+}
