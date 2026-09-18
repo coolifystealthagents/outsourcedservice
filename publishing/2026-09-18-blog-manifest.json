@@ -1,12 +1,12 @@
 {
   "run": "OUTAA-68",
   "requiredCount": 12,
-  "verifiedCount": 0,
+  "verifiedCount": 12,
   "repository": "coolifystealthagents/outsourcedservice",
   "productionBranch": "master",
   "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
   "sourceDate": "2026-09-18",
-  "status": "pending-live-verification",
+  "status": "live-verified",
   "build": {
     "typescript": "passed",
     "nextProductionBuild": "passed",
@@ -24,19 +24,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:dc5d1fb22c24dc796239e324ad69d9adc0afb5814e121e2e0f3cba4a65a0c17d",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/chargeback-evidence-intake-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -49,19 +49,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:87798b8dbced670da3334743e3c8d42277de69289841ea6891752b26b6658e89",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/vendor-insurance-certificate-tracking-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -74,19 +74,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:aa983f6209c58c2b5ddd2d5be3b1b138e107953e82c7b5bc7223a483a502c95d",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/executive-board-pack-source-control-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -99,19 +99,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:47fa0122396966db4842a3d03fc5aba246fcf5927f599b7608da249fdff0692d",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/property-inspection-follow-up-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -124,19 +124,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:2e1e89a23b9a2ab834c03edbd355adc6da3c3cd73326ed7de16d7bb58ed8cf2d",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/candidate-interview-coordination-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -149,19 +149,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:a37f8e5537d90c166c3359e6520b718859b153f82c04bf405942f4bd5a0561c6",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/nonprofit-grant-report-evidence-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -174,19 +174,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:1be1be4c40e00e04fe25a3e7cb1894fe0638df282bbef6acd4845b470999806b",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/subscription-cancellation-request-routing-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -199,19 +199,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:e7cc1d45609479f2ef43d7f8f4d7f8e169a0bd0170e878022f48bb98adbc5b4e",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/data-deletion-request-intake-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -224,19 +224,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:806de30dd50310cb6749bc3443a452e4cb799b112e18ca496750f350f1012b45",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/proof-of-delivery-exception-reconciliation-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -249,19 +249,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:1ac31dd69111a7090423a0e5688292fd5d626a0eab8a81db274e2367f3a7198c",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/procurement-quote-comparison-preparation-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -274,19 +274,19 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:195628427a65f226662cd8989a325bf1df21bb20c8184621e878c8c31ca1fc4e",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/construction-submittal-register-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     },
     {
       "family": "blog",
@@ -299,19 +299,21 @@
         "https://www.archives.gov/records-mgmt"
       ],
       "contentHash": "sha256:86d532bf834e7b5b3ef09ec1e5d2f0efdf01891c6bd036024bacd321127bb1a7",
-      "actualPublicationDate": null,
+      "actualPublicationDate": "2026-09-18",
       "sourceDate": "2026-09-18",
       "articleCommitSha": "8ff3ef12f5ba2a38420a72877e3973696ebee429",
       "deploymentEvidence": {
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "master",
-        "status": "pending",
-        "note": "Authenticated API unavailable; awaiting bounded public verification."
+        "status": "verified-via-public-http",
+        "note": "HTTP 200, canonical URL, unique content, structured publication date, and sitemap entry verified publicly."
       },
       "liveUrl": "https://outsourcedservice.com/blog/franchise-compliance-evidence-tracking-philippines",
-      "verificationTime": null,
-      "status": "pending-live-verification"
+      "verificationTime": "2026-09-18T18:02:43Z",
+      "status": "live-verified"
     }
-  ]
+  ],
+  "remoteProductionShaAtVerification": "8681c637c297d74454327f2a56d3e73d8d725140",
+  "verificationSummary": "All 12 URLs returned HTTP 200 with matching canonical URLs, datePublished 2026-09-18, unique topic content, and live sitemap entries."
 }
