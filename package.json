@@ -8,6 +8,7 @@
     "lint": "tsc --noEmit",
     "validate:access-review-handoff": "node scripts/validate-access-review-handoff.js",
     "validate:client-report-handoff": "node scripts/validate-client-report-handoff.js",
+    "validate:document-version-handoff": "node scripts/validate-document-version-handoff.js",
     "validate:service-canonicals": "node scripts/validate-service-canonicals.js"
   },
   "dependencies": {
