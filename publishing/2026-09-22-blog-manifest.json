@@ -1,0 +1,306 @@
+{
+  "run": "OUTAA-70",
+  "requiredCount": 12,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+  "remoteSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+  "sourceDate": "2026-09-22",
+  "status": "blocked-deployment-queue-full",
+  "build": {
+    "typescript": "passed",
+    "nextProductionBuild": "passed",
+    "staticRoutes": 596
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "accounts receivable aging follow-up",
+      "slug": "accounts-receivable-aging-follow-up-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:4cfc8768302700d474bdde555e422b75f4f8643ac829c3b966b47724da9cdeeb",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/accounts-receivable-aging-follow-up-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "warranty claim document intake",
+      "slug": "warranty-claim-document-intake-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:269e359bbdc94d6681a2b0bfb2a46837028dbe78f8ad560e1c3cf93f3804ea8d",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/warranty-claim-document-intake-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "healthcare referral status administration",
+      "slug": "healthcare-referral-status-administration-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:aae154111fbfc896040892fe0732789b7721d80d67648ca81fcf79dc43b9d670",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/healthcare-referral-status-administration-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "legal matter deadline intake",
+      "slug": "legal-matter-deadline-intake-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:8478d09c6d7964516df50619e7d571f32d1d015a9f21b92a21042c8da3c1c331",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/legal-matter-deadline-intake-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "RFP response evidence library maintenance",
+      "slug": "rfp-response-evidence-library-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:4ed513523174b5fa43248cf26efc7808ed49b700fbb863321dc2a390f121b91b",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/rfp-response-evidence-library-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "maintenance work order closeout",
+      "slug": "maintenance-work-order-closeout-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:094118eb120b7f66a9471f9cf5e93e57784af36609c80ea7f6f90435d7263a33",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/maintenance-work-order-closeout-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "SaaS failed-payment outreach",
+      "slug": "saas-failed-payment-outreach-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:869ee7698f467511d4a49d3c7f5d5319207c70ba7e352d4c3a331ef0fb4dcd96",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/saas-failed-payment-outreach-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "customer implementation milestone tracking",
+      "slug": "customer-implementation-milestone-tracking-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:656facc69f93ed3f35c77781f8d4ad996e9e6157293fdb027a68b97099b21f33",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-implementation-milestone-tracking-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "employee training record administration",
+      "slug": "employee-training-record-administration-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:d5841c0e8b2169aacc6a8b924fa281e874578fef8fe5167afa32babe782d2b24",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/employee-training-record-administration-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "product recall notice routing",
+      "slug": "product-recall-notice-routing-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:31c2abe8630212abb02823ea912b846fc281919e0ba919ef0826ed17490ab13e",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/product-recall-notice-routing-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "supplier onboarding master-data preparation",
+      "slug": "supplier-onboarding-master-data-preparation-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:fb7109455b1de9356416e5632956d6e113b3b469fe3d865ee13af088a8cd5d0f",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/supplier-onboarding-master-data-preparation-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "content localization QA handoff",
+      "slug": "content-localization-qa-handoff-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:d28ef79948afb62e2ae16b6eb70e5b7f2e2bce6861dbbc8d6d4e51bb51ca5070",
+      "actualPublicationDate": null,
+      "articleCommitSha": "5b1561b39c534449e71a8bafc7a7df2ee2f99695",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-queue-full",
+        "note": "Authenticated application query succeeded. Two bounded POST /api/v1/deploy attempts returned HTTP 429: Deployment queue is full."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/content-localization-qa-handoff-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    }
+  ]
+}
