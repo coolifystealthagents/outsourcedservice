@@ -1,0 +1,330 @@
+{
+  "run": "OUTAA-73",
+  "requiredCount": 12,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+  "remoteSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+  "sourceDate": "2026-09-23",
+  "status": "blocked-deployment-queued-stale-commit",
+  "build": {
+    "typescript": "passed",
+    "nextProductionBuild": "passed",
+    "staticRoutes": 609
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "customer address change intake",
+      "slug": "customer-address-change-intake-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:ee9ca836f6d70599e95da6e0d0e95db7a17ddd99ac20e8d864bf527b34ad296c",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-address-change-intake-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "support email bounce queue",
+      "slug": "support-email-bounce-queue-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:26bb485316e51f77e16f5c7220f071c9ec12c8863c8130adf7b78b4b7ce7b602",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/support-email-bounce-queue-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "inventory discrepancy intake",
+      "slug": "inventory-discrepancy-intake-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:e2b0a44ba66dfeddb41a02ba088e1503f15e4403ff376d067a6d838cc630a586",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/inventory-discrepancy-intake-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "shipping address exception routing",
+      "slug": "shipping-address-exception-routing-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:68134da1a097407d5486797081ba1a694190ff7ddfcf1a2736bd48f4060035c6",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/shipping-address-exception-routing-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "webinar attendee follow up",
+      "slug": "webinar-attendee-follow-up-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:bbcd2b91ddd03bac016462997f125a1fa0aa0c492291c9d6bc6595428a358fe5",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/webinar-attendee-follow-up-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "product catalog source maintenance",
+      "slug": "product-catalog-source-maintenance-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:e14fbc1dc6433baca387a58a0f3ae7ddbe3e60eaa67a259e6184b20dc1f326e3",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/product-catalog-source-maintenance-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "customer support macro review",
+      "slug": "customer-support-macro-review-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:1cc73bb5fa77787d7da20f1388ba718586ae6384338f67289c91be336f0e6dfd",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-support-macro-review-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "sales proposal version control",
+      "slug": "sales-proposal-version-control-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:7fec6f788d431e5f686b006003b0723a94068c0acb91ec43051e7c9863e69247",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/sales-proposal-version-control-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "vendor invoice status inquiry",
+      "slug": "vendor-invoice-status-inquiry-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:8174f22043266b22e9e8e377dfc35e453cc82e8b20fe748e695d2c79fad2def6",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/vendor-invoice-status-inquiry-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "field service appointment coordination",
+      "slug": "field-service-appointment-coordination-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:08b1f80f27906a3cf8a806641cdbac0fb1eb99195e3ab1e82dc94498ccd0f413",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/field-service-appointment-coordination-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "expense receipt exception intake",
+      "slug": "expense-receipt-exception-intake-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:c990a2b12f2658e89ec9d546302e8df133cafef8013f599e2cfecd915b4ba80a",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/expense-receipt-exception-intake-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "customer complaint theme register",
+      "slug": "customer-complaint-theme-register-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:64dc435647c931508905d52bcb6d45bb55eecd67514b56272a1406d9155e60e4",
+      "actualPublicationDate": null,
+      "articleCommitSha": "a5659f79cc19b055142b669d4944993b03f554ff",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "deploymentUuid": "s07mawmtl29qrjrviozqm7b5",
+        "configuredBranch": "main",
+        "status": "queued-stale-commit",
+        "queuedCommit": "a630e40639b6890b6fb383689268642084439f02",
+        "note": "Authenticated deployment trigger returned HTTP 200, but the queued record references a stale commit while the shared deployment queue has five in-progress and multiple queued deployments."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-complaint-theme-register-philippines",
+      "verificationTime": null,
+      "status": "awaiting-correct-commit-deployment-and-live-verification"
+    }
+  ]
+}
