@@ -1,0 +1,294 @@
+{
+  "run": "OUTAA-74",
+  "requiredCount": 12,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+  "remoteSha": null,
+  "sourceDate": "2026-09-24",
+  "status": "awaiting-push-deployment-and-live-verification",
+  "build": {
+    "typescript": "passed",
+    "nextProductionBuild": "passed",
+    "staticRoutes": 627
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "customer phone change intake",
+      "slug": "customer-phone-change-intake-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:65070ee9293d2f2dab09ccdd022d3775e299c06e5214b62ae05940c64c643c9b",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-phone-change-intake-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "support SMS delivery failure handling",
+      "slug": "support-sms-delivery-failure-queue-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:0c1d790ad3eb44f039a5e0b56554b247b25335641ca5f4bf70f2a338f79d109f",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/support-sms-delivery-failure-queue-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "warehouse bin discrepancy intake",
+      "slug": "warehouse-bin-discrepancy-intake-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:00e27c8b357a47ef088ef21efde7ee718565d0f9c1981769cd14282f22aaa512",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/warehouse-bin-discrepancy-intake-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "delivery instruction exception routing",
+      "slug": "delivery-instruction-exception-routing-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:dd38fa0a2d12c6f40d0b2f5167cc9888026e6623119dc6f6ec0119d756934e5e",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/delivery-instruction-exception-routing-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "event attendee follow-up",
+      "slug": "event-attendee-follow-up-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:3b662979a7c636e037b09e88b71928b11ad079c999935936a1017dbd146b46c7",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/event-attendee-follow-up-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "supplier catalog source maintenance",
+      "slug": "supplier-catalog-source-maintenance-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:9fc3b9895062b263046241fdf669c56163c4af745f52fff1cdcd6750b4cb7253",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/supplier-catalog-source-maintenance-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "chatbot response library review",
+      "slug": "chatbot-response-library-review-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:cca0c795704d248e7e92b7c25d5fdeacf06f51f1df0fa4e7c47795e4e6f3a67c",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/chatbot-response-library-review-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "statement of work version control",
+      "slug": "statement-of-work-version-control-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:a0629cd389d278820adf2fbd875fc66a971b9908e0258098cfad59276fb7ebc7",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/statement-of-work-version-control-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "customer invoice status inquiries",
+      "slug": "customer-invoice-status-inquiry-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:1d57d151a15958c49caaff16cf57fbde907402926828ddc347584767b3a3bb60",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-invoice-status-inquiry-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "home service appointment coordination",
+      "slug": "home-service-appointment-coordination-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:5b137d02b2821b5c6e414f5f29d48da124649594e840e1ad21de231424dc558d",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/home-service-appointment-coordination-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "travel receipt exception intake",
+      "slug": "travel-receipt-exception-intake-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:0667d6a8f05d0051fcbe41e63f0c3d34a1b0dc3d01f722abfdb8517cea32d0a1",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/travel-receipt-exception-intake-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    },
+    {
+      "family": "blog",
+      "topic": "service request theme registration",
+      "slug": "service-request-theme-register-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:9e8dccc212e934e72e1b68f84408dd9bc0de3f780d54824bdb800671e0198233",
+      "actualPublicationDate": null,
+      "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "pending-push-and-deployment"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/service-request-theme-register-philippines",
+      "verificationTime": null,
+      "status": "awaiting-deployment-and-live-verification"
+    }
+  ]
+}
