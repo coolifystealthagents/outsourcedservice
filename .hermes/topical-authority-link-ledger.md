@@ -1,6 +1,6 @@
 # Service-led topical authority link ledger
 
-Updated: 2026-09-15
+Updated: 2026-09-24
 
 This is a planning ledger, not reader-facing copy. It uses only existing Philippines service pillars and existing research pages that were confirmed in the production build. Before a reader-facing link is added, confirm that the source paragraph answers the question, the service route still exists, and the handoff states the work boundary without promising a result.
 
@@ -10,10 +10,11 @@ This is a planning ledger, not reader-facing copy. It uses only existing Philipp
 | Customer Support | `/research/philippines-customer-support-knowledge-handoff-research` | How can a buyer transfer approved support knowledge without turning old notes into customer-facing answers? | Present: `/services/customer-support` | Keep the current handoff. Do not add another service CTA. |
 | Admin Support | `/research/philippines-document-version-research` | How can a buyer keep document versions and approval evidence clear when assigning routine admin work? | Delivered locally: `/services/admin-support` (rendered source `79cec8562604f976ece852d06f6902f6814c608b`) | Preserve the rendered-source handoff. Cache-busted public proof is pending because both hosts still omit its route-local marker, service href, and refreshed metadata. Do not add a second CTA. |
 | Reporting and QA | `/research/philippines-client-report-source-research` | What source-to-summary checks make a weekly report reviewable? | Delivered locally: `/services/reporting-and-qa` (rendered source `f78a959e08a91716dd1436962260f7b83c0195f1`) | Preserve the rendered-source handoff. Cache-busted public proof is pending because both hosts still omit its route-local marker and refreshed metadata. Do not add a second CTA. |
+| Order Status Support | `/research/philippines-order-status-evidence-research` | How can a buyer give a customer a traceable order update without turning an uncertain carrier event into a promise? | Verified absent: 0 route-local `/services/order-status-support` links in the fresh production artifact | Candidate only. The existing page and service pillar are generated and in the sitemap. Before a later handoff, confirm that the typed research record can state that staff prepare source-based updates while the owner keeps commitments, compensation, and exceptions. |
 
 ## Deferred service lanes
 
-The earlier ledger named ten research URLs that are not in the current generated research inventory. Keep these service routes out of the execution queue until an existing, matching research route is confirmed: Ticket Queue Management, Order Status Support, Returns Administration, Customer Onboarding Support, Knowledge Base Maintenance, Service Quality Audits, Appointment Coordination, CRM Case Administration, Subscription Support, and Escalation Coordination.
+The earlier ledger named nine research URLs that are not in the current generated research inventory. Keep these service routes out of the execution queue until an existing, matching research route is confirmed: Ticket Queue Management, Returns Administration, Customer Onboarding Support, Knowledge Base Maintenance, Service Quality Audits, Appointment Coordination, CRM Case Administration, Subscription Support, and Escalation Coordination.
 
 ## Release rule
 
