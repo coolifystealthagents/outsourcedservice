@@ -1,0 +1,163 @@
+{
+  "run": "OUTAA-75",
+  "requiredCount": 5,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "sourceDate": "2026-09-24",
+  "articleCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+  "remoteSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+  "status": "deployment-blocked",
+  "build": {
+    "typescript": "passed",
+    "nextProductionBuild": "passed on corrected attempt",
+    "staticRoutes": 619,
+    "builtArtifactValidation": "passed"
+  },
+  "entries": [
+    {
+      "family": "research",
+      "topic": "customer address change verification evidence",
+      "slug": "customer-address-change-verification-evidence-study",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://privacy.gov.ph/implementing-rules-regulations-data-privacy-act-2012/",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.archives.gov/records-mgmt/policy"
+      ],
+      "contentHash": "sha256:c84bc6fe4523e8bc37bd78bcc75f6c6081f5a31b2ca7257e336ce287a4a9026b",
+      "actualPublicationDate": null,
+      "articleCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-awaiting-deployment",
+        "pushedCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+        "note": "Configured Coolify public API returned 401 for the stored key; internal API endpoint timed out. Twelve bounded public checks from 2026-09-24T14:48:08Z through 2026-09-24T14:50:59Z returned HTTP 404."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/customer-address-change-verification-evidence-study",
+      "verificationTime": null,
+      "status": "pushed-not-live"
+    },
+    {
+      "family": "research",
+      "topic": "inventory discrepancy recount evidence",
+      "slug": "inventory-discrepancy-recount-evidence-study",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://privacy.gov.ph/implementing-rules-regulations-data-privacy-act-2012/",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.archives.gov/records-mgmt/policy"
+      ],
+      "contentHash": "sha256:7eed047918ebb0c0944c8c33d0cb45baf25e4a96aff7afccff2de1278eb72c7f",
+      "actualPublicationDate": null,
+      "articleCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-awaiting-deployment",
+        "pushedCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+        "note": "Configured Coolify public API returned 401 for the stored key; internal API endpoint timed out. Twelve bounded public checks from 2026-09-24T14:48:08Z through 2026-09-24T14:50:59Z returned HTTP 404."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/inventory-discrepancy-recount-evidence-study",
+      "verificationTime": null,
+      "status": "pushed-not-live"
+    },
+    {
+      "family": "research",
+      "topic": "product catalog source conflict review",
+      "slug": "product-catalog-source-conflict-study",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://privacy.gov.ph/implementing-rules-regulations-data-privacy-act-2012/",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.archives.gov/records-mgmt/policy"
+      ],
+      "contentHash": "sha256:73fd01cbec72af791193ad6057ea65a047e47a974f72006ae3cfcd67d4da544a",
+      "actualPublicationDate": null,
+      "articleCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-awaiting-deployment",
+        "pushedCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+        "note": "Configured Coolify public API returned 401 for the stored key; internal API endpoint timed out. Twelve bounded public checks from 2026-09-24T14:48:08Z through 2026-09-24T14:50:59Z returned HTTP 404."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/product-catalog-source-conflict-study",
+      "verificationTime": null,
+      "status": "pushed-not-live"
+    },
+    {
+      "family": "research",
+      "topic": "customer support macro policy lineage",
+      "slug": "customer-support-macro-policy-lineage-study",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://privacy.gov.ph/implementing-rules-regulations-data-privacy-act-2012/",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.archives.gov/records-mgmt/policy"
+      ],
+      "contentHash": "sha256:f55c0bc032d330fcb2b0e4fb4e39beac022b6db6a22abab41ba04fdef79bc34d",
+      "actualPublicationDate": null,
+      "articleCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-awaiting-deployment",
+        "pushedCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+        "note": "Configured Coolify public API returned 401 for the stored key; internal API endpoint timed out. Twelve bounded public checks from 2026-09-24T14:48:08Z through 2026-09-24T14:50:59Z returned HTTP 404."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/customer-support-macro-policy-lineage-study",
+      "verificationTime": null,
+      "status": "pushed-not-live"
+    },
+    {
+      "family": "research",
+      "topic": "customer complaint taxonomy reviewer agreement",
+      "slug": "customer-complaint-taxonomy-reviewer-agreement-study",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://privacy.gov.ph/implementing-rules-regulations-data-privacy-act-2012/",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.archives.gov/records-mgmt/policy"
+      ],
+      "contentHash": "sha256:d0447f6e40883956171a732d97bab30901cd37bc52871820454d3caf52a009fb",
+      "actualPublicationDate": null,
+      "articleCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "blocked-awaiting-deployment",
+        "pushedCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+        "note": "Configured Coolify public API returned 401 for the stored key; internal API endpoint timed out. Twelve bounded public checks from 2026-09-24T14:48:08Z through 2026-09-24T14:50:59Z returned HTTP 404."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/customer-complaint-taxonomy-reviewer-agreement-study",
+      "verificationTime": null,
+      "status": "pushed-not-live"
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-09-24T14:50:59Z",
+    "publicDomain": "https://outsourcedservice.com",
+    "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+    "configuredBranch": "main",
+    "pushedCommitSha": "38f5c3ba13f3ba3e48477ab6b5696070dc64f473",
+    "checks": {
+      "attempts": 12,
+      "http404": 5,
+      "liveVerified": 0
+    },
+    "blocker": "Production did not deploy pushed main commit within the bounded transition window.",
+    "recoveryAction": "Restore Coolify deployment/API authentication or trigger the existing main-branch application deployment, then verify all five public routes, canonical URLs, unique content, publication date, datePublished, Research index, sitemap entries, and thumbnail. Update actualPublicationDate and verification times only after successful live checks."
+  }
+}
