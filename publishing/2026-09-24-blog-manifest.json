@@ -5,9 +5,9 @@
   "repository": "coolifystealthagents/outsourcedservice",
   "productionBranch": "main",
   "articleCommitSha": "6c624e78b0ec9170b023a78c2ba1a21d3826aa67",
-  "remoteSha": null,
+  "remoteSha": "81c2f4be3e236018b117474125a0f4cba4c2e203",
   "sourceDate": "2026-09-24",
-  "status": "awaiting-push-deployment-and-live-verification",
+  "status": "blocked-deployment-authentication-and-public-404",
   "build": {
     "typescript": "passed",
     "nextProductionBuild": "passed",
@@ -31,11 +31,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/customer-phone-change-intake-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -54,11 +55,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/support-sms-delivery-failure-queue-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -77,11 +79,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/warehouse-bin-discrepancy-intake-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -100,11 +103,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/delivery-instruction-exception-routing-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -123,11 +127,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/event-attendee-follow-up-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -146,11 +151,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/supplier-catalog-source-maintenance-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -169,11 +175,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/chatbot-response-library-review-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -192,11 +199,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/statement-of-work-version-control-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -215,11 +223,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/customer-invoice-status-inquiry-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -238,11 +247,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/home-service-appointment-coordination-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -261,11 +271,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/travel-receipt-exception-intake-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     },
     {
       "family": "blog",
@@ -284,11 +295,12 @@
         "provider": "Coolify3",
         "applicationUuid": "lae47vl3vogpnilfjamakc9n",
         "configuredBranch": "main",
-        "status": "pending-push-and-deployment"
+        "status": "api-unauthorized-public-stale",
+        "note": "Latest production commit pushed successfully. Normalized authenticated application and deploy endpoints returned HTTP 401. Canonical apex and www cache-busted article checks returned HTTP 404; configured deployment host timed out."
       },
       "liveUrl": "https://outsourcedservice.com/blog/service-request-theme-register-philippines",
       "verificationTime": null,
-      "status": "awaiting-deployment-and-live-verification"
+      "status": "awaiting-authorized-deployment-and-live-verification"
     }
   ]
 }
