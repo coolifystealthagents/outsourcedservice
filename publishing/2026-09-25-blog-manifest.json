@@ -1,0 +1,310 @@
+{
+  "run": "OUTAA-79",
+  "cycleLabel": "2026-09-25 recovery",
+  "requiredCount": 12,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+  "remoteBaseSha": "3b630ef19fca566283fcc2be969df697a5d94863",
+  "sourceDate": "2026-09-25",
+  "publicationTimezone": "UTC",
+  "actualPublicationDate": null,
+  "status": "staged-awaiting-combined-research-release",
+  "build": {
+    "typescript": "passed",
+    "nextProductionBuild": "passed",
+    "staticRoutes": 644,
+    "builtArtifactValidation": "passed"
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "returns authorization preparation",
+      "slug": "returns-authorization-evidence-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:c9bdc8953ea5d882235304ce03712785f06a4aeaea20802fd1a87e857188502f",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/returns-authorization-evidence-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "customer data access request routing",
+      "slug": "customer-data-access-request-routing-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:7a1356f321edcb430153f675999130bea6c31cfde67e288106567674f3171ca3",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-data-access-request-routing-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "appointment waitlist administration",
+      "slug": "appointment-waitlist-administration-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:0bff527ba8960f4575af65b085e2c9da75a3ec68e906b2e4e449e8e28adfe522",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/appointment-waitlist-administration-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "subscription pause request intake",
+      "slug": "subscription-pause-request-intake-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:866dd0854d233485348340f6c48d957044732265865a909493d7999c86cd2a1d",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/subscription-pause-request-intake-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "sales lead source cleanup",
+      "slug": "sales-lead-source-cleanup-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:a67e40968dd595ff8c4a2dd06808942e1b6731ca5c69cb938d9ad4bb82a805fc",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/sales-lead-source-cleanup-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "maintenance work order triage",
+      "slug": "maintenance-work-order-triage-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:b917449b03b9cf27028de7681c8b3eecacc969752cb7ecbb888f61da1c089fb6",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/maintenance-work-order-triage-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "proof-of-delivery exception review",
+      "slug": "proof-of-delivery-exception-review-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:acf74f4d27a6228432957d2c753c2062df890621ebde753b963b72e444f46b7b",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/proof-of-delivery-exception-review-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "contract renewal notice tracking",
+      "slug": "contract-renewal-notice-tracking-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:b738553c29dd1769be017ef371a94af6178565e42552b983667bf0c5cabefe6f",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/contract-renewal-notice-tracking-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "training record maintenance",
+      "slug": "training-record-maintenance-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:2d5ee2d746d2c8e2166afb17dc8c28aef3f38fb73c56b2800d9b23be33ee9d1c",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/training-record-maintenance-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "cash application exception preparation",
+      "slug": "cash-application-exception-preparation-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:e1fd0d158db4cdf82300574bba8320fb270efffb119523a146d4ce6d7d096dc9",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/cash-application-exception-preparation-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "customer survey response coding",
+      "slug": "customer-survey-response-coding-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:8b58bc2aeb14ac81a09b7cc325d6894d0ba83a278674038a8600f73d1a130e40",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-survey-response-coding-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    },
+    {
+      "family": "blog",
+      "topic": "website content change request administration",
+      "slug": "website-content-change-request-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:37efdc9e65713246d909604701e1b175fb2e215b64c8a4e18703ec18ea8bfd56",
+      "actualPublicationDate": null,
+      "articleCommitSha": "d39a1b5c61d30030fa6796647c7066c023b08dea",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-browser-operator-owned",
+        "note": "Blog is staged locally. Production push is gated on the same-cycle five-article Research handoff and exact combined 12+5 validation. Browser operator owns the single deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/website-content-change-request-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-research-release"
+    }
+  ]
+}
