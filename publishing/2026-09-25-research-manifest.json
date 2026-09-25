@@ -1,0 +1,152 @@
+{
+  "run": "OUTAA-78",
+  "cycleLabel": "2026-09-25 recovery cycle",
+  "requiredCount": 5,
+  "stagedCount": 5,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "handoffBranch": "research/outaa-78-2026-09-25",
+  "baseProductionSha": "3b630ef19fca566283fcc2be969df697a5d94863",
+  "articleCommitSha": "7d2808ff13f76b77363e478dc45fc5f9bcccf523",
+  "siteTimezone": "UTC (repository publication formatter and build)",
+  "status": "staged-awaiting-combined-blog-release",
+  "build": {
+    "typescript": "passed",
+    "nextProductionBuild": "passed",
+    "staticRoutes": 637,
+    "builtArtifactValidation": "passed; all five rendered articles exceed 1,200 words"
+  },
+  "entries": [
+    {
+      "family": "research",
+      "topic": "CRM duplicate contact merge authority",
+      "slug": "crm-duplicate-contact-merge-authority-study",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.archives.gov/records-mgmt/policy"
+      ],
+      "contentHash": "sha256:df8c5259a01b0a5bbb6f049c9d3b31c175bf222047da9a01104384ccfb27809f",
+      "plannedPublicationDate": "2026-09-25",
+      "actualPublicationDate": null,
+      "articleCommitSha": "7d2808ff13f76b77363e478dc45fc5f9bcccf523",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-research-handoff",
+        "note": "Research role is prohibited from production push or deployment; Blog/browser operator owns the single combined 12+5 release."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/crm-duplicate-contact-merge-authority-study",
+      "verificationTime": null,
+      "status": "staged-for-combined-release"
+    },
+    {
+      "family": "research",
+      "topic": "contact suppression propagation evidence",
+      "slug": "contact-suppression-propagation-evidence-study",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.archives.gov/records-mgmt/policy"
+      ],
+      "contentHash": "sha256:bf34e91cf6c11d3806a4cb56f1e42d76f75d1bfd262d2feb67231fbf6fd6c3db",
+      "plannedPublicationDate": "2026-09-25",
+      "actualPublicationDate": null,
+      "articleCommitSha": "7d2808ff13f76b77363e478dc45fc5f9bcccf523",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-research-handoff",
+        "note": "Research role is prohibited from production push or deployment; Blog/browser operator owns the single combined 12+5 release."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/contact-suppression-propagation-evidence-study",
+      "verificationTime": null,
+      "status": "staged-for-combined-release"
+    },
+    {
+      "family": "research",
+      "topic": "meeting action owner acceptance",
+      "slug": "meeting-action-owner-acceptance-study",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.archives.gov/records-mgmt/policy"
+      ],
+      "contentHash": "sha256:293271762b8ea33cb90955f785bf251d0cecd0697a7b7744df1f6ce351eed017",
+      "plannedPublicationDate": "2026-09-25",
+      "actualPublicationDate": null,
+      "articleCommitSha": "7d2808ff13f76b77363e478dc45fc5f9bcccf523",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-research-handoff",
+        "note": "Research role is prohibited from production push or deployment; Blog/browser operator owns the single combined 12+5 release."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/meeting-action-owner-acceptance-study",
+      "verificationTime": null,
+      "status": "staged-for-combined-release"
+    },
+    {
+      "family": "research",
+      "topic": "recurring report cutoff consistency",
+      "slug": "recurring-report-cutoff-consistency-study",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.archives.gov/records-mgmt/policy"
+      ],
+      "contentHash": "sha256:4ca1e86177d0e652957c3f116f744d4e1152e210e5b431b848929a8710e9d0bb",
+      "plannedPublicationDate": "2026-09-25",
+      "actualPublicationDate": null,
+      "articleCommitSha": "7d2808ff13f76b77363e478dc45fc5f9bcccf523",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-research-handoff",
+        "note": "Research role is prohibited from production push or deployment; Blog/browser operator owns the single combined 12+5 release."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/recurring-report-cutoff-consistency-study",
+      "verificationTime": null,
+      "status": "staged-for-combined-release"
+    },
+    {
+      "family": "research",
+      "topic": "reopened support case evidence",
+      "slug": "reopened-support-case-evidence-study",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.archives.gov/records-mgmt/policy"
+      ],
+      "contentHash": "sha256:dd3b6410580abaf44e27ad25acfe9ee5eda89afeb7c22d2c4a6bbdd23d690889",
+      "plannedPublicationDate": "2026-09-25",
+      "actualPublicationDate": null,
+      "articleCommitSha": "7d2808ff13f76b77363e478dc45fc5f9bcccf523",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-research-handoff",
+        "note": "Research role is prohibited from production push or deployment; Blog/browser operator owns the single combined 12+5 release."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/reopened-support-case-evidence-study",
+      "verificationTime": null,
+      "status": "staged-for-combined-release"
+    }
+  ]
+}
