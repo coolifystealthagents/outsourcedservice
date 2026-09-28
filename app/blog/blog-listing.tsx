@@ -29,14 +29,17 @@ export function BlogListing({ page = 1 }: { page?: number }) {
   const september23Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-23');
   const september24Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-24');
   const september25Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-25');
+
+  const september28Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-28');
   const september9Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-09');
   const september7Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-07');
   const september4Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-04');
   const september3Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-03");
   const september2Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-02");
   const september1Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-01");
-  const earlierBlogPosts = blogPosts.filter((item) => !("published" in item && (item.published === "2026-09-01" || item.published === "2026-09-02" || item.published === "2026-09-03" || item.published === "2026-09-04" || item.published === "2026-09-07" || item.published === "2026-09-08" || item.published === "2026-09-09" || item.published === "2026-09-10" || item.published === "2026-09-11" || item.published === "2026-09-14" || item.published === "2026-09-18" || item.published === "2026-09-22" || item.published === "2026-09-23" || item.published === "2026-09-24" || item.published === "2026-09-25")));
+  const earlierBlogPosts = blogPosts.filter((item) => !("published" in item && (item.published === "2026-09-01" || item.published === "2026-09-02" || item.published === "2026-09-03" || item.published === "2026-09-04" || item.published === "2026-09-07" || item.published === "2026-09-08" || item.published === "2026-09-09" || item.published === "2026-09-10" || item.published === "2026-09-11" || item.published === "2026-09-14" || item.published === "2026-09-18" || item.published === "2026-09-22" || item.published === "2026-09-23" || item.published === "2026-09-24" || item.published === "2026-09-25" || item.published === "2026-09-28")));
   const posts = [
+    ...september28Posts,
     ...september25Posts,
     ...september24Posts,
     ...september23Posts,
