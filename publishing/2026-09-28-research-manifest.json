@@ -1,0 +1,183 @@
+{
+  "run": "OUTAA-80",
+  "runId": "d64273ee-fa9f-4dc0-8c49-f44d9220ec90",
+  "cycleLabel": "September 28, 2026 combined release",
+  "requiredCount": 5,
+  "stagedCount": 5,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "handoffBranch": "outaa-80-research-september28",
+  "worktree": "/paperclip/instances/default/projects/8cb5938d-f06e-4efb-86f4-8349f617fb2c/3811751f-7dd6-4d31-9a1e-cc02303b9cff/_default/outaa-80-worktree",
+  "baseProductionSha": "8e3473fb972bf2338fbd4d211d89bfcfa6e36dcf",
+  "articleCommitSha": "02d58c3ae4d769d45be670db41afc27a724a4aa3",
+  "siteTimezone": "UTC (repository publication formatter and build)",
+  "plannedPublicationDate": "2026-09-28",
+  "publicationDateInstruction": "Blog integrator must reconcile every date field to the actual first-publication date before the sole production push if release timing changes.",
+  "status": "local-handoff-awaiting-outaa-81-combined-release",
+  "validation": {
+    "sourceContract": "passed",
+    "typescript": "passed",
+    "nextProductionBuild": "passed with pre-existing CSS autoprefixer warning",
+    "staticRoutes": 654,
+    "builtArtifactValidation": "passed",
+    "bodyOnlyWordCounts": {
+      "ticket-priority-override-traceability-study": 1292,
+      "support-attachment-safe-routing-study": 1273,
+      "recurring-task-omission-detection-study": 1250,
+      "spreadsheet-formula-change-lineage-study": 1291,
+      "cross-time-zone-handoff-boundary-study": 1299
+    },
+    "maximumPairwiseFiveWordShingleJaccard": {
+      "value": 0.4528,
+      "percent": "45.28%",
+      "pair": [
+        "support-attachment-safe-routing-study",
+        "recurring-task-omission-detection-study"
+      ],
+      "threshold": "<50%"
+    }
+  },
+  "entries": [
+    {
+      "family": "research",
+      "topic": "ticket priority override traceability",
+      "slug": "ticket-priority-override-traceability-study",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.archives.gov/records-mgmt/policy",
+        "https://www.cisa.gov/resources-tools/resources/phishing-guidance-stopping-attack-cycle-phase-one"
+      ],
+      "contentHash": "sha256:1606d49b5d3828c77f8a2be16f34f8c1819623f08eaabc72173d6e35eaf6cd83",
+      "bodyWordCount": 1292,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "02d58c3ae4d769d45be670db41afc27a724a4aa3",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-research-local-handoff",
+        "note": "Research role is prohibited from pushing or deploying. OUTAA-81 Blog is sole 12+5 release integrator; browser operator owns deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/ticket-priority-override-traceability-study",
+      "verificationTime": null,
+      "status": "local-handoff-awaiting-combined-release"
+    },
+    {
+      "family": "research",
+      "topic": "suspicious support attachment safe routing",
+      "slug": "support-attachment-safe-routing-study",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.archives.gov/records-mgmt/policy",
+        "https://www.cisa.gov/resources-tools/resources/phishing-guidance-stopping-attack-cycle-phase-one"
+      ],
+      "contentHash": "sha256:a15aeb5dac36b258642fd34dee3417175171a8ffca5378fa335292e9cf5480f4",
+      "bodyWordCount": 1273,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "02d58c3ae4d769d45be670db41afc27a724a4aa3",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-research-local-handoff",
+        "note": "Research role is prohibited from pushing or deploying. OUTAA-81 Blog is sole 12+5 release integrator; browser operator owns deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/support-attachment-safe-routing-study",
+      "verificationTime": null,
+      "status": "local-handoff-awaiting-combined-release"
+    },
+    {
+      "family": "research",
+      "topic": "recurring task omission detection",
+      "slug": "recurring-task-omission-detection-study",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.archives.gov/records-mgmt/policy",
+        "https://www.cisa.gov/resources-tools/resources/phishing-guidance-stopping-attack-cycle-phase-one"
+      ],
+      "contentHash": "sha256:5d09b0a0a150eda0388c1f7de6f3a44738111ed60b528c8a3527740679d4b6b4",
+      "bodyWordCount": 1250,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "02d58c3ae4d769d45be670db41afc27a724a4aa3",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-research-local-handoff",
+        "note": "Research role is prohibited from pushing or deploying. OUTAA-81 Blog is sole 12+5 release integrator; browser operator owns deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/recurring-task-omission-detection-study",
+      "verificationTime": null,
+      "status": "local-handoff-awaiting-combined-release"
+    },
+    {
+      "family": "research",
+      "topic": "spreadsheet formula change lineage",
+      "slug": "spreadsheet-formula-change-lineage-study",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.archives.gov/records-mgmt/policy",
+        "https://www.cisa.gov/resources-tools/resources/phishing-guidance-stopping-attack-cycle-phase-one"
+      ],
+      "contentHash": "sha256:fe3d4547136034d6f571d869cf7732238af5eedded4c8c1b17f95299517654d8",
+      "bodyWordCount": 1291,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "02d58c3ae4d769d45be670db41afc27a724a4aa3",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-research-local-handoff",
+        "note": "Research role is prohibited from pushing or deploying. OUTAA-81 Blog is sole 12+5 release integrator; browser operator owns deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/spreadsheet-formula-change-lineage-study",
+      "verificationTime": null,
+      "status": "local-handoff-awaiting-combined-release"
+    },
+    {
+      "family": "research",
+      "topic": "cross-time-zone handoff boundary completeness",
+      "slug": "cross-time-zone-handoff-boundary-study",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.archives.gov/records-mgmt/policy",
+        "https://www.cisa.gov/resources-tools/resources/phishing-guidance-stopping-attack-cycle-phase-one"
+      ],
+      "contentHash": "sha256:1804448be236ffbd3ab782fa1e5edbdba78d4b56bc9a0ec22cc7a5a47c8bea33",
+      "bodyWordCount": 1299,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "02d58c3ae4d769d45be670db41afc27a724a4aa3",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-research-local-handoff",
+        "note": "Research role is prohibited from pushing or deploying. OUTAA-81 Blog is sole 12+5 release integrator; browser operator owns deployment."
+      },
+      "liveUrl": "https://outsourcedservice.com/research/cross-time-zone-handoff-boundary-study",
+      "verificationTime": null,
+      "status": "local-handoff-awaiting-combined-release"
+    }
+  ]
+}
