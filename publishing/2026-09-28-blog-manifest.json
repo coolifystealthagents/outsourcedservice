@@ -1,0 +1,342 @@
+{
+  "run": "OUTAA-81",
+  "runId": "9f21dcfb-d480-4558-95f7-74f89f8c03d5",
+  "cycleLabel": "September 28, 2026 combined release",
+  "requiredCount": 12,
+  "stagedCount": 12,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "integrationBranch": "publish/outaa-81-20260928",
+  "baseProductionSha": "8e3473fb972bf2338fbd4d211d89bfcfa6e36dcf",
+  "siteTimezone": "UTC (repository publication formatter and build)",
+  "plannedPublicationDate": "2026-09-28",
+  "status": "combined-release-awaiting-push-and-browser-operator-deployment",
+  "validation": {
+    "bodyOnlyWordCounts": {
+      "invoice-approval-packet-preparation-philippines": 1761,
+      "customer-refund-case-preparation-philippines": 1754,
+      "crm-duplicate-record-review-philippines": 1738,
+      "supplier-onboarding-document-check-philippines": 1736,
+      "support-ticket-aging-review-philippines": 1678,
+      "employee-expense-audit-preparation-philippines": 1708,
+      "property-inspection-report-administration-philippines": 1608,
+      "subscription-renewal-queue-review-philippines": 1733,
+      "marketing-consent-record-reconciliation-philippines": 1728,
+      "service-level-breach-evidence-pack-philippines": 1776,
+      "candidate-interview-scheduling-philippines": 1578,
+      "inventory-adjustment-evidence-review-philippines": 1689
+    },
+    "maximumPairwiseFiveWordShingleJaccard": {
+      "value": 0.1089,
+      "percent": "10.89%",
+      "pair": [
+        "service-level-breach-evidence-pack-philippines",
+        "candidate-interview-scheduling-philippines"
+      ],
+      "threshold": "<50%"
+    }
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "How to Prepare Invoice Approval Packets Without Authorizing Payment",
+      "slug": "invoice-approval-packet-preparation-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:b7d376c3f58af8ac4e20f0b60572f787208b21605aba3e1fc268af879dc022bd",
+      "bodyWordCount": 1761,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/invoice-approval-packet-preparation-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Prepare Customer Refund Cases Without Promising a Refund",
+      "slug": "customer-refund-case-preparation-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:4e9137b10010be684b46c9d3e82bdf03d04bed79bbc8e7fa1a81fdbaaa0d7838",
+      "bodyWordCount": 1754,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-refund-case-preparation-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Review CRM Duplicate Records Without Losing Customer History",
+      "slug": "crm-duplicate-record-review-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:c465278f4419382d8d46c39b8c8a5d69dc6eb273389d93eea9a9ddcf1b89ece6",
+      "bodyWordCount": 1738,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/crm-duplicate-record-review-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Check Supplier Onboarding Documents Without Approving the Supplier",
+      "slug": "supplier-onboarding-document-check-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:988ae2d8258336d1dddb3bcf2e08313d3feed054683f533f1a54294023423b45",
+      "bodyWordCount": 1736,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/supplier-onboarding-document-check-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Review Support Ticket Aging Without Closing Unresolved Cases",
+      "slug": "support-ticket-aging-review-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:69acf6bebbb2ed3205ada900b4d3db86530d9196b8eae9898222645851a61cc9",
+      "bodyWordCount": 1678,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/support-ticket-aging-review-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Prepare Employee Expense Audit Samples Without Making Disciplinary Decisions",
+      "slug": "employee-expense-audit-preparation-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:39646f1647c5480bc38d3e0aeabf4e23ac6a0c681a121d1636a9fc1c55662219",
+      "bodyWordCount": 1708,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/employee-expense-audit-preparation-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Administer Property Inspection Reports Without Certifying Safety",
+      "slug": "property-inspection-report-administration-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:e948dff534f3d8525ae3054b170dd0197d443589e95ceae2127dcb7433ea573e",
+      "bodyWordCount": 1608,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/property-inspection-report-administration-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Review Subscription Renewal Queues Without Changing Contract Terms",
+      "slug": "subscription-renewal-queue-review-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:36d733b958814b62b2f71bba2c81b1b831737bc27c3307404d21f7b29474a819",
+      "bodyWordCount": 1733,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/subscription-renewal-queue-review-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Reconcile Marketing Consent Records Without Inferring Permission",
+      "slug": "marketing-consent-record-reconciliation-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:f38cfd5b02acca4b18207243650c1c8e5e2f1f0de6845d5464d645e0b3e7073e",
+      "bodyWordCount": 1728,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/marketing-consent-record-reconciliation-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Build Service-Level Breach Evidence Packs Without Admitting Liability",
+      "slug": "service-level-breach-evidence-pack-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:88591cd465dfe88e2fdbbb44204e91d3e46304513234f876985840ef8a3ad61f",
+      "bodyWordCount": 1776,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/service-level-breach-evidence-pack-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Coordinate Candidate Interviews Without Making Hiring Decisions",
+      "slug": "candidate-interview-scheduling-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:12a1f33bb98f67159c9093f9d847e999e6cb4d22d6eea286c37a3c13bb8a04e3",
+      "bodyWordCount": 1578,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/candidate-interview-scheduling-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Review Inventory Adjustment Evidence Without Posting Stock Changes",
+      "slug": "inventory-adjustment-evidence-review-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:509c02d1171ce336cc723269a9866d3b5b8a6c03cff6da9b53375452579fdcda",
+      "bodyWordCount": 1689,
+      "plannedPublicationDate": "2026-09-28",
+      "actualPublicationDate": null,
+      "articleCommitSha": "1bf99239d1e8550015139f28c0c5a4e06fc1953d",
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/inventory-adjustment-evidence-review-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    }
+  ]
+}
