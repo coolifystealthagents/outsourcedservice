@@ -61,6 +61,10 @@ When the same mismatch repeats, fix the integration, roster process, or role-cha
 
 Begin with one governed role and one training requirement. Map the record chain end to end, agree on assertion names, and test normal, expired, duplicate, and override cases. A bounded [reporting and quality support role](/services/reporting-and-qa) can keep evidence reliable without pretending that database completion equals human competence.
 
+Make corrections at the source whenever possible. If the learning platform contains a duplicate identity, adding a note only to the monthly report leaves the next extraction wrong. The trail should show the original exception, authorized correction request, source owner who resolved it, and later check that confirmed the change. A report-side adjustment should be labeled and time-limited.
+
+Test negative cases too. Someone outside the governed population should not appear overdue, and a person moving roles should not retain credit when the new role requires a different version. These checks expose faulty roster logic that a high completion percentage can conceal.
+
 ## Sources
 
 - [NIST SP 800-50](https://csrc.nist.gov/pubs/sp/800/50/final)
