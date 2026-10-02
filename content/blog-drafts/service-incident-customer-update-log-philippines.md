@@ -61,6 +61,10 @@ Measure update timeliness, statements traceable to approval, missed commitments,
 
 Run exercises with an outage of uncertain scope, a failed workaround, a possible security signal, and phased restoration. Check whether each role knows what it may approve. A bounded [customer support role](/services/customer-support) can keep communication calm and reliable while technical, legal, privacy, and executive judgments remain with the incident leadership team.
 
+Account for handoffs across shifts. The incoming coordinator needs the currently approved facts, next publication deadline, open questions, channel inventory, and people authorized to approve the next version. A spoken summary alone is fragile. Require the outgoing and incoming owners to acknowledge the same incident record and note any uncertainty that still needs confirmation.
+
+Also identify stale macros after resolution. A support response written during the incident can continue circulating after service returns. Retire or update temporary scripts, banners, and routing rules, then verify that the normal customer journey no longer shows incident language.
+
 ## Sources
 
 - [CISA: Cybersecurity incident and vulnerability response playbooks](https://www.cisa.gov/resources-tools/resources/federal-government-cybersecurity-incident-and-vulnerability-response-playbooks)
