@@ -1,0 +1,122 @@
+{
+  "run": "OUTAA-83",
+  "cycleLabel": "2026-10-02",
+  "status": "topic-locked-drafting",
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "integrationBranch": "publish/outaa-83-20261002",
+  "baseProductionSha": "6ea6f4106c5bb3abcdabf218a5381e438a475d04",
+  "siteTimezone": "UTC",
+  "publicationDateRule": "Set only after first successful public verification; the cycle label is not a publication date.",
+  "pairedResearchIssue": "OUTAA-82",
+  "topics": [
+    {
+      "slug": "customer-complaint-evidence-timeline-philippines",
+      "workingTitle": "How to Build a Customer Complaint Timeline Without Deciding Fault",
+      "readerDecision": "Whether complaint chronology preparation is bounded enough for a Philippines-based support specialist.",
+      "distinctStructure": "Reconstruct a disputed delivery complaint from messages, system events, and prior commitments; test conflicting timestamps; produce an owner decision packet.",
+      "ownerBoundary": "Fault, remedy, admissions, legal interpretation, and customer promises remain with authorized owners.",
+      "conversionPath": "/services/customer-support",
+      "sources": ["https://www.ftc.gov/business-guidance/privacy-security/data-security", "https://www.archives.gov/records-mgmt", "https://www.nist.gov/privacy-framework"]
+    },
+    {
+      "slug": "vendor-master-change-verification-philippines",
+      "workingTitle": "How to Verify Vendor Master Change Requests Without Changing Payment Details",
+      "readerDecision": "How to separate administrative verification from high-risk vendor-master authorization.",
+      "distinctStructure": "Trace a bank-detail change through an independent contact route, callback evidence, segregation of duties, and a quarantined exception lane.",
+      "ownerBoundary": "The specialist never edits bank details, approves a vendor, releases payment, or treats email alone as verification.",
+      "conversionPath": "/services/accounting-and-bookkeeping",
+      "sources": ["https://www.gao.gov/products/gao-14-704g", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final", "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"]
+    },
+    {
+      "slug": "month-end-close-checklist-coordination-philippines",
+      "workingTitle": "How to Coordinate a Month-End Close Checklist Without Posting Journal Entries",
+      "readerDecision": "Which close-coordination tasks can be delegated while accounting judgments stay controlled.",
+      "distinctStructure": "Map dependencies across reconciliations, cutoff evidence, preparer-reviewer states, late inputs, and a close-room decision log.",
+      "ownerBoundary": "Accounting policy, materiality, journal approval, estimates, and final close certification remain with qualified owners.",
+      "conversionPath": "/services/accounting-and-bookkeeping",
+      "sources": ["https://www.gao.gov/products/gao-20-283g", "https://www.archives.gov/records-mgmt", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    },
+    {
+      "slug": "missed-appointment-recovery-queue-philippines",
+      "workingTitle": "How to Run a Missed-Appointment Recovery Queue Without Overpromising Availability",
+      "readerDecision": "How to delegate respectful recovery follow-up while protecting schedule and service exceptions.",
+      "distinctStructure": "Triage no-shows, provider cancellations, timezone errors, and system failures; use different recovery scripts and escalation clocks for each cause.",
+      "ownerBoundary": "Fee waivers, priority access, clinical or professional advice, and nonstandard availability require owner approval.",
+      "conversionPath": "/services/admin-support",
+      "sources": ["https://www.ftc.gov/business-guidance/privacy-security/data-security", "https://www.nist.gov/privacy-framework", "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html"]
+    },
+    {
+      "slug": "ecommerce-backorder-communication-philippines",
+      "workingTitle": "How to Coordinate Backorder Updates Without Inventing Delivery Dates",
+      "readerDecision": "Whether an outsourced ecommerce specialist can manage backorder communications from approved source states.",
+      "distinctStructure": "Compare supplier, warehouse, storefront, and carrier states; define a source hierarchy; draft scenario-specific updates without converting estimates into promises.",
+      "ownerBoundary": "Refunds, substitutions, compensation, cancellations, and delivery guarantees stay with authorized owners.",
+      "conversionPath": "/services/ecommerce-support",
+      "sources": ["https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule", "https://www.ftc.gov/business-guidance/privacy-security/data-security", "https://www.archives.gov/records-mgmt"]
+    },
+    {
+      "slug": "warranty-claim-intake-philippines",
+      "workingTitle": "How to Prepare Warranty Claim Intake Without Deciding Coverage",
+      "readerDecision": "How to make warranty files review-ready without delegating eligibility or remedy decisions.",
+      "distinctStructure": "Build a product-identity and chronology packet, distinguish stated symptoms from diagnosis, test required evidence, and route safety signals separately.",
+      "ownerBoundary": "Coverage, causation, product safety, repair approval, replacement, and settlement decisions remain with authorized reviewers.",
+      "conversionPath": "/services/customer-support",
+      "sources": ["https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law", "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance", "https://www.nist.gov/privacy-framework"]
+    },
+    {
+      "slug": "training-completion-record-audit-philippines",
+      "workingTitle": "How to Audit Training Completion Records Without Certifying Competence",
+      "readerDecision": "How to delegate evidence checks while managers retain competence and authorization decisions.",
+      "distinctStructure": "Reconcile roster, assigned curriculum, completion artifact, version, expiry, exception, and system access; distinguish attendance from demonstrated capability.",
+      "ownerBoundary": "Competence, licensing, disciplinary action, access approval, and role assignment remain with responsible managers.",
+      "conversionPath": "/services/reporting-and-qa",
+      "sources": ["https://csrc.nist.gov/pubs/sp/800/50/final", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final", "https://www.archives.gov/records-mgmt"]
+    },
+    {
+      "slug": "returns-disposition-evidence-philippines",
+      "workingTitle": "How to Prepare Returns Disposition Evidence Without Writing Off Inventory",
+      "readerDecision": "Which inspection-administration steps can support a disposition decision without making it.",
+      "distinctStructure": "Separate identity, condition observations, customer reason, policy state, photographs, chain of custody, and warehouse exception into a decision matrix.",
+      "ownerBoundary": "Resale classification, write-off, refund, fraud finding, hazardous handling, and inventory adjustment require authorized decisions.",
+      "conversionPath": "/services/ecommerce-support",
+      "sources": ["https://www.ftc.gov/business-guidance/privacy-security/data-security", "https://www.archives.gov/records-mgmt", "https://www.gao.gov/products/gao-20-283g"]
+    },
+    {
+      "slug": "project-change-request-intake-philippines",
+      "workingTitle": "How to Administer Project Change Requests Without Approving Scope",
+      "readerDecision": "How to delegate change-control administration while commercial and delivery authority stays explicit.",
+      "distinctStructure": "Turn an informal request into a baseline-linked packet with impact questions, affected deliverables, dependencies, options, and a decision history.",
+      "ownerBoundary": "Scope, price, schedule, risk acceptance, contractual interpretation, and customer commitment remain with project owners.",
+      "conversionPath": "/services/operations-support",
+      "sources": ["https://www.gao.gov/products/gao-20-283g", "https://www.archives.gov/records-mgmt", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    },
+    {
+      "slug": "failed-payment-case-preparation-philippines",
+      "workingTitle": "How to Prepare Failed-Payment Cases Without Pressuring the Customer",
+      "readerDecision": "How to separate routine billing administration from collection, hardship, fraud, and account decisions.",
+      "distinctStructure": "Classify processor states, retry history, notice eligibility, customer responses, and account consequences; build respectful routes for technical and sensitive cases.",
+      "ownerBoundary": "Debt characterization, fees, service suspension, hardship arrangements, fraud conclusions, and legal collection steps stay with authorized owners.",
+      "conversionPath": "/services/accounting-and-bookkeeping",
+      "sources": ["https://www.ftc.gov/business-guidance/privacy-security/data-security", "https://www.consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/debt-collection/", "https://www.nist.gov/privacy-framework"]
+    },
+    {
+      "slug": "customer-reference-request-coordination-philippines",
+      "workingTitle": "How to Coordinate Customer Reference Requests Without Creating Endorsements",
+      "readerDecision": "How to administer references while consent, representation, and relationship decisions remain with account owners.",
+      "distinctStructure": "Qualify the requester, confirm purpose and audience, match consent scope, protect customer burden, schedule the exchange, and retain approved language.",
+      "ownerBoundary": "Selecting a customer, claiming results, offering incentives, granting logo rights, and approving public endorsements remain with owners.",
+      "conversionPath": "/services/admin-support",
+      "sources": ["https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews", "https://www.ftc.gov/business-guidance/privacy-security/data-security", "https://www.nist.gov/privacy-framework"]
+    },
+    {
+      "slug": "service-incident-customer-update-log-philippines",
+      "workingTitle": "How to Maintain a Service Incident Update Log Without Declaring Root Cause",
+      "readerDecision": "How to delegate incident communications administration without moving technical, legal, or executive authority.",
+      "distinctStructure": "Create a fact-approved update chain across detection, impact boundaries, mitigation state, customer questions, next-update time, and post-incident corrections.",
+      "ownerBoundary": "Severity, root cause, breach determination, regulatory notice, liability, restoration claims, and final resolution remain with incident owners.",
+      "conversionPath": "/services/customer-support",
+      "sources": ["https://www.cisa.gov/resources-tools/resources/federal-government-cybersecurity-incident-and-vulnerability-response-playbooks", "https://csrc.nist.gov/pubs/sp/800/61/r2/final", "https://www.ftc.gov/business-guidance/privacy-security/data-security"]
+    }
+  ]
+}
