@@ -1,0 +1,18 @@
+{
+  "run": "OUTAA-82",
+  "cycleLabel": "2026-10-02",
+  "family": "research",
+  "requiredCount": 5,
+  "draftSha": "96a27ab338210e9cfaf4b007ca66f90455d097ce",
+  "status": "staged-local-handoff",
+  "siteTimezone": "UTC",
+  "plannedPublicationDate": "2026-10-02",
+  "publicationDatePending": true,
+  "entries": [
+    {"slug":"identity-sensitive-account-change-evidence-study","sourcePath":"app/oct2-research-identity.ts","sourceHash":"3d23ea6b797edcb15d0148f86903bfd978b5ac9571930025afd169498095a6a6","bodyWordCount":1227},
+    {"slug":"subscription-cancellation-authority-evidence-study","sourcePath":"app/oct2-research-cancellation.ts","sourceHash":"1284aa27e400eb2c01fe1543ed996b4ce0ca68133a6f05ac54b78726fd583842","bodyWordCount":1251},
+    {"slug":"escalation-receipt-operational-ownership-study","sourcePath":"app/oct2-research-escalation.ts","sourceHash":"44008a2da19da668489f2c801ad35f8e4bce78f64926ad5de03b5b61a620bf47","bodyWordCount":1316},
+    {"slug":"order-field-event-lineage-study","sourcePath":"app/oct2-research-order-lineage.ts","sourceHash":"85bab36313b653474bd594c665df43a42608394823355f9c97ae149e7d08e995","bodyWordCount":1247},
+    {"slug":"quality-review-appeal-reproducibility-study","sourcePath":"app/oct2-research-appeal.ts","sourceHash":"767093c915b20417ce7a2beff89554fda245cc667d52c1dd0e8ba02aaf234454","bodyWordCount":1326}
+  ]
+}
