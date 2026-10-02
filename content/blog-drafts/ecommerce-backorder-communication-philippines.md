@@ -59,6 +59,10 @@ Do not grade the specialist on supplier punctuality. Their controllable outcomes
 
 Start with one product category and map the four systems that shape the customer's expectation. Test an uncertain estimate, a partial receipt, and a discontinued item. A bounded [ecommerce support role](/services/ecommerce-support) can keep customers informed without converting upstream uncertainty into a false delivery promise.
 
+Review translated or localized messages separately. A date format, timezone abbreviation, or word such as ‘reserved’ may carry a stronger meaning after translation. Keep the approved operational facts fixed, have the appropriate owner review customer-facing variants, and record which version was sent. Accessibility matters too: links, headings, and contact routes should work for the channels the business supports.
+
+Close a case only when the customer-facing state and the operational state agree. If an order ships, link the confirmed dispatch event. If an authorized cancellation occurs, verify that fulfillment and messaging workflows received it. Administrative closure should not hide an order still moving through another system.
+
 ## Sources
 
 - [FTC: Mail, Internet, or Telephone Order Merchandise Rule](https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule)
