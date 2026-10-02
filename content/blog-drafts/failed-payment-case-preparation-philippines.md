@@ -63,6 +63,10 @@ Audit technical failures, customer-updated payments, disputes, and hardship esca
 
 Start with one payment method and map every system that can retry or message. Test a routine expiry, a pending transaction, a duplicate attempt, and a hardship disclosure. A bounded [accounting and bookkeeping support role](/services/accounting-and-bookkeeping) can make failed-payment cases coherent while financial, service, fraud, hardship, and legal decisions remain with accountable owners.
 
+Reconcile the case after any successful payment. Confirm which invoice or order the transaction satisfied, whether earlier pending attempts later settled, whether automated reminders stopped, and whether an authorized system updated the service state. A green processor response alone may not repair a duplicated ledger entry or account restriction created by another workflow.
+
+Where multiple currencies or entities are involved, preserve the billed amount, settlement state, and source without calculating an ad hoc customer balance. Route exchange-rate, allocation, tax, and ledger questions to the appropriate accounting owner. The preparation file should make the uncertainty visible without offering unauthorized financial conclusions.
+
 ## Sources
 
 - [FTC: Data security guidance for businesses](https://www.ftc.gov/business-guidance/privacy-security/data-security)
