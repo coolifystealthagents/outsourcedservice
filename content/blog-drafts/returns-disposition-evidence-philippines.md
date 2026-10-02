@@ -63,6 +63,10 @@ Avoid rewarding “returns cleared per hour” by itself. That measure can encou
 
 Pilot one product category with normal, wrong-item, damaged-package, and possible-hazard cases. A bounded [ecommerce support role](/services/ecommerce-support) can turn returns into reproducible decision files while financial, safety, fraud, refund, and inventory authority remains with named owners.
 
+Include downstream evidence in the sample. A unit approved for refurbishment should appear in the correct controlled location, while an item approved for supplier return should have its outbound custody record. If the physical movement and system state disagree, reopen the exception rather than changing the evidence packet to match one side.
+
+Seasonal volume deserves a capacity rule established before the queue grows. Temporary receiving staff still need the same observation vocabulary, photo standard, and escalation route. Faster intake must not collapse identity, condition, and disposition into one unchecked scan.
+
 ## Sources
 
 - [FTC: Data security guidance for businesses](https://www.ftc.gov/business-guidance/privacy-security/data-security)
