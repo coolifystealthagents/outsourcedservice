@@ -1,6 +1,6 @@
 # Service-led topical authority link ledger
 
-Updated: 2026-09-30
+Updated: 2026-10-02
 
 This is a planning ledger, not reader-facing copy. It uses only existing Philippines service pillars and existing research pages that were confirmed in the production build. Before a reader-facing link is added, confirm that the source paragraph answers the question, the service route still exists, and the handoff states the work boundary without promising a result.
 
@@ -10,7 +10,7 @@ This is a planning ledger, not reader-facing copy. It uses only existing Philipp
 | Customer Support | `/research/philippines-customer-support-knowledge-handoff-research` | How can a buyer transfer approved support knowledge without turning old notes into customer-facing answers? | Present: `/services/customer-support` | Keep the current handoff. Do not add another service CTA. |
 | Admin Support | `/research/philippines-document-version-research` | How can a buyer keep document versions and approval evidence clear when assigning routine admin work? | Delivered locally: `/services/admin-support` (rendered source `79cec8562604f976ece852d06f6902f6814c608b`) | Preserve the rendered-source handoff. Cache-busted public proof is pending because both hosts still omit its route-local marker, service href, and refreshed metadata. Do not add a second CTA. |
 | Reporting and QA | `/research/philippines-client-report-source-research` | What source-to-summary checks make a weekly report reviewable? | Delivered locally: `/services/reporting-and-qa` (rendered source `f78a959e08a91716dd1436962260f7b83c0195f1`) | Preserve the rendered-source handoff. Cache-busted public proof is pending because both hosts still omit its route-local marker and refreshed metadata. Do not add a second CTA. |
-| Order Status Support | `/research/philippines-order-status-evidence-research` | How can a buyer give a customer a traceable order update without turning an uncertain carrier event into a promise? | Verified absent in the 2026-09-30 production artifact: source and service each have one self-canonical artifact, their sitemap locations, and 0 route-local `/services/order-status-support` links in the source `<main>`. | Promoted candidate. On a later reader-facing run, add one typed handoff only if the existing record preserves the boundary that staff prepare source-based updates while the owner keeps commitments, compensation, and exceptions. |
+| Order Status Support | `/research/philippines-order-status-evidence-research` | How can a buyer give a customer a traceable order update without turning an uncertain carrier event into a promise? | Delivered locally: `/services/order-status-support` (rendered source `9cfe34b9b4810629c73a7624b7e99008cec0be5d`). | Preserve the data-owned handoff. It prepares source-based updates and flags stale or conflicting records; the order owner keeps commitments, compensation, and exceptions. Do not add a second CTA. |
 
 ## Deferred service lanes
 
@@ -31,3 +31,9 @@ Use one row at a time. Add one contextual handoff only when the existing researc
 - Rendered source: `79cec8562604f976ece852d06f6902f6814c608b` adds the document-version handoff to the existing `/services/admin-support` pillar. The local production artifact has the expected H1 and canonical, one route-local Admin Support href, the owner boundary, `Article.datePublished` `2026-08-12`, `Article.dateModified` and Open Graph modified time `2026-09-18`, and the sitemap location. This sitemap intentionally has no `lastmod`.
 - Cache-busted apex and www each returned `200 text/html` with the expected H1 and apex canonical. Both route-local mains omit the new marker, Admin Support href, and modified time; both XML sitemaps include the canonical route. No repository-approved deployment workflow or usable authenticated API path is configured, so no deployment was triggered.
 - Preserve rendered-source commit `79cec8562604f976ece852d06f6902f6814c608b`. Classification: `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`; this status entry must not be interpreted as rollout proof.
+
+## Public-status record — 2026-10-02
+
+- Rendered source: `9cfe34b9b4810629c73a7624b7e99008cec0be5d` adds one data-owned Order Status Support handoff to `/research/philippines-order-status-evidence-research`. The local production artifact has the expected H1, one self-canonical link, one route-local `/services/order-status-support` href, the owner boundary, `Article.datePublished` `2026-08-14`, `Article.dateModified` and Open Graph modified time `2026-10-02`, and the sitemap location. This sitemap intentionally has no `lastmod`.
+- Cache-busted apex and www each returned `200 text/html` with the expected H1 and apex canonical. Both route-local mains omit the new marker and Order Status Support href; neither served the refreshed modified-time tag. Both XML sitemaps include the canonical route. No repository-approved deployment workflow, application identifier, or usable authenticated API path is configured, so no deployment was triggered.
+- Preserve rendered-source commit `9cfe34b9b4810629c73a7624b7e99008cec0be5d`. Classification: `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`; recheck the exact route-local marker, href, and modified date after an approved deployment. Do not add a second CTA.
