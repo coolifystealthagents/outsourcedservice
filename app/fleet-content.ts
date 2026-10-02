@@ -1,3 +1,8 @@
+import { october2IdentityResearch } from './oct2-research-identity';
+import { october2CancellationResearch } from './oct2-research-cancellation';
+import { october2EscalationResearch } from './oct2-research-escalation';
+import { october2OrderLineageResearch } from './oct2-research-order-lineage';
+import { october2AppealResearch } from './oct2-research-appeal';
 export const fleetServices = [
   {
     "slug": "operations-support",
@@ -498,7 +503,7 @@ const august31Research: ReadonlyArray<ResearchPost> = august31ResearchPosts.map(
     {question: 'What remains with the internal owner?', answer: 'Final approvals, exceptions, and changes to the operating rule remain with the accountable owner.'},
   ],
 }));
-export const researchPosts: ReadonlyArray<ResearchPost> =  [...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...september23ResearchPosts, ...september18ResearchPosts, ...september14ResearchPosts, ...september11ResearchPosts, ...september10ResearchPosts, ...september9ResearchPosts, ...september8ResearchPosts, ...september7ResearchPosts, ...september4Research, ...september3ResearchPosts, ...september2Research, ...september1Research, ...august31Research, ...august23ResearchPosts, ...august17ResearchPosts, ...august14ResearchPosts, ...august13ResearchPosts, ...legacyResearchPosts, ...august11ResearchPosts].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+export const researchPosts: ReadonlyArray<ResearchPost> =  [october2IdentityResearch, october2CancellationResearch, october2EscalationResearch, october2OrderLineageResearch, october2AppealResearch, ...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...september23ResearchPosts, ...september18ResearchPosts, ...september14ResearchPosts, ...september11ResearchPosts, ...september10ResearchPosts, ...september9ResearchPosts, ...september8ResearchPosts, ...september7ResearchPosts, ...september4Research, ...september3ResearchPosts, ...september2Research, ...september1Research, ...august31Research, ...august23ResearchPosts, ...august17ResearchPosts, ...august14ResearchPosts, ...august13ResearchPosts, ...legacyResearchPosts, ...august11ResearchPosts].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},
