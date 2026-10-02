@@ -63,6 +63,10 @@ Useful measures include requests with complete intake, time waiting for owner in
 
 Start with one project and collect recent changes from chat, email, and meetings. Reconstruct what the process should have recorded, then create a single intake route. A bounded [operations support role](/services/operations-support) can make change decisions faster and clearer without gaining authority over scope, money, risk, contracts, or commitments.
 
+Review withdrawn requests as well. A requester may abandon an idea after learning its impact, but any exploratory work, shared data, or temporary configuration still needs an owner. Record why the case closed and what cleanup was confirmed. This prevents a cancelled change from leaving test access, provisional files, or contradictory instructions behind.
+
+At project handover, reconcile the change register to the final scope and acceptance evidence. Open, deferred, and rejected items should be distinguishable so an operations team does not inherit them as accidental promises. The coordinator supplies the traceability; accountable owners confirm the final baseline.
+
 ## Sources
 
 - [GAO: A Framework for Managing Fraud Risks in Federal Programs](https://www.gao.gov/products/gao-20-283g)
