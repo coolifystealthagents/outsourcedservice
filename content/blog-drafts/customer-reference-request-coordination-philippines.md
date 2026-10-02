@@ -63,6 +63,10 @@ Create scenario cards for a private prospect call, analyst inquiry, recorded eve
 
 Start with the existing consent register and the last ten requests. Reconcile what was promised with what occurred. A bounded [administrative support role](/services/admin-support) can make references respectful and orderly while consent, customer selection, claims, incentives, and publicity remain deliberate owner decisions.
 
+Include a cancellation path in every scenario. A prospect may change participants, a customer may become unavailable, or the purpose may expand after scheduling. Pause the introduction when the approved facts no longer match, notify the relationship owner, and seek renewed permission where needed. A calendar change is not purely administrative when the audience or intended use has changed.
+
+After the exchange, send only an approved follow-up. Do not summarize a customer's remarks as marketing copy or circulate an informal rating of the reference. Record whether the meeting occurred, whether another action was requested, and which owner received that request. This keeps coordination useful without turning a private conversation into a reusable asset by default.
+
 ## Sources
 
 - [FTC: Endorsements, influencers, and reviews](https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews)
