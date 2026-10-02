@@ -1,0 +1,304 @@
+{
+  "run": "OUTAA-83",
+  "cycleLabel": "2026-10-02",
+  "family": "blog",
+  "requiredCount": 12,
+  "stagedCount": 12,
+  "siteTimezone": "UTC",
+  "publicationDateRule": "The source date is the planned UTC release date; actualPublicationDate remains null until first successful public verification.",
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "integrationBranch": "integrate/outaa-83-20261002",
+  "baseProductionSha": "6ea6f4106c5bb3abcdabf218a5381e438a475d04",
+  "status": "staged-awaiting-combined-release",
+  "articles": [
+    {
+      "family": "blog",
+      "topic": "How to Build a Customer Complaint Timeline Without Deciding Fault",
+      "slug": "customer-complaint-evidence-timeline-philippines",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "sha256:a3e4e0ecaba2c96fe488d2f783ac061cf110c7dca927136eae14c50b0caab600",
+      "bodyWordCount": 1416,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-complaint-evidence-timeline-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Verify Vendor Master Change Requests Without Changing Payment Details",
+      "slug": "vendor-master-change-verification-philippines",
+      "sources": [
+        "https://www.gao.gov/products/gao-14-704g",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+      ],
+      "contentHash": "sha256:ea8a4ff1c67dc6216af73890f008a70def893c3fb625a68d5c4fde98b3d699a2",
+      "bodyWordCount": 1099,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/vendor-master-change-verification-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Coordinate a Month-End Close Checklist Without Posting Journal Entries",
+      "slug": "month-end-close-checklist-coordination-philippines",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      ],
+      "contentHash": "sha256:379559190a2c43b6a7f30d5bd67c981694ed7b7f3e33293f6de3ab73da63659a",
+      "bodyWordCount": 1054,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/month-end-close-checklist-coordination-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Run a Missed-Appointment Recovery Queue Without Overpromising Availability",
+      "slug": "missed-appointment-recovery-queue-philippines",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html"
+      ],
+      "contentHash": "sha256:6b62048e132b55b338a9abcfd6e153f1bc1a2ea965558d7d9a28d5f3203a3045",
+      "bodyWordCount": 1015,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/missed-appointment-recovery-queue-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Coordinate Backorder Updates Without Inventing Delivery Dates",
+      "slug": "ecommerce-backorder-communication-philippines",
+      "sources": [
+        "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+        "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:e83eab050aa984ba8a58f60d46eec9077f71876d60b673b1e33ed75a7532f967",
+      "bodyWordCount": 1011,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/ecommerce-backorder-communication-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Prepare Warranty Claim Intake Without Deciding Coverage",
+      "slug": "warranty-claim-intake-philippines",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law",
+        "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "sha256:6891a3f75876f410c6c289a12fd162035f4504cf0dccec6ad06953281ea60336",
+      "bodyWordCount": 942,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/warranty-claim-intake-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Audit Training Completion Records Without Certifying Competence",
+      "slug": "training-completion-record-audit-philippines",
+      "sources": [
+        "https://csrc.nist.gov/pubs/sp/800/50/final",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "sha256:a611bc91485f5212546fbe9df3ca9cee08605d21b797795b04d4dabc966877ea",
+      "bodyWordCount": 970,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/training-completion-record-audit-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Prepare Returns Disposition Evidence Without Writing Off Inventory",
+      "slug": "returns-disposition-evidence-philippines",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.gao.gov/products/gao-20-283g"
+      ],
+      "contentHash": "sha256:8d9a8017027b1523e1673d682a80a71ad041cdd232df386383a9e9ccdd61f3a4",
+      "bodyWordCount": 1002,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/returns-disposition-evidence-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Administer Project Change Requests Without Approving Scope",
+      "slug": "project-change-request-intake-philippines",
+      "sources": [
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.archives.gov/records-mgmt",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      ],
+      "contentHash": "sha256:5f4b671081d14b96566fbd2505cb8b5ccdd3a8e17da9403e35cc5777b5857b78",
+      "bodyWordCount": 1007,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/project-change-request-intake-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Prepare Failed-Payment Cases Without Pressuring the Customer",
+      "slug": "failed-payment-case-preparation-philippines",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "https://www.consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/debt-collection/",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "sha256:567c977e8277998327bd36cd759816f5935adf5d0dcd3715503eb7476f3c3c9b",
+      "bodyWordCount": 980,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/failed-payment-case-preparation-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Coordinate Customer Reference Requests Without Creating Endorsements",
+      "slug": "customer-reference-request-coordination-philippines",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews",
+        "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "sha256:3f5d8316f344f2280be1fff61b953629dde87c3dbed706ae0a92f9c75abf22e9",
+      "bodyWordCount": 976,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/customer-reference-request-coordination-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Maintain a Service Incident Update Log Without Declaring Root Cause",
+      "slug": "service-incident-customer-update-log-philippines",
+      "sources": [
+        "https://www.cisa.gov/resources-tools/resources/federal-government-cybersecurity-incident-and-vulnerability-response-playbooks",
+        "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
+        "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      ],
+      "contentHash": "sha256:1e6d27c8e7d6703a4793905efcff8159d4ffeb7d374b5058909ddba774efbde0",
+      "bodyWordCount": 990,
+      "plannedPublicationDate": "2026-10-02",
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": {
+        "provider": "Coolify3",
+        "applicationUuid": "lae47vl3vogpnilfjamakc9n",
+        "configuredBranch": "main",
+        "status": "not-deployed-awaiting-browser-operator"
+      },
+      "liveUrl": "https://outsourcedservice.com/blog/service-incident-customer-update-log-philippines",
+      "verificationTime": null,
+      "status": "staged-awaiting-combined-release"
+    }
+  ]
+}
