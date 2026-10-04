@@ -12,6 +12,18 @@ This is a planning ledger, not reader-facing copy. It uses only existing Philipp
 | Reporting and QA | `/research/philippines-client-report-source-research` | What source-to-summary checks make a weekly report reviewable? | Delivered locally: `/services/reporting-and-qa` (rendered source `f78a959e08a91716dd1436962260f7b83c0195f1`) | Preserve the rendered-source handoff. Cache-busted public proof is pending because both hosts still omit its route-local marker and refreshed metadata. Do not add a second CTA. |
 | Order Status Support | `/research/philippines-order-status-evidence-research` | How can a buyer give a customer a traceable order update without turning an uncertain carrier event into a promise? | Delivered locally: `/services/order-status-support` (rendered source `9cfe34b9b4810629c73a7624b7e99008cec0be5d`). | Preserve the data-owned handoff. It prepares source-based updates and flags stale or conflicting records; the order owner keeps commitments, compensation, and exceptions. Do not add a second CTA. |
 
+## October 2 delivered research handoffs
+
+The October 2 research batch already owns five matching service handoffs. A fresh production build confirmed each source and destination is self-canonical and sitemap-listed, with exactly one matching service link inside the source route-local `<main>`. These are delivered/non-duplicable pairs; do not add a second CTA.
+
+| Service pillar | Existing supporting research route | Reader's next question | Current route-local service link | Next controlled action |
+| --- | --- | --- | --- | --- |
+| Operations Support | `/research/escalation-receipt-operational-ownership-study` | How can an operations lane show whether an escalation was received and who owns the next step? | Present once: `/services/operations-support` | Preserve the typed handoff and keep authority for exceptions with the named owner. |
+| Operations Support | `/research/order-field-event-lineage-study` | How can a buyer trace a material order change across systems without treating a final screen as the full record? | Present once: `/services/operations-support` | Preserve the typed handoff. The owner retains commercial decisions and unresolved-change authority. |
+| Customer Support | `/research/identity-sensitive-account-change-evidence-study` | What evidence should a support lane retain before a sensitive account change is approved? | Present once: `/services/customer-support` | Preserve the typed handoff. The owner keeps verification, approval, and account-control decisions. |
+| Customer Support | `/research/subscription-cancellation-authority-evidence-study` | Who can approve a cancellation when a support queue prepares the record and routes an exception? | Present once: `/services/customer-support` | Preserve the typed handoff. The owner retains cancellation and policy-exception authority. |
+| Reporting and QA | `/research/quality-review-appeal-reproducibility-study` | What should a review packet retain when a quality finding is appealed? | Present once: `/services/reporting-and-qa` | Preserve the typed handoff. The owner decides the appeal outcome and any consequential action. |
+
 ## Deferred service lanes
 
 The earlier ledger named nine research URLs that are not in the current generated research inventory. Keep these service routes out of the execution queue until an existing, matching research route is confirmed: Ticket Queue Management, Returns Administration, Customer Onboarding Support, Knowledge Base Maintenance, Service Quality Audits, Appointment Coordination, CRM Case Administration, Subscription Support, and Escalation Coordination.
