@@ -33,7 +33,7 @@ export const october5BlogDrafts = [
       `Finish the audit with an owner action register. Each action needs a problem statement, cited evidence, accountable owner, due date, and validation check. Keep policy changes separate from operational fixes. A new priority definition requires approval and communication; a missing form field may require a product change; inconsistent application may require coaching and a fresh sample. Close an action only when its check is complete, not when someone says the matter was discussed. Then schedule a limited follow-up sample so the team can see whether the correction changed real classifications.`,
       `This is a good outsourced support task because evidence collection, sampling, comparison, and exception logging are repeatable. It is a poor task to delegate without boundaries because priority can carry customer, contractual, security, and safety consequences. Scope the Philippines-based specialist around a current rule, a documented sample, and an explicit stop state. Keep rule ownership, sensitive escalation, disciplinary decisions, and customer commitments with the responsible manager. To shape this into a real role, review the ticket queue management service scope and bring a redacted week of ticket data to the OutsourcedService.com contact conversation.`,
     ],
-  },,
+  },
   /* OCT5_GENERATED_START */
 {
   "slug": "accessible-document-remediation-queue-philippines",
