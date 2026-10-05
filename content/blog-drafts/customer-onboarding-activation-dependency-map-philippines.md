@@ -3,8 +3,8 @@ slug: customer-onboarding-activation-dependency-map-philippines
 title: How to Map Customer Onboarding Dependencies Before Activation
 status: draft
 publicationDate: null
-image: /filipino-service-workflow.svg
-conversionPath: /services/customer-onboarding
+image: /aug23-heroes/outsourced-operations-decision-register.png
+conversionPath: /services/customer-onboarding-support
 ---
 
 An onboarding checklist can show ninety percent complete while the customer is still unable to use the service. The missing ten percent may be an identity decision, a signed agreement, a verified domain, an approved data import, or an administrator action that no onboarding specialist is authorized to perform. Counting completed tasks hides the dependency that controls activation.
@@ -67,11 +67,11 @@ Do not reward the specialist solely for hitting activation dates. That creates p
 
 A concise handoff could read: “Eight active onboardings; three ready for owner review, two waiting on customer domain verification, one has an import reconciliation variance, and two remain on plan. No accounts were activated by the coordination team. The implementation owner must decide whether the import variance requires a new customer file. The oldest customer-owned blocker is forty-six hours and receives its next approved reminder tomorrow at 09:00 UTC.”
 
-Pilot the map with one onboarding type. Define its activation outcome, model the dependencies, test one normal case and several exceptions, then refine the evidence rules. Scope a [customer onboarding specialist](/services/customer-onboarding) around coordination, evidence, and timely escalation while retaining identity, security, contract, and activation authority with the designated owners.
+Pilot the map with one onboarding type. Define its activation outcome, model the dependencies, test one normal case and several exceptions, then refine the evidence rules. Scope a [customer onboarding specialist](/services/customer-onboarding-support) around coordination, evidence, and timely escalation while retaining identity, security, contract, and activation authority with the designated owners.
 
 ## Sources
 
 - [NIST: Digital Identity Guidelines](https://pages.nist.gov/800-63-4/)
 - [NIST: Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework)
 - [FTC: Protecting Personal Information—A Guide for Business](https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business)
-- [CISA: Implementing Phishing-Resistant MFA](https://www.cisa.gov/resources-tools/resources/implementing-phishing-resistant-mfa)
+- [CISA: Implementing Phishing-Resistant MFA](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/require-multifactor-authentication)

@@ -3,7 +3,7 @@ slug: operations-backlog-age-banding-philippines
 title: How to Use Age Bands to Make an Operations Backlog Actionable
 status: draft
 publicationDate: null
-image: /filipino-service-workflow.svg
+image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/operations-support
 ---
 

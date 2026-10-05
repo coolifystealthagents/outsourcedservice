@@ -3,7 +3,7 @@ slug: escalation-acknowledgment-timer-review-philippines
 title: How to Review Escalation Acknowledgment Timers Without Gaming the Clock
 status: draft
 publicationDate: null
-image: /filipino-service-workflow.svg
+image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/reporting-and-qa
 ---
 
@@ -65,5 +65,5 @@ Track each agreed correction with an owner and review date. If one integration w
 
 - [U.S. GAO: The Green Book](https://www.gao.gov/greenbook)
 - [NIST: Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [CISA: Incident Response](https://www.cisa.gov/topics/cyber-threats-and-advisories/incident-response)
+- [CISA: Incident Response](https://www.cisa.gov/topics/cybersecurity-best-practices/executive-order-improving-nations-cybersecurity)
 - [Digital.gov: Metrics](https://digital.gov/topics/analytics/)

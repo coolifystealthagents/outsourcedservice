@@ -96,9 +96,9 @@
         "https://pages.nist.gov/800-63-4/",
         "https://www.nist.gov/cyberframework",
         "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
-        "https://www.cisa.gov/resources-tools/resources/implementing-phishing-resistant-mfa"
+        "https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/require-multifactor-authentication"
       ],
-      "contentHash": "sha256:ea7bbb85fc68603fd7eb05c566f975df21187fb537db4c935938c264e22754f8",
+      "contentHash": "sha256:8488bb46ea5ac68114e4f2554ef3fe736e1183d2212d95a9ece02a4744b09d52",
       "bodyWordCount": 1245,
       "actualPublicationDate": "2026-10-05",
       "articleCommitSha": null,
@@ -114,10 +114,10 @@
       "sources": [
         "https://www.gao.gov/greenbook",
         "https://www.nist.gov/cyberframework",
-        "https://www.cisa.gov/topics/cyber-threats-and-advisories/incident-response",
+        "https://www.cisa.gov/topics/cybersecurity-best-practices/executive-order-improving-nations-cybersecurity",
         "https://digital.gov/topics/analytics/"
       ],
-      "contentHash": "sha256:e86814e461f5997ef83c85b6598a6469416e4dba751d6a9c814fcab855ff974e",
+      "contentHash": "sha256:da494b9245d78d3793c66c74bc1d8f69fd2e579c620e25ff839b8e468d1427d2",
       "bodyWordCount": 933,
       "actualPublicationDate": "2026-10-05",
       "articleCommitSha": null,
@@ -136,7 +136,7 @@
         "https://digital.gov/topics/plain-language/",
         "https://www.w3.org/WAI/standards-guidelines/wcag/"
       ],
-      "contentHash": "sha256:5026fa1fa590d2a79d627a4ba5445518d5bb4aaefce4e28044ba64800d3e044a",
+      "contentHash": "sha256:743db8cc40d2f7fb488ee1742ec802b77934fe641464090c8c260ffbd74167b3",
       "bodyWordCount": 1328,
       "actualPublicationDate": "2026-10-05",
       "articleCommitSha": null,
@@ -174,7 +174,7 @@
         "https://faq.usps.com/s/article/Where-is-my-package",
         "https://www.ups.com/us/en/support/tracking-support"
       ],
-      "contentHash": "sha256:ae1236db83d08e1a119b58d8e1f13aa6f18347dadbc9ba21926ce4692cb2bd42",
+      "contentHash": "sha256:8931cced3e1963522df8e4d1f4d9138b739722dcc861ddcf77ea5a0b6dd2c600",
       "bodyWordCount": 1576,
       "actualPublicationDate": "2026-10-05",
       "articleCommitSha": null,
@@ -193,7 +193,7 @@
         "https://www.gao.gov/products/gao-20-283g",
         "https://www.iso.org/iso-9001-quality-management.html"
       ],
-      "contentHash": "sha256:e664b607ec1c42e4aab88a3fcb22cba4e285e97fe257cd762d430fc7f8269112",
+      "contentHash": "sha256:a32c23b01d438018864bda123ba00acf1be0c86234759215c4551decbd6dc4d4",
       "bodyWordCount": 1132,
       "actualPublicationDate": "2026-10-05",
       "articleCommitSha": null,

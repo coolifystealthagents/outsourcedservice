@@ -3,7 +3,7 @@ slug: crm-suppression-list-propagation-check-philippines
 title: How to Check Whether CRM Suppression Lists Reach Every Approved Tool
 status: draft
 publicationDate: null
-image: /filipino-service-workflow.svg
+image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/operations-support
 ---
 

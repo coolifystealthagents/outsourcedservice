@@ -3,8 +3,8 @@ slug: knowledge-base-search-failure-analysis-philippines
 title: How to Analyze Knowledge Base Search Failures Before Rewriting Articles
 status: draft
 publicationDate: null
-image: /filipino-service-workflow.svg
-conversionPath: /services/knowledge-base-management
+image: /aug23-heroes/outsourced-operations-decision-register.png
+conversionPath: /services/knowledge-base-maintenance
 ---
 
 A knowledge base can contain the right answer and still fail the person looking for it. The customer may use different words from the article, land on an obsolete result, receive a long list with no obvious choice, or abandon the search after a misleading title. Page views cannot explain these failures. They show what people opened, not what they meant to find or whether the article helped them finish the task.
@@ -73,7 +73,7 @@ Prioritize failures by customer consequence, frequency, evidence strength, and r
 
 A useful weekly brief might say: “We reviewed 180 sessions across six account-management tasks. Two tasks had relevant articles ranked below unrelated pages; one task relied on a retired screen label; and one apparent documentation gap requires a product-owner decision. Three metadata repairs passed task-based tests. No new policy instructions were published.”
 
-Start with one high-volume workflow. Define the task outcomes, sample failed and successful searches, reproduce the result path, connect permitted support evidence, and test the smallest approved repair. Scope a [knowledge base specialist](/services/knowledge-base-management) around evidence, maintenance, and verification while leaving product meaning and publishing approval with accountable owners.
+Start with one high-volume workflow. Define the task outcomes, sample failed and successful searches, reproduce the result path, connect permitted support evidence, and test the smallest approved repair. Scope a [knowledge base specialist](/services/knowledge-base-maintenance) around evidence, maintenance, and verification while leaving product meaning and publishing approval with accountable owners.
 
 ## Sources
 

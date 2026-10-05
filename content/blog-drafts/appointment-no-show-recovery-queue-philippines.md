@@ -3,7 +3,7 @@ slug: appointment-no-show-recovery-queue-philippines
 title: How to Build an Appointment No-Show Recovery Queue Without Overstepping
 status: draft
 publicationDate: null
-image: /filipino-service-workflow.svg
+image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/admin-support
 ---
 

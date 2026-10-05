@@ -3,7 +3,7 @@ slug: subscription-entitlement-mismatch-triage-philippines
 title: How to Triage Subscription Entitlement Mismatches Without Inventing Exceptions
 status: draft
 publicationDate: null
-image: /filipino-service-workflow.svg
+image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/customer-support
 ---
 

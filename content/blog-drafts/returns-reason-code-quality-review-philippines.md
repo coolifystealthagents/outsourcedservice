@@ -3,8 +3,8 @@ slug: returns-reason-code-quality-review-philippines
 title: How to Review Returns Reason-Code Quality Before Changing Policy
 status: draft
 publicationDate: null
-image: /filipino-service-workflow.svg
-conversionPath: /services/returns-management
+image: /aug23-heroes/outsourced-operations-decision-register.png
+conversionPath: /services/returns-administration
 ---
 
 A returns dashboard may report that “size” causes most returns, yet that label can hide several different events: the customer selected the wrong size, the listing used an unclear chart, the packed item did not match the order, or the product measurements varied. Changing refund policy from that headline would treat a data-quality problem as a customer-behavior finding.
@@ -61,7 +61,7 @@ Measure what the specialist controls: evidence completeness, dictionary citation
 
 A decision-ready handoff might say: “Forty returns reviewed: twenty-six supported, five unsupported, six ambiguous, and three untestable. Four unsupported records came from the marketplace form, which still shows a retired code. The six ambiguous cases combine fit and listing-description concerns. No refunds or dispositions were changed. The returns owner needs to approve a definition split and the channel owner needs to remove the retired value.”
 
-Start with one channel, one product family, and a bounded period. Validate identifiers, calibrate difficult examples, review the sample, and confirm whether the proposed repair changes new records. Then scope a [returns management specialist](/services/returns-management) around evidence normalization and exception routing—not around autonomous refund, fraud, or policy decisions.
+Start with one channel, one product family, and a bounded period. Validate identifiers, calibrate difficult examples, review the sample, and confirm whether the proposed repair changes new records. Then scope a [returns management specialist](/services/returns-administration) around evidence normalization and exception routing—not around autonomous refund, fraud, or policy decisions.
 
 ## Sources
 

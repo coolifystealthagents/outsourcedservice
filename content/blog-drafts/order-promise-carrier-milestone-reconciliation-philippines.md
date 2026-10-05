@@ -3,8 +3,8 @@ slug: order-promise-carrier-milestone-reconciliation-philippines
 title: How to Reconcile Order Promises With Carrier Milestones
 status: draft
 publicationDate: null
-image: /filipino-service-workflow.svg
-conversionPath: /services/order-processing
+image: /aug23-heroes/outsourced-operations-decision-register.png
+conversionPath: /services/order-status-support
 ---
 
 An order dashboard can show “shipped” while the carrier shows only that a label exists. A checkout confirmation can display a delivery window that was calculated before a warehouse delay. A customer may then receive three different versions of the same order’s status, each produced by a real system but describing a different event.
@@ -88,7 +88,7 @@ Do not score the specialist on carrier speed. Measure whether material statement
 
 Sample both normal and exception cases. A team that checks only complaints may miss routine overstatement; a team that checks only completed deliveries may miss the longest unresolved gaps. Retain the denominator, exclusions, and sampling method so a change in the mix does not masquerade as improved performance.
 
-Begin with one fulfillment location and one carrier. Reconcile a normal parcel, a label-without-acceptance case, a split order, and a disputed delivery. Use the findings to refine the source map and milestone dictionary. Then scope a bounded [order processing role](/services/order-processing) around evidence gathering, controlled updates, and explicit escalation—not around unsupported delivery promises.
+Begin with one fulfillment location and one carrier. Reconcile a normal parcel, a label-without-acceptance case, a split order, and a disputed delivery. Use the findings to refine the source map and milestone dictionary. Then scope a bounded [order processing role](/services/order-status-support) around evidence gathering, controlled updates, and explicit escalation—not around unsupported delivery promises.
 
 ## Sources
 
