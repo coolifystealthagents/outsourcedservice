@@ -1,0 +1,41 @@
+{
+  "run": "OUTAA-85",
+  "runId": "d4d32d40-3aaa-4c78-84bf-86d8845073d5",
+  "cycleLabel": "2026-10-05",
+  "requiredCount": 12,
+  "draftedCount": 1,
+  "stagedCount": 0,
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcedservice",
+  "productionBranch": "main",
+  "draftBranch": "publish/outaa-85-20261005",
+  "baseProductionSha": "281cc312dd829a551d8028ad0079f307131456f7",
+  "siteTimezone": "UTC",
+  "actualPublicationDate": null,
+  "researchHandoff": {
+    "issue": "OUTAA-84",
+    "status": "awaiting-validated-local-commit",
+    "commitSha": null
+  },
+  "status": "drafting-not-integrated-not-pushed",
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "Audit ticket priority drift without rewriting support policy",
+      "slug": "ticket-priority-drift-audit-philippines",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.cisa.gov/resources-tools/resources/cisa-insights-cyber-escalation"
+      ],
+      "contentHash": null,
+      "bodyWordCount": null,
+      "actualPublicationDate": null,
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/ticket-priority-drift-audit-philippines",
+      "verificationTime": null,
+      "status": "drafted-unwired"
+    }
+  ]
+}
