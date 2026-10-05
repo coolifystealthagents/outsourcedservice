@@ -6,6 +6,7 @@ import aug20Meta from '../aug20-meta.json';
 import aug21Meta from '../aug21-meta.json';
 import { august23BlogPosts } from '../aug23-content';
 import { october2BlogPosts } from '../oct2-blog-content';
+import { october5BlogDrafts } from '../oct5-blog-content';
 
 const PAGE_SIZE = 20;
 
@@ -31,6 +32,7 @@ export function BlogListing({ page = 1 }: { page?: number }) {
   const september24Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-24');
   const september25Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-25');
 
+  const october5Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-10-05');
   const october2Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-10-02');
   const september28Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-28');
   const september9Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-09');
@@ -41,6 +43,7 @@ export function BlogListing({ page = 1 }: { page?: number }) {
   const september1Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-01");
   const earlierBlogPosts = blogPosts.filter((item) => !("published" in item && (item.published === "2026-10-02" || item.published === "2026-09-01" || item.published === "2026-09-02" || item.published === "2026-09-03" || item.published === "2026-09-04" || item.published === "2026-09-07" || item.published === "2026-09-08" || item.published === "2026-09-09" || item.published === "2026-09-10" || item.published === "2026-09-11" || item.published === "2026-09-14" || item.published === "2026-09-18" || item.published === "2026-09-22" || item.published === "2026-09-23" || item.published === "2026-09-24" || item.published === "2026-09-25" || item.published === "2026-09-28")));
   const posts = [
+    ...october5Posts,
     ...october2Posts,
     ...september28Posts,
     ...september25Posts,

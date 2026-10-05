@@ -53,6 +53,10 @@ Repeat the check after connector upgrades, field changes, migrations, acquisitio
 
 This work is valuable because it turns a vague assurance—“the unsubscribe synced”—into reproducible evidence. Scope an [operations support specialist](/services/operations-support) around mapping, testing, exception logging, and retesting while keeping consent and reactivation authority with accountable owners.
 
+## Test a real suppression journey
+
+Use a controlled address to submit one unsubscribe through the same public path a customer uses. Capture the receipt time, then inspect every permitted downstream destination after its documented synchronization window. Confirm that campaign selection excludes the address without opening or copying unrelated customer records. Repeat after a connector retry and after a scheduled import. These two cases often expose propagation gaps that a happy-path check misses.
+
 ## Sources
 
 - [FTC: CAN-SPAM Compliance Guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)

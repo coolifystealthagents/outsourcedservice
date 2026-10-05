@@ -59,6 +59,10 @@ A useful handoff reads: “Twenty-four current files entered the queue. Ten were
 
 The most durable program fixes templates and authoring habits as well as individual files. Organizations can scope an [administrative support specialist](/services/admin-support) for inventory, approved remediation, evidence, and queue coordination while accessibility and content owners retain interpretation and sign-off.
 
+## Sample acceptance record
+
+For each remediated document, record the original URL, owner, detected barriers, approved fixes, keyboard and screen-reader checks, final file hash, replacement URL, reviewer, and review time. Reopen the item if the public download differs from the reviewed file or if a later template change reintroduces the barrier. This compact record lets the team distinguish remediation completed from remediation merely attempted.
+
 ## Sources
 
 - [W3C: Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)

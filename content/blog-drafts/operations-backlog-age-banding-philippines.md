@@ -55,6 +55,14 @@ Review band definitions when service commitments genuinely change, and version t
 
 This approach converts an aging chart into a set of executable decisions. Organizations can scope an [operations support specialist](/services/operations-support) to maintain the population, calculations, evidence, and follow-ups while managers retain priority, exception, and closure authority.
 
+## Turn each band into a working decision
+
+Attach an explicit review action to every age band. New items may need only normal queue ownership; middle-aged items may require a dependency check; the oldest items should receive a named decision to proceed, pause, reroute, or close. Do not assume age alone means urgency. A two-day payment exception can carry more customer risk than a thirty-day record waiting for an optional attachment.
+
+During the review, sample records around each band boundary and recalculate age from the authoritative received timestamp. Check paused items separately so that a legitimate customer wait does not look like internal inactivity. Record why an item remains open, the next evidence needed, who owns that evidence, and the next review date. This makes the chart traceable to actual work.
+
+Compare band movement week over week, but interpret it with inflow and closure volume. A shrinking oldest band is encouraging only if records were resolved or validly closed, not bulk re-dated. A growing middle band may reveal a shared approval bottleneck worth fixing before those records become the next red tail.
+
 ## Sources
 
 - [U.S. GAO: The Green Book](https://www.gao.gov/greenbook)

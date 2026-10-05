@@ -53,6 +53,12 @@ A decision-ready handoff could say: “Twelve cases were triaged. Seven are paid
 
 Review mappings after price-plan changes, billing migrations, product launches, and workspace-identity changes. Use least privilege: most triage requires read access, not payment or entitlement mutation rights. Organizations can use a [customer support specialist](/services/customer-support) for evidence gathering, classification, updates, and verification while billing and product owners retain exception authority.
 
+## Verify the customer outcome
+
+Close a mismatch only after checking the entitlement in the customer-facing experience, not merely the billing or administration screen. Use an approved test or impersonation method, confirm the expected feature and limit, and record the observed result without retaining sensitive payment data. If access depends on cached claims or a delayed provisioning job, verify again after that mechanism completes.
+
+For recurring patterns, group cases by plan, sales channel, workspace type, and provisioning path. A cluster that appears after one catalog change points toward a mapping correction; scattered cases tied to identity merges may need a different owner. Preserve the individual evidence while reporting only the minimum aggregate detail needed for the decision.
+
 ## Sources
 
 - [PCI Security Standards Council: PCI DSS](https://www.pcisecuritystandards.org/standards/pci-dss/)
