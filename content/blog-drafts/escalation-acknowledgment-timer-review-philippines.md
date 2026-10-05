@@ -53,6 +53,14 @@ Revalidate after workflow automation, help-desk migration, severity-policy chang
 
 This routine protects a useful metric from becoming a ceremonial click. An outsourced [reporting and quality assurance specialist](/services/reporting-and-qa) can maintain the event trail, calculations, samples, and action register while service owners retain target, risk, and remedy decisions.
 
+## Separate acknowledgment from resolution
+
+A useful review treats the first valid acknowledgment as its own event. It should identify the responder, show that the responder understood the escalation, and state the next action or ownership path. An automatic receipt or status change is not equivalent unless policy explicitly defines it that way. Resolution can occur much later and should remain a separate measure.
+
+For example, sample ten escalations across different queues. Reconstruct the timestamp sequence from the source system, exclude test records under an approved rule, and flag cases where a timer stopped on an internal note that gave no operational response. Discuss those cases with queue owners before changing a report. The aim is to correct event interpretation, not manufacture a better percentage.
+
+Track each agreed correction with an owner and review date. If one integration writes events late, label the data limitation and compare ingestion time with actual event time. If one team uses a different acknowledgment field, document that mapping instead of silently merging unlike events. This produces a metric managers can act on and staff can reproduce.
+
 ## Sources
 
 - [U.S. GAO: The Green Book](https://www.gao.gov/greenbook)

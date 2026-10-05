@@ -1,41 +1,244 @@
 {
   "run": "OUTAA-85",
-  "runId": "d4d32d40-3aaa-4c78-84bf-86d8845073d5",
   "cycleLabel": "2026-10-05",
   "requiredCount": 12,
-  "draftedCount": 1,
-  "stagedCount": 0,
+  "stagedCount": 12,
   "verifiedCount": 0,
-  "repository": "coolifystealthagents/outsourcedservice",
-  "productionBranch": "main",
-  "draftBranch": "publish/outaa-85-20261005",
-  "baseProductionSha": "281cc312dd829a551d8028ad0079f307131456f7",
   "siteTimezone": "UTC",
-  "actualPublicationDate": null,
+  "publicationDate": "2026-10-05",
   "researchHandoff": {
     "issue": "OUTAA-84",
-    "status": "awaiting-validated-local-commit",
-    "commitSha": null
+    "commitSha": "a0dd405e045a8ff14770dface32a336a761cfccc",
+    "count": 5
   },
-  "status": "drafting-not-integrated-not-pushed",
-  "entries": [
+  "status": "staged-awaiting-sole-combined-push",
+  "articles": [
     {
       "family": "blog",
-      "topic": "Audit ticket priority drift without rewriting support policy",
+      "topic": "How to Audit Ticket Priority Drift Without Rewriting Support Policy",
       "slug": "ticket-priority-drift-audit-philippines",
       "sources": [
         "https://www.nist.gov/cyberframework",
         "https://www.gao.gov/products/gao-20-283g",
         "https://www.cisa.gov/resources-tools/resources/cisa-insights-cyber-escalation"
       ],
-      "contentHash": null,
-      "bodyWordCount": null,
-      "actualPublicationDate": null,
+      "contentHash": "sha256:0e13a1d4f6d6d5f984075a6441fa6d5cf690e79092c0c76395343018e05fba6d",
+      "bodyWordCount": 1298,
+      "actualPublicationDate": "2026-10-05",
       "articleCommitSha": null,
       "deploymentEvidence": null,
       "liveUrl": "https://outsourcedservice.com/blog/ticket-priority-drift-audit-philippines",
       "verificationTime": null,
-      "status": "drafted-unwired"
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Scope an Accessible Document Remediation Queue",
+      "slug": "accessible-document-remediation-queue-philippines",
+      "sources": [
+        "https://www.w3.org/WAI/standards-guidelines/wcag/",
+        "https://www.w3.org/WAI/WCAG22/Techniques/pdf/",
+        "https://www.section508.gov/create/pdfs/",
+        "https://pdfa.org/resource/pdfua-in-a-nutshell/"
+      ],
+      "contentHash": "sha256:93245e156660f24cee2ce74f69db0144847936fc704d6b2078267eae5bc02254",
+      "bodyWordCount": 911,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/accessible-document-remediation-queue-philippines",
+      "verificationTime": null,
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Build an Appointment No-Show Recovery Queue Without Overstepping",
+      "slug": "appointment-no-show-recovery-queue-philippines",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+        "https://www.w3.org/WAI/standards-guidelines/wcag/"
+      ],
+      "contentHash": "sha256:128df1e1e9ccf1c8dce32d0e01306aa500310c337f47ecfc29882d9aeaf0528f",
+      "bodyWordCount": 927,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/appointment-no-show-recovery-queue-philippines",
+      "verificationTime": null,
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Check Whether CRM Suppression Lists Reach Every Approved Tool",
+      "slug": "crm-suppression-list-propagation-check-philippines",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.cisa.gov/resources-tools/services/logging-made-easy"
+      ],
+      "contentHash": "sha256:f8d1eae270b30dd31437c4484524a09ce529b10a154e449579e97e374949eddb",
+      "bodyWordCount": 965,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/crm-suppression-list-propagation-check-philippines",
+      "verificationTime": null,
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Map Customer Onboarding Dependencies Before Activation",
+      "slug": "customer-onboarding-activation-dependency-map-philippines",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/",
+        "https://www.nist.gov/cyberframework",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.cisa.gov/resources-tools/resources/implementing-phishing-resistant-mfa"
+      ],
+      "contentHash": "sha256:ea7bbb85fc68603fd7eb05c566f975df21187fb537db4c935938c264e22754f8",
+      "bodyWordCount": 1245,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/customer-onboarding-activation-dependency-map-philippines",
+      "verificationTime": null,
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Review Escalation Acknowledgment Timers Without Gaming the Clock",
+      "slug": "escalation-acknowledgment-timer-review-philippines",
+      "sources": [
+        "https://www.gao.gov/greenbook",
+        "https://www.nist.gov/cyberframework",
+        "https://www.cisa.gov/topics/cyber-threats-and-advisories/incident-response",
+        "https://digital.gov/topics/analytics/"
+      ],
+      "contentHash": "sha256:e86814e461f5997ef83c85b6598a6469416e4dba751d6a9c814fcab855ff974e",
+      "bodyWordCount": 933,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/escalation-acknowledgment-timer-review-philippines",
+      "verificationTime": null,
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Analyze Knowledge Base Search Failures Before Rewriting Articles",
+      "slug": "knowledge-base-search-failure-analysis-philippines",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://digital.gov/topics/plain-language/",
+        "https://www.w3.org/WAI/standards-guidelines/wcag/"
+      ],
+      "contentHash": "sha256:5026fa1fa590d2a79d627a4ba5445518d5bb4aaefce4e28044ba64800d3e044a",
+      "bodyWordCount": 1328,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/knowledge-base-search-failure-analysis-philippines",
+      "verificationTime": null,
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Use Age Bands to Make an Operations Backlog Actionable",
+      "slug": "operations-backlog-age-banding-philippines",
+      "sources": [
+        "https://www.gao.gov/greenbook",
+        "https://www.nist.gov/cyberframework",
+        "https://digital.gov/topics/analytics/",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+      ],
+      "contentHash": "sha256:42726a3c31c7fd26ef91d7f76ab00b0b74b9388aed789d3af017624eb45e8bfd",
+      "bodyWordCount": 951,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/operations-backlog-age-banding-philippines",
+      "verificationTime": null,
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Reconcile Order Promises With Carrier Milestones",
+      "slug": "order-promise-carrier-milestone-reconciliation-philippines",
+      "sources": [
+        "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://faq.usps.com/s/article/Where-is-my-package",
+        "https://www.ups.com/us/en/support/tracking-support"
+      ],
+      "contentHash": "sha256:ae1236db83d08e1a119b58d8e1f13aa6f18347dadbc9ba21926ce4692cb2bd42",
+      "bodyWordCount": 1576,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/order-promise-carrier-milestone-reconciliation-philippines",
+      "verificationTime": null,
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Review Returns Reason-Code Quality Before Changing Policy",
+      "slug": "returns-reason-code-quality-review-philippines",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/products/gao-20-283g",
+        "https://www.iso.org/iso-9001-quality-management.html"
+      ],
+      "contentHash": "sha256:e664b607ec1c42e4aab88a3fcb22cba4e285e97fe257cd762d430fc7f8269112",
+      "bodyWordCount": 1132,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/returns-reason-code-quality-review-philippines",
+      "verificationTime": null,
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Calibrate False Positives in Service Quality Reviews",
+      "slug": "service-quality-false-positive-calibration-philippines",
+      "sources": [
+        "https://www.gao.gov/greenbook",
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.w3.org/WAI/teach-advocate/accessible-presentations/"
+      ],
+      "contentHash": "sha256:8378b46a7e55050834feb450a17fe9cf9f8edb8cf6be06d2b6f2fbe867044ddc",
+      "bodyWordCount": 988,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/service-quality-false-positive-calibration-philippines",
+      "verificationTime": null,
+      "status": "staged"
+    },
+    {
+      "family": "blog",
+      "topic": "How to Triage Subscription Entitlement Mismatches Without Inventing Exceptions",
+      "slug": "subscription-entitlement-mismatch-triage-philippines",
+      "sources": [
+        "https://www.pcisecuritystandards.org/standards/pci-dss/",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://pages.nist.gov/800-63-4/",
+        "https://www.nist.gov/cyberframework"
+      ],
+      "contentHash": "sha256:bf92c9329d8cd35b5a10847517b01e6cae9088d85393c01844b46fdc26f4d2f9",
+      "bodyWordCount": 934,
+      "actualPublicationDate": "2026-10-05",
+      "articleCommitSha": null,
+      "deploymentEvidence": null,
+      "liveUrl": "https://outsourcedservice.com/blog/subscription-entitlement-mismatch-triage-philippines",
+      "verificationTime": null,
+      "status": "staged"
     }
   ]
 }
