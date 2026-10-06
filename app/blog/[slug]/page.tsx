@@ -64,7 +64,7 @@ const sources = [
 ] as const;
 
 export function generateStaticParams() {
-  return [...august23BlogPosts.map((post) => ({ slug: post.slug })), ...blogPosts.map((post) => ({ slug: post.slug })), ...generatedBlogPosts.map((item) => ({ slug: item[0] })), ...batchBlogPosts.map((item) => ({ slug: item.slug })), ...august13BlogPosts.map((item) => ({ slug: item.slug })), ...august14BlogPosts.map((item) => ({ slug: item.slug })), ...august17BlogPosts.map((item) => ({ slug: item.slug }))];
+  return [...august23BlogPosts.map((post) => ({ slug: post.slug })), ...blogPosts.map((post) => ({ slug: post.slug })), ...generatedBlogPosts.map((item) => ({ slug: item[0] })), ...batchBlogPosts.map((item) => ({ slug: item.slug })), ...august13BlogPosts.map((item) => ({ slug: item.slug })), ...august14BlogPosts.map((item) => ({ slug: item.slug })), ...august17BlogPosts.map((item) => ({ slug: item.slug })), ...october5BlogDrafts.map((item) => ({ slug: item.slug }))];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -76,9 +76,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const august13 = august13BlogPosts.find((item) => item.slug === slug);
   const august14 = august14BlogPosts.find((item) => item.slug === slug);
   const august17 = august17BlogPosts.find((item) => item.slug === slug);
+  const october5 = october5BlogDrafts.find((item) => item.slug === slug);
   const url = `https://outsourcedservice.com/blog/${slug}`;
-  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : slug === customerQueueSlug ? customerQueueTitle : slug === orderControlSlug ? orderControlTitle : slug === onboardingDataSlug ? onboardingDataTitle : slug === schedulingGuideSlug ? schedulingGuideTitle : slug === knowledgeGuideSlug ? knowledgeGuideTitle : august23?.title || (generated ? generated[1] : august17?.title || august14?.title || august13?.title || batch?.title || post?.title || 'Guide');
-  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : slug === customerQueueSlug ? customerQueueDescription : slug === orderControlSlug ? orderControlDescription : slug === onboardingDataSlug ? onboardingDataDescription : slug === schedulingGuideSlug ? schedulingGuideDescription : slug === knowledgeGuideSlug ? knowledgeGuideDescription : august23?.excerpt || (generated ? generated[2] : august17?.excerpt || august14?.excerpt || august13?.excerpt || batch?.excerpt || post?.excerpt);
+  const title = slug === accountingGuideSlug ? accountingGuideTitle : slug === staffingModelSlug ? staffingModelTitle : slug === customerQueueSlug ? customerQueueTitle : slug === orderControlSlug ? orderControlTitle : slug === onboardingDataSlug ? onboardingDataTitle : slug === schedulingGuideSlug ? schedulingGuideTitle : slug === knowledgeGuideSlug ? knowledgeGuideTitle : august23?.title || (generated ? generated[1] : october5?.title || august17?.title || august14?.title || august13?.title || batch?.title || post?.title || 'Guide');
+  const description = slug === accountingGuideSlug ? accountingGuideDescription : slug === staffingModelSlug ? staffingModelDescription : slug === customerQueueSlug ? customerQueueDescription : slug === orderControlSlug ? orderControlDescription : slug === onboardingDataSlug ? onboardingDataDescription : slug === schedulingGuideSlug ? schedulingGuideDescription : slug === knowledgeGuideSlug ? knowledgeGuideDescription : august23?.excerpt || (generated ? generated[2] : october5?.excerpt || august17?.excerpt || august14?.excerpt || august13?.excerpt || batch?.excerpt || post?.excerpt);
   return {
     title,
     description,
