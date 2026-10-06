@@ -2,7 +2,7 @@
 slug: customer-onboarding-activation-dependency-map-philippines
 title: How to Map Customer Onboarding Dependencies Before Activation
 status: draft
-publicationDate: null
+publicationDate: 2026-10-06
 image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/customer-onboarding-support
 ---

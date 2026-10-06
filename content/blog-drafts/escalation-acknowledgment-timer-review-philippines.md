@@ -2,7 +2,7 @@
 slug: escalation-acknowledgment-timer-review-philippines
 title: How to Review Escalation Acknowledgment Timers Without Gaming the Clock
 status: draft
-publicationDate: null
+publicationDate: 2026-10-06
 image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/reporting-and-qa
 ---

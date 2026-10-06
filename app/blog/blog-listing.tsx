@@ -32,7 +32,7 @@ export function BlogListing({ page = 1 }: { page?: number }) {
   const september24Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-24');
   const september25Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-25');
 
-  const october5Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-10-05');
+  const october5Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-10-06');
   const october2Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-10-02');
   const september28Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-28');
   const september9Posts = blogPosts.filter((item) => 'published' in item && item.published === '2026-09-09');

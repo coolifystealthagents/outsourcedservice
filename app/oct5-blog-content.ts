@@ -1,5 +1,5 @@
 const image = '/aug23-heroes/outsourced-operations-decision-register.png' as const;
-const date = '2026-10-05' as const;
+const date = '2026-10-06' as const;
 
 // Publication remains intentionally unset while these drafts are off production.
 // The Blog integrator sets it to the actual UTC release date immediately before
@@ -38,7 +38,7 @@ export const october5BlogDrafts = [
 {
   "slug": "accessible-document-remediation-queue-philippines",
   "title": "How to Scope an Accessible Document Remediation Queue",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 7,
   "excerpt": "Making a document accessible is not the same as making it look tidy. A polished PDF can have no heading structure, incorrect reading order, unlabeled form controls, inaccessible charts, weak contrast, or scanned text that assistive technology cannot interpret. A remediation queue needs technical checks, human reading tests, source-owner decisions, and truthful reporting.",
@@ -53,7 +53,7 @@ export const october5BlogDrafts = [
 {
   "slug": "appointment-no-show-recovery-queue-philippines",
   "title": "How to Build an Appointment No-Show Recovery Queue Without Overstepping",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 7,
   "excerpt": "A missed appointment creates several kinds of work at once. Someone must confirm what happened, preserve the calendar record, offer an approved next step, and route exceptions. Trouble begins when one generic follow-up script crosses into decisions about fees, urgency, clinical advice, legal deadlines, or sales eligibility. A recovery queue should make administrative work fast without giving the queue operator authority they do not have.",
@@ -68,7 +68,7 @@ export const october5BlogDrafts = [
 {
   "slug": "crm-suppression-list-propagation-check-philippines",
   "title": "How to Check Whether CRM Suppression Lists Reach Every Approved Tool",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 7,
   "excerpt": "A contact preference recorded correctly in one system can fail everywhere else. A person unsubscribes through an email footer, yet a sales sequence created from an older CRM view keeps running. A hard bounce reaches the marketing platform but not the event tool. A do-not-contact instruction appears in a support note that an export never reads. A propagation check finds these breaks without asking an operations specialist to decide consent, erase source history, or override the authoritative record.",
@@ -83,7 +83,7 @@ export const october5BlogDrafts = [
 {
   "slug": "customer-onboarding-activation-dependency-map-philippines",
   "title": "How to Map Customer Onboarding Dependencies Before Activation",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 7,
   "excerpt": "An onboarding checklist can show ninety percent complete while the customer is still unable to use the service. The missing ten percent may be an identity decision, a signed agreement, a verified domain, an approved data import, or an administrator action that no onboarding specialist is authorized to perform. Counting completed tasks hides the dependency that controls activation.",
@@ -98,7 +98,7 @@ export const october5BlogDrafts = [
 {
   "slug": "escalation-acknowledgment-timer-review-philippines",
   "title": "How to Review Escalation Acknowledgment Timers Without Gaming the Clock",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 7,
   "excerpt": "An escalation dashboard may show excellent response times even while customers wait without ownership. A teammate can click “acknowledged,” send an empty status message, or assign the case to a dormant queue and stop the clock. The metric improved; the escalation did not. A timer review must separate receipt, meaningful acknowledgment, accepted ownership, first action, and resolution.",
@@ -113,7 +113,7 @@ export const october5BlogDrafts = [
 {
   "slug": "knowledge-base-search-failure-analysis-philippines",
   "title": "How to Analyze Knowledge Base Search Failures Before Rewriting Articles",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 7,
   "excerpt": "A knowledge base can contain the right answer and still fail the person looking for it. The customer may use different words from the article, land on an obsolete result, receive a long list with no obvious choice, or abandon the search after a misleading title. Page views cannot explain these failures. They show what people opened, not what they meant to find or whether the article helped them finish the task.",
@@ -128,7 +128,7 @@ export const october5BlogDrafts = [
 {
   "slug": "operations-backlog-age-banding-philippines",
   "title": "How to Use Age Bands to Make an Operations Backlog Actionable",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 7,
   "excerpt": "An average backlog age can improve while the oldest and riskiest work gets worse. Closing a large batch of new, easy items lowers the average even if long-blocked records remain untouched. A useful backlog review therefore shows age bands, blocked time, risk, ownership, and the decisions preventing movement.",
@@ -143,7 +143,7 @@ export const october5BlogDrafts = [
 {
   "slug": "order-promise-carrier-milestone-reconciliation-philippines",
   "title": "How to Reconcile Order Promises With Carrier Milestones",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 8,
   "excerpt": "An order dashboard can show “shipped” while the carrier shows only that a label exists. A checkout confirmation can display a delivery window that was calculated before a warehouse delay. A customer may then receive three different versions of the same order’s status, each produced by a real system but describing a different event.",
@@ -158,7 +158,7 @@ export const october5BlogDrafts = [
 {
   "slug": "returns-reason-code-quality-review-philippines",
   "title": "How to Review Returns Reason-Code Quality Before Changing Policy",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 7,
   "excerpt": "A returns dashboard may report that “size” causes most returns, yet that label can hide several different events: the customer selected the wrong size, the listing used an unclear chart, the packed item did not match the order, or the product measurements varied. Changing refund policy from that headline would treat a data-quality problem as a customer-behavior finding.",
@@ -173,7 +173,7 @@ export const october5BlogDrafts = [
 {
   "slug": "service-quality-false-positive-calibration-philippines",
   "title": "How to Calibrate False Positives in Service Quality Reviews",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 7,
   "excerpt": "A quality scorecard loses credibility when it flags acceptable work as defective. Reviewers then spend calibration meetings reversing avoidable findings, frontline staff stop trusting feedback, and managers cannot tell whether a rising defect rate reflects service deterioration or a change in interpretation. The answer is not to make the scorecard easier. It is to identify false positives systematically while keeping standards, waivers, and customer-risk decisions with accountable owners.",
@@ -188,7 +188,7 @@ export const october5BlogDrafts = [
 {
   "slug": "subscription-entitlement-mismatch-triage-philippines",
   "title": "How to Triage Subscription Entitlement Mismatches Without Inventing Exceptions",
-  "published": "2026-10-05",
+  "published": "2026-10-06",
   "image": "/aug23-heroes/outsourced-operations-decision-register.png",
   "minutes": 7,
   "excerpt": "A subscription customer can have a successful payment and still lack the expected product access. The reverse also occurs: access remains after cancellation, a trial is mistaken for a paid plan, or one workspace receives benefits purchased by another. These cases tempt support staff to toggle access immediately. That may hide the root cause, create unauthorized value, or erase evidence needed to repair billing and provisioning.",

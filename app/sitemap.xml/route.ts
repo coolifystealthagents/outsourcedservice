@@ -17,6 +17,9 @@ export async function GET() {
   const blogPages = Array.from({ length: Math.max(1, Math.ceil(allBlog.length / 20)) }, (_, i) => i + 1).filter((n) => n > 1).map((n) => `/blog/page/${n}`);
   const aug19Paths = Object.entries(aug19Meta).map(([slug, value]) => `/${(value as { family: string }).family}/${slug}`);
   const urls = [...pages, ...fleetServices.map((s) => `/services/${s.slug}`), ...allBlog.map((p) => `/blog/${p.slug}`), ...blogPages, ...aug21Research.map((p) => `/research/${p.slug}`), ...aug20Research.map((p) => `/research/${p.slug}`), ...researchPosts.map((p) => `/research/${p.slug}`), ...aug19Paths];
-  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map((x) => `<url><loc>${x === '/' ? base : `${base}${x}`}</loc></url>`).join('')}</urlset>`;
+  const lastmodByPath = new Map<string, string>();
+  for (const post of allBlog) if ("published" in post && typeof post.published === "string") lastmodByPath.set(`/blog/${post.slug}`, post.published);
+  for (const post of researchPosts) if (typeof post.published === "string") lastmodByPath.set(`/research/${post.slug}`, post.published);
+  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map((x) => `<url><loc>${x === "/" ? base : `${base}${x}`}</loc>${lastmodByPath.has(x) ? `<lastmod>${lastmodByPath.get(x)}</lastmod>` : ""}</url>`).join("")}</urlset>`;
   return new Response(xml, { headers: { 'Content-Type': 'application/xml' } });
 }

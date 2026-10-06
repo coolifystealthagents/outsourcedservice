@@ -2,7 +2,7 @@
 slug: service-quality-false-positive-calibration-philippines
 title: How to Calibrate False Positives in Service Quality Reviews
 status: draft
-publicationDate: null
+publicationDate: 2026-10-06
 image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/reporting-and-qa
 ---

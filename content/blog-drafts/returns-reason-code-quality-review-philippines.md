@@ -2,7 +2,7 @@
 slug: returns-reason-code-quality-review-philippines
 title: How to Review Returns Reason-Code Quality Before Changing Policy
 status: draft
-publicationDate: null
+publicationDate: 2026-10-06
 image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/returns-administration
 ---

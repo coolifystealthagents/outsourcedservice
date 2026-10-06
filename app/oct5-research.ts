@@ -1,4 +1,4 @@
-const published='2026-10-05';
+const published='2026-10-06';
 const thumbnail='/aug19-heroes/service-delivery-source-quality-evidence-research.webp';
 const source=(label:string,url:string)=>({label,url});
 const faq=(question:string,answer:string)=>({question,answer});

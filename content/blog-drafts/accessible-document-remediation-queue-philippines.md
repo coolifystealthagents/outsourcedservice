@@ -2,7 +2,7 @@
 slug: accessible-document-remediation-queue-philippines
 title: How to Scope an Accessible Document Remediation Queue
 status: draft
-publicationDate: null
+publicationDate: 2026-10-06
 image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/admin-support
 ---

@@ -2,7 +2,7 @@
 slug: knowledge-base-search-failure-analysis-philippines
 title: How to Analyze Knowledge Base Search Failures Before Rewriting Articles
 status: draft
-publicationDate: null
+publicationDate: 2026-10-06
 image: /aug23-heroes/outsourced-operations-decision-register.png
 conversionPath: /services/knowledge-base-maintenance
 ---
