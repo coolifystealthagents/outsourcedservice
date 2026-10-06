@@ -37,11 +37,11 @@
       "slug": "accessible-document-remediation-queue-philippines",
       "sources": [
         "https://www.w3.org/WAI/standards-guidelines/wcag/",
-        "https://www.w3.org/WAI/WCAG22/Techniques/pdf/",
+        "https://www.w3.org/WAI/WCAG22/Techniques/#pdf",
         "https://www.section508.gov/create/pdfs/",
         "https://pdfa.org/resource/pdfua-in-a-nutshell/"
       ],
-      "contentHash": "sha256:93245e156660f24cee2ce74f69db0144847936fc704d6b2078267eae5bc02254",
+      "contentHash": "sha256:298332b1a524d0eaa860d48c19b9cdbf72ea97e4c6090babdf5b8b13b1bf07d6",
       "bodyWordCount": 911,
       "actualPublicationDate": "2026-10-06",
       "articleCommitSha": null,

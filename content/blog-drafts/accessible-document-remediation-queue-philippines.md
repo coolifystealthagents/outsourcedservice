@@ -66,6 +66,6 @@ For each remediated document, record the original URL, owner, detected barriers,
 ## Sources
 
 - [W3C: Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
-- [W3C: PDF Techniques for WCAG](https://www.w3.org/WAI/WCAG22/Techniques/pdf/)
+- [W3C: PDF Techniques for WCAG](https://www.w3.org/WAI/WCAG22/Techniques/#pdf)
 - [Section508.gov: Create Accessible PDFs](https://www.section508.gov/create/pdfs/)
 - [PDF Association: PDF/UA](https://pdfa.org/resource/pdfua-in-a-nutshell/)
