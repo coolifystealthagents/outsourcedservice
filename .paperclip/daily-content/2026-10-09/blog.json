@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-09",
+  "kind": "blog",
+  "count": 12,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "outsourcedservice-priority-intake-triage",
+      "title": "Outsourced Service Priority Intake Triage",
+      "excerpt": "A practical guide to sequence new requests by evidence, impact, and accepted ownership.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-priority-intake-triage"
+    },
+    {
+      "slug": "outsourcedservice-exception-owner-map",
+      "title": "Outsourced Service Exception Owner Map",
+      "excerpt": "A practical guide to route ambiguous work to an authorized decision owner.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-exception-owner-map"
+    },
+    {
+      "slug": "outsourcedservice-source-record-verification",
+      "title": "Outsourced Service Source Record Verification",
+      "excerpt": "A practical guide to confirm the governing record before work begins.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-source-record-verification"
+    },
+    {
+      "slug": "outsourcedservice-handoff-acceptance-receipt",
+      "title": "Outsourced Service Handoff Acceptance Receipt",
+      "excerpt": "A practical guide to prove the receiving team accepted the next action.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-handoff-acceptance-receipt"
+    },
+    {
+      "slug": "outsourcedservice-backlog-aging-review",
+      "title": "Outsourced Service Backlog Aging Review",
+      "excerpt": "A practical guide to separate active handling from documented waiting states.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-backlog-aging-review"
+    },
+    {
+      "slug": "outsourcedservice-quality-sample-calibration",
+      "title": "Outsourced Service Quality Sample Calibration",
+      "excerpt": "A practical guide to align reviewers on observable acceptance evidence.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-quality-sample-calibration"
+    },
+    {
+      "slug": "outsourcedservice-access-scope-recertification",
+      "title": "Outsourced Service Access Scope Recertification",
+      "excerpt": "A practical guide to keep permissions aligned with current duties.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-access-scope-recertification"
+    },
+    {
+      "slug": "outsourcedservice-change-control-release-note",
+      "title": "Outsourced Service Change Control Release Note",
+      "excerpt": "A practical guide to publish a dated rule change with rollback context.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-change-control-release-note"
+    },
+    {
+      "slug": "outsourcedservice-capacity-overflow-trigger",
+      "title": "Outsourced Service Capacity Overflow Trigger",
+      "excerpt": "A practical guide to surface demand that exceeds the safe service window.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-capacity-overflow-trigger"
+    },
+    {
+      "slug": "outsourcedservice-client-decision-packet",
+      "title": "Outsourced Service Client Decision Packet",
+      "excerpt": "A practical guide to prepare facts without transferring client authority.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-client-decision-packet"
+    },
+    {
+      "slug": "outsourcedservice-correction-propagation-check",
+      "title": "Outsourced Service Correction Propagation Check",
+      "excerpt": "A practical guide to reconcile corrected facts across dependent systems.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-correction-propagation-check"
+    },
+    {
+      "slug": "outsourcedservice-monthly-control-closeout",
+      "title": "Outsourced Service Monthly Control Closeout",
+      "excerpt": "A practical guide to close open exceptions and preserve review evidence.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/outsourcedservice-monthly-control-closeout"
+    }
+  ]
+}

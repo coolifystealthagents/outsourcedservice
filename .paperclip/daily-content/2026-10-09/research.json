@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-09",
+  "kind": "research",
+  "count": 5,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "outsourcedservice-queue-wait-state-evidence-study",
+      "title": "Outsourced Service Queue Wait-State Evidence Study",
+      "excerpt": "A source-backed study of whether waiting reasons explain queue age.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/outsourcedservice-queue-wait-state-evidence-study"
+    },
+    {
+      "slug": "outsourcedservice-reviewer-agreement-reliability-study",
+      "title": "Outsourced Service Reviewer Agreement Reliability Study",
+      "excerpt": "A source-backed study of whether reviewers reproduce the same conclusion.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/outsourcedservice-reviewer-agreement-reliability-study"
+    },
+    {
+      "slug": "outsourcedservice-minimum-access-effectiveness-study",
+      "title": "Outsourced Service Minimum Access Effectiveness Study",
+      "excerpt": "A source-backed study of whether permissions are sufficient but bounded.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/outsourcedservice-minimum-access-effectiveness-study"
+    },
+    {
+      "slug": "outsourcedservice-handoff-completeness-observation",
+      "title": "Outsourced Service Handoff Completeness Observation",
+      "excerpt": "A source-backed study of whether a receiving team can continue without private clarification.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/outsourcedservice-handoff-completeness-observation"
+    },
+    {
+      "slug": "outsourcedservice-control-change-traceability-research",
+      "title": "Outsourced Service Control Change Traceability Research",
+      "excerpt": "A source-backed study of whether operating changes remain attributable and reversible.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/outsourcedservice-control-change-traceability-research"
+    }
+  ]
+}
