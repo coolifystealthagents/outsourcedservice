@@ -24,6 +24,18 @@ The October 2 research batch already owns five matching service handoffs. A fres
 | Customer Support | `/research/subscription-cancellation-authority-evidence-study` | Who can approve a cancellation when a support queue prepares the record and routes an exception? | Present once: `/services/customer-support` | Preserve the typed handoff. The owner retains cancellation and policy-exception authority. |
 | Reporting and QA | `/research/quality-review-appeal-reproducibility-study` | What should a review packet retain when a quality finding is appealed? | Present once: `/services/reporting-and-qa` | Preserve the typed handoff. The owner decides the appeal outcome and any consequential action. |
 
+## October 8 delivered research handoffs
+
+The October 8 research batch already owns five Operations Support handoffs. A fresh production build confirmed each source and the existing service pillar are self-canonical and sitemap-listed, with exactly one matching service link inside the source route-local `<main>`. These pairs are delivered/non-duplicable; do not add a second CTA.
+
+| Service pillar | Existing supporting research route | Reader's next question | Current route-local service link | Next controlled action |
+| --- | --- | --- | --- | --- |
+| Operations Support | `/research/service-handoff-acceptance-latency-research` | How can a buyer measure whether a handoff was received and ready for owner action? | Present once: `/services/operations-support` | Preserve the typed handoff. Owners retain policy, approval, and exception decisions. |
+| Operations Support | `/research/customer-update-source-lineage-research` | How can a team check that a customer update uses the right source and approved version? | Present once: `/services/operations-support` | Preserve the typed handoff. Owners retain customer commitments and approval decisions. |
+| Operations Support | `/research/service-queue-owner-agreement-research` | How can reviewers identify the current queue owner and escalation route from the same record? | Present once: `/services/operations-support` | Preserve the typed handoff. Owners retain policy, approval, and exception decisions. |
+| Operations Support | `/research/shared-inbox-routing-recurrence-research` | How can a team investigate a repeated inbox-routing failure without rerouting work on guesswork? | Present once: `/services/operations-support` | Preserve the typed handoff. Owners retain policy, approval, and exception decisions. |
+| Operations Support | `/research/service-access-removal-evidence-research` | What evidence should show that access was removed at offboarding without changing permissions by inference? | Present once: `/services/operations-support` | Preserve the typed handoff. Owners retain access authority and risk decisions. |
+
 ## Deferred service lanes
 
 The earlier ledger named nine research URLs that are not in the current generated research inventory. Keep these service routes out of the execution queue until an existing, matching research route is confirmed: Ticket Queue Management, Returns Administration, Customer Onboarding Support, Knowledge Base Maintenance, Service Quality Audits, Appointment Coordination, CRM Case Administration, Subscription Support, and Escalation Coordination.
