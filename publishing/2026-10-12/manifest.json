@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-12",
+  "site": "OutsourcedService.com",
+  "blogCount": 12,
+  "researchCount": 5,
+  "blogRegistry": "app/data.ts",
+  "researchRegistry": "app/fleet-content.ts",
+  "blogIndex": "app/blog/blog-listing.tsx",
+  "researchIndex": "app/research/page.tsx",
+  "blogRoute": "app/blog/[slug]/page.tsx",
+  "researchRoute": "app/research/[slug]/page.tsx",
+  "items": [
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-returned-work-reentry",
+      "title": "Control Returned Work Reentry in an Outsourced Service Queue",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-returned-work-reentry",
+      "thumbnail": "/oct12/outsourced-service-returned-work-reentry.png",
+      "thumbnailTitle": "Control Returned Work Reentry in an Outsourced Service Queue"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-client-approval-expiry",
+      "title": "Track Expiring Client Approvals in Outsourced Service Work",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-client-approval-expiry",
+      "thumbnail": "/oct12/outsourced-service-client-approval-expiry.png",
+      "thumbnailTitle": "Track Expiring Client Approvals in Outsourced Service Work"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-evidence-access-failure",
+      "title": "Handle Evidence Access Failures in Outsourced Service Reviews",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-evidence-access-failure",
+      "thumbnail": "/oct12/outsourced-service-evidence-access-failure.png",
+      "thumbnailTitle": "Handle Evidence Access Failures in Outsourced Service Reviews"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-automation-owner-handoff",
+      "title": "Hand Off Ownership of Outsourced Service Automations",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-automation-owner-handoff",
+      "thumbnail": "/oct12/outsourced-service-automation-owner-handoff.png",
+      "thumbnailTitle": "Hand Off Ownership of Outsourced Service Automations"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-sla-clock-dispute",
+      "title": "Resolve Service-Level Clock Disputes with Event Evidence",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-sla-clock-dispute",
+      "thumbnail": "/oct12/outsourced-service-sla-clock-dispute.png",
+      "thumbnailTitle": "Resolve Service-Level Clock Disputes with Event Evidence"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-sensitive-case-redaction",
+      "title": "Prepare Sensitive Case Redactions for Outsourced Service Review",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-sensitive-case-redaction",
+      "thumbnail": "/oct12/outsourced-service-sensitive-case-redaction.png",
+      "thumbnailTitle": "Prepare Sensitive Case Redactions for Outsourced Service Review"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-bulk-update-preview",
+      "title": "Preview Bulk Updates before an Outsourced Service Release",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-bulk-update-preview",
+      "thumbnail": "/oct12/outsourced-service-bulk-update-preview.png",
+      "thumbnailTitle": "Preview Bulk Updates before an Outsourced Service Release"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-customer-promise-register",
+      "title": "Maintain a Customer Promise Register across Outsourced Teams",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-customer-promise-register",
+      "thumbnail": "/oct12/outsourced-service-customer-promise-register.png",
+      "thumbnailTitle": "Maintain a Customer Promise Register across Outsourced Teams"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-quality-appeal-route",
+      "title": "Create a Quality Finding Appeal Route for Outsourced Service Teams",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-quality-appeal-route",
+      "thumbnail": "/oct12/outsourced-service-quality-appeal-route.png",
+      "thumbnailTitle": "Create a Quality Finding Appeal Route for Outsourced Service Teams"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-queue-merge-control",
+      "title": "Control Queue Mergers during Outsourced Service Changes",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-queue-merge-control",
+      "thumbnail": "/oct12/outsourced-service-queue-merge-control.png",
+      "thumbnailTitle": "Control Queue Mergers during Outsourced Service Changes"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-third-party-outage-log",
+      "title": "Keep a Third-Party Outage Log for Outsourced Service Delivery",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-third-party-outage-log",
+      "thumbnail": "/oct12/outsourced-service-third-party-outage-log.png",
+      "thumbnailTitle": "Keep a Third-Party Outage Log for Outsourced Service Delivery"
+    },
+    {
+      "system": "Blog",
+      "slug": "outsourced-service-end-of-day-reconciliation",
+      "title": "Run an End-of-Day Reconciliation for Outsourced Service Queues",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/blog/outsourced-service-end-of-day-reconciliation",
+      "thumbnail": "/oct12/outsourced-service-end-of-day-reconciliation.png",
+      "thumbnailTitle": "Run an End-of-Day Reconciliation for Outsourced Service Queues"
+    },
+    {
+      "system": "Research",
+      "slug": "outsourced-service-reopen-cause-stability-study",
+      "title": "Test the Stability of Reopen Causes in Outsourced Service Queues",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/research/outsourced-service-reopen-cause-stability-study",
+      "thumbnail": "/oct12/outsourced-service-reopen-cause-stability-study.webp",
+      "thumbnailTitle": "Test the Stability of Reopen Causes in Outsourced Service Queues"
+    },
+    {
+      "system": "Research",
+      "slug": "outsourced-service-handoff-acknowledgement-lag",
+      "title": "Measure Handoff Acknowledgement Lag in Outsourced Service Delivery",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/research/outsourced-service-handoff-acknowledgement-lag",
+      "thumbnail": "/oct12/outsourced-service-handoff-acknowledgement-lag.webp",
+      "thumbnailTitle": "Measure Handoff Acknowledgement Lag in Outsourced Service Delivery"
+    },
+    {
+      "system": "Research",
+      "slug": "outsourced-service-approval-expiry-risk-study",
+      "title": "Study Operational Risk after Outsourced Service Approvals Expire",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/research/outsourced-service-approval-expiry-risk-study",
+      "thumbnail": "/oct12/outsourced-service-approval-expiry-risk-study.webp",
+      "thumbnailTitle": "Study Operational Risk after Outsourced Service Approvals Expire"
+    },
+    {
+      "system": "Research",
+      "slug": "outsourced-service-automation-exception-observability",
+      "title": "Evaluate Exception Observability in Outsourced Service Automations",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/research/outsourced-service-automation-exception-observability",
+      "thumbnail": "/oct12/outsourced-service-automation-exception-observability.webp",
+      "thumbnailTitle": "Evaluate Exception Observability in Outsourced Service Automations"
+    },
+    {
+      "system": "Research",
+      "slug": "outsourced-service-redaction-review-agreement",
+      "title": "Measure Reviewer Agreement on Outsourced Service Redactions",
+      "date": "2026-10-12",
+      "source": "app/oct12-content.ts",
+      "route": "/research/outsourced-service-redaction-review-agreement",
+      "thumbnail": "/oct12/outsourced-service-redaction-review-agreement.webp",
+      "thumbnailTitle": "Measure Reviewer Agreement on Outsourced Service Redactions"
+    }
+  ]
+}

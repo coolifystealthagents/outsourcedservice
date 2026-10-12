@@ -70,6 +70,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
+  const postImage = post && 'image' in post && typeof post.image === 'string' ? post.image : '/filipino-service-workflow.svg';
   const august23 = august23BlogPosts.find((item) => item.slug === slug);
   const generated = generatedBlogPosts.find((item) => item[0] === slug);
   const batch = batchBlogPosts.find((item) => item.slug === slug);
@@ -89,7 +90,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description,
       url,
       type: 'article',
-      images: ['https://outsourcedservice.com/filipino-service-workflow.svg'],
+      images: [`https://outsourcedservice.com${postImage}`],
     },
   };
 }
@@ -252,6 +253,12 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   if (generatedBlogPosts.some((item) => item[0] === slug) || batchBlogPosts.some((item) => item.slug === slug) || august13BlogPosts.some((item) => item.slug === slug) || august14BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/></>;
   if (august17BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/>;</>;
   if (!post) notFound();
+  const articleImage = 'image' in post && typeof post.image === 'string' ? post.image : '/filipino-service-workflow.svg';
+  const relatedSlugs = 'related' in post && Array.isArray(post.related) ? post.related as readonly string[] : [];
+  const relatedPosts = relatedSlugs.flatMap((relatedSlug) => {
+    const related = blogPosts.find((candidate) => candidate.slug === relatedSlug);
+    return related ? [related] : [];
+  });
   const october5 = october5BlogDrafts.find((item) => item.slug === slug);
   if (october5) return <><Header/><main className="section content-page"><article className="container" style={{maxWidth:880}}><October5BlogArticle post={october5}/></article><CTA/></main><Footer/></>;
   const october2 = october2BlogPosts.find((item) => item.slug === slug);
@@ -262,16 +269,16 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     <Header omitPricing={omitPricing} />
     <main className="section content-page">
       <article className="container" style={{ maxWidth: 880 }}>
-        {publicationDate ? <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({'@context':'https://schema.org','@type':'BlogPosting',headline:post.title,description:post.excerpt,datePublished:publicationDate,...(publicationDate === '2026-09-22' || publicationDate === '2026-09-23' || publicationDate === '2026-09-25' || publicationDate === '2026-09-28' ? {} : {dateModified:publicationDate}),mainEntityOfPage:`https://outsourcedservice.com/blog/${post.slug}`,image:'https://outsourcedservice.com/filipino-service-workflow.svg'})}} /> : null}
+        {publicationDate ? <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({'@context':'https://schema.org','@type':'BlogPosting',headline:post.title,description:post.excerpt,datePublished:publicationDate,...(publicationDate === '2026-09-22' || publicationDate === '2026-09-23' || publicationDate === '2026-09-25' || publicationDate === '2026-09-28' ? {} : {dateModified:publicationDate}),mainEntityOfPage:`https://outsourcedservice.com/blog/${post.slug}`,image:'https://outsourcedservice.com'+articleImage})}} /> : null}
         {slug === accountingGuideSlug ? <AccountingControlGuide /> : slug === staffingModelSlug ? <StaffingModelGuide /> : slug === customerQueueSlug ? <CustomerQueueGuide /> : slug === orderControlSlug ? <OrderControlGuide /> : slug === onboardingDataSlug ? <CustomerOnboardingDataGuide /> : slug === schedulingGuideSlug ? <SchedulingControlGuide /> : slug === knowledgeGuideSlug ? <KnowledgeBaseMaintenanceGuide /> : slug === detailedSlug ? <DetailedArticle /> : <>
           <p className="eyebrow">{site.brand} field note</p>
           <h1>{post.title}</h1>
           <p className="lead">{post.excerpt}</p>
-          {publicationDate ? <img src="/filipino-service-workflow.svg" alt="Two specialists reviewing a service workflow board" style={{width:'100%',height:'auto'}} /> : null}
+          {publicationDate ? <img src={articleImage} alt={post.title} style={{width:'100%',height:'auto'}} /> : null}
           {publicationDate ? <p className="article-date">Published <time dateTime={publicationDate}>{new Intl.DateTimeFormat("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }).format(new Date(publicationDate + "T00:00:00Z"))}</time> - {post.minutes} minute read</p> : null}
           <div className="card">
             <h2>The short version</h2>
-            {'body' in post ? <>{post.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{publicationDate === '2026-09-22' || publicationDate === '2026-09-23' || publicationDate === '2026-09-28' ? <><h2>Sources</h2><ul className="source-list"><li><a href="https://www.nist.gov/cyberframework" rel="noopener noreferrer" target="_blank">NIST Cybersecurity Framework 2.0</a></li><li><a href="https://www.nist.gov/privacy-framework" rel="noopener noreferrer" target="_blank">NIST Privacy Framework</a></li><li><a href="https://www.gao.gov/products/gao-20-283g" rel="noopener noreferrer" target="_blank">U.S. GAO Assessing Data Reliability</a></li><li><a href="https://www.archives.gov/records-mgmt" rel="noopener noreferrer" target="_blank">U.S. National Archives records management guidance</a></li></ul><p><a href="/services">Explore OutsourcedService.com service scopes</a> or <a href="/contact-us">bring a redacted sample to a scoping conversation</a>.</p></> : null}</> : <p>Start with one role, a short task list, and one person who checks the work. Filipino talent should not have to reverse-engineer a process that nobody on your team can explain.</p>}
+            {'body' in post ? <>{post.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{relatedPosts.length ? <aside className="related-links" aria-label="Related Blog guides"><h2>Related Blog guides</h2><ul>{relatedPosts.map((related)=><li key={related.slug}><a href={'/blog/'+related.slug}>{related.title}</a></li>)}</ul></aside> : null}{publicationDate === '2026-09-22' || publicationDate === '2026-09-23' || publicationDate === '2026-09-28' ? <><h2>Sources</h2><ul className="source-list"><li><a href="https://www.nist.gov/cyberframework" rel="noopener noreferrer" target="_blank">NIST Cybersecurity Framework 2.0</a></li><li><a href="https://www.nist.gov/privacy-framework" rel="noopener noreferrer" target="_blank">NIST Privacy Framework</a></li><li><a href="https://www.gao.gov/products/gao-20-283g" rel="noopener noreferrer" target="_blank">U.S. GAO Assessing Data Reliability</a></li><li><a href="https://www.archives.gov/records-mgmt" rel="noopener noreferrer" target="_blank">U.S. National Archives records management guidance</a></li></ul><p><a href="/services">Explore OutsourcedService.com service scopes</a> or <a href="/contact-us">bring a redacted sample to a scoping conversation</a>.</p></> : null}</> : <p>Start with one role, a short task list, and one person who checks the work. Filipino talent should not have to reverse-engineer a process that nobody on your team can explain.</p>}
             <h2>What to prepare</h2>
             <ul>
               <li>Examples of finished work and approved replies</li>
