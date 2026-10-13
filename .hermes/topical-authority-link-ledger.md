@@ -1,6 +1,6 @@
 # Service-led topical authority link ledger
 
-Updated: 2026-10-02
+Updated: 2026-10-13
 
 This is a planning ledger, not reader-facing copy. It uses only existing Philippines service pillars and existing research pages that were confirmed in the production build. Before a reader-facing link is added, confirm that the source paragraph answers the question, the service route still exists, and the handoff states the work boundary without promising a result.
 
@@ -35,6 +35,18 @@ The October 8 research batch already owns five Operations Support handoffs. A fr
 | Operations Support | `/research/service-queue-owner-agreement-research` | How can reviewers identify the current queue owner and escalation route from the same record? | Present once: `/services/operations-support` | Preserve the typed handoff. Owners retain policy, approval, and exception decisions. |
 | Operations Support | `/research/shared-inbox-routing-recurrence-research` | How can a team investigate a repeated inbox-routing failure without rerouting work on guesswork? | Present once: `/services/operations-support` | Preserve the typed handoff. Owners retain policy, approval, and exception decisions. |
 | Operations Support | `/research/service-access-removal-evidence-research` | What evidence should show that access was removed at offboarding without changing permissions by inference? | Present once: `/services/operations-support` | Preserve the typed handoff. Owners retain access authority and risk decisions. |
+
+## October 9 delivered research handoffs
+
+The October 9 research batch already renders five Operations Support handoffs. The fresh production build confirmed that each source and the existing service pillar have a self-canonical URL and sitemap location. Each source has exactly one matching service link inside its route-local `<main>`, so these pairs are delivered and must not receive another CTA.
+
+| Service pillar | Existing supporting research route | Reader's next question | Current route-local service link | Next controlled action |
+| --- | --- | --- | --- | --- |
+| Operations Support | `/research/outsourcedservice-queue-wait-state-evidence-study` | Which receipt and acceptance records explain time spent waiting in a service queue? | Present once: `/services/operations-support` | Preserve the typed handoff. The accountable owner keeps queue policy and approval decisions. |
+| Operations Support | `/research/outsourcedservice-reviewer-agreement-reliability-study` | Can a reviewer reconstruct a customer update from the source and approval available when it was sent? | Present once: `/services/operations-support` | Preserve the typed handoff. Customer commitments and approval decisions remain with the owner. |
+| Operations Support | `/research/outsourcedservice-minimum-access-effectiveness-study` | Are the permissions enough for the work while still bounded to the role? | Present once: `/services/operations-support` | Preserve the typed handoff. Access authority and risk decisions remain with the owner. |
+| Operations Support | `/research/outsourcedservice-handoff-completeness-observation` | Can the receiving team continue without private clarification? | Present once: `/services/operations-support` | Preserve the typed handoff. The owner retains the decision on recurring routing changes. |
+| Operations Support | `/research/outsourcedservice-control-change-traceability-research` | Can the team show when service access and reusable artifacts were removed or reassigned? | Present once: `/services/operations-support` | Preserve the typed handoff. The owner retains access, policy, and approval decisions. |
 
 ## Deferred service lanes
 
