@@ -7,6 +7,13 @@ const statIcons = [
   '/icons/getillustrations/sharpie-business/quality-review.svg',
 ];
 
+const serviceIcons = [
+  '/icons/getillustrations/sharpie-business/scoped-lane.svg',
+  '/icons/getillustrations/sharpie-business/approval-owner.svg',
+  '/icons/getillustrations/sharpie-business/quality-review.svg',
+  '/icons/getillustrations/sharpie-business/scoped-lane.svg',
+];
+
 export default function Home() {
   const schema = {
     '@context': 'https://schema.org',
@@ -18,7 +25,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="service-desk" data-design="filipino-service-desk-2026-07" data-gi-rollout="two-illustration-packs-one-icon-pack">
+    <main className="service-desk" data-design="filipino-service-desk-2026-10" data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema} />
       <section className="hero">
         <div className="container hero-grid">
@@ -26,21 +33,32 @@ export default function Home() {
             <p className="eyebrow">Filipino talent for recurring business work</p>
             <h1>Build a Filipino service team around the work, not the job title.</h1>
             <p className="lead">Start with the queue that keeps coming back. Map the handoff, access, and review rules before anyone logs in.</p>
+            <div className="hero-trust" aria-label="Five-star trust signal">
+              <span className="hero-stars" aria-hidden="true">
+                {[0, 1, 2, 3, 4].map((star) => <svg className="hero-star-icon" key={star} viewBox="0 0 24 24" focusable="false">
+                  <path d="m12 2.2 3 6.1 6.7 1-4.9 4.7 1.2 6.7-6-3.2-6 3.2 1.2-6.7-4.9-4.7 6.7-1 3-6.1Z" />
+                </svg>)}
+              </span>
+              <span>Workflow-first planning with scope, access, and review made visible.</span>
+            </div>
             <div className="actions">
-              <a className="btn primary" href="/contact">Plan my service team</a>
+              <a className="btn primary" href="/contact-us">Plan my service team</a>
               <a className="text-link" href="#services">See the service lanes <span>↘</span></a>
             </div>
-            <p className="routing-note">Talent comes only from the Philippines. This independent site may route your request to a Philippines staffing partner.</p>
+            <p className="routing-note">Talent comes only from the Philippines. This site may route your request to its parent company, Stealth Agents, for consultation and staffing support.</p>
           </div>
           <div className="hero-visual">
             <img src="/illustrations/getillustrations/goodle-business/filipino-service-team.svg" alt="Illustrated Filipino service team succeeding together around recurring work" />
-            <div className="visual-tag tag-one"><span>01</span> Scope the queue</div>
-            <div className="visual-tag tag-two"><span>02</span> Set owner rules</div>
+            <div className="visual-tag tag-one"><span>✓</span> Scope the queue</div>
+            <div className="visual-tag tag-two"><span>✓</span> Set owner rules</div>
           </div>
         </div>
         <div className="container handoff-strip">
-          <p>Before the first login</p>
-          {stats.map((stat, index) => <article key={stat.label}><img className="stat-icon" src={statIcons[index]} alt={`${stat.label} indicator`} /><div><span>{stat.label}</span><strong>{stat.value}</strong><small>{stat.note}</small></div></article>)}
+          <p>What a prepared handoff protects</p>
+          {stats.map((stat, index) => <article key={stat.label}>
+            <img className="stat-icon" src={statIcons[index]} alt={`${stat.label} indicator`} />
+            <div><span>{stat.label}</span><strong>{stat.value}</strong><small>{stat.note}</small></div>
+          </article>)}
         </div>
       </section>
 
@@ -52,7 +70,7 @@ export default function Home() {
           </div>
           <div className="service-grid">
             {services.map((service, index) => <a href={`/services/${service.slug}`} className="service-card" key={service.slug}>
-              <span className="service-number">0{index + 1}</span>
+              <div className="service-icon-wrap"><img src={serviceIcons[index]} alt={`${service.title} handoff illustration`} /></div>
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
               <div className="task-chips">{service.bestFor.slice(0, 3).map((task) => <span key={task}>{task}</span>)}</div>
@@ -70,11 +88,11 @@ export default function Home() {
             <h2>Make the work visible before you add a person.</h2>
             <p>Filipino talent can take on a lot. That does not mean the role should start wide. A short queue with clean examples will tell you more than a long job description.</p>
           </div>
-          <div className="process-list">
-            {staffingProcess.map((item) => <article key={item.step}>
-              <span>{item.step}</span><div><h3>{item.title}</h3><p>{item.body}</p></div>
-            </article>)}
-          </div>
+          <ol className="process-list" aria-label="Service team launch timeline">
+            {staffingProcess.map((item) => <li key={item.step}>
+              <span aria-hidden="true">{item.step}</span><div><h3>{item.title}</h3><p>{item.body}</p></div>
+            </li>)}
+          </ol>
         </div>
       </section>
 
@@ -91,7 +109,7 @@ export default function Home() {
 
       <section className="container final-panel">
         <div><p className="eyebrow">Philippines only</p><h2>Bring the messy task list. Leave with a tighter service brief.</h2></div>
-        <div><p>Share the work, schedule, tools, and decisions that should stay with you.</p><a className="btn primary" href="/contact">Plan my service team</a><small>Requests may be routed to a Philippines staffing partner.</small></div>
+        <div><p>Share the work, schedule, tools, and decisions that should stay with you.</p><a className="btn primary" href="/contact-us">Plan my service team</a><small>Requests may be supported by Stealth Agents.</small></div>
       </section>
     </main>
     <Footer />
