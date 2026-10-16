@@ -313,6 +313,19 @@ type ResearchPost = {
   serviceHandoff?: {slug: string; label: string; lead: string};
 };
 
+const legacyResearchServiceHandoffs: Readonly<Record<string, ResearchPost['serviceHandoff']>> = {
+  'philippines-operations-support-research': {
+    slug: 'operations-support',
+    label: 'Review the operations support service guide',
+    lead: 'For a daily update lane that keeps blocked work visible without moving approvals, see what Philippines operations support can cover. The guide lists routine tasks, review checks, and a first-week setup.',
+  },
+  'philippines-appointment-scheduling-research': {
+    slug: 'appointment-coordination',
+    label: 'Philippines appointment coordination service',
+    lead: 'If your team needs a calendar lane that keeps time zones, approved availability, and change notes clear, review the',
+  },
+};
+
 const researchSources = [
   {label:'NIST Cybersecurity Framework 2.0',url:'https://www.nist.gov/cyberframework'},
   {label:'NIST Privacy Framework',url:'https://www.nist.gov/privacy-framework'},
@@ -401,6 +414,10 @@ const researchPublicationDates: Readonly<Record<string, string>> = {
   'philippines-back-office-follow-up-research': '2026-08-10',
 };
 
+const legacyResearchUpdatedDates: Readonly<Record<string, string>> = {
+  'philippines-appointment-scheduling-research': '2026-10-16',
+};
+
 // August 11, 2026: each new article owns its publication date in this source record.
 // The articles are deliberately narrower than the general research library so their
 // evidence and operating questions remain distinct from one another.
@@ -448,8 +465,8 @@ const august11ResearchPosts: ReadonlyArray<ResearchPost> = [
 ];
 
 const legacyResearchPosts: ReadonlyArray<ResearchPost> = researchTopics.map(([slug,title,focus,headlineStat], index) => ({
-  slug, title, excerpt: focus, published: researchPublicationDates[slug] ?? '2026-08-09', thumbnail: '/research-thumbnails/research-batch-2026-08-10.svg', headlineStat,
-  serviceHandoff: slug === 'philippines-operations-support-research' ? {slug: 'operations-support', label: 'Review the operations support service guide', lead: 'For a daily update lane that keeps blocked work visible without moving approvals, see what Philippines operations support can cover. The guide lists routine tasks, review checks, and a first-week setup.'} : undefined,
+  slug, title, excerpt: focus, published: researchPublicationDates[slug] ?? '2026-08-09', updated: legacyResearchUpdatedDates[slug], thumbnail: '/research-thumbnails/research-batch-2026-08-10.svg', headlineStat,
+  serviceHandoff: legacyResearchServiceHandoffs[slug],
   methodology: 'Methods note: This article is a comparative desk review of 10 named primary or standards-body sources. The headline count is the number of sources reviewed, not a performance claim. Recommendations are operating hypotheses to test against the owner’s records.',
   sources: researchSources,
   related: researchTopics.filter((_, i) => i !== index).slice(0, 3).map(([s]) => s),
