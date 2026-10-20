@@ -60,14 +60,6 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       try { (window as TrackerWindow).acrTracker?.trackLead?.(payload); } catch {}
       window.location.assign("/thank-you");
     } catch {
-      try {
-        const tracker = (window as TrackerWindow).acrTracker?.trackLead;
-        if (tracker) {
-          tracker(payload);
-          window.location.assign("/thank-you");
-          return;
-        }
-      } catch {}
       setError("We could not submit your request. Please try again.");
       setSubmitting(false);
     }
@@ -76,40 +68,38 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
   return (
     <div className="sa-form-card">
       <p className="sa-kicker">Free workflow consultation</p><h2>Tell us where your service team needs support</h2><p className="sa-intro">Share enough context for a useful first conversation. Required fields are marked with an asterisk.</p>
-      <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm">
+      <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm" className="sa-form-grid">
         <input className="sa-hp" name="website_url" type="hidden" tabIndex={-1} autoComplete="off" aria-label="Leave this field empty" />
-        <div className="sa-grid">
-          <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
-          <label>Last Name *<input name="lastName" required autoComplete="family-name" /></label>
-        </div>
-        <label>Business Email *<input name="email" type="email" required autoComplete="email" /><small>Not Accepting Personal Email</small></label>
-        <label>Phone Number *<span className="sa-phone"><select aria-label="Country code" value={countryCode} onChange={(e) => setCountryCode(e.target.value)}>{countryCodes.map(([flag, code], i) => <option value={code} key={`${code}-${i}`}>{flag} {code}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
-        <div className="sa-grid">
-          <label>Company Name *<input name="companyName" required autoComplete="organization" /></label>
-          <label>Website / URL<input name="website" placeholder="example.com" autoComplete="url" /></label>
-        </div>
-        <div className="sa-grid">
-          <label>Company Size *<select name="companySize" required defaultValue=""><option value="" disabled>Select...</option>{companySizes.map((x) => <option key={x}>{x}</option>)}</select></label>
-          <label>How Many Positions to Fill *<select name="positions" required defaultValue=""><option value="" disabled>Select...</option>{positions.map((x) => <option key={x}>{x}</option>)}</select></label>
-        </div>
-        <label>Service or role needed *<input name="roleNeeded" required placeholder="Example: customer support coordinator" /></label><div className="sa-grid"><label>Preferred contact method *<select name="preferredContact" required defaultValue=""><option value="" disabled>Select...</option><option>Email</option><option>Phone</option><option>Video call</option></select></label><label>Preferred contact time *<input name="preferredTime" required placeholder="Weekdays, 1–4 PM ET" /></label></div><label>How Did You Hear About Us? *<select name="referral" required value={referral} onChange={(e) => setReferral(e.target.value)}><option value="" disabled>Select...</option>{referrals.map((x) => <option key={x}>{x}</option>)}</select></label>
+        <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
+        <label>Last Name *<input name="lastName" required autoComplete="family-name" /></label>
+        <label>Business Email *<input name="email" type="email" required autoComplete="email" /><small>Business email only</small></label>
+        <label className="sa-span-2">Phone Number *<span className="sa-phone"><select aria-label="Country code" value={countryCode} onChange={(e) => setCountryCode(e.target.value)}>{countryCodes.map(([flag, code], i) => <option value={code} key={`${code}-${i}`}>{flag} {code}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
+        <label>Company Name *<input name="companyName" required autoComplete="organization" /></label>
+        <label>Website / URL<input name="website" placeholder="example.com" autoComplete="url" /></label>
+        <label>Company Size *<select name="companySize" required defaultValue=""><option value="" disabled>Select...</option>{companySizes.map((x) => <option key={x}>{x}</option>)}</select></label>
+        <label>Positions to Fill *<select name="positions" required defaultValue=""><option value="" disabled>Select...</option>{positions.map((x) => <option key={x}>{x}</option>)}</select></label>
+        <label>Service or role needed *<input name="roleNeeded" required placeholder="Customer support coordinator" /></label>
+        <label>Preferred contact *<select name="preferredContact" required defaultValue=""><option value="" disabled>Select...</option><option>Email</option><option>Phone</option><option>Video call</option></select></label>
+        <label>Preferred time *<input name="preferredTime" required placeholder="Weekdays, 1–4 PM ET" /></label>
+        <label>How did you hear about us? *<select name="referral" required value={referral} onChange={(e) => setReferral(e.target.value)}><option value="" disabled>Select...</option>{referrals.map((x) => <option key={x}>{x}</option>)}</select></label>
         {referral === "Other" ? <label>Please Specify *<input name="referralSpecify" required /></label> : null}
-        <label>Message *<textarea name="message" rows={4} required placeholder="Describe the recurring work, tools, schedule, and approval points." /></label><p className="sa-privacy">We use these details only to respond to your request. Review our <a href="/privacy">Privacy Policy</a>.</p>
+        <label className="sa-message">Message *<textarea name="message" rows={2} required placeholder="Describe the recurring work, tools, schedule, and approval points." /></label>
+        <p className="sa-privacy">We use these details only to respond. Review our <a href="/privacy">Privacy Policy</a>.</p>
         {error ? <p className="sa-error" role="alert">{error}</p> : null}
         <button type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Book My Free Consultation"}</button>
       </form>
       <style jsx>{`
-        .sa-form-card{box-sizing:border-box;width:100%;min-width:0;max-width:876px;margin:0 auto;background:#fff;border:1px solid #e3e8ef;border-radius:22px;padding:34px 48px 48px;box-shadow:0 18px 48px rgba(15,34,58,.16);color:#34415a;text-align:left}
-        .sa-kicker{margin:0 0 8px;color:#0787a4;text-transform:uppercase;letter-spacing:.12em;font-size:12px;font-weight:900}.sa-intro{margin:-10px 0 24px;color:#64748b;line-height:1.5}.sa-privacy{margin:0;color:#64748b;font-size:13px}.sa-privacy a{color:#087e9a}h2{margin:0 0 20px;color:#111827;font-size:30px;line-height:1.35;font-weight:800;letter-spacing:-.02em;max-width:700px}
-        form{display:flex;min-width:0;flex-direction:column;gap:22px}.sa-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
-        label{display:flex;min-width:0;flex-direction:column;gap:8px;font-size:18px;line-height:1.3;font-weight:500;color:#34415a}
-        input,select,textarea{box-sizing:border-box;width:100%;min-width:0;max-width:100%;border:1px solid #cfd7e3;border-radius:12px;background:#fff;color:#1f2937;font:inherit;font-size:17px;padding:15px 17px;outline:none;min-height:58px}
+        .sa-form-card{box-sizing:border-box;width:100%;min-width:0;max-width:876px;margin:0 auto;background:#fff;border:1px solid #e3e8ef;border-radius:22px;padding:18px 24px 22px;box-shadow:0 18px 48px rgba(15,34,58,.16);color:#34415a;text-align:left}
+        .sa-kicker{margin:0 0 3px;color:#0787a4;text-transform:uppercase;letter-spacing:.12em;font-size:10px;font-weight:900}.sa-intro{margin:0 0 10px;color:#64748b;font-size:12px;line-height:1.35}.sa-privacy{grid-column:span 2;align-self:center;margin:0;color:#64748b;font-size:11px;line-height:1.25}.sa-privacy a{color:#087e9a}h2{margin:0 0 4px;color:#111827;font-size:21px;line-height:1.2;font-weight:800;letter-spacing:-.02em;max-width:700px}
+        form{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px 10px;min-width:0}.sa-span-2{grid-column:span 2}.sa-message{grid-column:span 2}
+        label{display:flex;min-width:0;flex-direction:column;gap:3px;font-size:11px;line-height:1.2;font-weight:700;color:#34415a}
+        input,select,textarea{box-sizing:border-box;width:100%;min-width:0;max-width:100%;border:1px solid #cfd7e3;border-radius:8px;background:#fff;color:#1f2937;font:inherit;font-size:12px;padding:6px 8px;outline:none;min-height:32px}
         input:focus,select:focus,textarea:focus{border-color:#00adf4;box-shadow:0 0 0 3px rgba(0,173,244,.14)}
-        small{margin-top:-3px;color:#7b869b;font-size:15px;font-weight:400}.sa-phone{display:grid;grid-template-columns:146px 1fr;border:1px solid #cfd7e3;border-radius:12px;overflow:hidden}.sa-phone:focus-within{border-color:#00adf4;box-shadow:0 0 0 3px rgba(0,173,244,.14)}
-        .sa-phone select,.sa-phone input{border:0;border-radius:0;box-shadow:none!important}.sa-phone select{border-right:1px solid #dbe1ea;padding-right:8px}.sa-phone input{min-width:0}
-        textarea{resize:vertical;min-height:150px}button{width:100%;border:0;border-radius:12px;background:linear-gradient(100deg,#05acec,#79cdf1);color:#fff;padding:20px 24px;font-size:21px;font-weight:700;cursor:pointer;box-shadow:0 7px 16px rgba(0,173,244,.22)}
-        button:hover{filter:brightness(.98)}button:disabled{cursor:wait;opacity:.65}.sa-error{margin:0;color:#b42318;font-size:14px}.sa-hp{display:none!important}
-        @media(max-width:700px){.sa-form-card{padding:26px 20px 30px;border-radius:18px}h2{font-size:25px;overflow-wrap:anywhere}.sa-grid{grid-template-columns:minmax(0,1fr);gap:22px}label{font-size:17px}.sa-phone{grid-template-columns:minmax(0,122px) minmax(0,1fr)}button{font-size:19px}}
+        small{margin:0;color:#7b869b;font-size:9px;font-weight:400;line-height:1}.sa-phone{display:grid;grid-template-columns:92px 1fr;border:1px solid #cfd7e3;border-radius:8px;overflow:hidden}.sa-phone:focus-within{border-color:#00adf4;box-shadow:0 0 0 3px rgba(0,173,244,.14)}
+        .sa-phone select,.sa-phone input{border:0;border-radius:0;box-shadow:none!important}.sa-phone select{border-right:1px solid #dbe1ea;padding-right:4px}.sa-phone input{min-width:0}
+        textarea{resize:vertical;min-height:44px;max-height:70px}button{width:100%;min-height:40px;align-self:end;border:0;border-radius:9px;background:linear-gradient(100deg,#05acec,#79cdf1);color:#fff;padding:9px 12px;font-size:14px;font-weight:800;cursor:pointer;box-shadow:0 7px 16px rgba(0,173,244,.22)}
+        button:hover{filter:brightness(.98)}button:disabled{cursor:wait;opacity:.65}.sa-error{grid-column:1/-1;margin:0;color:#b42318;font-size:12px}.sa-hp{display:none!important}
+        @media(max-width:700px){.sa-form-card{padding:26px 20px 30px;border-radius:18px}h2{font-size:25px;margin-bottom:10px}.sa-intro{font-size:14px;margin-bottom:20px}form{display:flex;min-width:0;flex-direction:column;gap:16px}label{font-size:15px;gap:6px}input,select,textarea{min-height:48px;padding:12px 14px;font-size:16px}.sa-phone{grid-template-columns:minmax(0,122px) minmax(0,1fr)}small{font-size:12px}.sa-privacy{font-size:13px}.sa-message textarea{min-height:100px;max-height:none}button{min-height:52px;padding:14px 18px;font-size:18px}}
       `}</style>
     </div>
   );

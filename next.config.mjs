@@ -1,3 +1,2 @@
-/** @type {import("next").NextConfig} */
-const nextConfig = {};
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig={async redirects(){return[{source:'/contact',destination:'/contact-us',permanent:true},{source:'/pricing',destination:'/contact-us',permanent:true},{source:'/services/ecommerce-support',destination:'/services/order-status-support',permanent:true},{source:'/services/accounting-and-bookkeeping',destination:'/services/reporting-and-qa',permanent:true}]}};export default nextConfig;

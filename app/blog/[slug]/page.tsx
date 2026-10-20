@@ -16,6 +16,20 @@ import { october5BlogDrafts } from '../../oct5-blog-content';
 import { October5BlogArticle } from '../oct5-blog-article';
 
 const detailedSlug = 'outsourced-service-tasks-to-outsource';
+const august23SectionHeadings = [
+  'Establish the working scope',
+  'Test exceptions and handoffs',
+  'Review evidence and access',
+  'Operate the queue day to day',
+  'Decide whether the workflow is ready',
+] as const;
+
+function August23ArticleBody({ body }: { body: readonly string[] }) {
+  return <div className="article-body">{body.map((paragraph, index) => {
+    const heading = index % 3 === 0 ? august23SectionHeadings[Math.min(index / 3, august23SectionHeadings.length - 1)] : undefined;
+    return <div key={index}>{heading ? <h2>{heading}</h2> : null}<p>{paragraph}</p></div>;
+  })}</div>;
+}
 
 const faqs = [
   {
@@ -247,7 +261,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   if (august23) {
     const canonical = `https://outsourcedservice.com/blog/${august23.slug}`;
     const schema = {'@context':'https://schema.org','@type':'BlogPosting',headline:august23.title,description:august23.excerpt,datePublished:august23.published,dateModified:august23.published,mainEntityOfPage:canonical,image:`https://outsourcedservice.com${august23.image}`,author:{'@type':'Organization',name:'OutsourcedService.com'},publisher:{'@type':'Organization',name:'OutsourcedService.com'}};
-    return <><Header/><main className="article-shell"><article><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/><p className="eyebrow">Blog</p><h1>{august23.title}</h1><p className="lead">{august23.excerpt}</p><p className="article-date">Published <time dateTime={august23.published}>{august23.displayDate}</time> - {august23.minutes} minute read</p><img src={august23.image} alt={`${august23.title} editorial photograph`} width="1536" height="1024" style={{width:'100%',height:'auto',borderRadius:'18px'}}/><div className="article-body">{august23.body.map((paragraph,index)=><p key={index}>{paragraph}</p>)}</div></article><CTA/></main><Footer/></>;
+    return <><Header/><main className="article-shell"><article><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/><p className="eyebrow">Blog</p><h1>{august23.title}</h1><p className="lead">{august23.excerpt}</p><p className="article-date">Published <time dateTime={august23.published}>{august23.displayDate}</time> - {august23.minutes} minute read</p><img src={august23.image} alt={`${august23.title} editorial photograph`} width="1536" height="1024" style={{width:'100%',height:'auto',borderRadius:'18px'}}/><August23ArticleBody body={august23.body}/></article><CTA/></main><Footer/></>;
   }
   const post = blogPosts.find((item) => item.slug === slug);
   if (generatedBlogPosts.some((item) => item[0] === slug) || batchBlogPosts.some((item) => item.slug === slug) || august13BlogPosts.some((item) => item.slug === slug) || august14BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/></>;

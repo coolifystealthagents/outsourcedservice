@@ -6,7 +6,7 @@ import { august23BlogPosts } from '../aug23-content';
 const base = 'https://outsourcedservice.com';
 
 export async function GET() {
-  const pages = ['/', '/services', '/blog', '/blog/top-50-outsourced-service-companies', '/research', '/contact', '/privacy', '/terms', '/cancellation-policy'];
+  const pages = ['/', '/services', '/blog', '/blog/top-50-outsourced-service-companies', '/research', '/contact-us', '/privacy', '/terms', '/cancellation-policy'];
     const aug21Entries = Object.entries(aug21Meta).sort(([slugA], [slugB]) => slugA.localeCompare(slugB));
   const aug21Blog = aug21Entries.filter(([, item]) => item.family === 'blog').map(([slug]) => ({ slug }));
   const aug21Research = aug21Entries.filter(([, item]) => item.family === 'research').map(([slug]) => ({ slug }));

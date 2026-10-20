@@ -20,8 +20,8 @@
     "validate:oct2-combined": "node scripts/validate-oct2-combined.js"
   },
   "dependencies": {
-    "@next/third-parties": "^15.1.6",
-    "next": "15.5.24",
+    "@next/third-parties": "15.5.28",
+    "next": "15.5.28",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
