@@ -53,6 +53,18 @@ The October 9 research batch already renders five Operations Support handoffs. T
 
 The earlier ledger named nine research URLs that are not in the current generated research inventory. Keep these service routes out of the execution queue until an existing, matching research route is confirmed: Ticket Queue Management, Returns Administration, Customer Onboarding Support, Knowledge Base Maintenance, Service Quality Audits, Appointment Coordination, CRM Case Administration, Subscription Support, and Escalation Coordination.
 
+## October 20 current-inventory reconciliation
+
+The deferred section above describes an older inventory check. A fresh production build now confirms the following existing research-to-service handoffs. Each source and destination is self-canonical and sitemap-listed, and each source has exactly one matching service link inside its route-local `<main>`. These reader paths are delivered and non-duplicable; do not add a second CTA.
+
+| Service pillar | Existing supporting research route | Reader's next question | Current route-local service link | Next controlled action |
+| --- | --- | --- | --- | --- |
+| Ticket Queue Management | `/research/ticket-priority-override-traceability-study` | What should a reviewer see before a manual ticket-priority change affects the queue? | Present once: `/services/ticket-queue-management` | Preserve the typed handoff. The accountable owner retains priority rules, service commitments, and exception decisions. |
+| Returns Administration | `/research/returns-administration-disposition-evidence-study` | What evidence should accompany a return before an owner decides its final disposition? | Present once: `/services/returns-administration` | Preserve the typed handoff. The owner retains refund, replacement, warranty, and policy decisions. |
+| Customer Onboarding Support | `/research/customer-onboarding-prerequisite-readiness-study` | Which missing prerequisite prevents an onboarding item from advancing safely? | Present once: `/services/customer-onboarding-support` | Preserve the typed handoff. The owner retains waiver, interpretation, access, and exception decisions. |
+| Knowledge Base Maintenance | `/research/knowledge-base-change-propagation-study` | How can a reviewer tell whether an approved knowledge change reached its declared instructions? | Present once: `/services/knowledge-base-maintenance` | Preserve the typed handoff. The owner retains source authority, publication approval, and exception decisions. |
+| Knowledge Base Maintenance | `/research/knowledge-link-destination-integrity-study` | How can a buyer check that a knowledge-base link still reaches the guidance its label promises? | Present once: `/services/knowledge-base-maintenance` | Preserve the typed handoff. The owner retains source authority and any decision to change published guidance. |
+
 ## Release rule
 
 Use one row at a time. Add one contextual handoff only when the existing research page and service page match the stated question. Keep financial decisions, customer promises, refunds, policy exceptions, and access approvals with the named owner.
