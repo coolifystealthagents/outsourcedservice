@@ -1,5 +1,8 @@
 import { Header, Footer, JsonLd } from './components';
+import { TestimonialsRail } from './booking-components';
 import { blogPosts, services, site, staffingProcess, stats } from './data';
+
+export const metadata = {alternates:{canonical:'https://outsourcedservice.com/'}};
 
 const statIcons = [
   '/icons/getillustrations/sharpie-business/scoped-lane.svg',
@@ -94,6 +97,10 @@ export default function Home() {
             </li>)}
           </ol>
         </div>
+      </section>
+
+      <section className="section homepage-reviews" aria-label="Client reviews">
+        <div className="container"><TestimonialsRail /></div>
       </section>
 
       <section className="section guide-section">

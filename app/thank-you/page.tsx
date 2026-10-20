@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Thank You - Book A Meeting',
   description: 'Choose a convenient time to speak with the Stealth Agents team.',
   robots: { index: false, follow: false },
+  alternates: { canonical: 'https://outsourcedservice.com/thank-you' },
 };
 
 export default function ThankYouPage() {

@@ -3,7 +3,7 @@ import { researchPosts } from '../fleet-content';
 import aug20Meta from '../aug20-meta.json';
 import aug21Meta from '../aug21-meta.json';
 
-export const metadata = { title: 'Research', description: 'Research notes about Philippines-based staffing and operations.' };
+export const metadata = { title: 'Research', description: 'Research notes about Philippines-based staffing and operations.', alternates: { canonical: 'https://outsourcedservice.com/research' } };
 
 export default function Research() {
   const august21ResearchPosts = Object.entries(aug21Meta)

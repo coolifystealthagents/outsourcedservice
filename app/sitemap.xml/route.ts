@@ -16,7 +16,7 @@ export async function GET() {
   const allBlog = [...august23BlogPosts, ...aug21Blog, ...aug20Blog, ...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...blogPosts, ...generatedBlogPosts.map((item) => ({ slug: item[0] })), ...batchBlogPosts.map((item) => ({ slug: item.slug }))];
   const blogPages = Array.from({ length: Math.max(1, Math.ceil(allBlog.length / 20)) }, (_, i) => i + 1).filter((n) => n > 1).map((n) => `/blog/page/${n}`);
   const aug19Paths = Object.entries(aug19Meta).map(([slug, value]) => `/${(value as { family: string }).family}/${slug}`);
-  const urls = [...pages, ...fleetServices.map((s) => `/services/${s.slug}`), ...allBlog.map((p) => `/blog/${p.slug}`), ...blogPages, ...aug21Research.map((p) => `/research/${p.slug}`), ...aug20Research.map((p) => `/research/${p.slug}`), ...researchPosts.map((p) => `/research/${p.slug}`), ...aug19Paths];
+  const urls = Array.from(new Set([...pages, ...fleetServices.map((s) => `/services/${s.slug}`), ...allBlog.map((p) => `/blog/${p.slug}`), ...blogPages, ...aug21Research.map((p) => `/research/${p.slug}`), ...aug20Research.map((p) => `/research/${p.slug}`), ...researchPosts.map((p) => `/research/${p.slug}`), ...aug19Paths]));
   const lastmodByPath = new Map<string, string>();
   for (const post of allBlog) if ("published" in post && typeof post.published === "string") lastmodByPath.set(`/blog/${post.slug}`, post.published);
   for (const post of researchPosts) if (typeof post.published === "string") lastmodByPath.set(`/research/${post.slug}`, post.published);

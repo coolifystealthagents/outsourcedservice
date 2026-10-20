@@ -1,4 +1,5 @@
 'use client';
+import {useEffect,useState} from 'react';
 
 /** Approved first-party source: https://stealthagents.com/. Portfolio provenance verified 2026-10-16. */
 export const stealthAgentsReviews = [
@@ -17,10 +18,22 @@ export const stealthAgentsReviews = [
 ] as const;
 
 export function TestimonialsRail({compact=false}:{compact?:boolean;contact?:boolean}){
+  const [reviews,setReviews]=useState<readonly (typeof stealthAgentsReviews)[number][]>(stealthAgentsReviews);
+  const [sliding,setSliding]=useState(false);
+  const [paused,setPaused]=useState(false);
+  useEffect(()=>{
+    const media=window.matchMedia('(prefers-reduced-motion: reduce)');
+    let reset:ReturnType<typeof setTimeout>|undefined;
+    let interval:ReturnType<typeof setInterval>|undefined;
+    const stop=()=>{if(interval)clearInterval(interval);if(reset)clearTimeout(reset);interval=undefined;reset=undefined;setSliding(false)};
+    const sync=()=>{stop();if(paused||media.matches)return;interval=setInterval(()=>{setSliding(true);reset=setTimeout(()=>{setReviews(current=>[...current.slice(1),current[0]]);setSliding(false);reset=undefined},650)},4800)};
+    sync();media.addEventListener('change',sync);
+    return()=>{media.removeEventListener('change',sync);if(interval)clearInterval(interval);if(reset)clearTimeout(reset)};
+  },[paused]);
   return <section className={`review-rail${compact?' review-rail-compact':''}`} aria-labelledby="stealthagents-reviews-heading">
     <div className="review-rail-heading"><p>Verified client perspective</p><h2 id="stealthagents-reviews-heading">StealthAgents reviews</h2></div>
-    <div className="review-rail-viewport" tabIndex={0} aria-label="StealthAgents client reviews. Focus or hover to pause motion."><div className="review-rail-track">
-      {stealthAgentsReviews.map(r=><article className="review-card" key={r.id} data-review-id={r.id}><div className="review-stars"><span aria-hidden="true">★★★★★</span><span className="sa-sr-only">5 out of 5 stars</span></div><h3>{r.headline}</h3><blockquote>“{r.quote}”</blockquote><p><strong>{r.name}</strong><span>{r.detail}</span></p></article>)}
+    <div className="review-rail-viewport" tabIndex={0} aria-label="StealthAgents client reviews. Focus or hover to pause motion." onMouseEnter={()=>setPaused(true)} onMouseLeave={()=>setPaused(false)} onFocus={()=>setPaused(true)} onBlur={(event)=>{if(!event.currentTarget.contains(event.relatedTarget))setPaused(false)}}><div className={`review-rail-track${sliding?' is-sliding':''}`}>
+      {reviews.map(r=><article className="review-card" key={r.id} data-review-id={r.id}><div className="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></div><h3>{r.headline}</h3><blockquote>“{r.quote}”</blockquote><p><strong>{r.name}</strong><span>{r.detail}</span></p></article>)}
     </div></div>
     <p className="review-source">Approved reviews sourced from the <a href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">official StealthAgents website</a>.</p>
   </section>;
