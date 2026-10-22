@@ -1,6 +1,6 @@
 # Service-led topical authority link ledger
 
-Updated: 2026-10-13
+Updated: 2026-10-22
 
 This is a planning ledger, not reader-facing copy. It uses only existing Philippines service pillars and existing research pages that were confirmed in the production build. Before a reader-facing link is added, confirm that the source paragraph answers the question, the service route still exists, and the handoff states the work boundary without promising a result.
 
@@ -51,7 +51,7 @@ The October 9 research batch already renders five Operations Support handoffs. T
 
 ## Deferred service lanes
 
-The earlier ledger named nine research URLs that are not in the current generated research inventory. Keep these service routes out of the execution queue until an existing, matching research route is confirmed: Ticket Queue Management, Returns Administration, Customer Onboarding Support, Knowledge Base Maintenance, Service Quality Audits, Appointment Coordination, CRM Case Administration, Subscription Support, and Escalation Coordination.
+The earlier nine-lane deferral is partly superseded. Ticket Queue Management, Returns Administration, Customer Onboarding Support, and Knowledge Base Maintenance are confirmed in the current inventory below. Appointment Coordination is already delivered in the active table above. Keep CRM Case Administration, Subscription Support, Escalation Coordination, and Service Quality Audits out of the execution queue until an existing matching research route is built and checked.
 
 ## October 20 current-inventory reconciliation
 
