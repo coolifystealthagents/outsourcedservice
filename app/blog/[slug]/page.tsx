@@ -1,4 +1,6 @@
 import { notFound } from 'next/navigation';
+import { October22BlogArticle } from '../../october22-blog-article';
+import { october22BlogPosts } from '../../oct22-content';
 import { Header, Footer, CTA } from '../../components';
 import { blogPosts, generatedBlogPosts, batchBlogPosts, august13BlogPosts, august14BlogPosts, august17BlogPosts, site } from '../../data';
 import { GeneratedArticle } from '../generated-article';
@@ -255,6 +257,8 @@ function DetailedArticle() {
   </>;
 }
 
+const oct22Slugs = new Set(["service-shared-inbox-sla-exception","service-template-review-cycle","service-provider-access-recert","service-report-recipient-change","service-customer-document-quarantine","service-calendar-resource-release","service-sop-localization-version","service-vendor-duplicate-merge","service-expense-receipt-gap","service-intake-field-retirement","service-contact-role-transfer","service-batch-file-identity"]);
+
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const august23 = august23BlogPosts.find((item) => item.slug === slug);
@@ -267,6 +271,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   if (generatedBlogPosts.some((item) => item[0] === slug) || batchBlogPosts.some((item) => item.slug === slug) || august13BlogPosts.some((item) => item.slug === slug) || august14BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/></>;
   if (august17BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/>;</>;
   if (!post) notFound();
+  if (oct22Slugs.has(slug)) return <October22BlogArticle post={post as any} />;
   const articleImage = 'image' in post && typeof post.image === 'string' ? post.image : '/filipino-service-workflow.svg';
   const relatedSlugs = 'related' in post && Array.isArray(post.related) ? post.related as readonly string[] : [];
   const relatedPosts = relatedSlugs.flatMap((relatedSlug) => {
