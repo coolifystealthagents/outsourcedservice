@@ -18,7 +18,8 @@
     "validate:sep28-research": "node scripts/validate-sep28-research.js",
     "validate:oct2-research": "node scripts/validate-oct2-research.js",
     "validate:oct2-combined": "node scripts/validate-oct2-combined.js",
-    "test:appointment-scheduling-handoff": "node tests/appointment-scheduling-handoff.test.mjs"
+    "test:appointment-scheduling-handoff": "node tests/appointment-scheduling-handoff.test.mjs",
+    "test:crm-case-handoff": "node tests/crm-case-handoff.test.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",

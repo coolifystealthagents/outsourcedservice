@@ -347,7 +347,7 @@ const researchTopics = [
   ['philippines-knowledge-base-maintenance-research','Philippines knowledge base maintenance: approval controls','A source-backed approach to keeping help content current without uncontrolled edits.','10 evidence sources mapped'],
   ['staff-outsourcing-philippines-operating-model-research','Staff outsourcing Philippines: choosing an operating model','The decision criteria that separate a safe work lane from an unclear staffing request.','10 decision criteria'],
   ['philippines-service-quality-audits-research','Philippines service quality audits: sample design','How to build a small, repeatable audit routine around source records and owner decisions.','10 audit design inputs'],
-  ['philippines-crm-case-administration-research','Philippines CRM case administration: data controls','Research on permissions, record accuracy, and exception ownership for CRM administration.','10 control questions'],
+  ['philippines-crm-case-administration-research','Philippines CRM case administration: data controls','Research on permissions, record accuracy, and exception ownership for CRM administration.','10 control questions',{slug:'crm-case-administration',label:'Philippines CRM case administration service',lead:'Use the service guide to define a CRM case lane that prepares records and flags gaps. The account owner keeps access, customer-change, policy-exception, and final case-outcome decisions.'}],
   ['philippines-returns-administration-research','Philippines returns administration: exception research','A controlled workflow for returns records, status updates, and manager review.','10 sources for the control map'],
   ['philippines-subscription-support-research','Philippines subscription support: recurring-work controls','How to structure recurring account support with evidence, boundaries, and review.','10 repeatable checks'],
   ['philippines-reporting-qa-research','Philippines reporting and QA: evidence-first scorecards','A research brief for scorecards that tie each number to a source and sample.','10 source-backed scorecard checks'],
@@ -416,6 +416,7 @@ const researchPublicationDates: Readonly<Record<string, string>> = {
 
 const legacyResearchUpdatedDates: Readonly<Record<string, string>> = {
   'philippines-appointment-scheduling-research': '2026-10-16',
+  'philippines-crm-case-administration-research': '2026-10-24',
 };
 
 // August 11, 2026: each new article owns its publication date in this source record.
@@ -464,9 +465,9 @@ const august11ResearchPosts: ReadonlyArray<ResearchPost> = [
   },
 ];
 
-const legacyResearchPosts: ReadonlyArray<ResearchPost> = researchTopics.map(([slug,title,focus,headlineStat], index) => ({
+const legacyResearchPosts: ReadonlyArray<ResearchPost> = researchTopics.map(([slug,title,focus,headlineStat,serviceHandoff], index) => ({
   slug, title, excerpt: focus, published: researchPublicationDates[slug] ?? '2026-08-09', updated: legacyResearchUpdatedDates[slug], thumbnail: '/research-thumbnails/research-batch-2026-08-10.svg', headlineStat,
-  serviceHandoff: legacyResearchServiceHandoffs[slug],
+  serviceHandoff: serviceHandoff ?? legacyResearchServiceHandoffs[slug],
   methodology: 'Methods note: This article is a comparative desk review of 10 named primary or standards-body sources. The headline count is the number of sources reviewed, not a performance claim. Recommendations are operating hypotheses to test against the owner’s records.',
   sources: researchSources,
   related: researchTopics.filter((_, i) => i !== index).slice(0, 3).map(([s]) => s),
