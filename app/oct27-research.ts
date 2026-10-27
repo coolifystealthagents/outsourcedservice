@@ -34,16 +34,16 @@ export const october27Research = [
     },
     "faq": [
       {
-        "q": "What evidence should the team check first for Do Reviewers Agree on Work Priority in outsourced business services??",
-        "a": "A protocol testing whether independent reviewers assign the same priority band to the same outsourced business services item."
+        "question": "What evidence should the team check first for Do Reviewers Agree on Work Priority in outsourced business services??",
+        "answer": "A protocol testing whether independent reviewers assign the same priority band to the same outsourced business services item."
       },
       {
-        "q": "Which decisions stay with the accountable owner for Do Reviewers Agree on Work Priority in outsourced business services??",
-        "a": "A protocol testing whether independent reviewers assign the same priority band to the same outsourced business services item."
+        "question": "Which decisions stay with the accountable owner for Do Reviewers Agree on Work Priority in outsourced business services??",
+        "answer": "A protocol testing whether independent reviewers assign the same priority band to the same outsourced business services item."
       },
       {
-        "q": "How should the outsourcedservice team review Do Reviewers Agree on Work Priority in outsourced business services??",
-        "a": "A protocol testing whether independent reviewers assign the same priority band to the same outsourced business services item."
+        "question": "How should the outsourcedservice team review Do Reviewers Agree on Work Priority in outsourced business services??",
+        "answer": "A protocol testing whether independent reviewers assign the same priority band to the same outsourced business services item."
       }
     ],
     "body": [
@@ -174,16 +174,16 @@ export const october27Research = [
     },
     "faq": [
       {
-        "q": "What evidence should the team check first for When Does the Service Clock Start in outsourced business services??",
-        "a": "A protocol measuring the gap between the defined clock event and the timestamp recorded in outsourced business services."
+        "question": "What evidence should the team check first for When Does the Service Clock Start in outsourced business services??",
+        "answer": "A protocol measuring the gap between the defined clock event and the timestamp recorded in outsourced business services."
       },
       {
-        "q": "Which decisions stay with the accountable owner for When Does the Service Clock Start in outsourced business services??",
-        "a": "A protocol measuring the gap between the defined clock event and the timestamp recorded in outsourced business services."
+        "question": "Which decisions stay with the accountable owner for When Does the Service Clock Start in outsourced business services??",
+        "answer": "A protocol measuring the gap between the defined clock event and the timestamp recorded in outsourced business services."
       },
       {
-        "q": "How should the outsourcedservice team review When Does the Service Clock Start in outsourced business services??",
-        "a": "A protocol measuring the gap between the defined clock event and the timestamp recorded in outsourced business services."
+        "question": "How should the outsourcedservice team review When Does the Service Clock Start in outsourced business services??",
+        "answer": "A protocol measuring the gap between the defined clock event and the timestamp recorded in outsourced business services."
       }
     ],
     "body": [
@@ -314,16 +314,16 @@ export const october27Research = [
     },
     "faq": [
       {
-        "q": "What evidence should the team check first for Where Do Dependencies Add Delay in outsourced business services??",
-        "a": "A protocol separating upstream wait, owner wait, and rework in outsourced business services dependency chains."
+        "question": "What evidence should the team check first for Where Do Dependencies Add Delay in outsourced business services??",
+        "answer": "A protocol separating upstream wait, owner wait, and rework in outsourced business services dependency chains."
       },
       {
-        "q": "Which decisions stay with the accountable owner for Where Do Dependencies Add Delay in outsourced business services??",
-        "a": "A protocol separating upstream wait, owner wait, and rework in outsourced business services dependency chains."
+        "question": "Which decisions stay with the accountable owner for Where Do Dependencies Add Delay in outsourced business services??",
+        "answer": "A protocol separating upstream wait, owner wait, and rework in outsourced business services dependency chains."
       },
       {
-        "q": "How should the outsourcedservice team review Where Do Dependencies Add Delay in outsourced business services??",
-        "a": "A protocol separating upstream wait, owner wait, and rework in outsourced business services dependency chains."
+        "question": "How should the outsourcedservice team review Where Do Dependencies Add Delay in outsourced business services??",
+        "answer": "A protocol separating upstream wait, owner wait, and rework in outsourced business services dependency chains."
       }
     ],
     "body": [
@@ -454,16 +454,16 @@ export const october27Research = [
     },
     "faq": [
       {
-        "q": "What evidence should the team check first for How Much Work Is Rework in outsourced business services??",
-        "a": "A protocol measuring repeat effort caused by missing evidence, wrong scope, or a failed check in outsourced business services."
+        "question": "What evidence should the team check first for How Much Work Is Rework in outsourced business services??",
+        "answer": "A protocol measuring repeat effort caused by missing evidence, wrong scope, or a failed check in outsourced business services."
       },
       {
-        "q": "Which decisions stay with the accountable owner for How Much Work Is Rework in outsourced business services??",
-        "a": "A protocol measuring repeat effort caused by missing evidence, wrong scope, or a failed check in outsourced business services."
+        "question": "Which decisions stay with the accountable owner for How Much Work Is Rework in outsourced business services??",
+        "answer": "A protocol measuring repeat effort caused by missing evidence, wrong scope, or a failed check in outsourced business services."
       },
       {
-        "q": "How should the outsourcedservice team review How Much Work Is Rework in outsourced business services??",
-        "a": "A protocol measuring repeat effort caused by missing evidence, wrong scope, or a failed check in outsourced business services."
+        "question": "How should the outsourcedservice team review How Much Work Is Rework in outsourced business services??",
+        "answer": "A protocol measuring repeat effort caused by missing evidence, wrong scope, or a failed check in outsourced business services."
       }
     ],
     "body": [
@@ -594,16 +594,16 @@ export const october27Research = [
     },
     "faq": [
       {
-        "q": "What evidence should the team check first for How Often Do Customer Promises Hold in outsourced business services??",
-        "a": "A protocol comparing the promise date, the verified completion, and the reason for any gap in outsourced business services."
+        "question": "What evidence should the team check first for How Often Do Customer Promises Hold in outsourced business services??",
+        "answer": "A protocol comparing the promise date, the verified completion, and the reason for any gap in outsourced business services."
       },
       {
-        "q": "Which decisions stay with the accountable owner for How Often Do Customer Promises Hold in outsourced business services??",
-        "a": "A protocol comparing the promise date, the verified completion, and the reason for any gap in outsourced business services."
+        "question": "Which decisions stay with the accountable owner for How Often Do Customer Promises Hold in outsourced business services??",
+        "answer": "A protocol comparing the promise date, the verified completion, and the reason for any gap in outsourced business services."
       },
       {
-        "q": "How should the outsourcedservice team review How Often Do Customer Promises Hold in outsourced business services??",
-        "a": "A protocol comparing the promise date, the verified completion, and the reason for any gap in outsourced business services."
+        "question": "How should the outsourcedservice team review How Often Do Customer Promises Hold in outsourced business services??",
+        "answer": "A protocol comparing the promise date, the verified completion, and the reason for any gap in outsourced business services."
       }
     ],
     "body": [
