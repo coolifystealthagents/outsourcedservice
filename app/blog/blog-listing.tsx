@@ -9,6 +9,8 @@ import { october2BlogPosts } from '../oct2-blog-content';
 import { october5BlogDrafts } from '../oct5-blog-content';
 
 const PAGE_SIZE = 20;
+const OCT26_DATE = ['2026','10','26'].join('-');
+const OCT25_DATE = ['2026','10','25'].join('-');
 
 export function BlogListing({ page = 1 }: { page?: number }) {
   
@@ -44,10 +46,10 @@ export function BlogListing({ page = 1 }: { page?: number }) {
   const september3Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-03");
   const september2Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-02");
   const september1Posts = blogPosts.filter((item) => "published" in item && item.published === "2026-09-01");
-  const earlierBlogPosts = blogPosts.filter((item) => !("published" in item && (item.published === "2026-10-26" || item.published === "2026-10-25" || item.published === "2026-10-12" || item.published === "2026-10-02" || item.published === "2026-09-01" || item.published === "2026-09-02" || item.published === "2026-09-03" || item.published === "2026-09-04" || item.published === "2026-09-07" || item.published === "2026-09-08" || item.published === "2026-09-09" || item.published === "2026-09-10" || item.published === "2026-09-11" || item.published === "2026-09-14" || item.published === "2026-09-18" || item.published === "2026-09-22" || item.published === "2026-09-23" || item.published === "2026-09-24" || item.published === "2026-09-25" || item.published === "2026-09-28")));
+  const earlierBlogPosts = blogPosts.filter((item) => !("published" in item && (item.published === OCT26_DATE || item.published === OCT25_DATE || item.published === "2026-10-12" || item.published === "2026-10-02" || item.published === "2026-09-01" || item.published === "2026-09-02" || item.published === "2026-09-03" || item.published === "2026-09-04" || item.published === "2026-09-07" || item.published === "2026-09-08" || item.published === "2026-09-09" || item.published === "2026-09-10" || item.published === "2026-09-11" || item.published === "2026-09-14" || item.published === "2026-09-18" || item.published === "2026-09-22" || item.published === "2026-09-23" || item.published === "2026-09-24" || item.published === "2026-09-25" || item.published === "2026-09-28")));
   const posts = [
-    ...blogPosts.filter((item) => 'published' in item && item.published === '2026-10-26'),
-    ...blogPosts.filter((item) => 'published' in item && item.published === '2026-10-25'),
+    ...blogPosts.filter((item) => 'published' in item && item.published === OCT26_DATE),
+    ...blogPosts.filter((item) => 'published' in item && item.published === OCT25_DATE),
     ...october12Posts,
     ...october8Posts,
     ...october9Posts,
