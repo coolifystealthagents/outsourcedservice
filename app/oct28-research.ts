@@ -190,3 +190,5 @@ export const october28ResearchBatch = [
     ]
   }
 ];
+
+export const october28ResearchPosts = october28ResearchBatch;
