@@ -35,7 +35,15 @@ export const october28ResearchBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ]
+    ],
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "thumbnail": "/thumbnails/october-28/service-request-latency-study-oct28.svg",
+    "headlineStat": "A bounded operational review, not a performance score.",
+    "methodology": "Bounded sample, dated review, and stated limits.",
+    "related": [],
+    "serviceHandoff": "The service owner keeps the decision.",
+    "faq": []
   },
   {
     "slug": "handoff-completeness-study-oct28",
@@ -73,7 +81,15 @@ export const october28ResearchBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ]
+    ],
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "thumbnail": "/thumbnails/october-28/handoff-completeness-study-oct28.svg",
+    "headlineStat": "A bounded operational review, not a performance score.",
+    "methodology": "Bounded sample, dated review, and stated limits.",
+    "related": [],
+    "serviceHandoff": "The service owner keeps the decision.",
+    "faq": []
   },
   {
     "slug": "quality-sample-study-oct28",
@@ -111,7 +127,15 @@ export const october28ResearchBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ]
+    ],
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "thumbnail": "/thumbnails/october-28/quality-sample-study-oct28.svg",
+    "headlineStat": "A bounded operational review, not a performance score.",
+    "methodology": "Bounded sample, dated review, and stated limits.",
+    "related": [],
+    "serviceHandoff": "The service owner keeps the decision.",
+    "faq": []
   },
   {
     "slug": "sla-evidence-study-oct28",
@@ -149,7 +173,15 @@ export const october28ResearchBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ]
+    ],
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "thumbnail": "/thumbnails/october-28/sla-evidence-study-oct28.svg",
+    "headlineStat": "A bounded operational review, not a performance score.",
+    "methodology": "Bounded sample, dated review, and stated limits.",
+    "related": [],
+    "serviceHandoff": "The service owner keeps the decision.",
+    "faq": []
   },
   {
     "slug": "access-removal-study-oct28",
@@ -187,8 +219,15 @@ export const october28ResearchBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ]
+    ],
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "thumbnail": "/thumbnails/october-28/access-removal-study-oct28.svg",
+    "headlineStat": "A bounded operational review, not a performance score.",
+    "methodology": "Bounded sample, dated review, and stated limits.",
+    "related": [],
+    "serviceHandoff": "The service owner keeps the decision.",
+    "faq": []
   }
 ];
-
 export const october28ResearchPosts = october28ResearchBatch;
