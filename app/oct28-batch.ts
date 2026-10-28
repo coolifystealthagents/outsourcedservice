@@ -35,8 +35,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "client-scope-confirmation-oct28",
@@ -74,8 +73,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "timezone-coverage-map-oct28",
@@ -113,8 +111,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "invoice-reconciliation-check-oct28",
@@ -152,8 +149,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "client-update-cadence-review-oct28",
@@ -191,8 +187,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "vendor-followup-log-oct28",
@@ -230,8 +225,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "access-removal-check-oct28",
@@ -269,8 +263,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "quality-sample-review-oct28",
@@ -308,8 +301,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "backup-coverage-plan-oct28",
@@ -347,8 +339,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "handoff-completeness",
@@ -386,8 +377,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "service-level-evidence",
@@ -425,8 +415,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   },
   {
     "slug": "weekly-service-queue-review",
@@ -464,8 +453,7 @@ export const october28BlogBatch = [
       "- https://www.nist.gov/cyberframework",
       "- https://www.sba.gov/business-guide",
       "- https://www.gao.gov/"
-    ],
-    "published": "2026-10-28"
+    ]
   }
 ];
 export { october28BlogBatch as october28BlogPosts };
