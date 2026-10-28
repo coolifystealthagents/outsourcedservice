@@ -1,5 +1,5 @@
 ---
-slug: "vendor-followup-log"
+slug: "vendor-followup-log-oct28"
 title: "Keep a vendor follow-up log"
 description: "A bounded outsourced service guide for vendor followup log."
 datePublished: "2026-10-28"
@@ -8,7 +8,7 @@ updatedAt: "2026-10-28T12:00:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 reviewedAt: "2026-10-28T12:00:00.000Z"
-featuredImage: "/thumbnails/october-28/vendor-followup-log.svg"
+featuredImage: "/thumbnails/october-28/vendor-followup-log-oct28.svg"
 ---
 
 # Keep a vendor follow-up log

@@ -1,5 +1,5 @@
 ---
-slug: "quality-sample-review"
+slug: "quality-sample-review-oct28"
 title: "Run a quality sample"
 description: "A bounded outsourced service guide for quality sample review."
 datePublished: "2026-10-28"
@@ -8,7 +8,7 @@ updatedAt: "2026-10-28T12:00:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 reviewedAt: "2026-10-28T12:00:00.000Z"
-featuredImage: "/thumbnails/october-28/quality-sample-review.svg"
+featuredImage: "/thumbnails/october-28/quality-sample-review-oct28.svg"
 ---
 
 # Run a quality sample

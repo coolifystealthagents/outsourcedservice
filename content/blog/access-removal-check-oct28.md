@@ -1,5 +1,5 @@
 ---
-slug: "access-removal-check"
+slug: "access-removal-check-oct28"
 title: "Remove access when work ends"
 description: "A bounded outsourced service guide for access removal check."
 datePublished: "2026-10-28"
@@ -8,7 +8,7 @@ updatedAt: "2026-10-28T12:00:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 reviewedAt: "2026-10-28T12:00:00.000Z"
-featuredImage: "/thumbnails/october-28/access-removal-check.svg"
+featuredImage: "/thumbnails/october-28/access-removal-check-oct28.svg"
 ---
 
 # Remove access when work ends

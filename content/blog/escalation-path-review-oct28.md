@@ -1,5 +1,5 @@
 ---
-slug: "escalation-path-review"
+slug: "escalation-path-review-oct28"
 title: "Review the escalation path"
 description: "A bounded outsourced service guide for escalation path review."
 datePublished: "2026-10-28"
@@ -8,7 +8,7 @@ updatedAt: "2026-10-28T12:00:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 reviewedAt: "2026-10-28T12:00:00.000Z"
-featuredImage: "/thumbnails/october-28/escalation-path-review.svg"
+featuredImage: "/thumbnails/october-28/escalation-path-review-oct28.svg"
 ---
 
 # Review the escalation path

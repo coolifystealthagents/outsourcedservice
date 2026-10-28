@@ -1,12 +1,12 @@
 export const october28BlogBatch = [
   {
-    "slug": "escalation-path-review",
+    "slug": "escalation-path-review-oct28",
     "title": "Review the escalation path",
     "excerpt": "A bounded outsourced service guide for escalation path review.",
     "minutes": 8,
     "publishedDate": "2026-10-28",
     "publishedAt": "2026-10-28",
-    "image": "/thumbnails/october-28/escalation-path-review.svg",
+    "image": "/thumbnails/october-28/escalation-path-review-oct28.svg",
     "sources": [
       {
         "name": "Public guidance",
@@ -37,13 +37,13 @@ export const october28BlogBatch = [
     ]
   },
   {
-    "slug": "client-scope-confirmation",
+    "slug": "client-scope-confirmation-oct28",
     "title": "Confirm client scope before work starts",
     "excerpt": "A bounded outsourced service guide for client scope confirmation.",
     "minutes": 8,
     "publishedDate": "2026-10-28",
     "publishedAt": "2026-10-28",
-    "image": "/thumbnails/october-28/client-scope-confirmation.svg",
+    "image": "/thumbnails/october-28/client-scope-confirmation-oct28.svg",
     "sources": [
       {
         "name": "Public guidance",
@@ -74,13 +74,13 @@ export const october28BlogBatch = [
     ]
   },
   {
-    "slug": "timezone-coverage-map",
+    "slug": "timezone-coverage-map-oct28",
     "title": "Map time-zone coverage",
     "excerpt": "A bounded outsourced service guide for timezone coverage map.",
     "minutes": 8,
     "publishedDate": "2026-10-28",
     "publishedAt": "2026-10-28",
-    "image": "/thumbnails/october-28/timezone-coverage-map.svg",
+    "image": "/thumbnails/october-28/timezone-coverage-map-oct28.svg",
     "sources": [
       {
         "name": "Public guidance",
@@ -111,13 +111,13 @@ export const october28BlogBatch = [
     ]
   },
   {
-    "slug": "invoice-reconciliation-check",
+    "slug": "invoice-reconciliation-check-oct28",
     "title": "Reconcile service invoices",
     "excerpt": "A bounded outsourced service guide for invoice reconciliation check.",
     "minutes": 8,
     "publishedDate": "2026-10-28",
     "publishedAt": "2026-10-28",
-    "image": "/thumbnails/october-28/invoice-reconciliation-check.svg",
+    "image": "/thumbnails/october-28/invoice-reconciliation-check-oct28.svg",
     "sources": [
       {
         "name": "Public guidance",
@@ -185,13 +185,13 @@ export const october28BlogBatch = [
     ]
   },
   {
-    "slug": "vendor-followup-log",
+    "slug": "vendor-followup-log-oct28",
     "title": "Keep a vendor follow-up log",
     "excerpt": "A bounded outsourced service guide for vendor followup log.",
     "minutes": 8,
     "publishedDate": "2026-10-28",
     "publishedAt": "2026-10-28",
-    "image": "/thumbnails/october-28/vendor-followup-log.svg",
+    "image": "/thumbnails/october-28/vendor-followup-log-oct28.svg",
     "sources": [
       {
         "name": "Public guidance",
@@ -222,13 +222,13 @@ export const october28BlogBatch = [
     ]
   },
   {
-    "slug": "access-removal-check",
+    "slug": "access-removal-check-oct28",
     "title": "Remove access when work ends",
     "excerpt": "A bounded outsourced service guide for access removal check.",
     "minutes": 8,
     "publishedDate": "2026-10-28",
     "publishedAt": "2026-10-28",
-    "image": "/thumbnails/october-28/access-removal-check.svg",
+    "image": "/thumbnails/october-28/access-removal-check-oct28.svg",
     "sources": [
       {
         "name": "Public guidance",
@@ -259,13 +259,13 @@ export const october28BlogBatch = [
     ]
   },
   {
-    "slug": "quality-sample-review",
+    "slug": "quality-sample-review-oct28",
     "title": "Run a quality sample",
     "excerpt": "A bounded outsourced service guide for quality sample review.",
     "minutes": 8,
     "publishedDate": "2026-10-28",
     "publishedAt": "2026-10-28",
-    "image": "/thumbnails/october-28/quality-sample-review.svg",
+    "image": "/thumbnails/october-28/quality-sample-review-oct28.svg",
     "sources": [
       {
         "name": "Public guidance",
@@ -296,13 +296,13 @@ export const october28BlogBatch = [
     ]
   },
   {
-    "slug": "backup-coverage-plan",
+    "slug": "backup-coverage-plan-oct28",
     "title": "Build a backup plan",
     "excerpt": "A bounded outsourced service guide for backup coverage plan.",
     "minutes": 8,
     "publishedDate": "2026-10-28",
     "publishedAt": "2026-10-28",
-    "image": "/thumbnails/october-28/backup-coverage-plan.svg",
+    "image": "/thumbnails/october-28/backup-coverage-plan-oct28.svg",
     "sources": [
       {
         "name": "Public guidance",
@@ -444,3 +444,4 @@ export const october28BlogBatch = [
     ]
   }
 ];
+export { october28BlogBatch as october28BlogPosts };

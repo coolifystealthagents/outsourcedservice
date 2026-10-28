@@ -1,5 +1,5 @@
 ---
-slug: "backup-coverage-plan"
+slug: "backup-coverage-plan-oct28"
 title: "Build a backup plan"
 description: "A bounded outsourced service guide for backup coverage plan."
 datePublished: "2026-10-28"
@@ -8,7 +8,7 @@ updatedAt: "2026-10-28T12:00:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 reviewedAt: "2026-10-28T12:00:00.000Z"
-featuredImage: "/thumbnails/october-28/backup-coverage-plan.svg"
+featuredImage: "/thumbnails/october-28/backup-coverage-plan-oct28.svg"
 ---
 
 # Build a backup plan

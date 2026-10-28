@@ -1,5 +1,5 @@
 ---
-slug: "client-scope-confirmation"
+slug: "client-scope-confirmation-oct28"
 title: "Confirm client scope before work starts"
 description: "A bounded outsourced service guide for client scope confirmation."
 datePublished: "2026-10-28"
@@ -8,7 +8,7 @@ updatedAt: "2026-10-28T12:00:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 reviewedAt: "2026-10-28T12:00:00.000Z"
-featuredImage: "/thumbnails/october-28/client-scope-confirmation.svg"
+featuredImage: "/thumbnails/october-28/client-scope-confirmation-oct28.svg"
 ---
 
 # Confirm client scope before work starts

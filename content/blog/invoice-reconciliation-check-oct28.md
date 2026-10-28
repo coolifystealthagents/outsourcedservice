@@ -1,5 +1,5 @@
 ---
-slug: "invoice-reconciliation-check"
+slug: "invoice-reconciliation-check-oct28"
 title: "Reconcile service invoices"
 description: "A bounded outsourced service guide for invoice reconciliation check."
 datePublished: "2026-10-28"
@@ -8,7 +8,7 @@ updatedAt: "2026-10-28T12:00:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 reviewedAt: "2026-10-28T12:00:00.000Z"
-featuredImage: "/thumbnails/october-28/invoice-reconciliation-check.svg"
+featuredImage: "/thumbnails/october-28/invoice-reconciliation-check-oct28.svg"
 ---
 
 # Reconcile service invoices

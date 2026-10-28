@@ -1,5 +1,5 @@
 ---
-slug: "timezone-coverage-map"
+slug: "timezone-coverage-map-oct28"
 title: "Map time-zone coverage"
 description: "A bounded outsourced service guide for timezone coverage map."
 datePublished: "2026-10-28"
@@ -8,7 +8,7 @@ updatedAt: "2026-10-28T12:00:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 reviewedAt: "2026-10-28T12:00:00.000Z"
-featuredImage: "/thumbnails/october-28/timezone-coverage-map.svg"
+featuredImage: "/thumbnails/october-28/timezone-coverage-map-oct28.svg"
 ---
 
 # Map time-zone coverage
