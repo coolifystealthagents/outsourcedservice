@@ -1,5 +1,5 @@
 ---
-slug: "client-update-cadence"
+slug: "client-update-cadence-review-oct28"
 title: "Review client update cadence"
 description: "A bounded outsourced service guide for client update cadence."
 datePublished: "2026-10-28"
@@ -8,7 +8,7 @@ updatedAt: "2026-10-28T12:00:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 reviewedAt: "2026-10-28T12:00:00.000Z"
-featuredImage: "/thumbnails/october-28/client-update-cadence.svg"
+featuredImage: "/thumbnails/october-28/client-update-cadence-review-oct28.svg"
 ---
 
 # Review client update cadence
