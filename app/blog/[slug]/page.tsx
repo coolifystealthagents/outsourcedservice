@@ -4,6 +4,7 @@ import { october22BlogPosts } from '../../oct22-content';
 import { october25BlogPosts } from '../../oct25-content';
 import { october26BlogPosts } from '../../oct26-content';
 import { october27BlogPosts } from '../../oct27-content';
+import { october28BlogPosts } from '../../oct28-content';
 import { Header, Footer, CTA } from '../../components';
 import { blogPosts, generatedBlogPosts, batchBlogPosts, august13BlogPosts, august14BlogPosts, august17BlogPosts, site } from '../../data';
 import { GeneratedArticle } from '../generated-article';
@@ -260,7 +261,7 @@ function DetailedArticle() {
   </>;
 }
 
-const oct27Slugs = new Set(october27BlogPosts.map((item) => item.slug));
+const oct27Slugs = new Set([...october27BlogPosts.map((item) => item.slug), ...october28BlogPosts.map((item: any) => item.slug)]);
 const oct26Slugs = new Set(["request-triage-standard","capacity-plan","document-completeness","client-update-cadence","supplier-followup","recurring-task-calendar-control","duplicate-detection","approval-threshold","decision-log","change-communication","knowledge-refresh","month-end-close"]);
 const oct25Slugs = new Set(["intake-evidence-control","queue-ownership","exception-path","source-map","quality-sample","handoff-record","access-boundary","escalation-log","metric-definition","onboarding-plan","audit-pack","weekly-brief"]);
 const oct22Slugs = new Set(["service-shared-inbox-sla-exception","service-template-review-cycle","service-provider-access-recert","service-report-recipient-change","service-customer-document-quarantine","service-calendar-resource-release","service-sop-localization-version","service-vendor-duplicate-merge","service-expense-receipt-gap","service-intake-field-retirement","service-contact-role-transfer","service-batch-file-identity"]);
