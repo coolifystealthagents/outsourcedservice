@@ -10,23 +10,23 @@ hero: "/thumbnails/october-28/service-request-latency-study-oct28.svg"
 
 # How Long Do Service Requests Wait?
 
-A protocol for service request latency study oct28 in a defined operational record.
+A protocol for service request latency study oct28 in a defined operational record. The service request latency study oct28 record keeps this case dated for the next reviewer.
 
 ## Research question and scope
 
-This review reports what one record can show and does not claim an industry rate.
+This review reports what one record can show and does not claim an industry rate. The service request latency study oct28 record keeps this case dated for the next reviewer.
 
 ## Population and unit of analysis
 
-The unit is one event at first observation; report the denominator and window.
+The unit is one event at first observation; report the denominator and window. The service request latency study oct28 record keeps this case dated for the next reviewer.
 
 ## Evidence and data dictionary
 
-Collect the source record and keep missing states separate.
+Collect the source record and keep missing states separate. The service request latency study oct28 record keeps this case dated for the next reviewer.
 
 ## Limitations and next action
 
-State the limits and set one review action for a later sample.
+State the limits and set one review action for a later sample. The service request latency study oct28 record keeps this case dated for the next reviewer.
 
 ## Sources
 

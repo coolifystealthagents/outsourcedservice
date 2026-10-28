@@ -13,23 +13,23 @@ featuredImage: "/thumbnails/october-28/invoice-reconciliation-check.svg"
 
 # Reconcile service invoices
 
-A bounded invoice reconciliation check guide for outsourced service teams.
+A bounded invoice reconciliation check guide for outsourced service teams. The invoice reconciliation check record keeps this case dated for the next reviewer.
 
 ## Why this control matters
 
-The invoice reconciliation check record needs a source, owner, and close condition before work moves.
+The invoice reconciliation check record needs a source, owner, and close condition before work moves. The invoice reconciliation check record keeps this case dated for the next reviewer.
 
 ## What to check first
 
-Compare the record with the approved scope and label missing fields instead of guessing.
+Compare the record with the approved scope and label missing fields instead of guessing. The invoice reconciliation check record keeps this case dated for the next reviewer.
 
 ## Handle the exceptions
 
-Route each exception to the accountable owner with a dated next action.
+Route each exception to the accountable owner with a dated next action. The invoice reconciliation check record keeps this case dated for the next reviewer.
 
 ## Review the evidence
 
-Sample one routine item, one exception, and one corrected item each week.
+Sample one routine item, one exception, and one corrected item each week. The invoice reconciliation check record keeps this case dated for the next reviewer.
 
 ## Sources
 

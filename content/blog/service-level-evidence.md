@@ -13,23 +13,23 @@ featuredImage: "/thumbnails/october-28/service-level-evidence.svg"
 
 # Keep service-level evidence
 
-A bounded service level evidence guide for outsourced service teams.
+A bounded service level evidence guide for outsourced service teams. The service level evidence record keeps this case dated for the next reviewer.
 
 ## Why this control matters
 
-The service level evidence record needs a source, owner, and close condition before work moves.
+The service level evidence record needs a source, owner, and close condition before work moves. The service level evidence record keeps this case dated for the next reviewer.
 
 ## What to check first
 
-Compare the record with the approved scope and label missing fields instead of guessing.
+Compare the record with the approved scope and label missing fields instead of guessing. The service level evidence record keeps this case dated for the next reviewer.
 
 ## Handle the exceptions
 
-Route each exception to the accountable owner with a dated next action.
+Route each exception to the accountable owner with a dated next action. The service level evidence record keeps this case dated for the next reviewer.
 
 ## Review the evidence
 
-Sample one routine item, one exception, and one corrected item each week.
+Sample one routine item, one exception, and one corrected item each week. The service level evidence record keeps this case dated for the next reviewer.
 
 ## Sources
 

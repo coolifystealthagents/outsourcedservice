@@ -13,23 +13,23 @@ featuredImage: "/thumbnails/october-28/backup-coverage-plan.svg"
 
 # Build a backup plan
 
-A bounded backup coverage plan guide for outsourced service teams.
+A bounded backup coverage plan guide for outsourced service teams. The backup coverage plan record keeps this case dated for the next reviewer.
 
 ## Why this control matters
 
-The backup coverage plan record needs a source, owner, and close condition before work moves.
+The backup coverage plan record needs a source, owner, and close condition before work moves. The backup coverage plan record keeps this case dated for the next reviewer.
 
 ## What to check first
 
-Compare the record with the approved scope and label missing fields instead of guessing.
+Compare the record with the approved scope and label missing fields instead of guessing. The backup coverage plan record keeps this case dated for the next reviewer.
 
 ## Handle the exceptions
 
-Route each exception to the accountable owner with a dated next action.
+Route each exception to the accountable owner with a dated next action. The backup coverage plan record keeps this case dated for the next reviewer.
 
 ## Review the evidence
 
-Sample one routine item, one exception, and one corrected item each week.
+Sample one routine item, one exception, and one corrected item each week. The backup coverage plan record keeps this case dated for the next reviewer.
 
 ## Sources
 

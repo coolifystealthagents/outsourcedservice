@@ -13,23 +13,23 @@ featuredImage: "/thumbnails/october-28/handoff-completeness.svg"
 
 # Check handoff completeness
 
-A bounded handoff completeness guide for outsourced service teams.
+A bounded handoff completeness guide for outsourced service teams. The handoff completeness record keeps this case dated for the next reviewer.
 
 ## Why this control matters
 
-The handoff completeness record needs a source, owner, and close condition before work moves.
+The handoff completeness record needs a source, owner, and close condition before work moves. The handoff completeness record keeps this case dated for the next reviewer.
 
 ## What to check first
 
-Compare the record with the approved scope and label missing fields instead of guessing.
+Compare the record with the approved scope and label missing fields instead of guessing. The handoff completeness record keeps this case dated for the next reviewer.
 
 ## Handle the exceptions
 
-Route each exception to the accountable owner with a dated next action.
+Route each exception to the accountable owner with a dated next action. The handoff completeness record keeps this case dated for the next reviewer.
 
 ## Review the evidence
 
-Sample one routine item, one exception, and one corrected item each week.
+Sample one routine item, one exception, and one corrected item each week. The handoff completeness record keeps this case dated for the next reviewer.
 
 ## Sources
 

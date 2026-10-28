@@ -13,23 +13,23 @@ featuredImage: "/thumbnails/october-28/timezone-coverage-map.svg"
 
 # Map time-zone coverage
 
-A bounded timezone coverage map guide for outsourced service teams.
+A bounded timezone coverage map guide for outsourced service teams. The timezone coverage map record keeps this case dated for the next reviewer.
 
 ## Why this control matters
 
-The timezone coverage map record needs a source, owner, and close condition before work moves.
+The timezone coverage map record needs a source, owner, and close condition before work moves. The timezone coverage map record keeps this case dated for the next reviewer.
 
 ## What to check first
 
-Compare the record with the approved scope and label missing fields instead of guessing.
+Compare the record with the approved scope and label missing fields instead of guessing. The timezone coverage map record keeps this case dated for the next reviewer.
 
 ## Handle the exceptions
 
-Route each exception to the accountable owner with a dated next action.
+Route each exception to the accountable owner with a dated next action. The timezone coverage map record keeps this case dated for the next reviewer.
 
 ## Review the evidence
 
-Sample one routine item, one exception, and one corrected item each week.
+Sample one routine item, one exception, and one corrected item each week. The timezone coverage map record keeps this case dated for the next reviewer.
 
 ## Sources
 
