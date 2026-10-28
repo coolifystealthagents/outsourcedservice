@@ -10,11 +10,11 @@ export const october28ResearchBatch = [
     "image": "/thumbnails/october-28/service-request-latency-study-oct28.svg",
     "sources": [
       {
-        "name": "Public guidance",
+        "label": "Public guidance",
         "url": "https://www.dol.gov/"
       },
       {
-        "name": "Public guidance",
+        "label": "Public guidance",
         "url": "https://www.nist.gov/cyberframework"
       }
     ],
@@ -56,11 +56,11 @@ export const october28ResearchBatch = [
     "image": "/thumbnails/october-28/handoff-completeness-study-oct28.svg",
     "sources": [
       {
-        "name": "Public guidance",
+        "label": "Public guidance",
         "url": "https://www.dol.gov/"
       },
       {
-        "name": "Public guidance",
+        "label": "Public guidance",
         "url": "https://www.nist.gov/cyberframework"
       }
     ],
@@ -102,11 +102,11 @@ export const october28ResearchBatch = [
     "image": "/thumbnails/october-28/quality-sample-study-oct28.svg",
     "sources": [
       {
-        "name": "Public guidance",
+        "label": "Public guidance",
         "url": "https://www.dol.gov/"
       },
       {
-        "name": "Public guidance",
+        "label": "Public guidance",
         "url": "https://www.nist.gov/cyberframework"
       }
     ],
@@ -148,11 +148,11 @@ export const october28ResearchBatch = [
     "image": "/thumbnails/october-28/sla-evidence-study-oct28.svg",
     "sources": [
       {
-        "name": "Public guidance",
+        "label": "Public guidance",
         "url": "https://www.dol.gov/"
       },
       {
-        "name": "Public guidance",
+        "label": "Public guidance",
         "url": "https://www.nist.gov/cyberframework"
       }
     ],
@@ -194,11 +194,11 @@ export const october28ResearchBatch = [
     "image": "/thumbnails/october-28/access-removal-study-oct28.svg",
     "sources": [
       {
-        "name": "Public guidance",
+        "label": "Public guidance",
         "url": "https://www.dol.gov/"
       },
       {
-        "name": "Public guidance",
+        "label": "Public guidance",
         "url": "https://www.nist.gov/cyberframework"
       }
     ],
