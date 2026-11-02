@@ -1,6 +1,6 @@
 # Service-led topical authority link ledger
 
-Updated: 2026-10-22
+Updated: 2026-11-02
 
 This is a planning ledger, not reader-facing copy. It uses only existing Philippines service pillars and existing research pages that were confirmed in the production build. Before a reader-facing link is added, confirm that the source paragraph answers the question, the service route still exists, and the handoff states the work boundary without promising a result.
 
@@ -51,7 +51,7 @@ The October 9 research batch already renders five Operations Support handoffs. T
 
 ## Deferred service lanes
 
-The earlier nine-lane deferral is partly superseded. Ticket Queue Management, Returns Administration, Customer Onboarding Support, and Knowledge Base Maintenance are confirmed in the current inventory below. Appointment Coordination is already delivered in the active table above. Keep CRM Case Administration, Subscription Support, Escalation Coordination, and Service Quality Audits out of the execution queue until an existing matching research route is built and checked.
+The earlier nine-lane deferral is partly superseded. Ticket Queue Management, Returns Administration, Customer Onboarding Support, Knowledge Base Maintenance, and CRM Case Administration are confirmed in the current inventory below. Appointment Coordination is already delivered in the active table above. Keep Subscription Support, Escalation Coordination, and Service Quality Audits out of the execution queue until an existing matching research route is built and checked.
 
 ## October 20 current-inventory reconciliation
 
@@ -64,6 +64,7 @@ The deferred section above describes an older inventory check. A fresh productio
 | Customer Onboarding Support | `/research/customer-onboarding-prerequisite-readiness-study` | Which missing prerequisite prevents an onboarding item from advancing safely? | Present once: `/services/customer-onboarding-support` | Preserve the typed handoff. The owner retains waiver, interpretation, access, and exception decisions. |
 | Knowledge Base Maintenance | `/research/knowledge-base-change-propagation-study` | How can a reviewer tell whether an approved knowledge change reached its declared instructions? | Present once: `/services/knowledge-base-maintenance` | Preserve the typed handoff. The owner retains source authority, publication approval, and exception decisions. |
 | Knowledge Base Maintenance | `/research/knowledge-link-destination-integrity-study` | How can a buyer check that a knowledge-base link still reaches the guidance its label promises? | Present once: `/services/knowledge-base-maintenance` | Preserve the typed handoff. The owner retains source authority and any decision to change published guidance. |
+| CRM Case Administration | `/research/philippines-crm-case-administration-research` | What data controls should a buyer set before a Philippines CRM specialist prepares a case record for owner review? | Present once: `/services/crm-case-administration` (rendered source `737251a99de325849ad4e007d625734149b8325e`) | Preserve the typed handoff. The specialist prepares permitted case records; the owner retains approval, access, and customer-decision authority. |
 
 ## Release rule
 
