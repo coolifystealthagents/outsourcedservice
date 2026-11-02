@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-02",
+ "blog": [
+  "outsourcedservice-service-queue-review-2026-11-02",
+  "outsourcedservice-sla-evidence-2026-11-02",
+  "outsourcedservice-escalation-path-2026-11-02",
+  "outsourcedservice-shift-handoff-2026-11-02",
+  "outsourcedservice-timezone-coverage-2026-11-02",
+  "outsourcedservice-vendor-followup-2026-11-02",
+  "outsourcedservice-quality-sample-2026-11-02",
+  "outsourcedservice-access-removal-2026-11-02",
+  "outsourcedservice-report-reconciliation-2026-11-02",
+  "outsourcedservice-request-intake-2026-11-02",
+  "outsourcedservice-backup-coverage-2026-11-02",
+  "outsourcedservice-monthly-service-review-2026-11-02"
+ ],
+ "research": [
+  "outsourcedservice-research-service-request-latency-2026-11-02",
+  "outsourcedservice-research-sla-evidence-gap-2026-11-02",
+  "outsourcedservice-research-escalation-aging-2026-11-02",
+  "outsourcedservice-research-shift-handoff-completeness-2026-11-02",
+  "outsourcedservice-research-access-removal-lag-2026-11-02"
+ ]
+}
