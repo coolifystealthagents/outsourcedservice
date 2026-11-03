@@ -29,6 +29,21 @@ export const november03ResearchBatch = [
       "## Analysis and reporting\n\nDefine the stop conditions before the week begins. A missing source, two records that disagree, an expired approval, an unavailable owner, or a request outside the approved scope should pause the case. Outsourced Service records the stop reason and the owner who can release it. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the service request latency reviewer checks the approved delivery standard before the next shift. The service request latency note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Limits and sources of error\n\nVerification for service request latency means checking the destination record, not the activity log. A sent message or a closed ticket proves that someone acted, but it does not prove that the client-visible change happened. The next reviewer should be able to follow the same evidence path without private context. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the service request latency reviewer checks the approved delivery standard before the next shift. The service request latency note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Review cadence\n\nOnce a month, pull a small service request latency sample and test the source, the decision, the execution, and the confirmation against the same rule. Report the sample size and the exceptions, not only a percentage. Choose one process change with an owner and a check date. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the service request latency reviewer checks the approved delivery standard before the next shift. The service request latency note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar."
+    ],
+    "published": "2026-11-03",
+    "thumbnail": "/thumbnails/november-03/outsourcedservice-research-request-latency-2026-11-03.svg",
+    "headlineStat": "One defined population and one review window.",
+    "methodology": "A bounded protocol using a frozen population, a defined sample, a documented evidence standard, and a dated review.",
+    "related": [],
+    "faq": [
+      {
+        "question": "What does this protocol establish?",
+        "answer": "It establishes a repeatable way to read one defined population."
+      },
+      {
+        "question": "Who owns the decision?",
+        "answer": "The service owner keeps decisions that change a client promise or access."
+      }
     ]
   },
   {
@@ -61,6 +76,21 @@ export const november03ResearchBatch = [
       "## Analysis and reporting\n\nDefine the stop conditions before the week begins. A missing source, two records that disagree, an expired approval, an unavailable owner, or a request outside the approved scope should pause the case. Outsourced Service records the stop reason and the owner who can release it. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the service queue aging reviewer checks the approved delivery standard before the next shift. The service queue aging note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Limits and sources of error\n\nVerification for service queue aging means checking the destination record, not the activity log. A sent message or a closed ticket proves that someone acted, but it does not prove that the client-visible change happened. The next reviewer should be able to follow the same evidence path without private context. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the service queue aging reviewer checks the approved delivery standard before the next shift. The service queue aging note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Review cadence\n\nOnce a month, pull a small service queue aging sample and test the source, the decision, the execution, and the confirmation against the same rule. Report the sample size and the exceptions, not only a percentage. Choose one process change with an owner and a check date. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the service queue aging reviewer checks the approved delivery standard before the next shift. The service queue aging note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar."
+    ],
+    "published": "2026-11-03",
+    "thumbnail": "/thumbnails/november-03/outsourcedservice-research-queue-aging-2026-11-03.svg",
+    "headlineStat": "One defined population and one review window.",
+    "methodology": "A bounded protocol using a frozen population, a defined sample, a documented evidence standard, and a dated review.",
+    "related": [],
+    "faq": [
+      {
+        "question": "What does this protocol establish?",
+        "answer": "It establishes a repeatable way to read one defined population."
+      },
+      {
+        "question": "Who owns the decision?",
+        "answer": "The service owner keeps decisions that change a client promise or access."
+      }
     ]
   },
   {
@@ -93,6 +123,21 @@ export const november03ResearchBatch = [
       "## Analysis and reporting\n\nDefine the stop conditions before the week begins. A missing source, two records that disagree, an expired approval, an unavailable owner, or a request outside the approved scope should pause the case. Outsourced Service records the stop reason and the owner who can release it. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the ticket routing consistency reviewer checks the approved delivery standard before the next shift. The ticket routing consistency note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Limits and sources of error\n\nVerification for ticket routing consistency means checking the destination record, not the activity log. A sent message or a closed ticket proves that someone acted, but it does not prove that the client-visible change happened. The next reviewer should be able to follow the same evidence path without private context. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the ticket routing consistency reviewer checks the approved delivery standard before the next shift. The ticket routing consistency note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Review cadence\n\nOnce a month, pull a small ticket routing consistency sample and test the source, the decision, the execution, and the confirmation against the same rule. Report the sample size and the exceptions, not only a percentage. Choose one process change with an owner and a check date. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the ticket routing consistency reviewer checks the approved delivery standard before the next shift. The ticket routing consistency note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar."
+    ],
+    "published": "2026-11-03",
+    "thumbnail": "/thumbnails/november-03/outsourcedservice-research-routing-consistency-2026-11-03.svg",
+    "headlineStat": "One defined population and one review window.",
+    "methodology": "A bounded protocol using a frozen population, a defined sample, a documented evidence standard, and a dated review.",
+    "related": [],
+    "faq": [
+      {
+        "question": "What does this protocol establish?",
+        "answer": "It establishes a repeatable way to read one defined population."
+      },
+      {
+        "question": "Who owns the decision?",
+        "answer": "The service owner keeps decisions that change a client promise or access."
+      }
     ]
   },
   {
@@ -125,6 +170,21 @@ export const november03ResearchBatch = [
       "## Analysis and reporting\n\nDefine the stop conditions before the week begins. A missing source, two records that disagree, an expired approval, an unavailable owner, or a request outside the approved scope should pause the case. Outsourced Service records the stop reason and the owner who can release it. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the SLA reproducibility reviewer checks the approved delivery standard before the next shift. The SLA reproducibility note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Limits and sources of error\n\nVerification for SLA reproducibility means checking the destination record, not the activity log. A sent message or a closed ticket proves that someone acted, but it does not prove that the client-visible change happened. The next reviewer should be able to follow the same evidence path without private context. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the SLA reproducibility reviewer checks the approved delivery standard before the next shift. The SLA reproducibility note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Review cadence\n\nOnce a month, pull a small SLA reproducibility sample and test the source, the decision, the execution, and the confirmation against the same rule. Report the sample size and the exceptions, not only a percentage. Choose one process change with an owner and a check date. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the SLA reproducibility reviewer checks the approved delivery standard before the next shift. The SLA reproducibility note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar."
+    ],
+    "published": "2026-11-03",
+    "thumbnail": "/thumbnails/november-03/outsourcedservice-research-sla-reproducibility-2026-11-03.svg",
+    "headlineStat": "One defined population and one review window.",
+    "methodology": "A bounded protocol using a frozen population, a defined sample, a documented evidence standard, and a dated review.",
+    "related": [],
+    "faq": [
+      {
+        "question": "What does this protocol establish?",
+        "answer": "It establishes a repeatable way to read one defined population."
+      },
+      {
+        "question": "Who owns the decision?",
+        "answer": "The service owner keeps decisions that change a client promise or access."
+      }
     ]
   },
   {
@@ -157,6 +217,21 @@ export const november03ResearchBatch = [
       "## Analysis and reporting\n\nDefine the stop conditions before the week begins. A missing source, two records that disagree, an expired approval, an unavailable owner, or a request outside the approved scope should pause the case. Outsourced Service records the stop reason and the owner who can release it. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the escalation closure reviewer checks the approved delivery standard before the next shift. The escalation closure note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Limits and sources of error\n\nVerification for escalation closure means checking the destination record, not the activity log. A sent message or a closed ticket proves that someone acted, but it does not prove that the client-visible change happened. The next reviewer should be able to follow the same evidence path without private context. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the escalation closure reviewer checks the approved delivery standard before the next shift. The escalation closure note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Review cadence\n\nOnce a month, pull a small escalation closure sample and test the source, the decision, the execution, and the confirmation against the same rule. Report the sample size and the exceptions, not only a percentage. Choose one process change with an owner and a check date. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the escalation closure reviewer checks the approved delivery standard before the next shift. The escalation closure note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar."
+    ],
+    "published": "2026-11-03",
+    "thumbnail": "/thumbnails/november-03/outsourcedservice-research-escalation-closure-2026-11-03.svg",
+    "headlineStat": "One defined population and one review window.",
+    "methodology": "A bounded protocol using a frozen population, a defined sample, a documented evidence standard, and a dated review.",
+    "related": [],
+    "faq": [
+      {
+        "question": "What does this protocol establish?",
+        "answer": "It establishes a repeatable way to read one defined population."
+      },
+      {
+        "question": "Who owns the decision?",
+        "answer": "The service owner keeps decisions that change a client promise or access."
+      }
     ]
   },
   {
@@ -189,6 +264,21 @@ export const november03ResearchBatch = [
       "## Analysis and reporting\n\nDefine the stop conditions before the week begins. A missing source, two records that disagree, an expired approval, an unavailable owner, or a request outside the approved scope should pause the case. Outsourced Service records the stop reason and the owner who can release it. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the knowledge freshness reviewer checks the approved delivery standard before the next shift. The knowledge freshness note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Limits and sources of error\n\nVerification for knowledge freshness means checking the destination record, not the activity log. A sent message or a closed ticket proves that someone acted, but it does not prove that the client-visible change happened. The next reviewer should be able to follow the same evidence path without private context. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the knowledge freshness reviewer checks the approved delivery standard before the next shift. The knowledge freshness note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Review cadence\n\nOnce a month, pull a small knowledge freshness sample and test the source, the decision, the execution, and the confirmation against the same rule. Report the sample size and the exceptions, not only a percentage. Choose one process change with an owner and a check date. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the knowledge freshness reviewer checks the approved delivery standard before the next shift. The knowledge freshness note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar."
+    ],
+    "published": "2026-11-03",
+    "thumbnail": "/thumbnails/november-03/outsourcedservice-research-knowledge-freshness-2026-11-03.svg",
+    "headlineStat": "One defined population and one review window.",
+    "methodology": "A bounded protocol using a frozen population, a defined sample, a documented evidence standard, and a dated review.",
+    "related": [],
+    "faq": [
+      {
+        "question": "What does this protocol establish?",
+        "answer": "It establishes a repeatable way to read one defined population."
+      },
+      {
+        "question": "Who owns the decision?",
+        "answer": "The service owner keeps decisions that change a client promise or access."
+      }
     ]
   },
   {
@@ -221,6 +311,21 @@ export const november03ResearchBatch = [
       "## Analysis and reporting\n\nDefine the stop conditions before the week begins. A missing source, two records that disagree, an expired approval, an unavailable owner, or a request outside the approved scope should pause the case. Outsourced Service records the stop reason and the owner who can release it. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the service review evidence reviewer checks the approved delivery standard before the next shift. The service review evidence note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Limits and sources of error\n\nVerification for service review evidence means checking the destination record, not the activity log. A sent message or a closed ticket proves that someone acted, but it does not prove that the client-visible change happened. The next reviewer should be able to follow the same evidence path without private context. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the service review evidence reviewer checks the approved delivery standard before the next shift. The service review evidence note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar.",
       "## Review cadence\n\nOnce a month, pull a small service review evidence sample and test the source, the decision, the execution, and the confirmation against the same rule. Report the sample size and the exceptions, not only a percentage. Choose one process change with an owner and a check date. The next reviewer should be able to follow the same evidence path without private context. At Outsourced Service, the service review evidence reviewer checks the approved delivery standard before the next shift. The service review evidence note stays with the service file so a later owner can reopen it. The service desk records the queue reference before the next client update. A later reviewer compares the source date with the service calendar."
+    ],
+    "published": "2026-11-03",
+    "thumbnail": "/thumbnails/november-03/outsourcedservice-research-service-review-evidence-2026-11-03.svg",
+    "headlineStat": "One defined population and one review window.",
+    "methodology": "A bounded protocol using a frozen population, a defined sample, a documented evidence standard, and a dated review.",
+    "related": [],
+    "faq": [
+      {
+        "question": "What does this protocol establish?",
+        "answer": "It establishes a repeatable way to read one defined population."
+      },
+      {
+        "question": "Who owns the decision?",
+        "answer": "The service owner keeps decisions that change a client promise or access."
+      }
     ]
   }
 ];
