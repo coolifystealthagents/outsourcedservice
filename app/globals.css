@@ -290,3 +290,4 @@ body{overflow-x:clip}
 
 /* Preserve the visible publication date in sentence case inside uppercase eyebrows. */
 time{text-transform:none}
+@media(min-width:1101px){.editorial-article{max-width:720px!important;margin-left:max(24px,calc((100vw - 1240px)/2 + 180px))!important;margin-right:auto!important}}
