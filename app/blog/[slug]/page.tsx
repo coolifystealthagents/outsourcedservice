@@ -22,6 +22,7 @@ import { October2BlogArticle } from '../oct2-blog-article';
 import { october5BlogDrafts } from '../../oct5-blog-content';
 import { October5BlogArticle } from '../oct5-blog-article';
 import { november08BlogBatch } from '../../nov08-batch';
+import { november09BlogBatch } from '../../nov09-batch';
 import { Nov08BlogArticle } from '../../nov08-article';
 
 const detailedSlug = 'outsourced-service-tasks-to-outsource';
@@ -279,7 +280,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   }
   const post = blogPosts.find((item) => item.slug === slug);
   const nov08 = november08BlogBatch.find((item) => item.slug === slug);
-  if (nov08) return <><Header/><main className="section content-page"><Nov08BlogArticle post={nov08}/></main><CTA/><Footer/></>;
+  const nov09 = november09BlogBatch.find((item) => item.slug === slug);
+  if (nov08 || nov09) return <><Header/><main className="section content-page"><Nov08BlogArticle post={(nov09 || nov08)!}/></main><CTA/><Footer/></>;
   if (generatedBlogPosts.some((item) => item[0] === slug) || batchBlogPosts.some((item) => item.slug === slug) || august13BlogPosts.some((item) => item.slug === slug) || august14BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/></>;
   if (august17BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/>;</>;
   if (!post) notFound();
