@@ -291,3 +291,35 @@ body{overflow-x:clip}
 /* Preserve the visible publication date in sentence case inside uppercase eyebrows. */
 time{text-transform:none}
 @media(min-width:1101px){.editorial-article{max-width:720px!important;margin-left:max(24px,calc((100vw - 1240px)/2 + 180px))!important;margin-right:auto!important}}
+
+/* 2026-11-08 continuous article layout with a dedicated desktop ToC column */
+.nov08-page{width:min(1180px,calc(100% - 40px));margin:0 auto;padding:34px 0 64px}
+.nov08-page h1{max-width:900px}
+.nov08-page .lead{max-width:860px}
+.nov08-hero{width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;border-radius:16px;margin:18px 0 26px}
+.nov08-grid{display:grid;grid-template-columns:minmax(0,1fr) 260px;grid-template-areas:"main toc";gap:34px;align-items:start}
+.nov08-main{grid-area:main;min-width:0;font-size:17px;line-height:1.72}
+.nov08-main section{scroll-margin-top:104px}
+.nov08-main h2{scroll-margin-top:104px;margin:1.9em 0 .6em;font-size:clamp(1.45rem,2.2vw,1.9rem);line-height:1.25}
+.nov08-main h3{scroll-margin-top:104px;margin:1.4em 0 .45em}
+.nov08-main p{margin:0 0 1.1em}
+.nov08-main img,.nov08-main table{max-width:100%}
+.nov08-toc-col{grid-area:toc;align-self:stretch;min-width:0}
+.nov08-toc-col .hat-toc{position:sticky;top:92px;max-height:calc(100dvh - 116px);overflow-y:auto;margin:0;z-index:20}
+.nov08-toc-col .hat-toc strong{display:block;margin:0 0 8px;color:#0f8f73;font-size:11px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.nov08-toc-col .hat-toc ol{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr;gap:2px}
+.nov08-toc-col .hat-toc a{display:block;padding:5px 8px;border-left:2px solid transparent;color:#3c5360;font-size:14px;line-height:1.45;text-decoration:none}
+.nov08-toc-col .hat-toc a:hover,.nov08-toc-col .hat-toc a[aria-current=location]{border-left-color:#0f8f73;background:#e9f3f1;color:#075a49;font-weight:800}
+.nov08-toc-col .hat-toc .toc-level-3 a{padding-left:20px;font-size:13px}
+.nov08-toc-col .hat-toc-mobile{display:none}
+@media(max-width:960px){
+  .nov08-page{width:calc(100% - 32px);padding-top:20px}
+  .nov08-grid{display:block}
+  .nov08-toc-col{position:sticky;top:72px;z-index:45;margin:16px 0 20px}
+  .nov08-toc-col .hat-toc{position:static;max-height:none;overflow:visible;margin:0 0 8px}
+  .nov08-toc-col .hat-toc-desktop{display:none}
+  .nov08-toc-col .hat-toc-mobile{display:block;padding:10px 12px;background:#fff;border:1px solid #cbd7d5;border-radius:10px}
+  .nov08-toc-col .hat-toc-mobile[open]{max-height:min(58vh,420px);overflow:auto}
+  .nov08-toc-col .hat-toc-mobile summary{cursor:pointer;font-weight:900;color:#0b2738;min-height:32px;display:flex;align-items:center}
+  .nov08-toc-col .hat-toc-mobile ol{margin-top:8px}
+}
