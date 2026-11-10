@@ -111,7 +111,7 @@ export default function Home() {
           </div>
           <ol className="process-list" aria-label="Service team launch timeline">
             {staffingProcess.slice(0, 3).map((item) => <li key={item.step}>
-              <span aria-hidden="true">{item.step}</span><div><h3>{item.title}</h3><p>{item.body}</p></div>
+              <div><h3>{item.title}</h3><p>{item.body}</p></div>
             </li>)}
           </ol>
           <a className="btn process-cta" href="/contact-us">Start the conversation <span className="css-arrow" aria-hidden="true" /></a>

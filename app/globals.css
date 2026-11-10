@@ -386,9 +386,10 @@ time{text-transform:none}
 .home-process{padding:94px 0 100px;background:#f7f9fb;color:var(--ink)}
 .home-process .eyebrow{color:#0078ad}
 .home-process .process-list{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin:0;padding:0;list-style:none}
-.home-process .process-list li{min-height:360px;padding:38px 30px;display:block;border:1px solid #e2e6ec;border-radius:13px;background:#fff;text-align:center}
+.home-process .process-list li{min-height:280px;padding:42px 30px;display:grid;grid-template-columns:1fr;place-items:center;border:1px solid #e2e6ec;border-radius:13px;background:#fff;text-align:center}
 .home-process .process-list li>span{width:54px;height:54px;margin:0 auto 28px;display:grid;place-items:center;border-radius:50%;background:#087ebc;color:#fff;font-size:20px;font-weight:900;box-shadow:0 8px 18px rgba(8,126,188,.24)}
 .home-process .process-list h3{margin:0 0 16px;color:var(--ink);font-size:23px}
+.home-process .process-list li>div{width:100%;max-width:300px}
 .home-process .process-list p{margin:0;color:var(--muted);font-size:16px;line-height:1.65}
 .home-process .process-cta{display:flex}
 .cta-note{text-align:center;color:var(--muted);font-size:12px}

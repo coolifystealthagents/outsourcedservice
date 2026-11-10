@@ -38,11 +38,11 @@ export default function ContactUsPage() {
       </section>
 
       <section className="stealth-team">
-        <img className="team-photo" src="/brand/stealth-agents-team-bacolod.png" width="1600" height="900" alt="Official Stealth Agents team in Bacolod" />
+        <img className="team-photo" src="/brand/stealth-agents-team-bacolod-group-2026.jpg" width="1906" height="1080" alt="Official Stealth Agents team gathered in Bacolod" />
         <div>
-          <p className="eyebrow">Your managed staffing partner</p>
+          <p className="eyebrow">Managed operating support</p>
           <h2>About Stealth Agents</h2>
-          <p>Outsourced Service is a subsidiary of Stealth Agents. Stealth Agents supports the consultation, talent matching, onboarding coordination, and ongoing management path behind Outsourced Service. Your business keeps ownership of scope, access, approvals, and final decisions.</p>
+          <p>Outsourced Service is a subsidiary of Stealth Agents. Stealth Agents recruits Philippines-based professionals and supports the managed staffing relationship. Outsourced Service remains the service-planning identity, while Stealth Agents provides recruiting, team support, and operating continuity around the approved role.</p>
           <p className="powered-attribution">Powered by <a href="https://stealthagents.com/">StealthAgents</a></p>
           <a className="tc-about-cta" href="/contact-us#contactPageForm">Plan your free consultation</a>
           <div className="official-plate"><img src="/brand/stealth-agents-logo-black.png" alt="Stealth Agents official logo" /><strong>Official team, Bacolod</strong></div>
