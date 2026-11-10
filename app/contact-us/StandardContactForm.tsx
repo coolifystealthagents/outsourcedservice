@@ -67,7 +67,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
 
   return (
     <div className="sa-form-card">
-      <p className="sa-kicker">Free workflow consultation</p><h2>Tell us where your service team needs support</h2><p className="sa-intro">Share enough context for a useful first conversation. Required fields are marked with an asterisk.</p>
+      <p className="sa-kicker">Tell us about your needs</p><h2>Plan a consultation</h2><p className="sa-intro">Secure consultation delivery is being verified. The form will never claim an undelivered request was received.</p>
       <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm" className="sa-form-grid">
         <input className="sa-hp" name="website_url" type="hidden" tabIndex={-1} autoComplete="off" aria-label="Leave this field empty" />
         <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
@@ -84,9 +84,9 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
         <label>How did you hear about us? *<select name="referral" required value={referral} onChange={(e) => setReferral(e.target.value)}><option value="" disabled>Select...</option>{referrals.map((x) => <option key={x}>{x}</option>)}</select></label>
         {referral === "Other" ? <label>Please Specify *<input name="referralSpecify" required /></label> : null}
         <label className="sa-message">Message *<textarea name="message" rows={2} required placeholder="Describe the recurring work, tools, schedule, and approval points." /></label>
-        <p className="sa-privacy">We use these details only to respond. Review our <a href="/privacy">Privacy Policy</a>.</p>
+        <p className="sa-privacy">We use these details only to respond. Do not include customer data, access codes, payment information, health details, or passwords. Review our <a href="/privacy">Privacy Policy</a>.</p>
         {error ? <p className="sa-error" role="alert">{error}</p> : null}
-        <button type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Book My Free Consultation"}</button>
+        <button type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Continue to scheduling"}</button>
       </form>
       <style jsx>{`
         .sa-form-card{box-sizing:border-box;width:100%;min-width:0;max-width:876px;margin:0 auto;background:#fff;border:1px solid #e3e8ef;border-radius:22px;padding:18px 24px 22px;box-shadow:0 18px 48px rgba(15,34,58,.16);color:#34415a;text-align:left}
