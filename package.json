@@ -21,7 +21,9 @@
     "validate:oct2-combined": "node scripts/validate-oct2-combined.js"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@next/third-parties": "15.5.28",
+    "gsap": "^3.15.1",
     "next": "15.5.28",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

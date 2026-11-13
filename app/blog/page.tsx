@@ -1,1 +1,1 @@
-import {BlogListing} from './blog-listing';export const metadata={title:'Blog',description:'Guides for planning Philippines-based staffing.',alternates:{canonical:'https://outsourcedservice.com/blog'}};export default function Blog(){return <BlogListing/>}
+import {Header,Footer} from '../components';import {Library} from '../studio';export const metadata={title:'Blog',alternates:{canonical:'/blog'}};export default function Page(){return <><Header/><Library kind='blog'/><Footer/></>}

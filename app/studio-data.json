@@ -1,0 +1,757 @@
+{
+  "theme": "service",
+  "short": "Outsourced Service",
+  "heading": [
+    "Every request.",
+    "A clearer next step."
+  ],
+  "label": "Support that keeps things moving",
+  "intro": "Bring order to the recurring work behind your customer experience. Dedicated support for queues, updates, records, and follow-through, with clear routes for the moments that need your judgment.",
+  "serviceHeading": "Connected support for the whole service day.",
+  "storyHeading": "Good service is built between the big moments.",
+  "story": "A customer remembers whether the update arrived and whether the next person understood the question. Support the work between those moments with a clear queue, usable knowledge, and a handoff that carries the context forward.",
+  "contact": "Let\u2019s make your service day easier.",
+  "close": "Give every handoff a better destination.",
+  "footer": "Customer and back-office service support for the everyday requests, follow-ups, and operational details that connect a business.",
+  "words": [
+    "A shared queue",
+    "A consistent response",
+    "A complete handoff"
+  ],
+  "stories": [
+    [
+      "Create one place to see the work.",
+      "Requests can arrive through email, a help desk, an order system, or a shared inbox. Agree where each item is recorded and how it is assigned. Capture the source, current status, and next action so a change of shift does not turn into a new investigation."
+    ],
+    [
+      "Make the routine dependable.",
+      "Give your support professional approved answers, examples, and a practical way to find the latest policy. Routine updates should follow an agreed standard while unusual requests are separated for review. This keeps consistency from becoming a rigid script that misses the customer\u2019s actual question."
+    ],
+    [
+      "Close the loop with your team.",
+      "A useful service report shows what was completed, what is waiting, and where a decision is needed. Review repeated exceptions and knowledge gaps together. Update the instructions at the source so the next person can benefit from what the team learned this week."
+    ]
+  ],
+  "domain": "outsourcedservice.com",
+  "brand": "Outsourced Service",
+  "services": [
+    {
+      "slug": "operations-support",
+      "title": "Operations Support",
+      "description": "Filipino operations specialists can keep recurring updates, follow-up, and handoffs moving while your team keeps approval control.",
+      "intro": "Filipino operations specialists can keep recurring updates, follow-up, and handoffs moving while your team keeps approval control. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "update order, vendor, or project records from approved source files",
+        "follow up on open items and record the latest response",
+        "prepare a daily list of completed, blocked, and overdue work",
+        "flag exceptions that need an owner decision"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current operations support workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current operations support queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Keep refunds, spending, and customer promises with a named owner",
+        "Limit each account to the permissions needed for the first task list",
+        "Review a sample of updates before adding more work"
+      ],
+      "workflow": [
+        "Choose five recurring tasks and show a finished example of each",
+        "Write the approval and escalation rule beside every task",
+        "Review the first 20 outputs and fix unclear instructions"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The operations support record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/operations-support.webp",
+      "alt": "A diverse team of colleagues collaborating on a business project in a modern office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "customer-support",
+      "title": "Customer Support",
+      "description": "Filipino customer support specialists can handle routine tickets and inbox follow-up with approved replies and clear escalation rules.",
+      "intro": "Filipino customer support specialists can handle routine tickets and inbox follow-up with approved replies and clear escalation rules. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "answer tier-one questions with approved help articles and reply templates",
+        "send order, appointment, or account status updates",
+        "tag each ticket by issue type and next action",
+        "route complaints, refunds, and policy exceptions to a manager"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current customer support workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current customer support queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Require approval for refunds, credits, and policy exceptions",
+        "Keep sensitive complaints in a manager review queue",
+        "Read a ticket sample each day during the first week"
+      ],
+      "workflow": [
+        "Load approved replies and mark the issues that need escalation",
+        "Start with a small batch of low-risk tickets",
+        "Review accuracy, tone, and unresolved cases before widening the queue"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The customer support record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/customer-support.webp",
+      "alt": "Team of professionals in a call center providing customer support using laptops and headsets.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "admin-support",
+      "title": "Admin Support",
+      "description": "Filipino admin specialists can manage calendars, documents, data entry, and routine follow-up from a written daily list.",
+      "intro": "Filipino admin specialists can manage calendars, documents, data entry, and routine follow-up from a written daily list. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "schedule meetings within approved hours and buffer rules",
+        "format documents from your current templates",
+        "enter and check records against the source file",
+        "prepare meeting notes and follow-up lists"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current admin support workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current admin support queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Approve sensitive messages before they are sent",
+        "Share passwords through role-based access rather than chat or email",
+        "Use a daily list for completed, blocked, and needs-review work"
+      ],
+      "workflow": [
+        "Pick one calendar, document, or data queue to start",
+        "Share two good examples and one common mistake",
+        "Check the first work batch before opening more accounts"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The admin support record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/admin-support.webp",
+      "alt": "A professional woman writing a report at a desk in an office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "reporting-and-qa",
+      "title": "Reporting and QA",
+      "description": "Filipino reporting and QA specialists can prepare weekly scorecards, check work samples, and keep an issue log tied to source records.",
+      "intro": "Filipino reporting and QA specialists can prepare weekly scorecards, check work samples, and keep an issue log tied to source records. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "prepare weekly scorecards from named source reports",
+        "check ticket, order, or admin samples against a written standard",
+        "record errors with links to the source work",
+        "prepare a short list of issues that need an owner decision"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current reporting and qa workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current reporting and qa queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Require a source link for every reported number",
+        "Record the sample size and review rule for each audit",
+        "Keep policy and performance decisions with the business owner"
+      ],
+      "workflow": [
+        "Choose the few numbers and checks that affect a real decision",
+        "Build one sample report from a completed week",
+        "Review disputed findings together before using the scorecard"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The reporting and qa record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/reporting-and-qa.webp",
+      "alt": "A diverse team of professionals working together at a table in a modern office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "ticket-queue-management",
+      "title": "Ticket Queue Management",
+      "description": "Filipino queue coordinators can classify incoming tickets, maintain ownership fields, and surface aging or blocked cases for manager action.",
+      "intro": "Filipino queue coordinators can classify incoming tickets, maintain ownership fields, and surface aging or blocked cases for manager action. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "classify new tickets against the approved issue taxonomy",
+        "assign routine cases to the named owner or queue",
+        "update status, due date, and source notes after each handoff",
+        "prepare an aging report for blocked and overdue cases"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current ticket queue management workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current ticket queue management queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Managers retain complaint, refund, and policy-exception decisions",
+        "Ticket edits must preserve the requester, source message, and change history",
+        "Review misrouted and reopened cases in the first-week sample"
+      ],
+      "workflow": [
+        "Approve issue categories, priorities, and queue owners",
+        "Walk through examples of routine, urgent, and ambiguous tickets",
+        "Audit the first 25 classifications before widening coverage"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The ticket queue management record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/ticket-queue-management.webp",
+      "alt": "Call center employees working with computers and headsets, providing customer support.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "order-status-support",
+      "title": "Order Status Support",
+      "description": "Filipino order support specialists can reconcile approved order records and send routine status updates without making delivery or refund promises.",
+      "intro": "Filipino order support specialists can reconcile approved order records and send routine status updates without making delivery or refund promises. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "compare open orders with the approved fulfillment source",
+        "send status messages from approved templates",
+        "record customer replies and missing order details",
+        "route delays, address conflicts, and cancellation requests to an owner"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current order status support workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current order status support queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Keep refunds, credits, cancellations, and delivery promises with an authorized owner",
+        "Require the order system\u2014not inbox memory\u2014to be the source of truth",
+        "Sample both completed updates and exceptions for accuracy"
+      ],
+      "workflow": [
+        "Select one order channel and define its status vocabulary",
+        "Approve customer templates and escalation triggers",
+        "Review the first 20 order updates against source records"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The order status support record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/order-status-support.webp",
+      "alt": "Office call center scene with diverse team using laptops and headsets for customer support.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "returns-administration",
+      "title": "Returns Administration",
+      "description": "Filipino returns administrators can record requests, check required evidence, and track routine return stages while owners retain exception and refund authority.",
+      "intro": "Filipino returns administrators can record requests, check required evidence, and track routine return stages while owners retain exception and refund authority. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "capture the order, item, reason, and submitted evidence",
+        "check the request against the published return rule",
+        "send approved instructions and record shipment status",
+        "maintain a list of incomplete, late, or disputed returns"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current returns administration workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current returns administration queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Do not approve refunds, credits, or policy exceptions without owner authorization",
+        "Restrict access to the customer and order fields needed for the return",
+        "Reconcile each closed record to the approved disposition"
+      ],
+      "workflow": [
+        "Document eligible reasons, evidence requirements, and cutoff rules",
+        "Provide examples of accepted, incomplete, and exception cases",
+        "Review the first return batch before enabling routine messages"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The returns administration record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/returns-administration.webp",
+      "alt": "Two colleagues discuss notes in a modern office environment, highlighting teamwork and collaboration.",
+      "position": "50% 35%"
+    },
+    {
+      "slug": "customer-onboarding-support",
+      "title": "Customer Onboarding Support",
+      "description": "Filipino onboarding coordinators can collect approved setup details, maintain checklists, and follow up on missing items with clear privacy and approval limits.",
+      "intro": "Filipino onboarding coordinators can collect approved setup details, maintain checklists, and follow up on missing items with clear privacy and approval limits. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "open the onboarding checklist from the signed source record",
+        "request missing non-sensitive setup details with approved messages",
+        "update milestones, owners, and due dates",
+        "prepare a blocked-item handoff for the implementation owner"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current customer onboarding support workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current customer onboarding support queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Keep contract changes, identity exceptions, and account approval with the owner",
+        "Collect only the fields required for the documented setup",
+        "Use named accounts and record every material status change"
+      ],
+      "workflow": [
+        "Map each onboarding field to its approved source",
+        "Define the milestones and conditions that pause the workflow",
+        "Review the first five customer records field by field"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The customer onboarding support record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/customer-onboarding-support.webp",
+      "alt": "Group of diverse call center employees working at computers in a modern office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "knowledge-base-maintenance",
+      "title": "Knowledge Base Maintenance",
+      "description": "Filipino knowledge-base specialists can inventory pages, prepare source-backed updates, and route substantive changes for subject-matter approval.",
+      "intro": "Filipino knowledge-base specialists can inventory pages, prepare source-backed updates, and route substantive changes for subject-matter approval. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "identify stale pages, broken links, and duplicate articles",
+        "draft updates from an approved product or policy source",
+        "record the source, reviewer, and effective date",
+        "maintain a queue of unanswered or conflicting guidance"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current knowledge base maintenance workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current knowledge base maintenance queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Require owner approval for policy, pricing, legal, or safety wording",
+        "Never replace uncertain guidance with an unsupported answer",
+        "Preserve revision history and a rollback-ready prior version"
+      ],
+      "workflow": [
+        "Name the authoritative source and subject owner for each content area",
+        "Approve the template, labels, and review workflow",
+        "Publish a small reviewed batch before expanding the queue"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The knowledge base maintenance record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/knowledge-base-maintenance.webp",
+      "alt": "Two colleagues working together on a project in a stylish, modern office environment.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "service-quality-audits",
+      "title": "Service Quality Audits",
+      "description": "Filipino QA specialists can sample completed service work, record evidence-based findings, and maintain corrective-action queues without owning performance decisions.",
+      "intro": "Filipino QA specialists can sample completed service work, record evidence-based findings, and maintain corrective-action queues without owning performance decisions. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "draw the agreed sample from completed source records",
+        "check each item against the written quality standard",
+        "record the defect category and evidence link",
+        "prepare recurring patterns and disputed findings for review"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current service quality audits workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current service quality audits queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Record sample size, period, and selection method with every result",
+        "Separate observed defects from coaching or performance decisions",
+        "Require a second review for disputed or high-impact findings"
+      ],
+      "workflow": [
+        "Define pass, correction, and escalation criteria with examples",
+        "Test the scorecard on a historical sample",
+        "Calibrate reviewers before using results in a live cadence"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The service quality audits record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/service-quality-audits.webp",
+      "alt": "Team of professionals reviewing documents during a business meeting indoors.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "appointment-coordination",
+      "title": "Appointment Coordination",
+      "description": "Filipino scheduling coordinators can propose times, send approved confirmations, and track changes while owners retain commitment and exception authority.",
+      "intro": "Filipino scheduling coordinators can propose times, send approved confirmations, and track changes while owners retain commitment and exception authority. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "offer available slots within approved hours and buffers",
+        "confirm time zone, attendees, location, and meeting purpose",
+        "send reminders and record confirmations",
+        "route conflicts, sensitive meetings, and travel commitments to the owner"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current appointment coordination workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current appointment coordination queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Do not commit an owner outside approved availability or authority",
+        "Use explicit time zones in every cross-region appointment",
+        "Preserve the request and change history for material edits"
+      ],
+      "workflow": [
+        "Approve calendar access, hours, buffers, and event types",
+        "Walk through reschedule, cancellation, and no-response examples",
+        "Review the first week of calendar changes each day"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The appointment coordination record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/appointment-coordination.webp",
+      "alt": "Customer service team working together in a modern call center with headsets and laptops.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "crm-case-administration",
+      "title": "CRM Case Administration",
+      "description": "Filipino CRM administrators can clean bounded fields, attach source notes, and maintain follow-up queues while sales and policy decisions stay internal.",
+      "intro": "Filipino CRM administrators can clean bounded fields, attach source notes, and maintain follow-up queues while sales and policy decisions stay internal. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "create or update records from named source documents",
+        "normalize approved fields and remove documented duplicates",
+        "record contact history, owner, and next action",
+        "flag conflicting identities, consent questions, and stale opportunities"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current crm case administration workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current crm case administration queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "No record deletion, stage-policy change, or sensitive outreach without approval",
+        "Every material field update must be traceable to its source",
+        "Limit permissions to the assigned objects and actions"
+      ],
+      "workflow": [
+        "Publish field definitions and the source precedence rule",
+        "Provide examples of duplicates, conflicts, and owner-only changes",
+        "Audit the first 25 updated records against their sources"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The crm case administration record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/crm-case-administration.webp",
+      "alt": "A professional interaction between two colleagues in a modern office environment, highlighting teamwork and communication.",
+      "position": "50% 35%"
+    },
+    {
+      "slug": "subscription-support",
+      "title": "Subscription Support",
+      "description": "Filipino subscription support specialists can handle routine account questions and status updates with strict boundaries around billing, cancellation, and policy exceptions.",
+      "intro": "Filipino subscription support specialists can handle routine account questions and status updates with strict boundaries around billing, cancellation, and policy exceptions. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "verify the approved account identifiers before discussing status",
+        "send routine renewal, access, and plan information from current sources",
+        "record customer requests and the next responsible owner",
+        "route billing disputes, cancellations, credits, and exceptions"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current subscription support workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current subscription support queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Keep payment changes, credits, cancellation approval, and exceptions with authorized owners",
+        "Follow the identity-verification rule before exposing account details",
+        "Review sensitive and reopened cases in every sample"
+      ],
+      "workflow": [
+        "Define routine intents, approved replies, and identity checks",
+        "Map each billing or policy request to its authorized owner",
+        "Review the first 20 conversations before expanding coverage"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The subscription support record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/subscription-support.webp",
+      "alt": "Businesswoman writing notes in a stylish office setting with plants and decor.",
+      "position": "50% 38%"
+    },
+    {
+      "slug": "escalation-coordination",
+      "title": "Escalation Coordination",
+      "description": "Filipino escalation coordinators can capture high-priority cases, preserve evidence, and drive owner follow-up without making the underlying policy decision.",
+      "intro": "Filipino escalation coordinators can capture high-priority cases, preserve evidence, and drive owner follow-up without making the underlying policy decision. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "buyers planning recurring back office, admin, reporting, and customer work",
+      "scope": [
+        "record the issue, impact, source evidence, and current owner",
+        "apply the approved severity and response target",
+        "request updates and maintain a timestamped event log",
+        "prepare unresolved decisions and customer commitments for the owner"
+      ],
+      "inputs": [
+        "Representative requests and completed examples from your current escalation coordination workflow.",
+        "The current instructions, required fields, systems, and access permissions for the role.",
+        "Named reviewers, response expectations, and the route for urgent questions or exceptions."
+      ],
+      "outputs": [
+        "A current escalation coordination queue showing completed items, outstanding questions, and the next owner.",
+        "Organized source records and a concise handoff your manager can review without reconstructing the work.",
+        "An exception summary with the missing information, supporting evidence, and decision needed."
+      ],
+      "controls": [
+        "Severity changes and external commitments require accountable-owner approval",
+        "Preserve original evidence and distinguish fact from interpretation",
+        "Restrict sensitive case access to the named response group"
+      ],
+      "workflow": [
+        "Define severity levels, owners, channels, and response targets",
+        "Rehearse one urgent, one ambiguous, and one false-alarm scenario",
+        "Review every escalation during the first operating week"
+      ],
+      "boundaries": [
+        "Your authorized team retains policy changes, commercial commitments, sensitive decisions, and approval of exceptions.",
+        "Access is limited to the agreed role. Unclear instructions or conflicting evidence are referred to the named reviewer before the work proceeds."
+      ],
+      "scenarios": [
+        "A request arrives with incomplete information. The escalation coordination record stays open with the missing field identified, a follow-up assigned, and the source attached. Your manager can see why it is waiting instead of treating the item as finished.",
+        "An item does not match the approved examples. The support professional prepares the relevant context and routes it to your named owner. The decision is recorded in the same workflow so the next handoff carries the answer forward."
+      ],
+      "faqs": [],
+      "related": [],
+      "image": "/studio-20261113/escalation-coordination.webp",
+      "alt": "Team engaged in a collaborative office meeting, discussing ideas and planning strategies.",
+      "position": "50% 45%"
+    }
+  ],
+  "photos": {
+    "home": {
+      "alt": "Diverse call center team collaborating in a modern office, wearing headsets and smiling.",
+      "position": "50% 45%"
+    },
+    "services": {
+      "alt": "Professional customer support team working with headsets in a modern office environment.",
+      "position": "50% 45%"
+    },
+    "blog": {
+      "alt": "Focused customer support team using headsets and laptops in a busy office setting.",
+      "position": "50% 45%"
+    },
+    "research": {
+      "alt": "Two call center agents working together with documents and headsets in a modern office.",
+      "position": "50% 38%"
+    },
+    "operations-support": {
+      "alt": "A diverse team of colleagues collaborating on a business project in a modern office setting.",
+      "position": "50% 45%"
+    },
+    "customer-support": {
+      "alt": "Team of professionals in a call center providing customer support using laptops and headsets.",
+      "position": "50% 45%"
+    },
+    "admin-support": {
+      "alt": "A professional woman writing a report at a desk in an office setting.",
+      "position": "50% 45%"
+    },
+    "reporting-and-qa": {
+      "alt": "A diverse team of professionals working together at a table in a modern office setting.",
+      "position": "50% 45%"
+    },
+    "ticket-queue-management": {
+      "alt": "Call center employees working with computers and headsets, providing customer support.",
+      "position": "50% 45%"
+    },
+    "order-status-support": {
+      "alt": "Office call center scene with diverse team using laptops and headsets for customer support.",
+      "position": "50% 45%"
+    },
+    "returns-administration": {
+      "alt": "Two colleagues discuss notes in a modern office environment, highlighting teamwork and collaboration.",
+      "position": "50% 35%"
+    },
+    "customer-onboarding-support": {
+      "alt": "Group of diverse call center employees working at computers in a modern office setting.",
+      "position": "50% 45%"
+    },
+    "knowledge-base-maintenance": {
+      "alt": "Two colleagues working together on a project in a stylish, modern office environment.",
+      "position": "50% 45%"
+    },
+    "service-quality-audits": {
+      "alt": "Team of professionals reviewing documents during a business meeting indoors.",
+      "position": "50% 45%"
+    },
+    "appointment-coordination": {
+      "alt": "Customer service team working together in a modern call center with headsets and laptops.",
+      "position": "50% 45%"
+    },
+    "crm-case-administration": {
+      "alt": "A professional interaction between two colleagues in a modern office environment, highlighting teamwork and communication.",
+      "position": "50% 35%"
+    },
+    "subscription-support": {
+      "alt": "Businesswoman writing notes in a stylish office setting with plants and decor.",
+      "position": "50% 38%"
+    },
+    "escalation-coordination": {
+      "alt": "Team engaged in a collaborative office meeting, discussing ideas and planning strategies.",
+      "position": "50% 45%"
+    }
+  }
+}
