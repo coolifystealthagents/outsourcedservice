@@ -95,12 +95,14 @@ export const november16ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to service request intake evidence and states its limits.",
     "faq": [
       {
-        "q": "How is service request intake evidence measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is service request intake evidence measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -200,12 +202,14 @@ export const november16ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to workaround approval coverage and states its limits.",
     "faq": [
       {
-        "q": "How is workaround approval coverage measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is workaround approval coverage measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -305,12 +309,14 @@ export const november16ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to report figure source coverage and states its limits.",
     "faq": [
       {
-        "q": "How is report figure source coverage measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is report figure source coverage measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -410,12 +416,14 @@ export const november16ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to capacity plan accuracy and states its limits.",
     "faq": [
       {
-        "q": "How is capacity plan accuracy measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is capacity plan accuracy measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -515,12 +523,14 @@ export const november16ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to handoff acceptance coverage and states its limits.",
     "faq": [
       {
-        "q": "How is handoff acceptance coverage measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is handoff acceptance coverage measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -620,12 +630,14 @@ export const november16ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to credit approval limit adherence and states its limits.",
     "faq": [
       {
-        "q": "How is credit approval limit adherence measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is credit approval limit adherence measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -725,12 +737,14 @@ export const november16ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to access recertification currency and states its limits.",
     "faq": [
       {
-        "q": "How is access recertification currency measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is access recertification currency measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   }
