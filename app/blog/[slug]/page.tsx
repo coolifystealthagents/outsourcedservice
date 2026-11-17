@@ -25,6 +25,7 @@ import { november08BlogBatch } from '../../nov08-batch';
 import { november09BlogBatch } from '../../nov09-batch';
 import { november10BlogBatch } from '../../nov10-batch';
 import { november16BlogBatch } from '../../nov16-batch';
+import { november17BlogBatch } from '../../nov17-batch';
 import { november11BlogBatch } from '../../nov11-batch';
 import { Nov08BlogArticle } from '../../nov08-article';
 
@@ -286,6 +287,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const nov09 = november09BlogBatch.find((item) => item.slug === slug);
   const nov10 = november10BlogBatch.find((item) => item.slug === slug);
   const nov16 = november16BlogBatch.find((item) => item.slug === slug);
+  const nov17 = november17BlogBatch.find((item) => item.slug === slug);
   const nov11 = november11BlogBatch.find((item) => item.slug === slug);
   if (nov08 || nov09 || nov10 || nov11 || nov16) return <><Header/><main className="section content-page"><Nov08BlogArticle post={(nov16 || nov11 || nov10 || nov09 || nov08)!}/></main><CTA/><Footer/></>;
   if (generatedBlogPosts.some((item) => item[0] === slug) || batchBlogPosts.some((item) => item.slug === slug) || august13BlogPosts.some((item) => item.slug === slug) || august14BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/></>;

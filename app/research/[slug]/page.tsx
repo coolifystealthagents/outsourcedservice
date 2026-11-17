@@ -6,6 +6,7 @@ import {november08ResearchBatch} from '../../nov08-research';
 import {november09ResearchBatch} from '../../nov09-research';
 import {november10ResearchBatch} from '../../nov10-research';
 import {november16ResearchBatch} from '../../nov16-research';
+import {november17ResearchBatch} from '../../nov17-research';
 import {november11ResearchBatch} from '../../nov11-research';
 import {Nov08ResearchArticle} from '../../nov08-article';
 
@@ -25,6 +26,7 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
   const nov09=november09ResearchBatch.find(p=>p.slug===slug);
   const nov10=november10ResearchBatch.find(p=>p.slug===slug);
   const nov16=november16ResearchBatch.find(p=>p.slug===slug);
+  const nov17=november17ResearchBatch.find(p=>p.slug===slug);
   const nov11=november11ResearchBatch.find(p=>p.slug===slug);
   const novPost=nov16||nov11||nov10||nov09||nov08;
   if(novPost) return <><Header/><main className="section content-page"><JsonLd data={{'@context':'https://schema.org','@type':'Article','@id':`${url}#article`,headline:novPost.title,description:novPost.excerpt,datePublished:novPost.published,dateModified:novPost.published,mainEntityOfPage:url,image:`https://outsourcedservice.com${novPost.image}`,author:{'@type':'Organization',name:'Outsourced Service',url:'https://outsourcedservice.com'},publisher:{'@type':'Organization',name:'Outsourced Service',url:'https://outsourcedservice.com'},citation:novPost.sources.map(source=>source.url)}}/><Nov08ResearchArticle post={novPost!}/></main><Footer/></>;
