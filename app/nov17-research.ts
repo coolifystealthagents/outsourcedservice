@@ -95,6 +95,8 @@ export const november17ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to catalog change approval coverage and states its limits.",
     "faq": [
@@ -200,6 +202,8 @@ export const november17ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to SLA breach cause documentation and states its limits.",
     "faq": [
@@ -305,6 +309,8 @@ export const november17ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to onboarding checklist completion and states its limits.",
     "faq": [
@@ -410,6 +416,8 @@ export const november17ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to invoice catalog match and states its limits.",
     "faq": [
@@ -515,6 +523,8 @@ export const november17ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to complaint closure response and states its limits.",
     "faq": [
@@ -620,6 +630,8 @@ export const november17ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to knowledge article approval coverage and states its limits.",
     "faq": [
@@ -725,6 +737,8 @@ export const november17ResearchBatch = [
         ]
       }
     ],
+    "body": [],
+    "related": [],
     "headlineStat": "A defined sample, not a verdict",
     "methodology": "This protocol applies public control guidance to roster coverage accuracy and states its limits.",
     "faq": [
