@@ -101,8 +101,8 @@ export const november17ResearchBatch = [
     "methodology": "This protocol applies public control guidance to catalog change approval coverage and states its limits.",
     "faq": [
       {
-        "q": "How is catalog change approval coverage measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is catalog change approval coverage measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -208,8 +208,8 @@ export const november17ResearchBatch = [
     "methodology": "This protocol applies public control guidance to SLA breach cause documentation and states its limits.",
     "faq": [
       {
-        "q": "How is SLA breach cause documentation measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is SLA breach cause documentation measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -315,8 +315,8 @@ export const november17ResearchBatch = [
     "methodology": "This protocol applies public control guidance to onboarding checklist completion and states its limits.",
     "faq": [
       {
-        "q": "How is onboarding checklist completion measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is onboarding checklist completion measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -422,8 +422,8 @@ export const november17ResearchBatch = [
     "methodology": "This protocol applies public control guidance to invoice catalog match and states its limits.",
     "faq": [
       {
-        "q": "How is invoice catalog match measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is invoice catalog match measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -529,8 +529,8 @@ export const november17ResearchBatch = [
     "methodology": "This protocol applies public control guidance to complaint closure response and states its limits.",
     "faq": [
       {
-        "q": "How is complaint closure response measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is complaint closure response measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -636,8 +636,8 @@ export const november17ResearchBatch = [
     "methodology": "This protocol applies public control guidance to knowledge article approval coverage and states its limits.",
     "faq": [
       {
-        "q": "How is knowledge article approval coverage measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is knowledge article approval coverage measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -743,8 +743,8 @@ export const november17ResearchBatch = [
     "methodology": "This protocol applies public control guidance to roster coverage accuracy and states its limits.",
     "faq": [
       {
-        "q": "How is roster coverage accuracy measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is roster coverage accuracy measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   }
