@@ -289,7 +289,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const nov16 = november16BlogBatch.find((item) => item.slug === slug);
   const nov17 = november17BlogBatch.find((item) => item.slug === slug);
   const nov11 = november11BlogBatch.find((item) => item.slug === slug);
-  if (nov08 || nov09 || nov10 || nov11 || nov16) return <><Header/><main className="section content-page"><Nov08BlogArticle post={(nov16 || nov11 || nov10 || nov09 || nov08)!}/></main><CTA/><Footer/></>;
+  if (nov08 || nov09 || nov10 || nov11 || nov16 || nov17) return <><Header/><main className="section content-page"><Nov08BlogArticle post={(nov17 || nov16 || nov11 || nov10 || nov09 || nov08)!}/></main><CTA/><Footer/></>;
   if (generatedBlogPosts.some((item) => item[0] === slug) || batchBlogPosts.some((item) => item.slug === slug) || august13BlogPosts.some((item) => item.slug === slug) || august14BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/></>;
   if (august17BlogPosts.some((item) => item.slug === slug)) return <><Header/><main className="section content-page"><article className="container" style={{ maxWidth: 880 }}><GeneratedArticle slug={slug} /></article></main><Footer/>;</>;
   if (!post) notFound();
