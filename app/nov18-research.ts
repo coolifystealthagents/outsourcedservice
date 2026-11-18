@@ -120,11 +120,16 @@ export const november18ResearchBatch = [
       }
     ],
     "headlineStat": "A defined sample, not a verdict",
+    "body": [
+      "A measurement protocol for callback log completeness, with a frozen population and a dated review.",
+      "The record should let a second reviewer rebuild the decision from the stored evidence."
+    ],
     "methodology": "This protocol applies public control guidance to callback log completeness and states its limits.",
+    "related": [],
     "faq": [
       {
-        "q": "How is callback log completeness measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is callback log completeness measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -249,11 +254,16 @@ export const november18ResearchBatch = [
       }
     ],
     "headlineStat": "A defined sample, not a verdict",
+    "body": [
+      "A measurement protocol for recording consent coverage, with a frozen population and a dated review.",
+      "The record should let a second reviewer rebuild the decision from the stored evidence."
+    ],
     "methodology": "This protocol applies public control guidance to recording consent coverage and states its limits.",
+    "related": [],
     "faq": [
       {
-        "q": "How is recording consent coverage measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is recording consent coverage measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -378,11 +388,16 @@ export const november18ResearchBatch = [
       }
     ],
     "headlineStat": "A defined sample, not a verdict",
+    "body": [
+      "A measurement protocol for article retirement currency, with a frozen population and a dated review.",
+      "The record should let a second reviewer rebuild the decision from the stored evidence."
+    ],
     "methodology": "This protocol applies public control guidance to article retirement currency and states its limits.",
+    "related": [],
     "faq": [
       {
-        "q": "How is article retirement currency measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is article retirement currency measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -507,11 +522,16 @@ export const november18ResearchBatch = [
       }
     ],
     "headlineStat": "A defined sample, not a verdict",
+    "body": [
+      "A measurement protocol for credit note evidence coverage, with a frozen population and a dated review.",
+      "The record should let a second reviewer rebuild the decision from the stored evidence."
+    ],
     "methodology": "This protocol applies public control guidance to credit note evidence coverage and states its limits.",
+    "related": [],
     "faq": [
       {
-        "q": "How is credit note evidence coverage measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is credit note evidence coverage measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -636,11 +656,16 @@ export const november18ResearchBatch = [
       }
     ],
     "headlineStat": "A defined sample, not a verdict",
+    "body": [
+      "A measurement protocol for coverage window adherence, with a frozen population and a dated review.",
+      "The record should let a second reviewer rebuild the decision from the stored evidence."
+    ],
     "methodology": "This protocol applies public control guidance to coverage window adherence and states its limits.",
+    "related": [],
     "faq": [
       {
-        "q": "How is coverage window adherence measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is coverage window adherence measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -765,11 +790,16 @@ export const november18ResearchBatch = [
       }
     ],
     "headlineStat": "A defined sample, not a verdict",
+    "body": [
+      "A measurement protocol for downgrade approval rate, with a frozen population and a dated review.",
+      "The record should let a second reviewer rebuild the decision from the stored evidence."
+    ],
     "methodology": "This protocol applies public control guidance to downgrade approval rate and states its limits.",
+    "related": [],
     "faq": [
       {
-        "q": "How is downgrade approval rate measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is downgrade approval rate measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   },
@@ -894,11 +924,16 @@ export const november18ResearchBatch = [
       }
     ],
     "headlineStat": "A defined sample, not a verdict",
+    "body": [
+      "A measurement protocol for language queue coverage, with a frozen population and a dated review.",
+      "The record should let a second reviewer rebuild the decision from the stored evidence."
+    ],
     "methodology": "This protocol applies public control guidance to language queue coverage and states its limits.",
+    "related": [],
     "faq": [
       {
-        "q": "How is language queue coverage measured?",
-        "a": "With a frozen population, a stored sample, and a dated review."
+        "question": "How is language queue coverage measured?",
+        "answer": "With a frozen population, a stored sample, and a dated review."
       }
     ]
   }
