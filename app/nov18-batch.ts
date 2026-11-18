@@ -11,16 +11,46 @@ export const november18BlogBatch = [
     "image": "/thumbnails/november-18/outsourcedservice-reconcile-a-service-desk-callback-attempt-log.webp",
     "thumbnail": "/thumbnails/november-18/outsourcedservice-reconcile-a-service-desk-callback-attempt-log.webp",
     "sources": [
-      "https://www.dol.gov/agencies/whd/recordkeeping",
-      "https://www.nist.gov/cyberframework",
-      "https://www.ftc.gov/business-guidance/privacy-security/data-security",
-      "https://www.gao.gov/greenbook",
-      "https://www.sba.gov/business-guide/manage-your-business",
-      "https://www.cisa.gov/audiences/small-and-medium-businesses",
-      "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
-      "https://www.archives.gov/records-mgmt",
-      "https://www.bls.gov/",
-      "https://www.consumerfinance.gov/"
+      {
+        "label": "U.S. Department of Labor, recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "FTC data security guidance",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      },
+      {
+        "label": "U.S. Government Accountability Office, Green Book",
+        "url": "https://www.gao.gov/greenbook"
+      },
+      {
+        "label": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA small business resources",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses"
+      },
+      {
+        "label": "IRS recordkeeping",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "label": "National Archives records management",
+        "url": "https://www.archives.gov/records-mgmt"
+      },
+      {
+        "label": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/"
+      },
+      {
+        "label": "Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/"
+      }
     ],
     "service": "/services/customer-support",
     "related": [
@@ -105,16 +135,46 @@ export const november18BlogBatch = [
     "image": "/thumbnails/november-18/outsourcedservice-control-a-call-recording-consent-record.webp",
     "thumbnail": "/thumbnails/november-18/outsourcedservice-control-a-call-recording-consent-record.webp",
     "sources": [
-      "https://www.dol.gov/agencies/whd/recordkeeping",
-      "https://www.nist.gov/cyberframework",
-      "https://www.ftc.gov/business-guidance/privacy-security/data-security",
-      "https://www.gao.gov/greenbook",
-      "https://www.sba.gov/business-guide/manage-your-business",
-      "https://www.cisa.gov/audiences/small-and-medium-businesses",
-      "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
-      "https://www.archives.gov/records-mgmt",
-      "https://www.bls.gov/",
-      "https://www.consumerfinance.gov/"
+      {
+        "label": "U.S. Department of Labor, recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "FTC data security guidance",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      },
+      {
+        "label": "U.S. Government Accountability Office, Green Book",
+        "url": "https://www.gao.gov/greenbook"
+      },
+      {
+        "label": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA small business resources",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses"
+      },
+      {
+        "label": "IRS recordkeeping",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "label": "National Archives records management",
+        "url": "https://www.archives.gov/records-mgmt"
+      },
+      {
+        "label": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/"
+      },
+      {
+        "label": "Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/"
+      }
     ],
     "service": "/services/customer-support",
     "related": [
@@ -199,16 +259,46 @@ export const november18BlogBatch = [
     "image": "/thumbnails/november-18/outsourcedservice-audit-a-knowledge-article-retirement-notice.webp",
     "thumbnail": "/thumbnails/november-18/outsourcedservice-audit-a-knowledge-article-retirement-notice.webp",
     "sources": [
-      "https://www.dol.gov/agencies/whd/recordkeeping",
-      "https://www.nist.gov/cyberframework",
-      "https://www.ftc.gov/business-guidance/privacy-security/data-security",
-      "https://www.gao.gov/greenbook",
-      "https://www.sba.gov/business-guide/manage-your-business",
-      "https://www.cisa.gov/audiences/small-and-medium-businesses",
-      "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
-      "https://www.archives.gov/records-mgmt",
-      "https://www.bls.gov/",
-      "https://www.consumerfinance.gov/"
+      {
+        "label": "U.S. Department of Labor, recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "FTC data security guidance",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      },
+      {
+        "label": "U.S. Government Accountability Office, Green Book",
+        "url": "https://www.gao.gov/greenbook"
+      },
+      {
+        "label": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA small business resources",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses"
+      },
+      {
+        "label": "IRS recordkeeping",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "label": "National Archives records management",
+        "url": "https://www.archives.gov/records-mgmt"
+      },
+      {
+        "label": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/"
+      },
+      {
+        "label": "Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/"
+      }
     ],
     "service": "/services/customer-support",
     "related": [
@@ -293,16 +383,46 @@ export const november18BlogBatch = [
     "image": "/thumbnails/november-18/outsourcedservice-reconcile-a-service-credit-note-register.webp",
     "thumbnail": "/thumbnails/november-18/outsourcedservice-reconcile-a-service-credit-note-register.webp",
     "sources": [
-      "https://www.dol.gov/agencies/whd/recordkeeping",
-      "https://www.nist.gov/cyberframework",
-      "https://www.ftc.gov/business-guidance/privacy-security/data-security",
-      "https://www.gao.gov/greenbook",
-      "https://www.sba.gov/business-guide/manage-your-business",
-      "https://www.cisa.gov/audiences/small-and-medium-businesses",
-      "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
-      "https://www.archives.gov/records-mgmt",
-      "https://www.bls.gov/",
-      "https://www.consumerfinance.gov/"
+      {
+        "label": "U.S. Department of Labor, recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "FTC data security guidance",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      },
+      {
+        "label": "U.S. Government Accountability Office, Green Book",
+        "url": "https://www.gao.gov/greenbook"
+      },
+      {
+        "label": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA small business resources",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses"
+      },
+      {
+        "label": "IRS recordkeeping",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "label": "National Archives records management",
+        "url": "https://www.archives.gov/records-mgmt"
+      },
+      {
+        "label": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/"
+      },
+      {
+        "label": "Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/"
+      }
     ],
     "service": "/services/customer-support",
     "related": [
@@ -387,16 +507,46 @@ export const november18BlogBatch = [
     "image": "/thumbnails/november-18/outsourcedservice-verify-a-support-channel-coverage-window.webp",
     "thumbnail": "/thumbnails/november-18/outsourcedservice-verify-a-support-channel-coverage-window.webp",
     "sources": [
-      "https://www.dol.gov/agencies/whd/recordkeeping",
-      "https://www.nist.gov/cyberframework",
-      "https://www.ftc.gov/business-guidance/privacy-security/data-security",
-      "https://www.gao.gov/greenbook",
-      "https://www.sba.gov/business-guide/manage-your-business",
-      "https://www.cisa.gov/audiences/small-and-medium-businesses",
-      "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
-      "https://www.archives.gov/records-mgmt",
-      "https://www.bls.gov/",
-      "https://www.consumerfinance.gov/"
+      {
+        "label": "U.S. Department of Labor, recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "FTC data security guidance",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      },
+      {
+        "label": "U.S. Government Accountability Office, Green Book",
+        "url": "https://www.gao.gov/greenbook"
+      },
+      {
+        "label": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA small business resources",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses"
+      },
+      {
+        "label": "IRS recordkeeping",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "label": "National Archives records management",
+        "url": "https://www.archives.gov/records-mgmt"
+      },
+      {
+        "label": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/"
+      },
+      {
+        "label": "Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/"
+      }
     ],
     "service": "/services/customer-support",
     "related": [
@@ -481,16 +631,46 @@ export const november18BlogBatch = [
     "image": "/thumbnails/november-18/outsourcedservice-audit-a-service-request-priority-downgrade.webp",
     "thumbnail": "/thumbnails/november-18/outsourcedservice-audit-a-service-request-priority-downgrade.webp",
     "sources": [
-      "https://www.dol.gov/agencies/whd/recordkeeping",
-      "https://www.nist.gov/cyberframework",
-      "https://www.ftc.gov/business-guidance/privacy-security/data-security",
-      "https://www.gao.gov/greenbook",
-      "https://www.sba.gov/business-guide/manage-your-business",
-      "https://www.cisa.gov/audiences/small-and-medium-businesses",
-      "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
-      "https://www.archives.gov/records-mgmt",
-      "https://www.bls.gov/",
-      "https://www.consumerfinance.gov/"
+      {
+        "label": "U.S. Department of Labor, recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "FTC data security guidance",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      },
+      {
+        "label": "U.S. Government Accountability Office, Green Book",
+        "url": "https://www.gao.gov/greenbook"
+      },
+      {
+        "label": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA small business resources",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses"
+      },
+      {
+        "label": "IRS recordkeeping",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "label": "National Archives records management",
+        "url": "https://www.archives.gov/records-mgmt"
+      },
+      {
+        "label": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/"
+      },
+      {
+        "label": "Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/"
+      }
     ],
     "service": "/services/customer-support",
     "related": [
@@ -575,16 +755,46 @@ export const november18BlogBatch = [
     "image": "/thumbnails/november-18/outsourcedservice-verify-a-support-team-language-queue-assignment.webp",
     "thumbnail": "/thumbnails/november-18/outsourcedservice-verify-a-support-team-language-queue-assignment.webp",
     "sources": [
-      "https://www.dol.gov/agencies/whd/recordkeeping",
-      "https://www.nist.gov/cyberframework",
-      "https://www.ftc.gov/business-guidance/privacy-security/data-security",
-      "https://www.gao.gov/greenbook",
-      "https://www.sba.gov/business-guide/manage-your-business",
-      "https://www.cisa.gov/audiences/small-and-medium-businesses",
-      "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
-      "https://www.archives.gov/records-mgmt",
-      "https://www.bls.gov/",
-      "https://www.consumerfinance.gov/"
+      {
+        "label": "U.S. Department of Labor, recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "FTC data security guidance",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      },
+      {
+        "label": "U.S. Government Accountability Office, Green Book",
+        "url": "https://www.gao.gov/greenbook"
+      },
+      {
+        "label": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA small business resources",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses"
+      },
+      {
+        "label": "IRS recordkeeping",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "label": "National Archives records management",
+        "url": "https://www.archives.gov/records-mgmt"
+      },
+      {
+        "label": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/"
+      },
+      {
+        "label": "Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/"
+      }
     ],
     "service": "/services/customer-support",
     "related": [
@@ -669,16 +879,46 @@ export const november18BlogBatch = [
     "image": "/thumbnails/november-18/outsourcedservice-control-a-customer-follow-up-promise-register.webp",
     "thumbnail": "/thumbnails/november-18/outsourcedservice-control-a-customer-follow-up-promise-register.webp",
     "sources": [
-      "https://www.dol.gov/agencies/whd/recordkeeping",
-      "https://www.nist.gov/cyberframework",
-      "https://www.ftc.gov/business-guidance/privacy-security/data-security",
-      "https://www.gao.gov/greenbook",
-      "https://www.sba.gov/business-guide/manage-your-business",
-      "https://www.cisa.gov/audiences/small-and-medium-businesses",
-      "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
-      "https://www.archives.gov/records-mgmt",
-      "https://www.bls.gov/",
-      "https://www.consumerfinance.gov/"
+      {
+        "label": "U.S. Department of Labor, recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "FTC data security guidance",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      },
+      {
+        "label": "U.S. Government Accountability Office, Green Book",
+        "url": "https://www.gao.gov/greenbook"
+      },
+      {
+        "label": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA small business resources",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses"
+      },
+      {
+        "label": "IRS recordkeeping",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "label": "National Archives records management",
+        "url": "https://www.archives.gov/records-mgmt"
+      },
+      {
+        "label": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/"
+      },
+      {
+        "label": "Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/"
+      }
     ],
     "service": "/services/customer-support",
     "related": [
