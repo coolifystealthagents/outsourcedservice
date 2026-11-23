@@ -2,6 +2,8 @@
 
 When you outsource operations to the Philippines, you need a plan for when things go wrong. Service interruptions happen in any location, but the specific risks vary. In the Philippines, companies face seasonal typhoons, power grid fluctuations, and occasional internet connectivity issues. A well documented incident response playbook ensures your offshore team knows exactly what to do when an interruption occurs, minimizing downtime and protecting your data.
 
+If you would rather hand this off, the [virtual assistant directory](https://virtualassistantdirectories.com) lists vetted agencies and specialists you can compare.
+
 Your playbook serves as a step by step guide for handling disruptions. It removes the guesswork during a crisis. Instead of waiting for directions from onshore managers, the offshore team follows predefined steps to contain the issue and restore service. This guide covers how to structure that playbook for maximum effectiveness.
 
 ## Define Your Incident Categories
