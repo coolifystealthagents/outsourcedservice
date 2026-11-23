@@ -29,6 +29,7 @@ import { november18BlogBatch } from '../../nov18-batch';
 import { november20BlogBatch } from '../../nov20-batch';
 import { november21BlogBatch } from '../../nov21-batch';
 import { november22BlogBatch } from '../../nov22-batch';
+import { november23BlogBatch } from '../../nov23-batch';
 import { november19BlogBatch } from '../../nov19-batch';
 import { november17BlogBatch } from '../../nov17-batch';
 import { november11BlogBatch } from '../../nov11-batch';
@@ -296,6 +297,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const nov20 = november20BlogBatch.find((item) => item.slug === slug);
   const nov21 = november21BlogBatch.find((item) => item.slug === slug);
   const nov22 = november22BlogBatch.find((item) => item.slug === slug);
+  const nov23 = november23BlogBatch.find((item) => item.slug === slug);
   const nov19 = november19BlogBatch.find((item) => item.slug === slug);
   const nov17 = november17BlogBatch.find((item) => item.slug === slug);
   const nov11 = november11BlogBatch.find((item) => item.slug === slug);

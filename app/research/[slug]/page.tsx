@@ -10,6 +10,7 @@ import {november18ResearchBatch} from '../../nov18-research';
 import {november20ResearchBatch} from '../../nov20-research';
 import {november21ResearchBatch} from '../../nov21-research';
 import {november22ResearchBatch} from '../../nov22-research';
+import {november23ResearchBatch} from '../../nov23-research';
 import {november19ResearchBatch} from '../../nov19-research';
 import {november17ResearchBatch} from '../../nov17-research';
 import {november11ResearchBatch} from '../../nov11-research';
@@ -35,6 +36,7 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
   const nov20=november20ResearchBatch.find(p=>p.slug===slug);
   const nov21=november21ResearchBatch.find(p=>p.slug===slug);
   const nov22=november22ResearchBatch.find(p=>p.slug===slug);
+  const nov23=november23ResearchBatch.find(p=>p.slug===slug);
   const nov19=november19ResearchBatch.find(p=>p.slug===slug);
   const nov17=november17ResearchBatch.find(p=>p.slug===slug);
   const nov11=november11ResearchBatch.find(p=>p.slug===slug);
